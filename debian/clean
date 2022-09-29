@@ -1,0 +1,8 @@
+## Debian CI:
+debian/.gitlab-ci.yml
+
+build
+config.cache
+config.status
+po/goffice.pot
+goffice/goffice-paths.h

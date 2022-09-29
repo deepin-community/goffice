@@ -1,0 +1,584 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>GOMarker: GOffice Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
+<link rel="home" href="index.html" title="GOffice Reference Manual">
+<link rel="up" href="ch09.html" title="Graphic object properties">
+<link rel="prev" href="goffice-0.10-Line.html" title="Line">
+<link rel="next" href="goffice-0.10-GOPattern.html" title="GOPattern">
+<meta name="generator" content="GTK-Doc V1.32 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#GOMarker.description" class="shortcut">Description</a></span><span id="nav_hierarchy">  <span class="dim">|</span> 
+                  <a href="#GOMarker.object-hierarchy" class="shortcut">Object Hierarchy</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="ch09.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="goffice-0.10-Line.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="goffice-0.10-GOPattern.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="GOMarker"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="GOMarker.top_of_page"></a>GOMarker</span></h2>
+<p>GOMarker</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="GOMarker.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_proto_type">
+<col class="functions_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOMarker.html#go-marker-assign" title="go_marker_assign ()">go_marker_assign</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">cairo_surface_t</span> *
+</td>
+<td class="function_name">
+<a class="link" href="GOMarker.html#go-marker-create-cairo-surface" title="go_marker_create_cairo_surface ()">go_marker_create_cairo_surface</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GOMarker.html" title="GOMarker"><span class="returnvalue">GOMarker</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="GOMarker.html#go-marker-dup" title="go_marker_dup ()">go_marker_dup</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="goffice-0.10-GOColor.html#GOColor" title="GOColor"><span class="returnvalue">GOColor</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="GOMarker.html#go-marker-get-fill-color" title="go_marker_get_fill_color ()">go_marker_get_fill_color</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="goffice-0.10-GOColor.html#GOColor" title="GOColor"><span class="returnvalue">GOColor</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="GOMarker.html#go-marker-get-outline-color" title="go_marker_get_outline_color ()">go_marker_get_outline_color</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">double</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOMarker.html#go-marker-get-outline-width" title="go_marker_get_outline_width ()">go_marker_get_outline_width</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GOMarker.html#GOMarkerShape" title="enum GOMarkerShape"><span class="returnvalue">GOMarkerShape</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="GOMarker.html#go-marker-get-shape" title="go_marker_get_shape ()">go_marker_get_shape</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">int</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOMarker.html#go-marker-get-size" title="go_marker_get_size ()">go_marker_get_size</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gboolean</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOMarker.html#go-marker-is-closed-shape" title="go_marker_is_closed_shape ()">go_marker_is_closed_shape</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GOMarker.html" title="GOMarker"><span class="returnvalue">GOMarker</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="GOMarker.html#go-marker-new" title="go_marker_new ()">go_marker_new</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOMarker.html#go-marker-render" title="go_marker_render ()">go_marker_render</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOMarker.html#go-marker-set-fill-color" title="go_marker_set_fill_color ()">go_marker_set_fill_color</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOMarker.html#go-marker-set-outline-color" title="go_marker_set_outline_color ()">go_marker_set_outline_color</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOMarker.html#go-marker-set-shape" title="go_marker_set_shape ()">go_marker_set_shape</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOMarker.html#go-marker-set-size" title="go_marker_set_size ()">go_marker_set_size</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">char</span> const      *
+</td>
+<td class="function_name">
+<a class="link" href="GOMarker.html#go-marker-shape-as-str" title="go_marker_shape_as_str ()">go_marker_shape_as_str</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GOMarker.html#GOMarkerShape" title="enum GOMarkerShape"><span class="returnvalue">GOMarkerShape</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="GOMarker.html#go-marker-shape-from-str" title="go_marker_shape_from_str ()">go_marker_shape_from_str</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="GOMarker.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="other_proto_type">
+<col class="other_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="datatype_keyword"> </td>
+<td class="function_name"><a class="link" href="GOMarker.html#GOMarker-struct" title="GOMarker">GOMarker</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">enum</td>
+<td class="function_name"><a class="link" href="GOMarker.html#GOMarkerShape" title="enum GOMarkerShape">GOMarkerShape</a></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="GOMarker.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="screen">    GObject
+    <span class="lineart">╰──</span> GOMarker
+</pre>
+</div>
+<div class="refsect1">
+<a name="GOMarker.description"></a><h2>Description</h2>
+</div>
+<div class="refsect1">
+<a name="GOMarker.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="go-marker-assign"></a><h3>go_marker_assign ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_marker_assign (<em class="parameter"><code><a class="link" href="GOMarker.html" title="GOMarker"><span class="type">GOMarker</span></a> *dst</code></em>,
+                  <em class="parameter"><code><a class="link" href="GOMarker.html" title="GOMarker"><span class="type">GOMarker</span></a> const *src</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-marker-create-cairo-surface"></a><h3>go_marker_create_cairo_surface ()</h3>
+<pre class="programlisting"><span class="returnvalue">cairo_surface_t</span> *
+go_marker_create_cairo_surface (<em class="parameter"><code><a class="link" href="GOMarker.html" title="GOMarker"><span class="type">GOMarker</span></a> const *marker</code></em>,
+                                <em class="parameter"><code><span class="type">cairo_t</span> *cr</code></em>,
+                                <em class="parameter"><code><span class="type">double</span> scale</code></em>,
+                                <em class="parameter"><code><span class="type">double</span> *width</code></em>,
+                                <em class="parameter"><code><span class="type">double</span> *height</code></em>);</pre>
+<p>Creates a new cairo surface similar to the current target of <em class="parameter"><code>cr</code></em>
+, and render
+<em class="parameter"><code>marker</code></em>
+ on it. <em class="parameter"><code>center</code></em>
+ will contain the coordinate of the center of the surface.</p>
+<div class="refsect3">
+<a name="go-marker-create-cairo-surface.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>marker</p></td>
+<td class="parameter_description"><p>a <a class="link" href="GOMarker.html" title="GOMarker"><span class="type">GOMarker</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>cr</p></td>
+<td class="parameter_description"><p>a cairo context</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>scale</p></td>
+<td class="parameter_description"><p>current context scale</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>width</p></td>
+<td class="parameter_description"><p>a placeholder for the surface width</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>height</p></td>
+<td class="parameter_description"><p>a placeholder for the surface height</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-marker-create-cairo-surface.returns"></a><h4>Returns</h4>
+<p>  a newly created <span class="type">cairo_surface_t</span>. This surface should be destroyed
+using cairo_surface_destroy after use.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-marker-dup"></a><h3>go_marker_dup ()</h3>
+<pre class="programlisting"><a class="link" href="GOMarker.html" title="GOMarker"><span class="returnvalue">GOMarker</span></a> *
+go_marker_dup (<em class="parameter"><code><a class="link" href="GOMarker.html" title="GOMarker"><span class="type">GOMarker</span></a> const *src</code></em>);</pre>
+<p>Duplicates <em class="parameter"><code>src</code></em>
+.</p>
+<div class="refsect3">
+<a name="go-marker-dup.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>src</p></td>
+<td class="parameter_description"><p>the <a class="link" href="GOMarker.html" title="GOMarker"><span class="type">GOMarker</span></a> to duplicate</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-marker-dup.returns"></a><h4>Returns</h4>
+<p>the duplicated marker. </p>
+<p><span class="annotation">[<acronym title="Free data after the code is done."><span class="acronym">transfer full</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-marker-get-fill-color"></a><h3>go_marker_get_fill_color ()</h3>
+<pre class="programlisting"><a class="link" href="goffice-0.10-GOColor.html#GOColor" title="GOColor"><span class="returnvalue">GOColor</span></a>
+go_marker_get_fill_color (<em class="parameter"><code><a class="link" href="GOMarker.html" title="GOMarker"><span class="type">GOMarker</span></a> const *m</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-marker-get-outline-color"></a><h3>go_marker_get_outline_color ()</h3>
+<pre class="programlisting"><a class="link" href="goffice-0.10-GOColor.html#GOColor" title="GOColor"><span class="returnvalue">GOColor</span></a>
+go_marker_get_outline_color (<em class="parameter"><code><a class="link" href="GOMarker.html" title="GOMarker"><span class="type">GOMarker</span></a> const *m</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-marker-get-outline-width"></a><h3>go_marker_get_outline_width ()</h3>
+<pre class="programlisting"><span class="returnvalue">double</span>
+go_marker_get_outline_width (<em class="parameter"><code><a class="link" href="GOMarker.html" title="GOMarker"><span class="type">GOMarker</span></a> const *m</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-marker-get-shape"></a><h3>go_marker_get_shape ()</h3>
+<pre class="programlisting"><a class="link" href="GOMarker.html#GOMarkerShape" title="enum GOMarkerShape"><span class="returnvalue">GOMarkerShape</span></a>
+go_marker_get_shape (<em class="parameter"><code><a class="link" href="GOMarker.html" title="GOMarker"><span class="type">GOMarker</span></a> const *m</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-marker-get-size"></a><h3>go_marker_get_size ()</h3>
+<pre class="programlisting"><span class="returnvalue">int</span>
+go_marker_get_size (<em class="parameter"><code><a class="link" href="GOMarker.html" title="GOMarker"><span class="type">GOMarker</span></a> const *m</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-marker-is-closed-shape"></a><h3>go_marker_is_closed_shape ()</h3>
+<pre class="programlisting"><span class="returnvalue">gboolean</span>
+go_marker_is_closed_shape (<em class="parameter"><code><a class="link" href="GOMarker.html" title="GOMarker"><span class="type">GOMarker</span></a> const *m</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-marker-new"></a><h3>go_marker_new ()</h3>
+<pre class="programlisting"><a class="link" href="GOMarker.html" title="GOMarker"><span class="returnvalue">GOMarker</span></a> *
+go_marker_new (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-marker-render"></a><h3>go_marker_render ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_marker_render (<em class="parameter"><code><a class="link" href="GOMarker.html" title="GOMarker"><span class="type">GOMarker</span></a> const *marker</code></em>,
+                  <em class="parameter"><code><span class="type">cairo_t</span> *cr</code></em>,
+                  <em class="parameter"><code><span class="type">double</span> x</code></em>,
+                  <em class="parameter"><code><span class="type">double</span> y</code></em>,
+                  <em class="parameter"><code><span class="type">double</span> scale</code></em>);</pre>
+<p>Renders <em class="parameter"><code>marker</code></em>
+ onto the <em class="parameter"><code>cairo</code></em>
+ target, using <em class="parameter"><code>x</code></em>
+ and <em class="parameter"><code>y</code></em>
+ for the position.</p>
+<div class="refsect3">
+<a name="go-marker-render.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>marker</p></td>
+<td class="parameter_description"><p>a <a class="link" href="GOMarker.html" title="GOMarker"><span class="type">GOMarker</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>cr</p></td>
+<td class="parameter_description"><p>a cairo context</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>x</p></td>
+<td class="parameter_description"><p>x position</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>y</p></td>
+<td class="parameter_description"><p>y position</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>scale</p></td>
+<td class="parameter_description"><p>current scale</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-marker-set-fill-color"></a><h3>go_marker_set_fill_color ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_marker_set_fill_color (<em class="parameter"><code><a class="link" href="GOMarker.html" title="GOMarker"><span class="type">GOMarker</span></a> *m</code></em>,
+                          <em class="parameter"><code><a class="link" href="goffice-0.10-GOColor.html#GOColor" title="GOColor"><span class="type">GOColor</span></a> color</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-marker-set-outline-color"></a><h3>go_marker_set_outline_color ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_marker_set_outline_color (<em class="parameter"><code><a class="link" href="GOMarker.html" title="GOMarker"><span class="type">GOMarker</span></a> *m</code></em>,
+                             <em class="parameter"><code><a class="link" href="goffice-0.10-GOColor.html#GOColor" title="GOColor"><span class="type">GOColor</span></a> color</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-marker-set-shape"></a><h3>go_marker_set_shape ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_marker_set_shape (<em class="parameter"><code><a class="link" href="GOMarker.html" title="GOMarker"><span class="type">GOMarker</span></a> *m</code></em>,
+                     <em class="parameter"><code><a class="link" href="GOMarker.html#GOMarkerShape" title="enum GOMarkerShape"><span class="type">GOMarkerShape</span></a> shape</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-marker-set-size"></a><h3>go_marker_set_size ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_marker_set_size (<em class="parameter"><code><a class="link" href="GOMarker.html" title="GOMarker"><span class="type">GOMarker</span></a> *m</code></em>,
+                    <em class="parameter"><code><span class="type">int</span> size</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-marker-shape-as-str"></a><h3>go_marker_shape_as_str ()</h3>
+<pre class="programlisting"><span class="returnvalue">char</span> const      *
+go_marker_shape_as_str (<em class="parameter"><code><a class="link" href="GOMarker.html#GOMarkerShape" title="enum GOMarkerShape"><span class="type">GOMarkerShape</span></a> shape</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-marker-shape-from-str"></a><h3>go_marker_shape_from_str ()</h3>
+<pre class="programlisting"><a class="link" href="GOMarker.html#GOMarkerShape" title="enum GOMarkerShape"><span class="returnvalue">GOMarkerShape</span></a>
+go_marker_shape_from_str (<em class="parameter"><code><span class="type">char</span> const *name</code></em>);</pre>
+</div>
+</div>
+<div class="refsect1">
+<a name="GOMarker.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="GOMarker-struct"></a><h3>GOMarker</h3>
+<pre class="programlisting">typedef struct _GOMarker GOMarker;</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOMarkerShape"></a><h3>enum GOMarkerShape</h3>
+<div class="refsect3">
+<a name="GOMarkerShape.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="enum_members_name">
+<col class="enum_members_description">
+<col width="200px" class="enum_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="enum_member_name"><p><a name="GO-MARKER-NONE:CAPS"></a>GO_MARKER_NONE</p></td>
+<td class="enum_member_description">
+<p>no mark.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-MARKER-SQUARE:CAPS"></a>GO_MARKER_SQUARE</p></td>
+<td class="enum_member_description">
+<p>square.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-MARKER-DIAMOND:CAPS"></a>GO_MARKER_DIAMOND</p></td>
+<td class="enum_member_description">
+<p>diamond.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-MARKER-TRIANGLE-DOWN:CAPS"></a>GO_MARKER_TRIANGLE_DOWN</p></td>
+<td class="enum_member_description">
+<p>triangle down.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-MARKER-TRIANGLE-UP:CAPS"></a>GO_MARKER_TRIANGLE_UP</p></td>
+<td class="enum_member_description">
+<p>triangle up.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-MARKER-TRIANGLE-RIGHT:CAPS"></a>GO_MARKER_TRIANGLE_RIGHT</p></td>
+<td class="enum_member_description">
+<p>triangle right.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-MARKER-TRIANGLE-LEFT:CAPS"></a>GO_MARKER_TRIANGLE_LEFT</p></td>
+<td class="enum_member_description">
+<p>triangle left.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-MARKER-CIRCLE:CAPS"></a>GO_MARKER_CIRCLE</p></td>
+<td class="enum_member_description">
+<p>circle.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-MARKER-X:CAPS"></a>GO_MARKER_X</p></td>
+<td class="enum_member_description">
+<p>X.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-MARKER-CROSS:CAPS"></a>GO_MARKER_CROSS</p></td>
+<td class="enum_member_description">
+<p>cross.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-MARKER-ASTERISK:CAPS"></a>GO_MARKER_ASTERISK</p></td>
+<td class="enum_member_description">
+<p>asterisk.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-MARKER-BAR:CAPS"></a>GO_MARKER_BAR</p></td>
+<td class="enum_member_description">
+<p>horizontal bar.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-MARKER-HALF-BAR:CAPS"></a>GO_MARKER_HALF_BAR</p></td>
+<td class="enum_member_description">
+<p>right half bar.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-MARKER-BUTTERFLY:CAPS"></a>GO_MARKER_BUTTERFLY</p></td>
+<td class="enum_member_description">
+<p>butterfly.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-MARKER-HOURGLASS:CAPS"></a>GO_MARKER_HOURGLASS</p></td>
+<td class="enum_member_description">
+<p>hourglass.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-MARKER-LEFT-HALF-BAR:CAPS"></a>GO_MARKER_LEFT_HALF_BAR</p></td>
+<td class="enum_member_description">
+<p>left half bar.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-MARKER-MAX:CAPS"></a>GO_MARKER_MAX</p></td>
+<td class="enum_member_description">
+<p>maximum value, should not occur.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.32</div>
+</body>
+</html>

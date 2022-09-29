@@ -1,0 +1,232 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Gradient: GOffice Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
+<link rel="home" href="index.html" title="GOffice Reference Manual">
+<link rel="up" href="ch09.html" title="Graphic object properties">
+<link rel="prev" href="GOFont.html" title="GOFont">
+<link rel="next" href="goffice-0.10-Line.html" title="Line">
+<meta name="generator" content="GTK-Doc V1.32 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#goffice-0.10-Gradient.description" class="shortcut">Description</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="ch09.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="GOFont.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="goffice-0.10-Line.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="goffice-0.10-Gradient"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="goffice-0.10-Gradient.top_of_page"></a>Gradient</span></h2>
+<p>Gradient</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="goffice-0.10-Gradient.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_proto_type">
+<col class="functions_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">const <span class="returnvalue">gchar</span> *
+</td>
+<td class="function_name">
+<a class="link" href="goffice-0.10-Gradient.html#go-gradient-dir-as-str" title="go_gradient_dir_as_str ()">go_gradient_dir_as_str</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="goffice-0.10-Gradient.html#GOGradientDirection" title="enum GOGradientDirection"><span class="returnvalue">GOGradientDirection</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="goffice-0.10-Gradient.html#go-gradient-dir-from-str" title="go_gradient_dir_from_str ()">go_gradient_dir_from_str</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="goffice-0.10-Gradient.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="other_proto_type">
+<col class="other_proto_name">
+</colgroup>
+<tbody><tr>
+<td class="datatype_keyword">enum</td>
+<td class="function_name"><a class="link" href="goffice-0.10-Gradient.html#GOGradientDirection" title="enum GOGradientDirection">GOGradientDirection</a></td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="goffice-0.10-Gradient.description"></a><h2>Description</h2>
+</div>
+<div class="refsect1">
+<a name="goffice-0.10-Gradient.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="go-gradient-dir-as-str"></a><h3>go_gradient_dir_as_str ()</h3>
+<pre class="programlisting">const <span class="returnvalue">gchar</span> *
+go_gradient_dir_as_str (<em class="parameter"><code><a class="link" href="goffice-0.10-Gradient.html#GOGradientDirection" title="enum GOGradientDirection"><span class="type">GOGradientDirection</span></a> dir</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-gradient-dir-from-str"></a><h3>go_gradient_dir_from_str ()</h3>
+<pre class="programlisting"><a class="link" href="goffice-0.10-Gradient.html#GOGradientDirection" title="enum GOGradientDirection"><span class="returnvalue">GOGradientDirection</span></a>
+go_gradient_dir_from_str (<em class="parameter"><code>const <span class="type">gchar</span> *name</code></em>);</pre>
+</div>
+</div>
+<div class="refsect1">
+<a name="goffice-0.10-Gradient.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="GOGradientDirection"></a><h3>enum GOGradientDirection</h3>
+<div class="refsect3">
+<a name="GOGradientDirection.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="enum_members_name">
+<col class="enum_members_description">
+<col width="200px" class="enum_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="enum_member_name"><p><a name="GO-GRADIENT-N-TO-S:CAPS"></a>GO_GRADIENT_N_TO_S</p></td>
+<td class="enum_member_description">
+<p>top to bottom.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-GRADIENT-S-TO-N:CAPS"></a>GO_GRADIENT_S_TO_N</p></td>
+<td class="enum_member_description">
+<p>bottom to top.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-GRADIENT-N-TO-S-MIRRORED:CAPS"></a>GO_GRADIENT_N_TO_S_MIRRORED</p></td>
+<td class="enum_member_description">
+<p>top to bottom, mirrored.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-GRADIENT-S-TO-N-MIRRORED:CAPS"></a>GO_GRADIENT_S_TO_N_MIRRORED</p></td>
+<td class="enum_member_description">
+<p>bottom to top, mirrored.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-GRADIENT-W-TO-E:CAPS"></a>GO_GRADIENT_W_TO_E</p></td>
+<td class="enum_member_description">
+<p>left to right.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-GRADIENT-E-TO-W:CAPS"></a>GO_GRADIENT_E_TO_W</p></td>
+<td class="enum_member_description">
+<p>right to left.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-GRADIENT-W-TO-E-MIRRORED:CAPS"></a>GO_GRADIENT_W_TO_E_MIRRORED</p></td>
+<td class="enum_member_description">
+<p>left to right, mirrored.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-GRADIENT-E-TO-W-MIRRORED:CAPS"></a>GO_GRADIENT_E_TO_W_MIRRORED</p></td>
+<td class="enum_member_description">
+<p>right to left, mirrored.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-GRADIENT-NW-TO-SE:CAPS"></a>GO_GRADIENT_NW_TO_SE</p></td>
+<td class="enum_member_description">
+<p>top left to bottom right.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-GRADIENT-SE-TO-NW:CAPS"></a>GO_GRADIENT_SE_TO_NW</p></td>
+<td class="enum_member_description">
+<p>bottom right to top left.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-GRADIENT-NW-TO-SE-MIRRORED:CAPS"></a>GO_GRADIENT_NW_TO_SE_MIRRORED</p></td>
+<td class="enum_member_description">
+<p>top left to bottom right, mirrored.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-GRADIENT-SE-TO-NW-MIRRORED:CAPS"></a>GO_GRADIENT_SE_TO_NW_MIRRORED</p></td>
+<td class="enum_member_description">
+<p>bottom right to top left, mirrored.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-GRADIENT-NE-TO-SW:CAPS"></a>GO_GRADIENT_NE_TO_SW</p></td>
+<td class="enum_member_description">
+<p>top right to bottom left.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-GRADIENT-SW-TO-NE:CAPS"></a>GO_GRADIENT_SW_TO_NE</p></td>
+<td class="enum_member_description">
+<p>bottom left to top right.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-GRADIENT-SW-TO-NE-MIRRORED:CAPS"></a>GO_GRADIENT_SW_TO_NE_MIRRORED</p></td>
+<td class="enum_member_description">
+<p>top right to bottom left, mirrored.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-GRADIENT-NE-TO-SW-MIRRORED:CAPS"></a>GO_GRADIENT_NE_TO_SW_MIRRORED</p></td>
+<td class="enum_member_description">
+<p>bottom left to top right, mirrored.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-GRADIENT-MAX:CAPS"></a>GO_GRADIENT_MAX</p></td>
+<td class="enum_member_description">
+<p>maximum value, should not occur.
+} ;</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.32</div>
+</body>
+</html>

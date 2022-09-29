@@ -1,0 +1,436 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>GOGraphWidget: GOffice Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
+<link rel="home" href="index.html" title="GOffice Reference Manual">
+<link rel="up" href="pt03.html" title="Part III. Widgets">
+<link rel="prev" href="pt03.html" title="Part III. Widgets">
+<link rel="next" href="ch07.html" title="Base widgets">
+<meta name="generator" content="GTK-Doc V1.32 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#GOGraphWidget.description" class="shortcut">Description</a></span><span id="nav_hierarchy">  <span class="dim">|</span> 
+                  <a href="#GOGraphWidget.object-hierarchy" class="shortcut">Object Hierarchy</a></span><span id="nav_interfaces">  <span class="dim">|</span> 
+                  <a href="#GOGraphWidget.implemented-interfaces" class="shortcut">Implemented Interfaces</a></span><span id="nav_properties">  <span class="dim">|</span> 
+                  <a href="#GOGraphWidget.properties" class="shortcut">Properties</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="pt03.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="pt03.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="ch07.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="GOGraphWidget"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="GOGraphWidget.top_of_page"></a>GOGraphWidget</span></h2>
+<p>GOGraphWidget — Widget showing a <a class="link" href="GogGraph.html" title="GogGraph"><span class="type">GogGraph</span></a>.</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="GOGraphWidget.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_proto_type">
+<col class="functions_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<a class="link" href="GogChart.html" title="GogChart"><span class="returnvalue">GogChart</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="GOGraphWidget.html#go-graph-widget-get-chart" title="go_graph_widget_get_chart ()">go_graph_widget_get_chart</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GogGraph.html" title="GogGraph"><span class="returnvalue">GogGraph</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="GOGraphWidget.html#go-graph-widget-get-graph" title="go_graph_widget_get_graph ()">go_graph_widget_get_graph</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GogRenderer.html" title="GogRenderer"><span class="returnvalue">GogRenderer</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="GOGraphWidget.html#go-graph-widget-get-renderer" title="go_graph_widget_get_renderer ()">go_graph_widget_get_renderer</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">GtkWidget</span> *
+</td>
+<td class="function_name">
+<a class="link" href="GOGraphWidget.html#go-graph-widget-new" title="go_graph_widget_new ()">go_graph_widget_new</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOGraphWidget.html#go-graph-widget-set-size-mode" title="go_graph_widget_set_size_mode ()">go_graph_widget_set_size_mode</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="GOGraphWidget.properties"></a><h2>Properties</h2>
+<div class="informaltable"><table class="informaltable" border="0">
+<colgroup>
+<col width="150px" class="properties_type">
+<col width="300px" class="properties_name">
+<col width="200px" class="properties_flags">
+</colgroup>
+<tbody>
+<tr>
+<td class="property_type"><span class="type">gdouble</span></td>
+<td class="property_name"><a class="link" href="GOGraphWidget.html#GOGraphWidget--aspect-ratio" title="The “aspect-ratio” property">aspect-ratio</a></td>
+<td class="property_flags">Read / Write / Construct</td>
+</tr>
+<tr>
+<td class="property_type">
+<a class="link" href="GogGraph.html" title="GogGraph"><span class="type">GogGraph</span></a> *</td>
+<td class="property_name"><a class="link" href="GOGraphWidget.html#GOGraphWidget--graph" title="The “graph” property">graph</a></td>
+<td class="property_flags">Read / Write / Construct Only</td>
+</tr>
+<tr>
+<td class="property_type"><span class="type">gdouble</span></td>
+<td class="property_name"><a class="link" href="GOGraphWidget.html#GOGraphWidget--hres" title="The “hres” property">hres</a></td>
+<td class="property_flags">Read / Write / Construct Only</td>
+</tr>
+<tr>
+<td class="property_type"><span class="type">gdouble</span></td>
+<td class="property_name"><a class="link" href="GOGraphWidget.html#GOGraphWidget--vres" title="The “vres” property">vres</a></td>
+<td class="property_flags">Read / Write / Construct Only</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="GOGraphWidget.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="other_proto_type">
+<col class="other_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="datatype_keyword"> </td>
+<td class="function_name"><a class="link" href="GOGraphWidget.html#GOGraphWidget-struct" title="GOGraphWidget">GOGraphWidget</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword"> </td>
+<td class="function_name"><a class="link" href="GOGraphWidget.html#GOGraphWidgetClass" title="GOGraphWidgetClass">GOGraphWidgetClass</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">enum</td>
+<td class="function_name"><a class="link" href="GOGraphWidget.html#GOGraphWidgetSizeMode" title="enum GOGraphWidgetSizeMode">GOGraphWidgetSizeMode</a></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="GOGraphWidget.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="screen">    GObject
+    <span class="lineart">╰──</span> GInitiallyUnowned
+        <span class="lineart">╰──</span> GtkWidget
+            <span class="lineart">╰──</span> GtkContainer
+                <span class="lineart">╰──</span> GtkLayout
+                    <span class="lineart">╰──</span> GOGraphWidget
+</pre>
+</div>
+<div class="refsect1">
+<a name="GOGraphWidget.implemented-interfaces"></a><h2>Implemented Interfaces</h2>
+<p>
+GOGraphWidget implements
+ AtkImplementorIface,  GtkBuildable and  GtkScrollable.</p>
+</div>
+<div class="refsect1">
+<a name="GOGraphWidget.description"></a><h2>Description</h2>
+<p>Utility widget for showing a <a class="link" href="GogGraph.html" title="GogGraph"><span class="type">GogGraph</span></a>.</p>
+</div>
+<div class="refsect1">
+<a name="GOGraphWidget.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="go-graph-widget-get-chart"></a><h3>go_graph_widget_get_chart ()</h3>
+<pre class="programlisting"><a class="link" href="GogChart.html" title="GogChart"><span class="returnvalue">GogChart</span></a> *
+go_graph_widget_get_chart (<em class="parameter"><code><a class="link" href="GOGraphWidget.html" title="GOGraphWidget"><span class="type">GOGraphWidget</span></a> *widget</code></em>);</pre>
+<div class="refsect3">
+<a name="go-graph-widget-get-chart.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>widget</p></td>
+<td class="parameter_description"><p><a class="link" href="GOGraphWidget.html" title="GOGraphWidget"><span class="type">GOGraphWidget</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-graph-widget-get-chart.returns"></a><h4>Returns</h4>
+<p>the <a class="link" href="GogChart.html" title="GogChart"><span class="type">GogChart</span></a> created by <a class="link" href="GOGraphWidget.html#go-graph-widget-new" title="go_graph_widget_new ()"><code class="function">go_graph_widget_new()</code></a>. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-graph-widget-get-graph"></a><h3>go_graph_widget_get_graph ()</h3>
+<pre class="programlisting"><a class="link" href="GogGraph.html" title="GogGraph"><span class="returnvalue">GogGraph</span></a> *
+go_graph_widget_get_graph (<em class="parameter"><code><a class="link" href="GOGraphWidget.html" title="GOGraphWidget"><span class="type">GOGraphWidget</span></a> *widget</code></em>);</pre>
+<div class="refsect3">
+<a name="go-graph-widget-get-graph.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>widget</p></td>
+<td class="parameter_description"><p><a class="link" href="GOGraphWidget.html" title="GOGraphWidget"><span class="type">GOGraphWidget</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-graph-widget-get-graph.returns"></a><h4>Returns</h4>
+<p>the <a class="link" href="GogGraph.html" title="GogGraph"><span class="type">GogGraph</span></a> embedded in the widget. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-graph-widget-get-renderer"></a><h3>go_graph_widget_get_renderer ()</h3>
+<pre class="programlisting"><a class="link" href="GogRenderer.html" title="GogRenderer"><span class="returnvalue">GogRenderer</span></a> *
+go_graph_widget_get_renderer (<em class="parameter"><code><a class="link" href="GOGraphWidget.html" title="GOGraphWidget"><span class="type">GOGraphWidget</span></a> *widget</code></em>);</pre>
+<div class="refsect3">
+<a name="go-graph-widget-get-renderer.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>widget</p></td>
+<td class="parameter_description"><p><a class="link" href="GOGraphWidget.html" title="GOGraphWidget"><span class="type">GOGraphWidget</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-graph-widget-get-renderer.returns"></a><h4>Returns</h4>
+<p>the <a class="link" href="GogRenderer.html" title="GogRenderer"><span class="type">GogRenderer</span></a> used by the widget. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-graph-widget-new"></a><h3>go_graph_widget_new ()</h3>
+<pre class="programlisting"><span class="returnvalue">GtkWidget</span> *
+go_graph_widget_new (<em class="parameter"><code><a class="link" href="GogGraph.html" title="GogGraph"><span class="type">GogGraph</span></a> *graph</code></em>);</pre>
+<p>Creates a new <a class="link" href="GOGraphWidget.html" title="GOGraphWidget"><span class="type">GOGraphWidget</span></a> with an embedded <a class="link" href="GogGraph.html" title="GogGraph"><span class="type">GogGraph</span></a>.
+If graph is NULL, the graph will be auto-created, and a
+<a class="link" href="GogChart.html" title="GogChart"><span class="type">GogChart</span></a> will be added graph.</p>
+<div class="refsect3">
+<a name="go-graph-widget-new.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>graph</p></td>
+<td class="parameter_description"><p><a class="link" href="GogGraph.html" title="GogGraph"><span class="type">GogGraph</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-graph-widget-new.returns"></a><h4>Returns</h4>
+<p> the newly created <a class="link" href="GOGraphWidget.html" title="GOGraphWidget"><span class="type">GOGraphWidget</span></a>.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-graph-widget-set-size-mode"></a><h3>go_graph_widget_set_size_mode ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_graph_widget_set_size_mode (<em class="parameter"><code><a class="link" href="GOGraphWidget.html" title="GOGraphWidget"><span class="type">GOGraphWidget</span></a> *widget</code></em>,
+                               <em class="parameter"><code><a class="link" href="GOGraphWidget.html#GOGraphWidgetSizeMode" title="enum GOGraphWidgetSizeMode"><span class="type">GOGraphWidgetSizeMode</span></a> size_mode</code></em>,
+                               <em class="parameter"><code><span class="type">int</span> width</code></em>,
+                               <em class="parameter"><code><span class="type">int</span> height</code></em>);</pre>
+<p>Sets the size mode of the <a class="link" href="GOGraphWidget.html" title="GOGraphWidget"><span class="type">GOGraphWidget</span></a>.
+It is used to determine the size and position of the drawn
+chart. The following sizing modes are supported:</p>
+<p>GO_GRAPH_WIDGET_SIZE_MODE_FIT, aspect ratio set.
+The aspect ratio is guaranteed to be maintained,
+i.e. the graph is never squeezed, and will
+always fit into the visible area.</p>
+<p>GO_GRAPH_WIDGET_SIZE_MODE_FIT, no aspect ratio set.
+The aspect ratio is adapted to make the graph
+exactly fit into the visible area.</p>
+<p>GO_GRAPH_WIDGET_SIZE_MODE_FIT_WIDTH, aspect ratio set.
+The aspect ratio is guaranteed to be maintained,
+i.e. the graph is never squezzed, and will
+always occupy the whole width of the visible area.</p>
+<p>GO_GRAPH_WIDGET_SIZE_MODE_FIT_HEIGHT, aspect ratio set.
+The aspect ratio is guaranteed to be maintained,
+i.e. the graph is never squezzed, and will
+always occupy the whole height of the visible area.</p>
+<p>GO_GRAPH_WIDGET_SIZE_MODE_FIT_FIXED_SIZE, no aspect ratio set.
+The graph will occupy the area specified by width/height,
+its aspect ratio will be determined by height/width.</p>
+<div class="refsect3">
+<a name="go-graph-widget-set-size-mode.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>widget</p></td>
+<td class="parameter_description"><p><a class="link" href="GOGraphWidget.html" title="GOGraphWidget"><span class="type">GOGraphWidget</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>size_mode</p></td>
+<td class="parameter_description"><p><a class="link" href="GOGraphWidget.html#GOGraphWidgetSizeMode" title="enum GOGraphWidgetSizeMode"><span class="type">GOGraphWidgetSizeMode</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>width</p></td>
+<td class="parameter_description"><p>in pixels</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>height</p></td>
+<td class="parameter_description"><p>in pixels</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="refsect1">
+<a name="GOGraphWidget.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="GOGraphWidget-struct"></a><h3>GOGraphWidget</h3>
+<pre class="programlisting">typedef struct _GOGraphWidget GOGraphWidget;</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOGraphWidgetClass"></a><h3>GOGraphWidgetClass</h3>
+<pre class="programlisting">typedef struct _GOGraphWidgetClass GOGraphWidgetClass;</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOGraphWidgetSizeMode"></a><h3>enum GOGraphWidgetSizeMode</h3>
+<div class="refsect3">
+<a name="GOGraphWidgetSizeMode.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="enum_members_name">
+<col class="enum_members_description">
+<col width="200px" class="enum_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="enum_member_name"><p><a name="GO-GRAPH-WIDGET-SIZE-MODE-FIT:CAPS"></a>GO_GRAPH_WIDGET_SIZE_MODE_FIT</p></td>
+<td class="enum_member_description">
+<p>fits the allocated size, conserving the aspect
+ratio.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-GRAPH-WIDGET-SIZE-MODE-FIT-WIDTH:CAPS"></a>GO_GRAPH_WIDGET_SIZE_MODE_FIT_WIDTH</p></td>
+<td class="enum_member_description">
+<p>fits the width, conserving the aspect
+ratio.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-GRAPH-WIDGET-SIZE-MODE-FIT-HEIGHT:CAPS"></a>GO_GRAPH_WIDGET_SIZE_MODE_FIT_HEIGHT</p></td>
+<td class="enum_member_description">
+<p>fits the width, conserving the aspect
+ratio.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-GRAPH-WIDGET-SIZE-MODE-FIXED-SIZE:CAPS"></a>GO_GRAPH_WIDGET_SIZE_MODE_FIXED_SIZE</p></td>
+<td class="enum_member_description">
+<p>use original size.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="refsect1">
+<a name="GOGraphWidget.property-details"></a><h2>Property Details</h2>
+<div class="refsect2">
+<a name="GOGraphWidget--aspect-ratio"></a><h3>The <code class="literal">“aspect-ratio”</code> property</h3>
+<pre class="programlisting">  “aspect-ratio”             <span class="type">gdouble</span></pre>
+<p>Aspect ratio for rendering the graph, used only if greater than 0.</p>
+<p>Owner: GOGraphWidget</p>
+<p>Flags: Read / Write / Construct</p>
+<p>Default value: -1</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOGraphWidget--graph"></a><h3>The <code class="literal">“graph”</code> property</h3>
+<pre class="programlisting">  “graph”                    <a class="link" href="GogGraph.html" title="GogGraph"><span class="type">GogGraph</span></a> *</pre>
+<p>The graph to render.</p>
+<p>Owner: GOGraphWidget</p>
+<p>Flags: Read / Write / Construct Only</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOGraphWidget--hres"></a><h3>The <code class="literal">“hres”</code> property</h3>
+<pre class="programlisting">  “hres”                     <span class="type">gdouble</span></pre>
+<p>Assumed horizontal screen resolution in pixels per inch.</p>
+<p>Owner: GOGraphWidget</p>
+<p>Flags: Read / Write / Construct Only</p>
+<p>Allowed values: &gt;= 1</p>
+<p>Default value: 96</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOGraphWidget--vres"></a><h3>The <code class="literal">“vres”</code> property</h3>
+<pre class="programlisting">  “vres”                     <span class="type">gdouble</span></pre>
+<p>Assumed vertical screen resolution in pixels per inch.</p>
+<p>Owner: GOGraphWidget</p>
+<p>Flags: Read / Write / Construct Only</p>
+<p>Allowed values: &gt;= 1</p>
+<p>Default value: 96</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.32</div>
+</body>
+</html>

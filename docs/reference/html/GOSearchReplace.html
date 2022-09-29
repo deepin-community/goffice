@@ -1,0 +1,358 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>GOSearchReplace: GOffice Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
+<link rel="home" href="index.html" title="GOffice Reference Manual">
+<link rel="up" href="ch17.html" title="Miscellaneous">
+<link rel="prev" href="goffice-0.10-GORegexp.html" title="GORegexp">
+<link rel="next" href="GOFormat.html" title="GOFormat">
+<meta name="generator" content="GTK-Doc V1.32 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#GOSearchReplace.description" class="shortcut">Description</a></span><span id="nav_hierarchy">  <span class="dim">|</span> 
+                  <a href="#GOSearchReplace.object-hierarchy" class="shortcut">Object Hierarchy</a></span><span id="nav_properties">  <span class="dim">|</span> 
+                  <a href="#GOSearchReplace.properties" class="shortcut">Properties</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="ch17.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="goffice-0.10-GORegexp.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="GOFormat.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="GOSearchReplace"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="GOSearchReplace.top_of_page"></a>GOSearchReplace</span></h2>
+<p>GOSearchReplace</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="GOSearchReplace.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_proto_type">
+<col class="functions_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gboolean</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOSearchReplace.html#go-search-match-string" title="go_search_match_string ()">go_search_match_string</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">GQuark</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOSearchReplace.html#go-search-replace-error-quark" title="go_search_replace_error_quark ()">go_search_replace_error_quark</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">char</span> *
+</td>
+<td class="function_name">
+<a class="link" href="GOSearchReplace.html#go-search-replace-string" title="go_search_replace_string ()">go_search_replace_string</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gboolean</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOSearchReplace.html#go-search-replace-verify" title="go_search_replace_verify ()">go_search_replace_verify</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="GOSearchReplace.properties"></a><h2>Properties</h2>
+<div class="informaltable"><table class="informaltable" border="0">
+<colgroup>
+<col width="150px" class="properties_type">
+<col width="300px" class="properties_name">
+<col width="200px" class="properties_flags">
+</colgroup>
+<tbody>
+<tr>
+<td class="property_type"><span class="type">gboolean</span></td>
+<td class="property_name"><a class="link" href="GOSearchReplace.html#GOSearchReplace--ignore-case" title="The “ignore-case” property">ignore-case</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type"><span class="type">gboolean</span></td>
+<td class="property_name"><a class="link" href="GOSearchReplace.html#GOSearchReplace--is-regexp" title="The “is-regexp” property">is-regexp</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type"><span class="type">gboolean</span></td>
+<td class="property_name"><a class="link" href="GOSearchReplace.html#GOSearchReplace--match-words" title="The “match-words” property">match-words</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type"><span class="type">gboolean</span></td>
+<td class="property_name"><a class="link" href="GOSearchReplace.html#GOSearchReplace--preserve-case" title="The “preserve-case” property">preserve-case</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type">
+<span class="type">gchar</span> *</td>
+<td class="property_name"><a class="link" href="GOSearchReplace.html#GOSearchReplace--replace-text" title="The “replace-text” property">replace-text</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type">
+<span class="type">gchar</span> *</td>
+<td class="property_name"><a class="link" href="GOSearchReplace.html#GOSearchReplace--search-text" title="The “search-text” property">search-text</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="GOSearchReplace.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="other_proto_type">
+<col class="other_proto_name">
+</colgroup>
+<tbody><tr>
+<td class="datatype_keyword"> </td>
+<td class="function_name"><a class="link" href="GOSearchReplace.html#GOSearchReplace-struct" title="GOSearchReplace">GOSearchReplace</a></td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="GOSearchReplace.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="screen">    GObject
+    <span class="lineart">╰──</span> GOSearchReplace
+</pre>
+</div>
+<div class="refsect1">
+<a name="GOSearchReplace.description"></a><h2>Description</h2>
+</div>
+<div class="refsect1">
+<a name="GOSearchReplace.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="go-search-match-string"></a><h3>go_search_match_string ()</h3>
+<pre class="programlisting"><span class="returnvalue">gboolean</span>
+go_search_match_string (<em class="parameter"><code><a class="link" href="GOSearchReplace.html" title="GOSearchReplace"><span class="type">GOSearchReplace</span></a> *sr</code></em>,
+                        <em class="parameter"><code>const <span class="type">char</span> *src</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-search-replace-error-quark"></a><h3>go_search_replace_error_quark ()</h3>
+<pre class="programlisting"><span class="returnvalue">GQuark</span>
+go_search_replace_error_quark (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-search-replace-string"></a><h3>go_search_replace_string ()</h3>
+<pre class="programlisting"><span class="returnvalue">char</span> *
+go_search_replace_string (<em class="parameter"><code><a class="link" href="GOSearchReplace.html" title="GOSearchReplace"><span class="type">GOSearchReplace</span></a> *sr</code></em>,
+                          <em class="parameter"><code>const <span class="type">char</span> *src</code></em>);</pre>
+<div class="refsect3">
+<a name="go-search-replace-string.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>sr</p></td>
+<td class="parameter_description"><p>A <a class="link" href="GOSearchReplace.html" title="GOSearchReplace"><span class="type">GOSearchReplace</span></a> search-and-replace specification</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>src</p></td>
+<td class="parameter_description"><p>the source string</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-search-replace-string.returns"></a><h4>Returns</h4>
+<p>the string after search-and-replace.
+However, if nothing changed, <code class="literal">NULL</code> is returned. </p>
+<p><span class="annotation">[<acronym title="Free data after the code is done."><span class="acronym">transfer full</span></acronym>][<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-search-replace-verify"></a><h3>go_search_replace_verify ()</h3>
+<pre class="programlisting"><span class="returnvalue">gboolean</span>
+go_search_replace_verify (<em class="parameter"><code><a class="link" href="GOSearchReplace.html" title="GOSearchReplace"><span class="type">GOSearchReplace</span></a> *sr</code></em>,
+                          <em class="parameter"><code><span class="type">gboolean</span> repl</code></em>,
+                          <em class="parameter"><code><span class="type">GError</span> **err</code></em>);</pre>
+<div class="refsect3">
+<a name="go-search-replace-verify.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>sr</p></td>
+<td class="parameter_description"><p>Search-and-Replace info to be checked</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>repl</p></td>
+<td class="parameter_description"><p>Check replacement part too.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>err</p></td>
+<td class="parameter_description"><p>Location to store error message.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-search-replace-verify.returns"></a><h4>Returns</h4>
+<p> <code class="literal">TRUE</code> if  search-and-replace data is valid.</p>
+</div>
+</div>
+</div>
+<div class="refsect1">
+<a name="GOSearchReplace.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="GOSearchReplace-struct"></a><h3>GOSearchReplace</h3>
+<pre class="programlisting">typedef struct {
+	char *search_text;
+	char *replace_text;
+
+	GORegexp *comp_search;
+	gboolean is_regexp; /* Search text is a regular expression.  */
+	gboolean ignore_case; /* Consider "a" and "A" the same.  */
+	gboolean preserve_case; /* Like Emacs' case-replace.  */
+	gboolean match_words; /* Like grep -w.  */
+} GOSearchReplace;
+</pre>
+<div class="refsect3">
+<a name="GOSearchReplace.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="struct_members_name">
+<col class="struct_members_description">
+<col width="200px" class="struct_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="struct_member_name"><p><span class="type">char</span> *<em class="structfield"><code><a name="GOSearchReplace-struct.search-text"></a>search_text</code></em>;</p></td>
+<td class="struct_member_description"><p>string to replace.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><span class="type">char</span> *<em class="structfield"><code><a name="GOSearchReplace-struct.replace-text"></a>replace_text</code></em>;</p></td>
+<td class="struct_member_description"><p>string to use as replacement/</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><a class="link" href="goffice-0.10-GORegexp.html#GORegexp" title="GORegexp"><span class="type">GORegexp</span></a> *<em class="structfield"><code><a name="GOSearchReplace-struct.comp-search"></a>comp_search</code></em>;</p></td>
+<td class="struct_member_description"><p><a class="link" href="goffice-0.10-GORegexp.html#GORegexp" title="GORegexp"><span class="type">GORegexp</span></a></p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><span class="type">gboolean</span> <em class="structfield"><code><a name="GOSearchReplace-struct.is-regexp"></a>is_regexp</code></em>;</p></td>
+<td class="struct_member_description"><p>search text is a regular expression.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><span class="type">gboolean</span> <em class="structfield"><code><a name="GOSearchReplace-struct.ignore-case"></a>ignore_case</code></em>;</p></td>
+<td class="struct_member_description"><p>consider "a" and "A" the same.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><span class="type">gboolean</span> <em class="structfield"><code><a name="GOSearchReplace-struct.preserve-case"></a>preserve_case</code></em>;</p></td>
+<td class="struct_member_description"><p>like Emacs' case-replace.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><span class="type">gboolean</span> <em class="structfield"><code><a name="GOSearchReplace-struct.match-words"></a>match_words</code></em>;</p></td>
+<td class="struct_member_description"><p>like grep -w.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="refsect1">
+<a name="GOSearchReplace.property-details"></a><h2>Property Details</h2>
+<div class="refsect2">
+<a name="GOSearchReplace--ignore-case"></a><h3>The <code class="literal">“ignore-case”</code> property</h3>
+<pre class="programlisting">  “ignore-case”              <span class="type">gboolean</span></pre>
+<p>Ignore the case of letters.</p>
+<p>Owner: GOSearchReplace</p>
+<p>Flags: Read / Write</p>
+<p>Default value: FALSE</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOSearchReplace--is-regexp"></a><h3>The <code class="literal">“is-regexp”</code> property</h3>
+<pre class="programlisting">  “is-regexp”                <span class="type">gboolean</span></pre>
+<p>Is the search text a regular expression.</p>
+<p>Owner: GOSearchReplace</p>
+<p>Flags: Read / Write</p>
+<p>Default value: FALSE</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOSearchReplace--match-words"></a><h3>The <code class="literal">“match-words”</code> property</h3>
+<pre class="programlisting">  “match-words”              <span class="type">gboolean</span></pre>
+<p>Match whole words only.</p>
+<p>Owner: GOSearchReplace</p>
+<p>Flags: Read / Write</p>
+<p>Default value: FALSE</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOSearchReplace--preserve-case"></a><h3>The <code class="literal">“preserve-case”</code> property</h3>
+<pre class="programlisting">  “preserve-case”            <span class="type">gboolean</span></pre>
+<p>Preserve the case of letters.</p>
+<p>Owner: GOSearchReplace</p>
+<p>Flags: Read / Write</p>
+<p>Default value: FALSE</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOSearchReplace--replace-text"></a><h3>The <code class="literal">“replace-text”</code> property</h3>
+<pre class="programlisting">  “replace-text”             <span class="type">gchar</span> *</pre>
+<p>The text to replace with.</p>
+<p>Owner: GOSearchReplace</p>
+<p>Flags: Read / Write</p>
+<p>Default value: NULL</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOSearchReplace--search-text"></a><h3>The <code class="literal">“search-text”</code> property</h3>
+<pre class="programlisting">  “search-text”              <span class="type">gchar</span> *</pre>
+<p>The text to search for.</p>
+<p>Owner: GOSearchReplace</p>
+<p>Flags: Read / Write</p>
+<p>Default value: NULL</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.32</div>
+</body>
+</html>

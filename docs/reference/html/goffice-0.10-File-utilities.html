@@ -1,0 +1,774 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>File utilities: GOffice Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
+<link rel="home" href="index.html" title="GOffice Reference Manual">
+<link rel="up" href="ch14.html" title="File utilities">
+<link rel="prev" href="ch14.html" title="File utilities">
+<link rel="next" href="goffice-0.10-Files.html" title="Files">
+<meta name="generator" content="GTK-Doc V1.32 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#goffice-0.10-File-utilities.description" class="shortcut">Description</a></span><span id="nav_hierarchy">  <span class="dim">|</span> 
+                  <a href="#goffice-0.10-File-utilities.object-hierarchy" class="shortcut">Object Hierarchy</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="ch14.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="ch14.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="goffice-0.10-Files.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="goffice-0.10-File-utilities"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="goffice-0.10-File-utilities.top_of_page"></a>File utilities</span></h2>
+<p>File utilities</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="goffice-0.10-File-utilities.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_proto_type">
+<col class="functions_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<span class="returnvalue">char</span> *
+</td>
+<td class="function_name">
+<a class="link" href="goffice-0.10-File-utilities.html#go-basename-from-uri" title="go_basename_from_uri ()">go_basename_from_uri</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">char</span> *
+</td>
+<td class="function_name">
+<a class="link" href="goffice-0.10-File-utilities.html#go-dirname-from-uri" title="go_dirname_from_uri ()">go_dirname_from_uri</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gint</span>
+</td>
+<td class="function_name">
+<a class="link" href="goffice-0.10-File-utilities.html#go-file-access" title="go_file_access ()">go_file_access</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="../gsf/gsf-Output-to-unstructured-files.html#GsfOutput-struct"><span class="returnvalue">GsfOutput</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="goffice-0.10-File-utilities.html#go-file-create" title="go_file_create ()">go_file_create</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">time_t</span>
+</td>
+<td class="function_name">
+<a class="link" href="goffice-0.10-File-utilities.html#go-file-get-date-accessed" title="go_file_get_date_accessed ()">go_file_get_date_accessed</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">time_t</span>
+</td>
+<td class="function_name">
+<a class="link" href="goffice-0.10-File-utilities.html#go-file-get-date-changed" title="go_file_get_date_changed ()">go_file_get_date_changed</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">time_t</span>
+</td>
+<td class="function_name">
+<a class="link" href="goffice-0.10-File-utilities.html#go-file-get-date-modified" title="go_file_get_date_modified ()">go_file_get_date_modified</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gchar</span> *
+</td>
+<td class="function_name">
+<a class="link" href="goffice-0.10-File-utilities.html#go-file-get-group-name" title="go_file_get_group_name ()">go_file_get_group_name</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gchar</span> *
+</td>
+<td class="function_name">
+<a class="link" href="goffice-0.10-File-utilities.html#go-file-get-owner-name" title="go_file_get_owner_name ()">go_file_get_owner_name</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="../gsf/gsf-Input-from-unstructured-files.html#GsfInput-struct"><span class="returnvalue">GsfInput</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="goffice-0.10-File-utilities.html#go-file-open" title="go_file_open ()">go_file_open</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">GSList</span> *
+</td>
+<td class="function_name">
+<a class="link" href="goffice-0.10-File-utilities.html#go-file-split-urls" title="go_file_split_urls ()">go_file_split_urls</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">char</span> *
+</td>
+<td class="function_name">
+<a class="link" href="goffice-0.10-File-utilities.html#go-filename-from-uri" title="go_filename_from_uri ()">go_filename_from_uri</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">char</span> *
+</td>
+<td class="function_name">
+<a class="link" href="goffice-0.10-File-utilities.html#go-filename-simplify" title="go_filename_simplify ()">go_filename_simplify</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">char</span> *
+</td>
+<td class="function_name">
+<a class="link" href="goffice-0.10-File-utilities.html#go-filename-to-uri" title="go_filename_to_uri ()">go_filename_to_uri</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="goffice-0.10-File-utilities.html#GOFilePermissions"><span class="returnvalue">GOFilePermissions</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="goffice-0.10-File-utilities.html#go-get-file-permissions" title="go_get_file_permissions ()">go_get_file_permissions</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gchar</span> *
+</td>
+<td class="function_name">
+<a class="link" href="goffice-0.10-File-utilities.html#go-get-mime-type" title="go_get_mime_type ()">go_get_mime_type</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gchar</span> *
+</td>
+<td class="function_name">
+<a class="link" href="goffice-0.10-File-utilities.html#go-get-mime-type-for-data" title="go_get_mime_type_for_data ()">go_get_mime_type_for_data</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gchar</span> *
+</td>
+<td class="function_name">
+<a class="link" href="goffice-0.10-File-utilities.html#go-mime-type-get-description" title="go_mime_type_get_description ()">go_mime_type_get_description</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="goffice-0.10-File-utilities.html#go-set-file-permissions" title="go_set_file_permissions ()">go_set_file_permissions</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">char</span> *
+</td>
+<td class="function_name">
+<a class="link" href="goffice-0.10-File-utilities.html#go-shell-arg-to-uri" title="go_shell_arg_to_uri ()">go_shell_arg_to_uri</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gchar</span> const **
+</td>
+<td class="function_name">
+<a class="link" href="goffice-0.10-File-utilities.html#go-shell-argv-to-glib-encoding" title="go_shell_argv_to_glib_encoding ()">go_shell_argv_to_glib_encoding</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="goffice-0.10-File-utilities.html#go-shell-argv-to-glib-encoding-free" title="go_shell_argv_to_glib_encoding_free ()">go_shell_argv_to_glib_encoding_free</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<a name="GOFilePermissions"></a><div class="refsect1">
+<a name="goffice-0.10-File-utilities.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="other_proto_type">
+<col class="other_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="goffice-0.10-File-utilities.html#GO-F-OK:CAPS" title="GO_F_OK">GO_F_OK</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">enum</td>
+<td class="function_name"><a class="link" href="goffice-0.10-File-utilities.html#GODotDot" title="enum GODotDot">GODotDot</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">struct</td>
+<td class="function_name"><a class="link" href="goffice-0.10-File-utilities.html#GOFilePermissions-struct" title="struct GOFilePermissions">GOFilePermissions</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="goffice-0.10-File-utilities.html#GO-R-OK:CAPS" title="GO_R_OK">GO_R_OK</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="goffice-0.10-File-utilities.html#GO-W-OK:CAPS" title="GO_W_OK">GO_W_OK</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="goffice-0.10-File-utilities.html#GO-X-OK:CAPS" title="GO_X_OK">GO_X_OK</a></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="goffice-0.10-File-utilities.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="screen">    <a href="/usr/share/gtk-doc/html/gobject/gobject-Boxed-Types.html">GBoxed</a>
+    <span class="lineart">╰──</span> GOFilePermissions
+</pre>
+</div>
+<div class="refsect1">
+<a name="goffice-0.10-File-utilities.description"></a><h2>Description</h2>
+</div>
+<div class="refsect1">
+<a name="goffice-0.10-File-utilities.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="go-basename-from-uri"></a><h3>go_basename_from_uri ()</h3>
+<pre class="programlisting"><span class="returnvalue">char</span> *
+go_basename_from_uri (<em class="parameter"><code>const <span class="type">char</span> *uri</code></em>);</pre>
+<p>Decode the final path component.  Returns as UTF-8 encoded suitable
+for display.</p>
+<div class="refsect3">
+<a name="go-basename-from-uri.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>uri</p></td>
+<td class="parameter_description"><p>The uri</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-basename-from-uri.returns"></a><h4>Returns</h4>
+<p> a string that the caller is responsible for freeing.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-dirname-from-uri"></a><h3>go_dirname_from_uri ()</h3>
+<pre class="programlisting"><span class="returnvalue">char</span> *
+go_dirname_from_uri (<em class="parameter"><code>const <span class="type">char</span> *uri</code></em>,
+                     <em class="parameter"><code><span class="type">gboolean</span> brief</code></em>);</pre>
+<p>Decode the all but the final path component.  Returns as UTF-8 encoded
+suitable for display.</p>
+<div class="refsect3">
+<a name="go-dirname-from-uri.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>uri</p></td>
+<td class="parameter_description"><p>target</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>brief</p></td>
+<td class="parameter_description"><p>if TRUE, hide "file://" if present.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-dirname-from-uri.returns"></a><h4>Returns</h4>
+<p> dirname which the caller is responsible for freeing.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-file-access"></a><h3>go_file_access ()</h3>
+<pre class="programlisting"><span class="returnvalue">gint</span>
+go_file_access (<em class="parameter"><code><span class="type">char</span> const *uri</code></em>,
+                <em class="parameter"><code><span class="type">gint</span> mode</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-file-create"></a><h3>go_file_create ()</h3>
+<pre class="programlisting"><a href="../gsf/gsf-Output-to-unstructured-files.html#GsfOutput-struct"><span class="returnvalue">GsfOutput</span></a> *
+go_file_create (<em class="parameter"><code><span class="type">char</span> const *uri</code></em>,
+                <em class="parameter"><code><span class="type">GError</span> **err</code></em>);</pre>
+<p>Creates a file or return an error. If the file already exists, it is
+replaced.</p>
+<div class="refsect3">
+<a name="go-file-create.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>uri</p></td>
+<td class="parameter_description"><p>target uri</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>err</p></td>
+<td class="parameter_description"><p><span class="type">GError</span></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-file-create.returns"></a><h4>Returns</h4>
+<p>non-<code class="literal">NULL</code> on success. </p>
+<p><span class="annotation">[<acronym title="Free data after the code is done."><span class="acronym">transfer full</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-file-get-date-accessed"></a><h3>go_file_get_date_accessed ()</h3>
+<pre class="programlisting"><span class="returnvalue">time_t</span>
+go_file_get_date_accessed (<em class="parameter"><code><span class="type">char</span> const *uri</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-file-get-date-changed"></a><h3>go_file_get_date_changed ()</h3>
+<pre class="programlisting"><span class="returnvalue">time_t</span>
+go_file_get_date_changed (<em class="parameter"><code><span class="type">char</span> const *uri</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-file-get-date-modified"></a><h3>go_file_get_date_modified ()</h3>
+<pre class="programlisting"><span class="returnvalue">time_t</span>
+go_file_get_date_modified (<em class="parameter"><code><span class="type">char</span> const *uri</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-file-get-group-name"></a><h3>go_file_get_group_name ()</h3>
+<pre class="programlisting"><span class="returnvalue">gchar</span> *
+go_file_get_group_name (<em class="parameter"><code><span class="type">char</span> const *uri</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-file-get-owner-name"></a><h3>go_file_get_owner_name ()</h3>
+<pre class="programlisting"><span class="returnvalue">gchar</span> *
+go_file_get_owner_name (<em class="parameter"><code><span class="type">char</span> const *uri</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-file-open"></a><h3>go_file_open ()</h3>
+<pre class="programlisting"><a href="../gsf/gsf-Input-from-unstructured-files.html#GsfInput-struct"><span class="returnvalue">GsfInput</span></a> *
+go_file_open (<em class="parameter"><code><span class="type">char</span> const *uri</code></em>,
+              <em class="parameter"><code><span class="type">GError</span> **err</code></em>);</pre>
+<p>Try all available methods to open a file or return an error</p>
+<div class="refsect3">
+<a name="go-file-open.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>uri</p></td>
+<td class="parameter_description"><p>target uri</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>err</p></td>
+<td class="parameter_description"><p><span class="type">GError</span></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-file-open.returns"></a><h4>Returns</h4>
+<p>non-<code class="literal">NULL</code> on success. </p>
+<p><span class="annotation">[<acronym title="Free data after the code is done."><span class="acronym">transfer full</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-file-split-urls"></a><h3>go_file_split_urls ()</h3>
+<pre class="programlisting"><span class="returnvalue">GSList</span> *
+go_file_split_urls (<em class="parameter"><code><span class="type">char</span> const *data</code></em>);</pre>
+<p>Splits the chain into a list of URIs. Lines starting with '#' are ignored.</p>
+<div class="refsect3">
+<a name="go-file-split-urls.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>data</p></td>
+<td class="parameter_description"><p>a string filled with a list of URIs separated by new lines.</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-file-split-urls.returns"></a><h4>Returns</h4>
+<p>the URIs list. </p>
+<p><span class="annotation">[<acronym title="Generics and defining elements of containers and arrays."><span class="acronym">element-type</span></acronym> utf8][<acronym title="Free data after the code is done."><span class="acronym">transfer full</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-filename-from-uri"></a><h3>go_filename_from_uri ()</h3>
+<pre class="programlisting"><span class="returnvalue">char</span> *
+go_filename_from_uri (<em class="parameter"><code>const <span class="type">char</span> *uri</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-filename-simplify"></a><h3>go_filename_simplify ()</h3>
+<pre class="programlisting"><span class="returnvalue">char</span> *
+go_filename_simplify (<em class="parameter"><code>const <span class="type">char</span> *filename</code></em>,
+                      <em class="parameter"><code><a class="link" href="goffice-0.10-File-utilities.html#GODotDot" title="enum GODotDot"><span class="type">GODotDot</span></a> dotdot</code></em>,
+                      <em class="parameter"><code><span class="type">gboolean</span> make_absolute</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-filename-to-uri"></a><h3>go_filename_to_uri ()</h3>
+<pre class="programlisting"><span class="returnvalue">char</span> *
+go_filename_to_uri (<em class="parameter"><code>const <span class="type">char</span> *filename</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-get-file-permissions"></a><h3>go_get_file_permissions ()</h3>
+<pre class="programlisting"><a class="link" href="goffice-0.10-File-utilities.html#GOFilePermissions"><span class="returnvalue">GOFilePermissions</span></a> *
+go_get_file_permissions (<em class="parameter"><code><span class="type">char</span> const *uri</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-get-mime-type"></a><h3>go_get_mime_type ()</h3>
+<pre class="programlisting"><span class="returnvalue">gchar</span> *
+go_get_mime_type (<em class="parameter"><code><span class="type">gchar</span> const *uri</code></em>);</pre>
+<div class="refsect3">
+<a name="go-get-mime-type.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>uri</p></td>
+<td class="parameter_description"><p>the uri.</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-get-mime-type.returns"></a><h4>Returns</h4>
+<p> the mime type for the file as a newly allocated string. Needs to
+be freed with <code class="function">g_free()</code>.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-get-mime-type-for-data"></a><h3>go_get_mime_type_for_data ()</h3>
+<pre class="programlisting"><span class="returnvalue">gchar</span> *
+go_get_mime_type_for_data (<em class="parameter"><code><span class="type">gconstpointer</span> data</code></em>,
+                           <em class="parameter"><code><span class="type">int</span> data_size</code></em>);</pre>
+<div class="refsect3">
+<a name="go-get-mime-type-for-data.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>data</p></td>
+<td class="parameter_description"><p>the data.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>data_size</p></td>
+<td class="parameter_description"><p>the data size</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-get-mime-type-for-data.returns"></a><h4>Returns</h4>
+<p> the mime type for the data as a newly allocated string. Needs to
+be freed with <code class="function">g_free()</code>.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-mime-type-get-description"></a><h3>go_mime_type_get_description ()</h3>
+<pre class="programlisting"><span class="returnvalue">gchar</span> *
+go_mime_type_get_description (<em class="parameter"><code><span class="type">gchar</span> const *mime_type</code></em>);</pre>
+<div class="refsect3">
+<a name="go-mime-type-get-description.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>mime_type</p></td>
+<td class="parameter_description"><p>the mime type to describe.</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-mime-type-get-description.returns"></a><h4>Returns</h4>
+<p> the description for the mime type as a newly allocated string.
+Needs to be freed with <code class="function">g_free()</code>. If the description is not found, the
+mime type itself will be returned.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-set-file-permissions"></a><h3>go_set_file_permissions ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_set_file_permissions (<em class="parameter"><code><span class="type">char</span> const *uri</code></em>,
+                         <em class="parameter"><code><a class="link" href="goffice-0.10-File-utilities.html#GOFilePermissions"><span class="type">GOFilePermissions</span></a> *file_permissions</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-shell-arg-to-uri"></a><h3>go_shell_arg_to_uri ()</h3>
+<pre class="programlisting"><span class="returnvalue">char</span> *
+go_shell_arg_to_uri (<em class="parameter"><code>const <span class="type">char</span> *arg</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-shell-argv-to-glib-encoding"></a><h3>go_shell_argv_to_glib_encoding ()</h3>
+<pre class="programlisting"><span class="returnvalue">gchar</span> const **
+go_shell_argv_to_glib_encoding (<em class="parameter"><code><span class="type">gint</span> argc</code></em>,
+                                <em class="parameter"><code><span class="type">gchar</span> const **argv</code></em>);</pre>
+<p>Transform arguments to UTF-8 when needed.</p>
+<div class="refsect3">
+<a name="go-shell-argv-to-glib-encoding.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>argc</p></td>
+<td class="parameter_description"><p>arguments number</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>argv</p></td>
+<td class="parameter_description"><p>command line arguments</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-shell-argv-to-glib-encoding.returns"></a><h4>Returns</h4>
+<p>the arguments in UTF-8 locale. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-shell-argv-to-glib-encoding-free"></a><h3>go_shell_argv_to_glib_encoding_free ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_shell_argv_to_glib_encoding_free (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+</div>
+</div>
+<div class="refsect1">
+<a name="goffice-0.10-File-utilities.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="GO-F-OK:CAPS"></a><h3>GO_F_OK</h3>
+<pre class="programlisting">#  define GO_F_OK F_OK
+</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GODotDot"></a><h3>enum GODotDot</h3>
+<div class="refsect3">
+<a name="GODotDot.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="enum_members_name">
+<col class="enum_members_description">
+<col width="200px" class="enum_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="enum_member_name"><p><a name="GO-DOTDOT-SYNTACTIC:CAPS"></a>GO_DOTDOT_SYNTACTIC</p></td>
+<td class="enum_member_description">
+<p>assume no symlinks.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-DOTDOT-TEST:CAPS"></a>GO_DOTDOT_TEST</p></td>
+<td class="enum_member_description">
+<p>check.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-DOTDOT-LEAVE:CAPS"></a>GO_DOTDOT_LEAVE</p></td>
+<td class="enum_member_description">
+<p>leave alone.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOFilePermissions-struct"></a><h3>struct GOFilePermissions</h3>
+<pre class="programlisting">struct GOFilePermissions {
+	gboolean owner_read;
+	gboolean owner_write;
+	gboolean owner_execute;
+
+	gboolean group_read;
+	gboolean group_write;
+	gboolean group_execute;
+
+	gboolean others_read;
+	gboolean others_write;
+	gboolean others_execute;
+};
+</pre>
+<div class="refsect3">
+<a name="GOFilePermissions.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="struct_members_name">
+<col class="struct_members_description">
+<col width="200px" class="struct_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="struct_member_name"><p><span class="type">gboolean</span> <em class="structfield"><code><a name="GOFilePermissions-struct.owner-read"></a>owner_read</code></em>;</p></td>
+<td class="struct_member_description"><p>owner can read.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><span class="type">gboolean</span> <em class="structfield"><code><a name="GOFilePermissions-struct.owner-write"></a>owner_write</code></em>;</p></td>
+<td class="struct_member_description"><p>owner can write.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><span class="type">gboolean</span> <em class="structfield"><code><a name="GOFilePermissions-struct.owner-execute"></a>owner_execute</code></em>;</p></td>
+<td class="struct_member_description"><p>owner can execute.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><span class="type">gboolean</span> <em class="structfield"><code><a name="GOFilePermissions-struct.group-read"></a>group_read</code></em>;</p></td>
+<td class="struct_member_description"><p>group can read.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><span class="type">gboolean</span> <em class="structfield"><code><a name="GOFilePermissions-struct.group-write"></a>group_write</code></em>;</p></td>
+<td class="struct_member_description"><p>group can write.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><span class="type">gboolean</span> <em class="structfield"><code><a name="GOFilePermissions-struct.group-execute"></a>group_execute</code></em>;</p></td>
+<td class="struct_member_description"><p>group can execute.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><span class="type">gboolean</span> <em class="structfield"><code><a name="GOFilePermissions-struct.others-read"></a>others_read</code></em>;</p></td>
+<td class="struct_member_description"><p>everybody can read.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><span class="type">gboolean</span> <em class="structfield"><code><a name="GOFilePermissions-struct.others-write"></a>others_write</code></em>;</p></td>
+<td class="struct_member_description"><p>everybody can write.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><span class="type">gboolean</span> <em class="structfield"><code><a name="GOFilePermissions-struct.others-execute"></a>others_execute</code></em>;</p></td>
+<td class="struct_member_description"><p>everybody can execute.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GO-R-OK:CAPS"></a><h3>GO_R_OK</h3>
+<pre class="programlisting">#  define GO_R_OK R_OK
+</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GO-W-OK:CAPS"></a><h3>GO_W_OK</h3>
+<pre class="programlisting">#  define GO_W_OK W_OK
+</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GO-X-OK:CAPS"></a><h3>GO_X_OK</h3>
+<pre class="programlisting">#  define GO_X_OK X_OK
+</pre>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.32</div>
+</body>
+</html>

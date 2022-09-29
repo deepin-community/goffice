@@ -1,0 +1,287 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Files: GOffice Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
+<link rel="home" href="index.html" title="GOffice Reference Manual">
+<link rel="up" href="ch14.html" title="File utilities">
+<link rel="prev" href="goffice-0.10-File-utilities.html" title="File utilities">
+<link rel="next" href="goffice-0.10-GOFileOpeners.html" title="GOFileOpeners">
+<meta name="generator" content="GTK-Doc V1.32 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#goffice-0.10-Files.description" class="shortcut">Description</a></span><span id="nav_hierarchy">  <span class="dim">|</span> 
+                  <a href="#goffice-0.10-Files.object-hierarchy" class="shortcut">Object Hierarchy</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="ch14.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="goffice-0.10-File-utilities.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="goffice-0.10-GOFileOpeners.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="goffice-0.10-Files"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="goffice-0.10-Files.top_of_page"></a>Files</span></h2>
+<p>Files</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="goffice-0.10-Files.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_proto_type">
+<col class="functions_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<span class="returnvalue">GList</span> *
+</td>
+<td class="function_name">
+<a class="link" href="goffice-0.10-Files.html#go-get-file-openers" title="go_get_file_openers ()">go_get_file_openers</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">GList</span> *
+</td>
+<td class="function_name">
+<a class="link" href="goffice-0.10-Files.html#go-get-file-savers" title="go_get_file_savers ()">go_get_file_savers</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="goffice-0.10-Files.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="other_proto_type">
+<col class="other_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="datatype_keyword">enum</td>
+<td class="function_name"><a class="link" href="goffice-0.10-Files.html#GOFileFormatLevel" title="enum GOFileFormatLevel">GOFileFormatLevel</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">enum</td>
+<td class="function_name"><a class="link" href="goffice-0.10-Files.html#GOFileProbeLevel" title="enum GOFileProbeLevel">GOFileProbeLevel</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">enum</td>
+<td class="function_name"><a class="link" href="goffice-0.10-Files.html#GOFileSaveScope" title="enum GOFileSaveScope">GOFileSaveScope</a></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="goffice-0.10-Files.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="screen">    <a href="/usr/share/gtk-doc/html/gobject/gobject-Enumeration-and-Flag-Types.html">GEnum</a>
+    <span class="lineart">├──</span> GOFileFormatLevel
+    <span class="lineart">╰──</span> GOFileSaveScope
+</pre>
+</div>
+<div class="refsect1">
+<a name="goffice-0.10-Files.description"></a><h2>Description</h2>
+</div>
+<div class="refsect1">
+<a name="goffice-0.10-Files.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="go-get-file-openers"></a><h3>go_get_file_openers ()</h3>
+<pre class="programlisting"><span class="returnvalue">GList</span> *
+go_get_file_openers (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+<div class="refsect3">
+<a name="go-get-file-openers.returns"></a><h4>Returns</h4>
+<p>list of known
+<a class="link" href="goffice-0.10-GOFileOpeners.html#GOFileOpener"><span class="type">GOFileOpener</span></a> types (do not modify list). </p>
+<p><span class="annotation">[<acronym title="Generics and defining elements of containers and arrays."><span class="acronym">element-type</span></acronym> GOFileOpener][<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-get-file-savers"></a><h3>go_get_file_savers ()</h3>
+<pre class="programlisting"><span class="returnvalue">GList</span> *
+go_get_file_savers (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+<div class="refsect3">
+<a name="go-get-file-savers.returns"></a><h4>Returns</h4>
+<p>list of known
+<a class="link" href="GOFileSaver.html" title="GOFileSaver"><span class="type">GOFileSaver</span></a> types (do not modify list). </p>
+<p><span class="annotation">[<acronym title="Generics and defining elements of containers and arrays."><span class="acronym">element-type</span></acronym> GOFileSaver][<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+</div>
+<div class="refsect1">
+<a name="goffice-0.10-Files.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="GOFileFormatLevel"></a><h3>enum GOFileFormatLevel</h3>
+<p>File format levels. They are ordered. When we save a file, we
+remember the name, but not if we already have a name at a higher level.
+When created, workbooks are assigned a name at level GO_FILE_FL_NEW.</p>
+<div class="refsect3">
+<a name="GOFileFormatLevel.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="enum_members_name">
+<col class="enum_members_description">
+<col width="200px" class="enum_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="enum_member_name"><p><a name="GO-FILE-FL-NONE:CAPS"></a>GO_FILE_FL_NONE</p></td>
+<td class="enum_member_description">
+<p>no name assigned, won't happen.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-FILE-FL-WRITE-ONLY:CAPS"></a>GO_FILE_FL_WRITE_ONLY</p></td>
+<td class="enum_member_description">
+<p>PostScript etc, won't be remembered.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-FILE-FL-NEW:CAPS"></a>GO_FILE_FL_NEW</p></td>
+<td class="enum_member_description">
+<p>Wb just created.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-FILE-FL-MANUAL:CAPS"></a>GO_FILE_FL_MANUAL</p></td>
+<td class="enum_member_description">
+<p>Save gets punted to save as.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-FILE-FL-MANUAL-REMEMBER:CAPS"></a>GO_FILE_FL_MANUAL_REMEMBER</p></td>
+<td class="enum_member_description">
+<p>Ditto, but remember in history.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-FILE-FL-AUTO:CAPS"></a>GO_FILE_FL_AUTO</p></td>
+<td class="enum_member_description">
+<p>Save will save to this filename.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-FILE-FL-LAST:CAPS"></a>GO_FILE_FL_LAST</p></td>
+<td class="enum_member_description">
+<p>last value, won't happen.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOFileProbeLevel"></a><h3>enum GOFileProbeLevel</h3>
+<p>File probe level tells file opener (its probe method to be exact), how
+hard it should try to recognize the type of the file. File openers may
+ignore this or support only some probe levels, but if specifies
+"reccomened" behaviour.
+Before opening any file we detect its type by calling probe for
+every registered file opener (in order of priority) and passing
+GO_FILE_PROBE_FILE_NAME as probe level. If none of them recogizes the file,
+we increase probe level and try again...</p>
+<div class="refsect3">
+<a name="GOFileProbeLevel.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="enum_members_name">
+<col class="enum_members_description">
+<col width="200px" class="enum_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="enum_member_name"><p><a name="GO-FILE-PROBE-FILE-NAME:CAPS"></a>GO_FILE_PROBE_FILE_NAME</p></td>
+<td class="enum_member_description">
+<p>Test only file name, don't read file contents</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-FILE-PROBE-CONTENT:CAPS"></a>GO_FILE_PROBE_CONTENT</p></td>
+<td class="enum_member_description">
+<p>Read the whole file if it's necessary</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-FILE-PROBE-LAST:CAPS"></a>GO_FILE_PROBE_LAST</p></td>
+<td class="enum_member_description">
+<p>Invalid</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOFileSaveScope"></a><h3>enum GOFileSaveScope</h3>
+<p>GOFileSaveScope specifies what information file saver can save in a file.
+Many savers can save the whole workbook (with all sheets), but others
+save only current sheet, usually because of file format limitations.</p>
+<div class="refsect3">
+<a name="GOFileSaveScope.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="enum_members_name">
+<col class="enum_members_description">
+<col width="200px" class="enum_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="enum_member_name"><p><a name="GO-FILE-SAVE-WORKBOOK:CAPS"></a>GO_FILE_SAVE_WORKBOOK</p></td>
+<td class="enum_member_description">
+<p>save the whole file.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-FILE-SAVE-SHEET:CAPS"></a>GO_FILE_SAVE_SHEET</p></td>
+<td class="enum_member_description">
+<p>save only current page.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-FILE-SAVE-RANGE:CAPS"></a>GO_FILE_SAVE_RANGE</p></td>
+<td class="enum_member_description">
+<p>save only a selected range.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-FILE-SAVE-LAST:CAPS"></a>GO_FILE_SAVE_LAST</p></td>
+<td class="enum_member_description">
+<p>last value, won't happen.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.32</div>
+</body>
+</html>

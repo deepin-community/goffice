@@ -1,0 +1,961 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>GODoc: GOffice Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
+<link rel="home" href="index.html" title="GOffice Reference Manual">
+<link rel="up" href="ch15.html" title="Application">
+<link rel="prev" href="GODocControl.html" title="GODocControl">
+<link rel="next" href="GOErrorInfo.html" title="GOErrorInfo">
+<meta name="generator" content="GTK-Doc V1.32 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#GODoc.description" class="shortcut">Description</a></span><span id="nav_hierarchy">  <span class="dim">|</span> 
+                  <a href="#GODoc.object-hierarchy" class="shortcut">Object Hierarchy</a></span><span id="nav_properties">  <span class="dim">|</span> 
+                  <a href="#GODoc.properties" class="shortcut">Properties</a></span><span id="nav_signals">  <span class="dim">|</span> 
+                  <a href="#GODoc.signals" class="shortcut">Signals</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="ch15.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="GODocControl.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="GOErrorInfo.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="GODoc"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="GODoc.top_of_page"></a>GODoc</span></h2>
+<p>GODoc</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="GODoc.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_proto_type">
+<col class="functions_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<a class="link" href="GOImage.html" title="GOImage"><span class="returnvalue">GOImage</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="GODoc.html#go-doc-add-image" title="go_doc_add_image ()">go_doc_add_image</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GODoc.html#go-doc-end-read" title="go_doc_end_read ()">go_doc_end_read</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gint64</span>
+</td>
+<td class="function_name">
+<a class="link" href="GODoc.html#go-doc-get-dirty-time" title="go_doc_get_dirty_time ()">go_doc_get_dirty_time</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GOImage.html" title="GOImage"><span class="returnvalue">GOImage</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="GODoc.html#go-doc-get-image" title="go_doc_get_image ()">go_doc_get_image</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">GHashTable</span> *
+</td>
+<td class="function_name">
+<a class="link" href="GODoc.html#go-doc-get-images" title="go_doc_get_images ()">go_doc_get_images</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="../gsf/gsf-metadata.html#GsfDocMetaData-struct"><span class="returnvalue">GsfDocMetaData</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="GODoc.html#go-doc-get-meta-data" title="go_doc_get_meta_data ()">go_doc_get_meta_data</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">char</span> const	*
+</td>
+<td class="function_name">
+<a class="link" href="GODoc.html#go-doc-get-uri" title="go_doc_get_uri ()">go_doc_get_uri</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GOImage.html" title="GOImage"><span class="returnvalue">GOImage</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="GODoc.html#go-doc-image-fetch" title="go_doc_image_fetch ()">go_doc_image_fetch</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GODoc.html#go-doc-init-read" title="go_doc_init_read ()">go_doc_init_read</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GODoc.html#go-doc-init-write" title="go_doc_init_write ()">go_doc_init_write</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gboolean</span>
+</td>
+<td class="function_name">
+<a class="link" href="GODoc.html#go-doc-is-dirty" title="go_doc_is_dirty ()">go_doc_is_dirty</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gboolean</span>
+</td>
+<td class="function_name">
+<a class="link" href="GODoc.html#go-doc-is-pristine" title="go_doc_is_pristine ()">go_doc_is_pristine</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GODoc.html#go-doc-read" title="go_doc_read ()">go_doc_read</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GODoc.html#go-doc-save-image" title="go_doc_save_image ()">go_doc_save_image</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GODoc.html#go-doc-save-resource" title="go_doc_save_resource ()">go_doc_save_resource</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GODoc.html#go-doc-set-dirty" title="go_doc_set_dirty ()">go_doc_set_dirty</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GODoc.html#go-doc-set-dirty-time" title="go_doc_set_dirty_time ()">go_doc_set_dirty_time</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GODoc.html#go-doc-set-meta-data" title="go_doc_set_meta_data ()">go_doc_set_meta_data</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GODoc.html#go-doc-set-pristine" title="go_doc_set_pristine ()">go_doc_set_pristine</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gboolean</span>
+</td>
+<td class="function_name">
+<a class="link" href="GODoc.html#go-doc-set-uri" title="go_doc_set_uri ()">go_doc_set_uri</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GODoc.html#go-doc-update-meta-data" title="go_doc_update_meta_data ()">go_doc_update_meta_data</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GODoc.html#go-doc-write" title="go_doc_write ()">go_doc_write</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="GODoc.properties"></a><h2>Properties</h2>
+<div class="informaltable"><table class="informaltable" border="0">
+<colgroup>
+<col width="150px" class="properties_type">
+<col width="300px" class="properties_name">
+<col width="200px" class="properties_flags">
+</colgroup>
+<tbody>
+<tr>
+<td class="property_type"><span class="type">gboolean</span></td>
+<td class="property_name"><a class="link" href="GODoc.html#GODoc--dirty" title="The “dirty” property">dirty</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type"><span class="type">gint64</span></td>
+<td class="property_name"><a class="link" href="GODoc.html#GODoc--dirty-time" title="The “dirty-time” property">dirty-time</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type">
+<span class="type">GDateTime</span> *</td>
+<td class="property_name"><a class="link" href="GODoc.html#GODoc--modtime" title="The “modtime” property">modtime</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type"><span class="type">gboolean</span></td>
+<td class="property_name"><a class="link" href="GODoc.html#GODoc--pristine" title="The “pristine” property">pristine</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type"><span class="type">guint64</span></td>
+<td class="property_name"><a class="link" href="GODoc.html#GODoc--saved-state" title="The “saved-state” property">saved-state</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type"><span class="type">guint64</span></td>
+<td class="property_name"><a class="link" href="GODoc.html#GODoc--state" title="The “state” property">state</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type">
+<span class="type">gchar</span> *</td>
+<td class="property_name"><a class="link" href="GODoc.html#GODoc--uri" title="The “uri” property">uri</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="GODoc.signals"></a><h2>Signals</h2>
+<div class="informaltable"><table class="informaltable" border="0">
+<colgroup>
+<col width="150px" class="signal_proto_type">
+<col width="300px" class="signal_proto_name">
+<col width="200px" class="signal_proto_flags">
+</colgroup>
+<tbody>
+<tr>
+<td class="signal_type"><span class="returnvalue">void</span></td>
+<td class="signal_name"><a class="link" href="GODoc.html#GODoc-metadata-changed" title="The “metadata-changed” signal">metadata-changed</a></td>
+<td class="signal_flags">Run Last</td>
+</tr>
+<tr>
+<td class="signal_type"><span class="returnvalue">void</span></td>
+<td class="signal_name"><a class="link" href="GODoc.html#GODoc-metadata-update" title="The “metadata-update” signal">metadata-update</a></td>
+<td class="signal_flags">Run Last</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="GODoc.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="other_proto_type">
+<col class="other_proto_name">
+</colgroup>
+<tbody><tr>
+<td class="datatype_keyword"> </td>
+<td class="function_name"><a class="link" href="GODoc.html#GODoc-struct" title="GODoc">GODoc</a></td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="GODoc.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="screen">    GObject
+    <span class="lineart">╰──</span> GODoc
+</pre>
+</div>
+<div class="refsect1">
+<a name="GODoc.description"></a><h2>Description</h2>
+</div>
+<div class="refsect1">
+<a name="GODoc.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="go-doc-add-image"></a><h3>go_doc_add_image ()</h3>
+<pre class="programlisting"><a class="link" href="GOImage.html" title="GOImage"><span class="returnvalue">GOImage</span></a> *
+go_doc_add_image (<em class="parameter"><code><a class="link" href="GODoc.html" title="GODoc"><span class="type">GODoc</span></a> *doc</code></em>,
+                  <em class="parameter"><code><span class="type">char</span> const *id</code></em>,
+                  <em class="parameter"><code><a class="link" href="GOImage.html" title="GOImage"><span class="type">GOImage</span></a> *image</code></em>);</pre>
+<p>Adds <em class="parameter"><code>image</code></em>
+ to the document if no such image already exists. The name of
+the returned image might be different from <em class="parameter"><code>id</code></em>
+, even if given.</p>
+<div class="refsect3">
+<a name="go-doc-add-image.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>doc</p></td>
+<td class="parameter_description"><p>a <a class="link" href="GODoc.html" title="GODoc"><span class="type">GODoc</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>id</p></td>
+<td class="parameter_description"><p>the image name or <code class="literal">NULL</code></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>image</p></td>
+<td class="parameter_description"><p>a <a class="link" href="GOImage.html" title="GOImage"><span class="type">GOImage</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-doc-add-image.returns"></a><h4>Returns</h4>
+<p>either <em class="parameter"><code>image</code></em>
+, in which case the document adds a reference on it, or
+an identical image for which the owner does not own a reference. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-doc-end-read"></a><h3>go_doc_end_read ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_doc_end_read (<em class="parameter"><code><a class="link" href="GODoc.html" title="GODoc"><span class="type">GODoc</span></a> *doc</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-doc-get-dirty-time"></a><h3>go_doc_get_dirty_time ()</h3>
+<pre class="programlisting"><span class="returnvalue">gint64</span>
+go_doc_get_dirty_time (<em class="parameter"><code><a class="link" href="GODoc.html" title="GODoc"><span class="type">GODoc</span></a> const *doc</code></em>);</pre>
+<div class="refsect3">
+<a name="go-doc-get-dirty-time.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>doc</p></td>
+<td class="parameter_description"><p><a class="link" href="GODoc.html" title="GODoc"><span class="type">GODoc</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-doc-get-dirty-time.returns"></a><h4>Returns</h4>
+<p> the time (as in <code class="function">g_get_real_time()</code>) the document was first marked
+dirty.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-doc-get-image"></a><h3>go_doc_get_image ()</h3>
+<pre class="programlisting"><a class="link" href="GOImage.html" title="GOImage"><span class="returnvalue">GOImage</span></a> *
+go_doc_get_image (<em class="parameter"><code><a class="link" href="GODoc.html" title="GODoc"><span class="type">GODoc</span></a> *doc</code></em>,
+                  <em class="parameter"><code><span class="type">char</span> const *id</code></em>);</pre>
+<div class="refsect3">
+<a name="go-doc-get-image.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>doc</p></td>
+<td class="parameter_description"><p>a <a class="link" href="GODoc.html" title="GODoc"><span class="type">GODoc</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>id</p></td>
+<td class="parameter_description"><p>the image name</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-doc-get-image.returns"></a><h4>Returns</h4>
+<p>the <a class="link" href="GOImage.html" title="GOImage"><span class="type">GOImage</span></a> is one exist with name <em class="parameter"><code>id</code></em>
+. The caller does not own a
+reference. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-doc-get-images"></a><h3>go_doc_get_images ()</h3>
+<pre class="programlisting"><span class="returnvalue">GHashTable</span> *
+go_doc_get_images (<em class="parameter"><code><a class="link" href="GODoc.html" title="GODoc"><span class="type">GODoc</span></a> *doc</code></em>);</pre>
+<div class="refsect3">
+<a name="go-doc-get-images.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>doc</p></td>
+<td class="parameter_description"><p><a class="link" href="GODoc.html" title="GODoc"><span class="type">GODoc</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-doc-get-images.returns"></a><h4>Returns</h4>
+<p>the images registered inside the document. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-doc-get-meta-data"></a><h3>go_doc_get_meta_data ()</h3>
+<pre class="programlisting"><a href="../gsf/gsf-metadata.html#GsfDocMetaData-struct"><span class="returnvalue">GsfDocMetaData</span></a> *
+go_doc_get_meta_data (<em class="parameter"><code><a class="link" href="GODoc.html" title="GODoc"><span class="type">GODoc</span></a> const *doc</code></em>);</pre>
+<div class="refsect3">
+<a name="go-doc-get-meta-data.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>doc</p></td>
+<td class="parameter_description"><p><a class="link" href="GODoc.html" title="GODoc"><span class="type">GODoc</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-doc-get-meta-data.returns"></a><h4>Returns</h4>
+<p><em class="parameter"><code>doc</code></em>
+'s metadata. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-doc-get-uri"></a><h3>go_doc_get_uri ()</h3>
+<pre class="programlisting"><span class="returnvalue">char</span> const	*
+go_doc_get_uri (<em class="parameter"><code><a class="link" href="GODoc.html" title="GODoc"><span class="type">GODoc</span></a> const *doc</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-doc-image-fetch"></a><h3>go_doc_image_fetch ()</h3>
+<pre class="programlisting"><a class="link" href="GOImage.html" title="GOImage"><span class="returnvalue">GOImage</span></a> *
+go_doc_image_fetch (<em class="parameter"><code><a class="link" href="GODoc.html" title="GODoc"><span class="type">GODoc</span></a> *doc</code></em>,
+                    <em class="parameter"><code><span class="type">char</span> const *id</code></em>,
+                    <em class="parameter"><code><span class="type">GType</span> type</code></em>);</pre>
+<p>Searches for a <a class="link" href="GOImage.html" title="GOImage"><span class="type">GOImage</span></a> with name <em class="parameter"><code>id</code></em>
+ in the document image buffer and
+creates one if needed. The caller does not own a reference on the returned
+<a class="link" href="GOImage.html" title="GOImage"><span class="type">GOImage</span></a>.
+This function must be called after a call to <a class="link" href="GODoc.html#go-doc-init-read" title="go_doc_init_read ()"><code class="function">go_doc_init_read()</code></a>, otherwise
+it will emit a critical and return NULL.</p>
+<div class="refsect3">
+<a name="go-doc-image-fetch.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>doc</p></td>
+<td class="parameter_description"><p>a <a class="link" href="GODoc.html" title="GODoc"><span class="type">GODoc</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>id</p></td>
+<td class="parameter_description"><p>the name for the new image.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>type</p></td>
+<td class="parameter_description"><p>the type of the <a class="link" href="GOImage.html" title="GOImage"><span class="type">GOImage</span></a> to create if needed.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-doc-image-fetch.returns"></a><h4>Returns</h4>
+<p>the found or created <a class="link" href="GOImage.html" title="GOImage"><span class="type">GOImage</span></a>. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-doc-init-read"></a><h3>go_doc_init_read ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_doc_init_read (<em class="parameter"><code><a class="link" href="GODoc.html" title="GODoc"><span class="type">GODoc</span></a> *doc</code></em>,
+                  <em class="parameter"><code><a href="../gsf/gsf-Input-from-unstructured-files.html#GsfInput-struct"><span class="type">GsfInput</span></a> *input</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-doc-init-write"></a><h3>go_doc_init_write ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_doc_init_write (<em class="parameter"><code><a class="link" href="GODoc.html" title="GODoc"><span class="type">GODoc</span></a> *doc</code></em>,
+                   <em class="parameter"><code><a href="../gsf/gsf-XML-and-libxml.html#GsfXMLOut-struct"><span class="type">GsfXMLOut</span></a> *output</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-doc-is-dirty"></a><h3>go_doc_is_dirty ()</h3>
+<pre class="programlisting"><span class="returnvalue">gboolean</span>
+go_doc_is_dirty (<em class="parameter"><code><a class="link" href="GODoc.html" title="GODoc"><span class="type">GODoc</span></a> const *doc</code></em>);</pre>
+<div class="refsect3">
+<a name="go-doc-is-dirty.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>doc</p></td>
+<td class="parameter_description"><p><a class="link" href="GODoc.html" title="GODoc"><span class="type">GODoc</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-doc-is-dirty.returns"></a><h4>Returns</h4>
+<p> TRUE if <em class="parameter"><code>doc</code></em>
+has been modified.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-doc-is-pristine"></a><h3>go_doc_is_pristine ()</h3>
+<pre class="programlisting"><span class="returnvalue">gboolean</span>
+go_doc_is_pristine (<em class="parameter"><code><a class="link" href="GODoc.html" title="GODoc"><span class="type">GODoc</span></a> const *doc</code></em>);</pre>
+<p>This checks to see if the doc has ever been
+used ( approximately )</p>
+<div class="refsect3">
+<a name="go-doc-is-pristine.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>doc</p></td>
+<td class="parameter_description"><p><a class="link" href="GODoc.html" title="GODoc"><span class="type">GODoc</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-doc-is-pristine.returns"></a><h4>Returns</h4>
+<p> <code class="literal">TRUE</code> if we can discard this doc.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-doc-read"></a><h3>go_doc_read ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_doc_read (<em class="parameter"><code><a class="link" href="GODoc.html" title="GODoc"><span class="type">GODoc</span></a> *doc</code></em>,
+             <em class="parameter"><code><a href="../gsf/gsf-XML-and-libxml.html#GsfXMLIn"><span class="type">GsfXMLIn</span></a> *xin</code></em>,
+             <em class="parameter"><code><span class="type">xmlChar</span> const **attrs</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-doc-save-image"></a><h3>go_doc_save_image ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_doc_save_image (<em class="parameter"><code><a class="link" href="GODoc.html" title="GODoc"><span class="type">GODoc</span></a> *doc</code></em>,
+                   <em class="parameter"><code><span class="type">char</span> const *id</code></em>);</pre>
+<p>Saves the image with the document. Each image will be saved only
+once.</p>
+<div class="refsect3">
+<a name="go-doc-save-image.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>doc</p></td>
+<td class="parameter_description"><p>a <a class="link" href="GODoc.html" title="GODoc"><span class="type">GODoc</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>id</p></td>
+<td class="parameter_description"><p>the Id of the <a class="link" href="GOImage.html" title="GOImage"><span class="type">GOImage</span></a> to save</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-doc-save-resource"></a><h3>go_doc_save_resource ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_doc_save_resource (<em class="parameter"><code><a class="link" href="GODoc.html" title="GODoc"><span class="type">GODoc</span></a> *doc</code></em>,
+                      <em class="parameter"><code><a class="link" href="GOPersist.html" title="GOPersist"><span class="type">GOPersist</span></a> const *gp</code></em>);</pre>
+<p>Saves the resource with the document. Each resource will be saved only
+once.</p>
+<div class="refsect3">
+<a name="go-doc-save-resource.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>doc</p></td>
+<td class="parameter_description"><p>a <a class="link" href="GODoc.html" title="GODoc"><span class="type">GODoc</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>gp</p></td>
+<td class="parameter_description"><p>the <a class="link" href="GOPersist.html" title="GOPersist"><span class="type">GOPersist</span></a> to save</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-doc-set-dirty"></a><h3>go_doc_set_dirty ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_doc_set_dirty (<em class="parameter"><code><a class="link" href="GODoc.html" title="GODoc"><span class="type">GODoc</span></a> *doc</code></em>,
+                  <em class="parameter"><code><span class="type">gboolean</span> is_dirty</code></em>);</pre>
+<p>Changes the dirty state of <em class="parameter"><code>doc</code></em>
+ to <em class="parameter"><code>is_dirty</code></em>
+ and clears the pristine state
+no matter what.</p>
+<div class="refsect3">
+<a name="go-doc-set-dirty.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>doc</p></td>
+<td class="parameter_description"><p><a class="link" href="GODoc.html" title="GODoc"><span class="type">GODoc</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>is_dirty</p></td>
+<td class="parameter_description"><p>bool</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-doc-set-dirty-time"></a><h3>go_doc_set_dirty_time ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_doc_set_dirty_time (<em class="parameter"><code><a class="link" href="GODoc.html" title="GODoc"><span class="type">GODoc</span></a> *doc</code></em>,
+                       <em class="parameter"><code><span class="type">gint64</span> t</code></em>);</pre>
+<p>Changes the dirty time, i.e., the time the document was first marked
+dirty.</p>
+<div class="refsect3">
+<a name="go-doc-set-dirty-time.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>doc</p></td>
+<td class="parameter_description"><p><a class="link" href="GODoc.html" title="GODoc"><span class="type">GODoc</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>t</p></td>
+<td class="parameter_description"><p>a timestamp from g_get_real_time</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-doc-set-meta-data"></a><h3>go_doc_set_meta_data ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_doc_set_meta_data (<em class="parameter"><code><a class="link" href="GODoc.html" title="GODoc"><span class="type">GODoc</span></a> *doc</code></em>,
+                      <em class="parameter"><code><a href="../gsf/gsf-metadata.html#GsfDocMetaData-struct"><span class="type">GsfDocMetaData</span></a> *data</code></em>);</pre>
+<p>Adds a ref to <em class="parameter"><code>data</code></em>
+.</p>
+<div class="refsect3">
+<a name="go-doc-set-meta-data.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>doc</p></td>
+<td class="parameter_description"><p><a class="link" href="GODoc.html" title="GODoc"><span class="type">GODoc</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>data</p></td>
+<td class="parameter_description"><p><a href="../gsf/gsf-metadata.html#GsfDocMetaData-struct"><span class="type">GsfDocMetaData</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-doc-set-pristine"></a><h3>go_doc_set_pristine ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_doc_set_pristine (<em class="parameter"><code><a class="link" href="GODoc.html" title="GODoc"><span class="type">GODoc</span></a> *doc</code></em>,
+                     <em class="parameter"><code><span class="type">gboolean</span> pristine</code></em>);</pre>
+<p>Sets the indication of whether this document is unchanged since it was
+created.  Note: if both "dirty" and "pristine" are being set, set
+"pristine" last.</p>
+<div class="refsect3">
+<a name="go-doc-set-pristine.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>doc</p></td>
+<td class="parameter_description"><p><a class="link" href="GODoc.html" title="GODoc"><span class="type">GODoc</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>pristine</p></td>
+<td class="parameter_description"><p>a gboolean.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-doc-set-uri"></a><h3>go_doc_set_uri ()</h3>
+<pre class="programlisting"><span class="returnvalue">gboolean</span>
+go_doc_set_uri (<em class="parameter"><code><a class="link" href="GODoc.html" title="GODoc"><span class="type">GODoc</span></a> *doc</code></em>,
+                <em class="parameter"><code><span class="type">char</span> const *uri</code></em>);</pre>
+<div class="refsect3">
+<a name="go-doc-set-uri.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>doc</p></td>
+<td class="parameter_description"><p>the document to modify</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>uri</p></td>
+<td class="parameter_description"><p>the uri for this worksheet.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-doc-set-uri.returns"></a><h4>Returns</h4>
+<p> TRUE if the name was set succesfully.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-doc-update-meta-data"></a><h3>go_doc_update_meta_data ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_doc_update_meta_data (<em class="parameter"><code><a class="link" href="GODoc.html" title="GODoc"><span class="type">GODoc</span></a> *doc</code></em>);</pre>
+<p>Signal that <em class="parameter"><code>doc</code></em>
+'s metadata should be updated
+	- statistics (sheet count, word count)
+	- content (sheet names, bookmarks)
+	- reloading linked items</p>
+<div class="refsect3">
+<a name="go-doc-update-meta-data.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>doc</p></td>
+<td class="parameter_description"><p><a class="link" href="GODoc.html" title="GODoc"><span class="type">GODoc</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-doc-write"></a><h3>go_doc_write ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_doc_write (<em class="parameter"><code><a class="link" href="GODoc.html" title="GODoc"><span class="type">GODoc</span></a> *doc</code></em>,
+              <em class="parameter"><code><a href="../gsf/gsf-XML-and-libxml.html#GsfXMLOut-struct"><span class="type">GsfXMLOut</span></a> *output</code></em>);</pre>
+</div>
+</div>
+<div class="refsect1">
+<a name="GODoc.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="GODoc-struct"></a><h3>GODoc</h3>
+<pre class="programlisting">typedef struct _GODoc GODoc;</pre>
+</div>
+</div>
+<div class="refsect1">
+<a name="GODoc.property-details"></a><h2>Property Details</h2>
+<div class="refsect2">
+<a name="GODoc--dirty"></a><h3>The <code class="literal">“dirty”</code> property</h3>
+<pre class="programlisting">  “dirty”                    <span class="type">gboolean</span></pre>
+<p>Whether the document has been changed.</p>
+<p>Owner: GODoc</p>
+<p>Flags: Read / Write</p>
+<p>Default value: FALSE</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GODoc--dirty-time"></a><h3>The <code class="literal">“dirty-time”</code> property</h3>
+<pre class="programlisting">  “dirty-time”               <span class="type">gint64</span></pre>
+<p>When the document was first changed.</p>
+<p>Owner: GODoc</p>
+<p>Flags: Read / Write</p>
+<p>Default value: 0</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GODoc--modtime"></a><h3>The <code class="literal">“modtime”</code> property</h3>
+<pre class="programlisting">  “modtime”                  <span class="type">GDateTime</span> *</pre>
+<p>The known file system modification time.</p>
+<p>Owner: GODoc</p>
+<p>Flags: Read / Write</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GODoc--pristine"></a><h3>The <code class="literal">“pristine”</code> property</h3>
+<pre class="programlisting">  “pristine”                 <span class="type">gboolean</span></pre>
+<p>Whether the document is unchanged since it was created.</p>
+<p>Owner: GODoc</p>
+<p>Flags: Read / Write</p>
+<p>Default value: FALSE</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GODoc--saved-state"></a><h3>The <code class="literal">“saved-state”</code> property</h3>
+<pre class="programlisting">  “saved-state”              <span class="type">guint64</span></pre>
+<p>State of document when last saved.</p>
+<p>Owner: GODoc</p>
+<p>Flags: Read / Write</p>
+<p>Default value: 0</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GODoc--state"></a><h3>The <code class="literal">“state”</code> property</h3>
+<pre class="programlisting">  “state”                    <span class="type">guint64</span></pre>
+<p>Current state of document.</p>
+<p>Owner: GODoc</p>
+<p>Flags: Read / Write</p>
+<p>Default value: 0</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GODoc--uri"></a><h3>The <code class="literal">“uri”</code> property</h3>
+<pre class="programlisting">  “uri”                      <span class="type">gchar</span> *</pre>
+<p>The URI associated with this document.</p>
+<p>Owner: GODoc</p>
+<p>Flags: Read / Write</p>
+<p>Default value: NULL</p>
+</div>
+</div>
+<div class="refsect1">
+<a name="GODoc.signal-details"></a><h2>Signal Details</h2>
+<div class="refsect2">
+<a name="GODoc-metadata-changed"></a><h3>The <code class="literal">“metadata-changed”</code> signal</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+user_function (<a class="link" href="GODoc.html" title="GODoc"><span class="type">GODoc</span></a>   *godoc,
+               <span class="type">gpointer</span> user_data)</pre>
+<p>Flags: Run Last</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GODoc-metadata-update"></a><h3>The <code class="literal">“metadata-update”</code> signal</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+user_function (<a class="link" href="GODoc.html" title="GODoc"><span class="type">GODoc</span></a>   *godoc,
+               <span class="type">gpointer</span> user_data)</pre>
+<p>Flags: Run Last</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.32</div>
+</body>
+</html>

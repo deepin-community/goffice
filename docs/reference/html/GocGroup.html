@@ -1,0 +1,532 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>GocGroup: GOffice Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
+<link rel="home" href="index.html" title="GOffice Reference Manual">
+<link rel="up" href="ch04.html" title="Base objects">
+<link rel="prev" href="GocItem.html" title="GocItem">
+<link rel="next" href="GocStyledItem.html" title="GocStyledItem">
+<meta name="generator" content="GTK-Doc V1.32 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#GocGroup.description" class="shortcut">Description</a></span><span id="nav_hierarchy">  <span class="dim">|</span> 
+                  <a href="#GocGroup.object-hierarchy" class="shortcut">Object Hierarchy</a></span><span id="nav_properties">  <span class="dim">|</span> 
+                  <a href="#GocGroup.properties" class="shortcut">Properties</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="ch04.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="GocItem.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="GocStyledItem.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="GocGroup"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="GocGroup.top_of_page"></a>GocGroup</span></h2>
+<p>GocGroup — Group item</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="GocGroup.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_proto_type">
+<col class="functions_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GocGroup.html#goc-group-add-child" title="goc_group_add_child ()">goc_group_add_child</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GocGroup.html#goc-group-adjust-bounds" title="goc_group_adjust_bounds ()">goc_group_adjust_bounds</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GocGroup.html#goc-group-adjust-coords" title="goc_group_adjust_coords ()">goc_group_adjust_coords</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GocGroup.html#goc-group-cairo-transform" title="goc_group_cairo_transform ()">goc_group_cairo_transform</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GocGroup.html#goc-group-clear" title="goc_group_clear ()">goc_group_clear</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GocGroup.html" title="GocGroup"><span class="returnvalue">GocGroup</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="GocGroup.html#goc-group-new" title="goc_group_new ()">goc_group_new</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GocGroup.html#goc-group-remove-child" title="goc_group_remove_child ()">goc_group_remove_child</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GocGroup.html#goc-group-set-clip-path" title="goc_group_set_clip_path ()">goc_group_set_clip_path</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="GocGroup.properties"></a><h2>Properties</h2>
+<div class="informaltable"><table class="informaltable" border="0">
+<colgroup>
+<col width="150px" class="properties_type">
+<col width="300px" class="properties_name">
+<col width="200px" class="properties_flags">
+</colgroup>
+<tbody>
+<tr>
+<td class="property_type"><span class="type">gdouble</span></td>
+<td class="property_name"><a class="link" href="GocGroup.html#GocGroup--x" title="The “x” property">x</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type"><span class="type">gdouble</span></td>
+<td class="property_name"><a class="link" href="GocGroup.html#GocGroup--y" title="The “y” property">y</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="GocGroup.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="other_proto_type">
+<col class="other_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="datatype_keyword"> </td>
+<td class="function_name"><a class="link" href="GocGroup.html#GocGroup-struct" title="GocGroup">GocGroup</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">struct</td>
+<td class="function_name"><a class="link" href="GocGroup.html#GocGroupClass" title="struct GocGroupClass">GocGroupClass</a></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="GocGroup.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="screen">    GObject
+    <span class="lineart">╰──</span> <a class="link" href="GocItem.html" title="GocItem">GocItem</a>
+        <span class="lineart">╰──</span> GocGroup
+</pre>
+</div>
+<div class="refsect1">
+<a name="GocGroup.description"></a><h2>Description</h2>
+<p>A <a class="link" href="GocGroup.html" title="GocGroup"><span class="type">GocGroup</span></a> is a <a class="link" href="GocItem.html" title="GocItem"><span class="type">GocItem</span></a> which just contains other items.</p>
+<p>The contents
+of the canvas are stored as a tree where <a class="link" href="GocGroup.html" title="GocGroup"><span class="type">GocGroup</span></a> items are branches and
+other items are leafs.</p>
+</div>
+<div class="refsect1">
+<a name="GocGroup.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="goc-group-add-child"></a><h3>goc_group_add_child ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+goc_group_add_child (<em class="parameter"><code><a class="link" href="GocGroup.html" title="GocGroup"><span class="type">GocGroup</span></a> *parent</code></em>,
+                     <em class="parameter"><code><a class="link" href="GocItem.html" title="GocItem"><span class="type">GocItem</span></a> *item</code></em>);</pre>
+<p>Adds <em class="parameter"><code>item</code></em>
+ as a new child to <em class="parameter"><code>parent</code></em>
+.</p>
+<div class="refsect3">
+<a name="goc-group-add-child.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>parent</p></td>
+<td class="parameter_description"><p><a class="link" href="GocGroup.html" title="GocGroup"><span class="type">GocGroup</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>item</p></td>
+<td class="parameter_description"><p><a class="link" href="GocItem.html" title="GocItem"><span class="type">GocItem</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="goc-group-adjust-bounds"></a><h3>goc_group_adjust_bounds ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+goc_group_adjust_bounds (<em class="parameter"><code><a class="link" href="GocGroup.html" title="GocGroup"><span class="type">GocGroup</span></a> const *group</code></em>,
+                         <em class="parameter"><code><span class="type">double</span> *x0</code></em>,
+                         <em class="parameter"><code><span class="type">double</span> *y0</code></em>,
+                         <em class="parameter"><code><span class="type">double</span> *x1</code></em>,
+                         <em class="parameter"><code><span class="type">double</span> *y1</code></em>);</pre>
+<p>Adds <em class="parameter"><code>group</code></em>
+ horizontal offset to <em class="parameter"><code>x0</code></em>
+ and <em class="parameter"><code>x1</code></em>
+, and vertical offset to <em class="parameter"><code>y0</code></em>
+
+and <em class="parameter"><code>y1</code></em>
+. This function is called recursively so that when returning <em class="parameter"><code>x0</code></em>
+,
+<em class="parameter"><code>y0</code></em>
+, <em class="parameter"><code>x1</code></em>
+, and <em class="parameter"><code>y1</code></em>
+ are absolute coordinates in canvas space,</p>
+<div class="refsect3">
+<a name="goc-group-adjust-bounds.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>group</p></td>
+<td class="parameter_description"><p><a class="link" href="GocGroup.html" title="GocGroup"><span class="type">GocGroup</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>x0</p></td>
+<td class="parameter_description"><p>first horizontal coordinate</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>y0</p></td>
+<td class="parameter_description"><p>first vertical coordinate</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>x1</p></td>
+<td class="parameter_description"><p>last horizontal coordinate</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>y1</p></td>
+<td class="parameter_description"><p>last vertical coordinate</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="goc-group-adjust-coords"></a><h3>goc_group_adjust_coords ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+goc_group_adjust_coords (<em class="parameter"><code><a class="link" href="GocGroup.html" title="GocGroup"><span class="type">GocGroup</span></a> const *group</code></em>,
+                         <em class="parameter"><code><span class="type">double</span> *x</code></em>,
+                         <em class="parameter"><code><span class="type">double</span> *y</code></em>);</pre>
+<p>Adds <em class="parameter"><code>group</code></em>
+ horizontal offset to <em class="parameter"><code>x0</code></em>
+, and vertical offset to <em class="parameter"><code>y0</code></em>
+.
+This function is called recursively so that when returning <em class="parameter"><code>x0</code></em>
+ and
+<em class="parameter"><code>y0</code></em>
+ are absolute coordinates in canvas space,</p>
+<div class="refsect3">
+<a name="goc-group-adjust-coords.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>group</p></td>
+<td class="parameter_description"><p><a class="link" href="GocGroup.html" title="GocGroup"><span class="type">GocGroup</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>x</p></td>
+<td class="parameter_description"><p>horizontal coordinate</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>y</p></td>
+<td class="parameter_description"><p>vertical coordinate</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="goc-group-cairo-transform"></a><h3>goc_group_cairo_transform ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+goc_group_cairo_transform (<em class="parameter"><code><a class="link" href="GocGroup.html" title="GocGroup"><span class="type">GocGroup</span></a> const *group</code></em>,
+                           <em class="parameter"><code><span class="type">cairo_t</span> *cr</code></em>,
+                           <em class="parameter"><code><span class="type">double</span> x</code></em>,
+                           <em class="parameter"><code><span class="type">double</span> y</code></em>);</pre>
+<p>Translates <em class="parameter"><code>cr</code></em>
+ current context so that operations start at (<em class="parameter"><code>x</code></em>
+,<em class="parameter"><code>y</code></em>
+), which
+are <em class="parameter"><code>group</code></em>
+ relative coordinates, and is scaled according to the containing
+<a class="link" href="GocCanvas.html" title="GocCanvas"><span class="type">GocCanvas</span></a> current scale (see <a class="link" href="GocCanvas.html#goc-canvas-get-pixels-per-unit" title="goc_canvas_get_pixels_per_unit ()"><code class="function">goc_canvas_get_pixels_per_unit()</code></a>). The
+translation takes all <em class="parameter"><code>group</code></em>
+ ancestors into account.</p>
+<p>This function does not call <code class="function">cairo_save()</code>.</p>
+<p><span class="annotation">[<acronym title="Exposed in C code, not necessarily available in other languages."><span class="acronym">skip</span></acronym>]</span></p>
+<div class="refsect3">
+<a name="goc-group-cairo-transform.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>group</p></td>
+<td class="parameter_description"><p><a class="link" href="GocGroup.html" title="GocGroup"><span class="type">GocGroup</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>cr</p></td>
+<td class="parameter_description"><p><span class="type">cairo_t</span></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>x</p></td>
+<td class="parameter_description"><p>horizontal coordinate</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>y</p></td>
+<td class="parameter_description"><p>vertical coordinate</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="goc-group-clear"></a><h3>goc_group_clear ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+goc_group_clear (<em class="parameter"><code><a class="link" href="GocGroup.html" title="GocGroup"><span class="type">GocGroup</span></a> *group</code></em>);</pre>
+<p>Destroys all <em class="parameter"><code>group</code></em>
+ children.</p>
+<div class="refsect3">
+<a name="goc-group-clear.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>group</p></td>
+<td class="parameter_description"><p><a class="link" href="GocGroup.html" title="GocGroup"><span class="type">GocGroup</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="goc-group-new"></a><h3>goc_group_new ()</h3>
+<pre class="programlisting"><a class="link" href="GocGroup.html" title="GocGroup"><span class="returnvalue">GocGroup</span></a> *
+goc_group_new (<em class="parameter"><code><a class="link" href="GocGroup.html" title="GocGroup"><span class="type">GocGroup</span></a> *parent</code></em>);</pre>
+<p>Creates a new <a class="link" href="GocGroup.html" title="GocGroup"><span class="type">GocGroup</span></a> as a child of <em class="parameter"><code>parent</code></em>
+.</p>
+<div class="refsect3">
+<a name="goc-group-new.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>parent</p></td>
+<td class="parameter_description"><p><a class="link" href="GocGroup.html" title="GocGroup"><span class="type">GocGroup</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="goc-group-new.returns"></a><h4>Returns</h4>
+<p>the newly created <a class="link" href="GocGroup.html" title="GocGroup"><span class="type">GocGroup</span></a>. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="goc-group-remove-child"></a><h3>goc_group_remove_child ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+goc_group_remove_child (<em class="parameter"><code><a class="link" href="GocGroup.html" title="GocGroup"><span class="type">GocGroup</span></a> *parent</code></em>,
+                        <em class="parameter"><code><a class="link" href="GocItem.html" title="GocItem"><span class="type">GocItem</span></a> *item</code></em>);</pre>
+<p>Removes <em class="parameter"><code>item</code></em>
+ from <em class="parameter"><code>parent</code></em>
+. This function will fail if <em class="parameter"><code>item</code></em>
+ is not a
+child of <em class="parameter"><code>parent</code></em>
+.</p>
+<div class="refsect3">
+<a name="goc-group-remove-child.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>parent</p></td>
+<td class="parameter_description"><p><a class="link" href="GocGroup.html" title="GocGroup"><span class="type">GocGroup</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>item</p></td>
+<td class="parameter_description"><p><a class="link" href="GocItem.html" title="GocItem"><span class="type">GocItem</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="goc-group-set-clip-path"></a><h3>goc_group_set_clip_path ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+goc_group_set_clip_path (<em class="parameter"><code><a class="link" href="GocGroup.html" title="GocGroup"><span class="type">GocGroup</span></a> *group</code></em>,
+                         <em class="parameter"><code><a class="link" href="GOPath.html" title="GOPath"><span class="type">GOPath</span></a> *clip_path</code></em>,
+                         <em class="parameter"><code><span class="type">cairo_fill_rule_t</span> clip_rule</code></em>);</pre>
+<p>Clips the drawing inside <em class="parameter"><code>path</code></em>
+.</p>
+<p><span class="annotation">[<acronym title="Exposed in C code, not necessarily available in other languages."><span class="acronym">skip</span></acronym>]</span></p>
+<div class="refsect3">
+<a name="goc-group-set-clip-path.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>group</p></td>
+<td class="parameter_description"><p><a class="link" href="GocGroup.html" title="GocGroup"><span class="type">GocGroup</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>clip_path</p></td>
+<td class="parameter_description"><p><a class="link" href="GOPath.html" title="GOPath"><span class="type">GOPath</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>clip_rule</p></td>
+<td class="parameter_description"><p><span class="type">cairo_fill_rule_t</span></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="refsect1">
+<a name="GocGroup.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="GocGroup-struct"></a><h3>GocGroup</h3>
+<pre class="programlisting">typedef struct _GocGroup GocGroup;</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GocGroupClass"></a><h3>struct GocGroupClass</h3>
+<pre class="programlisting">struct GocGroupClass {
+	GocItemClass base;
+};
+</pre>
+<div class="refsect3">
+<a name="GocGroupClass.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="struct_members_name">
+<col class="struct_members_description">
+<col width="200px" class="struct_members_annotations">
+</colgroup>
+<tbody><tr>
+<td class="struct_member_name"><p><a class="link" href="GocItem.html#GocItemClass" title="struct GocItemClass"><span class="type">GocItemClass</span></a> <em class="structfield"><code><a name="GocGroupClass.base"></a>base</code></em>;</p></td>
+<td class="struct_member_description"><p>base class.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="refsect1">
+<a name="GocGroup.property-details"></a><h2>Property Details</h2>
+<div class="refsect2">
+<a name="GocGroup--x"></a><h3>The <code class="literal">“x”</code> property</h3>
+<pre class="programlisting">  “x”                        <span class="type">gdouble</span></pre>
+<p>The group horizontal offset.</p>
+<p>Owner: GocGroup</p>
+<p>Flags: Read / Write</p>
+<p>Default value: 0</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GocGroup--y"></a><h3>The <code class="literal">“y”</code> property</h3>
+<pre class="programlisting">  “y”                        <span class="type">gdouble</span></pre>
+<p>The group vertical offset.</p>
+<p>Owner: GocGroup</p>
+<p>Flags: Read / Write</p>
+<p>Default value: 0</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.32</div>
+</body>
+</html>

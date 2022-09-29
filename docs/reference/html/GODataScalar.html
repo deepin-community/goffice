@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>GODataScalar: GOffice Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
+<link rel="home" href="index.html" title="GOffice Reference Manual">
+<link rel="up" href="ch12.html" title="Data">
+<link rel="prev" href="GOData.html" title="GOData">
+<link rel="next" href="goffice-0.10-GODataCVector.html" title="GODataCVector">
+<meta name="generator" content="GTK-Doc V1.32 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#GODataScalar.description" class="shortcut">Description</a></span><span id="nav_hierarchy">  <span class="dim">|</span> 
+                  <a href="#GODataScalar.object-hierarchy" class="shortcut">Object Hierarchy</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="ch12.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="GOData.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="goffice-0.10-GODataCVector.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="GODataScalar"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="GODataScalar.top_of_page"></a>GODataScalar</span></h2>
+<p>GODataScalar</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="GODataScalar.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_proto_type">
+<col class="functions_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<span class="returnvalue">PangoAttrList</span> const *
+</td>
+<td class="function_name">
+<a class="link" href="GODataScalar.html#go-data-scalar-get-markup" title="go_data_scalar_get_markup ()">go_data_scalar_get_markup</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">char</span> const *
+</td>
+<td class="function_name">
+<a class="link" href="GODataScalar.html#go-data-scalar-get-str" title="go_data_scalar_get_str ()">go_data_scalar_get_str</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">double</span>
+</td>
+<td class="function_name">
+<a class="link" href="GODataScalar.html#go-data-scalar-get-value" title="go_data_scalar_get_value ()">go_data_scalar_get_value</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="GODataScalar.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="other_proto_type">
+<col class="other_proto_name">
+</colgroup>
+<tbody><tr>
+<td class="datatype_keyword"> </td>
+<td class="function_name"><a class="link" href="GODataScalar.html#GODataScalar-struct" title="GODataScalar">GODataScalar</a></td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="GODataScalar.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="screen">    GObject
+    <span class="lineart">╰──</span> <a class="link" href="GOData.html" title="GOData">GOData</a>
+        <span class="lineart">╰──</span> GODataScalar
+            <span class="lineart">├──</span> <a class="link" href="goffice-0.10-Simple-data.html#GODataScalarStr">GODataScalarStr</a>
+            <span class="lineart">╰──</span> <a class="link" href="goffice-0.10-Simple-data.html#GODataScalarVal">GODataScalarVal</a>
+</pre>
+</div>
+<div class="refsect1">
+<a name="GODataScalar.description"></a><h2>Description</h2>
+</div>
+<div class="refsect1">
+<a name="GODataScalar.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="go-data-scalar-get-markup"></a><h3>go_data_scalar_get_markup ()</h3>
+<pre class="programlisting"><span class="returnvalue">PangoAttrList</span> const *
+go_data_scalar_get_markup (<em class="parameter"><code><a class="link" href="GODataScalar.html" title="GODataScalar"><span class="type">GODataScalar</span></a> *val</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-data-scalar-get-str"></a><h3>go_data_scalar_get_str ()</h3>
+<pre class="programlisting"><span class="returnvalue">char</span> const *
+go_data_scalar_get_str (<em class="parameter"><code><a class="link" href="GODataScalar.html" title="GODataScalar"><span class="type">GODataScalar</span></a> *val</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-data-scalar-get-value"></a><h3>go_data_scalar_get_value ()</h3>
+<pre class="programlisting"><span class="returnvalue">double</span>
+go_data_scalar_get_value (<em class="parameter"><code><a class="link" href="GODataScalar.html" title="GODataScalar"><span class="type">GODataScalar</span></a> *val</code></em>);</pre>
+</div>
+</div>
+<div class="refsect1">
+<a name="GODataScalar.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="GODataScalar-struct"></a><h3>GODataScalar</h3>
+<pre class="programlisting">typedef struct _GODataScalar GODataScalar;</pre>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.32</div>
+</body>
+</html>

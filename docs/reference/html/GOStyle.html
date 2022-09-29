@@ -1,0 +1,998 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>GOStyle: GOffice Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
+<link rel="home" href="index.html" title="GOffice Reference Manual">
+<link rel="up" href="ch09.html" title="Graphic object properties">
+<link rel="prev" href="goffice-0.10-GOPattern.html" title="GOPattern">
+<link rel="next" href="GOStyledObject.html" title="GOStyledObject">
+<meta name="generator" content="GTK-Doc V1.32 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#GOStyle.description" class="shortcut">Description</a></span><span id="nav_hierarchy">  <span class="dim">|</span> 
+                  <a href="#GOStyle.object-hierarchy" class="shortcut">Object Hierarchy</a></span><span id="nav_interfaces">  <span class="dim">|</span> 
+                  <a href="#GOStyle.implemented-interfaces" class="shortcut">Implemented Interfaces</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="ch09.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="goffice-0.10-GOPattern.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="GOStyledObject.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="GOStyle"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="GOStyle.top_of_page"></a>GOStyle</span></h2>
+<p>GOStyle</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="GOStyle.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_proto_type">
+<col class="functions_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOStyle.html#go-style-apply-theme" title="go_style_apply_theme ()">go_style_apply_theme</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOStyle.html#go-style-assign" title="go_style_assign ()">go_style_assign</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GOStyle.html" title="GOStyle"><span class="returnvalue">GOStyle</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="GOStyle.html#go-style-dup" title="go_style_dup ()">go_style_dup</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOStyle.html#go-style-fill" title="go_style_fill ()">go_style_fill</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOStyle.html#go-style-force-auto" title="go_style_force_auto ()">go_style_force_auto</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOStyle.html#go-style-clear-auto" title="go_style_clear_auto ()">go_style_clear_auto</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gpointer</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOStyle.html#go-style-get-editor" title="go_style_get_editor ()">go_style_get_editor</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GOMarker.html" title="GOMarker"><span class="returnvalue">GOMarker</span></a> const *
+</td>
+<td class="function_name">
+<a class="link" href="GOStyle.html#go-style-get-marker" title="go_style_get_marker ()">go_style_get_marker</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gboolean</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOStyle.html#go-style-is-auto" title="go_style_is_auto ()">go_style_is_auto</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gboolean</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOStyle.html#go-style-is-different-size" title="go_style_is_different_size ()">go_style_is_different_size</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gboolean</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOStyle.html#go-style-is-fill-visible" title="go_style_is_fill_visible ()">go_style_is_fill_visible</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gboolean</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOStyle.html#go-style-is-line-visible" title="go_style_is_line_visible ()">go_style_is_line_visible</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gboolean</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOStyle.html#go-style-is-marker-visible" title="go_style_is_marker_visible ()">go_style_is_marker_visible</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gboolean</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOStyle.html#go-style-is-outline-visible" title="go_style_is_outline_visible ()">go_style_is_outline_visible</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GOStyle.html" title="GOStyle"><span class="returnvalue">GOStyle</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="GOStyle.html#go-style-new" title="go_style_new ()">go_style_new</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOStyle.html#go-style-populate-editor" title="go_style_populate_editor ()">go_style_populate_editor</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gboolean</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOStyle.html#go-style-set-cairo-line" title="go_style_set_cairo_line ()">go_style_set_cairo_line</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOStyle.html#go-style-set-fill-brightness" title="go_style_set_fill_brightness ()">go_style_set_fill_brightness</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOStyle.html#go-style-set-font" title="go_style_set_font ()">go_style_set_font</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOStyle.html#go-style-set-font-desc" title="go_style_set_font_desc ()">go_style_set_font_desc</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOStyle.html#go-style-set-marker" title="go_style_set_marker ()">go_style_set_marker</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOStyle.html#go-style-set-text-angle" title="go_style_set_text_angle ()">go_style_set_text_angle</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="GOStyle.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="other_proto_type">
+<col class="other_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="datatype_keyword">enum</td>
+<td class="function_name"><a class="link" href="GOStyle.html#GOImageType" title="enum GOImageType">GOImageType</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword"> </td>
+<td class="function_name"><a class="link" href="GOStyle.html#GOStyle-struct" title="GOStyle">GOStyle</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">enum</td>
+<td class="function_name"><a class="link" href="GOStyle.html#GOStyleFill" title="enum GOStyleFill">GOStyleFill</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">enum</td>
+<td class="function_name"><a class="link" href="GOStyle.html#GOStyleFlag" title="enum GOStyleFlag">GOStyleFlag</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword"> </td>
+<td class="function_name"><a class="link" href="GOStyle.html#GOStyleLine" title="GOStyleLine">GOStyleLine</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword"> </td>
+<td class="function_name"><a class="link" href="GOStyle.html#GOStyleMark" title="GOStyleMark">GOStyleMark</a></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="GOStyle.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="screen">    GObject
+    <span class="lineart">╰──</span> GOStyle
+        <span class="lineart">╰──</span> <a class="link" href="GogStyledObject.html#GogStyle">GogStyle</a>
+</pre>
+</div>
+<div class="refsect1">
+<a name="GOStyle.implemented-interfaces"></a><h2>Implemented Interfaces</h2>
+<p>
+GOStyle implements
+ <a class="link" href="GOPersist.html" title="GOPersist">GOPersist</a>.</p>
+</div>
+<div class="refsect1">
+<a name="GOStyle.description"></a><h2>Description</h2>
+</div>
+<div class="refsect1">
+<a name="GOStyle.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="go-style-apply-theme"></a><h3>go_style_apply_theme ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_style_apply_theme (<em class="parameter"><code><a class="link" href="GOStyle.html" title="GOStyle"><span class="type">GOStyle</span></a> *dst</code></em>,
+                      <em class="parameter"><code><a class="link" href="GOStyle.html" title="GOStyle"><span class="type">GOStyle</span></a> const *src</code></em>,
+                      <em class="parameter"><code><a class="link" href="GOStyle.html#GOStyleFlag" title="enum GOStyleFlag"><span class="type">GOStyleFlag</span></a> fields</code></em>);</pre>
+<p>Merge the attributes from <em class="parameter"><code>src</code></em>
+ onto the elements of <em class="parameter"><code>dst</code></em>
+ that were not user
+assigned (is_auto)</p>
+<div class="refsect3">
+<a name="go-style-apply-theme.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>dst</p></td>
+<td class="parameter_description"><p><a class="link" href="GOStyle.html" title="GOStyle"><span class="type">GOStyle</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>src</p></td>
+<td class="parameter_description"><p><a class="link" href="GOStyle.html" title="GOStyle"><span class="type">GOStyle</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>fields</p></td>
+<td class="parameter_description"><p>the fields to which the copy should be limited</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-style-assign"></a><h3>go_style_assign ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_style_assign (<em class="parameter"><code><a class="link" href="GOStyle.html" title="GOStyle"><span class="type">GOStyle</span></a> *dst</code></em>,
+                 <em class="parameter"><code><a class="link" href="GOStyle.html" title="GOStyle"><span class="type">GOStyle</span></a> const *src</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-style-dup"></a><h3>go_style_dup ()</h3>
+<pre class="programlisting"><a class="link" href="GOStyle.html" title="GOStyle"><span class="returnvalue">GOStyle</span></a> *
+go_style_dup (<em class="parameter"><code><a class="link" href="GOStyle.html" title="GOStyle"><span class="type">GOStyle</span></a> const *style</code></em>);</pre>
+<p>Duplicates <em class="parameter"><code>style</code></em>
+.</p>
+<div class="refsect3">
+<a name="go-style-dup.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>style</p></td>
+<td class="parameter_description"><p>a source <a class="link" href="GOStyle.html" title="GOStyle"><span class="type">GOStyle</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-style-dup.returns"></a><h4>Returns</h4>
+<p>a new <a class="link" href="GOStyle.html" title="GOStyle"><span class="type">GOStyle</span></a>. </p>
+<p><span class="annotation">[<acronym title="Free data after the code is done."><span class="acronym">transfer full</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-style-fill"></a><h3>go_style_fill ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_style_fill (<em class="parameter"><code><a class="link" href="GOStyle.html" title="GOStyle"><span class="type">GOStyle</span></a> const *style</code></em>,
+               <em class="parameter"><code><span class="type">cairo_t</span> *cr</code></em>,
+               <em class="parameter"><code><span class="type">gboolean</span> preserve</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-style-force-auto"></a><h3>go_style_force_auto ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_style_force_auto (<em class="parameter"><code><a class="link" href="GOStyle.html" title="GOStyle"><span class="type">GOStyle</span></a> *style</code></em>);</pre>
+<p>Sets all auto fields in <em class="parameter"><code>style</code></em>
+ to <code class="literal">TRUE</code>.</p>
+<div class="refsect3">
+<a name="go-style-force-auto.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>style</p></td>
+<td class="parameter_description"><p>a <a class="link" href="GOStyle.html" title="GOStyle"><span class="type">GOStyle</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-style-clear-auto"></a><h3>go_style_clear_auto ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_style_clear_auto (<em class="parameter"><code><a class="link" href="GOStyle.html" title="GOStyle"><span class="type">GOStyle</span></a> *style</code></em>);</pre>
+<p>Sets all auto fields in <em class="parameter"><code>style</code></em>
+ to <code class="literal">FALSE</code>.</p>
+<div class="refsect3">
+<a name="go-style-clear-auto.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>style</p></td>
+<td class="parameter_description"><p>a <a class="link" href="GOStyle.html" title="GOStyle"><span class="type">GOStyle</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-style-get-editor"></a><h3>go_style_get_editor ()</h3>
+<pre class="programlisting"><span class="returnvalue">gpointer</span>
+go_style_get_editor (<em class="parameter"><code><a class="link" href="GOStyle.html" title="GOStyle"><span class="type">GOStyle</span></a> *style</code></em>,
+                     <em class="parameter"><code><a class="link" href="GOStyle.html" title="GOStyle"><span class="type">GOStyle</span></a> *default_style</code></em>,
+                     <em class="parameter"><code><a class="link" href="GOCmdContext.html" title="GOCmdContext"><span class="type">GOCmdContext</span></a> *cc</code></em>,
+                     <em class="parameter"><code><span class="type">GObject</span> *object_with_style</code></em>);</pre>
+<p>Builds the widget used to edit the style.</p>
+<div class="refsect3">
+<a name="go-style-get-editor.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>style</p></td>
+<td class="parameter_description"><p><a class="link" href="GOStyle.html" title="GOStyle"><span class="type">GOStyle</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>default_style</p></td>
+<td class="parameter_description"><p>the style used as default</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>cc</p></td>
+<td class="parameter_description"><p><a class="link" href="GOCmdContext.html" title="GOCmdContext"><span class="type">GOCmdContext</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>object_with_style</p></td>
+<td class="parameter_description"><p>the object owning the style</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-style-get-editor.returns"></a><h4>Returns</h4>
+<p>the style editor. </p>
+<p><span class="annotation">[<acronym title="Free data after the code is done."><span class="acronym">transfer full</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-style-get-marker"></a><h3>go_style_get_marker ()</h3>
+<pre class="programlisting"><a class="link" href="GOMarker.html" title="GOMarker"><span class="returnvalue">GOMarker</span></a> const *
+go_style_get_marker (<em class="parameter"><code><a class="link" href="GOStyle.html" title="GOStyle"><span class="type">GOStyle</span></a> const *style</code></em>);</pre>
+<p>Accessor for <em class="parameter"><code>style</code></em>
+::marker, without referencing it.</p>
+<div class="refsect3">
+<a name="go-style-get-marker.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>style</p></td>
+<td class="parameter_description"><p><a class="link" href="GOStyle.html" title="GOStyle"><span class="type">GOStyle</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-style-get-marker.returns"></a><h4>Returns</h4>
+<p>the style <a class="link" href="GOMarker.html" title="GOMarker"><span class="type">GOMarker</span></a>. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-style-is-auto"></a><h3>go_style_is_auto ()</h3>
+<pre class="programlisting"><span class="returnvalue">gboolean</span>
+go_style_is_auto (<em class="parameter"><code><a class="link" href="GOStyle.html" title="GOStyle"><span class="type">GOStyle</span></a> *style</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-style-is-different-size"></a><h3>go_style_is_different_size ()</h3>
+<pre class="programlisting"><span class="returnvalue">gboolean</span>
+go_style_is_different_size (<em class="parameter"><code><a class="link" href="GOStyle.html" title="GOStyle"><span class="type">GOStyle</span></a> const *a</code></em>,
+                            <em class="parameter"><code><a class="link" href="GOStyle.html" title="GOStyle"><span class="type">GOStyle</span></a> const *b</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-style-is-fill-visible"></a><h3>go_style_is_fill_visible ()</h3>
+<pre class="programlisting"><span class="returnvalue">gboolean</span>
+go_style_is_fill_visible (<em class="parameter"><code><a class="link" href="GOStyle.html" title="GOStyle"><span class="type">GOStyle</span></a> const *style</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-style-is-line-visible"></a><h3>go_style_is_line_visible ()</h3>
+<pre class="programlisting"><span class="returnvalue">gboolean</span>
+go_style_is_line_visible (<em class="parameter"><code><a class="link" href="GOStyle.html" title="GOStyle"><span class="type">GOStyle</span></a> const *style</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-style-is-marker-visible"></a><h3>go_style_is_marker_visible ()</h3>
+<pre class="programlisting"><span class="returnvalue">gboolean</span>
+go_style_is_marker_visible (<em class="parameter"><code><a class="link" href="GOStyle.html" title="GOStyle"><span class="type">GOStyle</span></a> const *style</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-style-is-outline-visible"></a><h3>go_style_is_outline_visible ()</h3>
+<pre class="programlisting"><span class="returnvalue">gboolean</span>
+go_style_is_outline_visible (<em class="parameter"><code><a class="link" href="GOStyle.html" title="GOStyle"><span class="type">GOStyle</span></a> const *style</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-style-new"></a><h3>go_style_new ()</h3>
+<pre class="programlisting"><a class="link" href="GOStyle.html" title="GOStyle"><span class="returnvalue">GOStyle</span></a> *
+go_style_new (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-style-populate-editor"></a><h3>go_style_populate_editor ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_style_populate_editor (<em class="parameter"><code><a class="link" href="GOStyle.html" title="GOStyle"><span class="type">GOStyle</span></a> *style</code></em>,
+                          <em class="parameter"><code><a class="link" href="GOEditor.html" title="GOEditor"><span class="type">GOEditor</span></a> *editor</code></em>,
+                          <em class="parameter"><code><a class="link" href="GOStyle.html" title="GOStyle"><span class="type">GOStyle</span></a> *default_style</code></em>,
+                          <em class="parameter"><code><a class="link" href="GOCmdContext.html" title="GOCmdContext"><span class="type">GOCmdContext</span></a> *cc</code></em>,
+                          <em class="parameter"><code><span class="type">GObject</span> *object_with_style</code></em>,
+                          <em class="parameter"><code><span class="type">gboolean</span> watch_for_external_change</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-style-set-cairo-line"></a><h3>go_style_set_cairo_line ()</h3>
+<pre class="programlisting"><span class="returnvalue">gboolean</span>
+go_style_set_cairo_line (<em class="parameter"><code><a class="link" href="GOStyle.html" title="GOStyle"><span class="type">GOStyle</span></a> const *style</code></em>,
+                         <em class="parameter"><code><span class="type">cairo_t</span> *cr</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-style-set-fill-brightness"></a><h3>go_style_set_fill_brightness ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_style_set_fill_brightness (<em class="parameter"><code><a class="link" href="GOStyle.html" title="GOStyle"><span class="type">GOStyle</span></a> *style</code></em>,
+                              <em class="parameter"><code><span class="type">double</span> brightness</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-style-set-font"></a><h3>go_style_set_font ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_style_set_font (<em class="parameter"><code><a class="link" href="GOStyle.html" title="GOStyle"><span class="type">GOStyle</span></a> *style</code></em>,
+                   <em class="parameter"><code><a class="link" href="GOFont.html" title="GOFont"><span class="type">GOFont</span></a> const *font</code></em>);</pre>
+<p>Set text font used by the style.</p>
+<div class="refsect3">
+<a name="go-style-set-font.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>style</p></td>
+<td class="parameter_description"><p><a class="link" href="GOStyle.html" title="GOStyle"><span class="type">GOStyle</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>font</p></td>
+<td class="parameter_description"><p>new font. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Free data after the code is done."><span class="acronym">transfer full</span></acronym>]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-style-set-font-desc"></a><h3>go_style_set_font_desc ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_style_set_font_desc (<em class="parameter"><code><a class="link" href="GOStyle.html" title="GOStyle"><span class="type">GOStyle</span></a> *style</code></em>,
+                        <em class="parameter"><code><span class="type">PangoFontDescription</span> *desc</code></em>);</pre>
+<p>Set text font used by the style.</p>
+<div class="refsect3">
+<a name="go-style-set-font-desc.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>style</p></td>
+<td class="parameter_description"><p><a class="link" href="GOStyle.html" title="GOStyle"><span class="type">GOStyle</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>desc</p></td>
+<td class="parameter_description"><p>new font description to use. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Free data after the code is done."><span class="acronym">transfer full</span></acronym>]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-style-set-marker"></a><h3>go_style_set_marker ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_style_set_marker (<em class="parameter"><code><a class="link" href="GOStyle.html" title="GOStyle"><span class="type">GOStyle</span></a> *style</code></em>,
+                     <em class="parameter"><code><a class="link" href="GOMarker.html" title="GOMarker"><span class="type">GOMarker</span></a> *marker</code></em>);</pre>
+<p>Absorb a reference to <em class="parameter"><code>marker</code></em>
+ and assign it to <em class="parameter"><code>style</code></em>
+.</p>
+<div class="refsect3">
+<a name="go-style-set-marker.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>style</p></td>
+<td class="parameter_description"><p><a class="link" href="GOStyle.html" title="GOStyle"><span class="type">GOStyle</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>marker</p></td>
+<td class="parameter_description"><p><a class="link" href="GOMarker.html" title="GOMarker"><span class="type">GOMarker</span></a>. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Free data after the code is done."><span class="acronym">transfer full</span></acronym>]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-style-set-text-angle"></a><h3>go_style_set_text_angle ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_style_set_text_angle (<em class="parameter"><code><a class="link" href="GOStyle.html" title="GOStyle"><span class="type">GOStyle</span></a> *style</code></em>,
+                         <em class="parameter"><code><span class="type">double</span> angle</code></em>);</pre>
+<p>Set text rotation angle in degrees. Valid values are in the range
+[-180.0° , 180.0°].</p>
+<div class="refsect3">
+<a name="go-style-set-text-angle.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>style</p></td>
+<td class="parameter_description"><p><a class="link" href="GOStyle.html" title="GOStyle"><span class="type">GOStyle</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>angle</p></td>
+<td class="parameter_description"><p>text rotation in degrees</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="refsect1">
+<a name="GOStyle.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="GOImageType"></a><h3>enum GOImageType</h3>
+<div class="refsect3">
+<a name="GOImageType.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="enum_members_name">
+<col class="enum_members_description">
+<col width="200px" class="enum_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="enum_member_name"><p><a name="GO-IMAGE-STRETCHED:CAPS"></a>GO_IMAGE_STRETCHED</p></td>
+<td class="enum_member_description">
+<p>stretch the image so that it fills the whole area.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-IMAGE-WALLPAPER:CAPS"></a>GO_IMAGE_WALLPAPER</p></td>
+<td class="enum_member_description">
+<p>repeat the image starting from top left.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-IMAGE-CENTERED:CAPS"></a>GO_IMAGE_CENTERED</p></td>
+<td class="enum_member_description">
+<p>use only one image at its natural size, centered in the area.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-IMAGE-CENTERED-WALLPAPER:CAPS"></a>GO_IMAGE_CENTERED_WALLPAPER</p></td>
+<td class="enum_member_description">
+<p>repeat the image starting from one at center.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOStyle-struct"></a><h3>GOStyle</h3>
+<pre class="programlisting">typedef struct _GOStyle GOStyle;</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOStyleFill"></a><h3>enum GOStyleFill</h3>
+<div class="refsect3">
+<a name="GOStyleFill.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="enum_members_name">
+<col class="enum_members_description">
+<col width="200px" class="enum_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="enum_member_name"><p><a name="GO-STYLE-FILL-NONE:CAPS"></a>GO_STYLE_FILL_NONE</p></td>
+<td class="enum_member_description">
+<p>no filling.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-STYLE-FILL-PATTERN:CAPS"></a>GO_STYLE_FILL_PATTERN</p></td>
+<td class="enum_member_description">
+<p>fill with pattern.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-STYLE-FILL-GRADIENT:CAPS"></a>GO_STYLE_FILL_GRADIENT</p></td>
+<td class="enum_member_description">
+<p>fill with a gradient.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-STYLE-FILL-IMAGE:CAPS"></a>GO_STYLE_FILL_IMAGE</p></td>
+<td class="enum_member_description">
+<p>fill with an image.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOStyleFlag"></a><h3>enum GOStyleFlag</h3>
+<p>Gives the meaningful fields in <em class="parameter"><code>GOStyle</code></em>
+. Anyw combination can be used, except
+that <em class="parameter"><code>GO_STYLE_OUTLINE</code></em>
+ and <em class="parameter"><code>GO_STYLE_OUTLINE</code></em>
+ should never coexist.</p>
+<div class="refsect3">
+<a name="GOStyleFlag.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="enum_members_name">
+<col class="enum_members_description">
+<col width="200px" class="enum_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="enum_member_name"><p><a name="GO-STYLE-OUTLINE:CAPS"></a>GO_STYLE_OUTLINE</p></td>
+<td class="enum_member_description">
+<p>outline.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-STYLE-FILL:CAPS"></a>GO_STYLE_FILL</p></td>
+<td class="enum_member_description">
+<p>fill.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-STYLE-LINE:CAPS"></a>GO_STYLE_LINE</p></td>
+<td class="enum_member_description">
+<p>line.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-STYLE-MARKER:CAPS"></a>GO_STYLE_MARKER</p></td>
+<td class="enum_member_description">
+<p>marker.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-STYLE-FONT:CAPS"></a>GO_STYLE_FONT</p></td>
+<td class="enum_member_description">
+<p>font.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-STYLE-TEXT-LAYOUT:CAPS"></a>GO_STYLE_TEXT_LAYOUT</p></td>
+<td class="enum_member_description">
+<p>text orientaiton.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-STYLE-INTERPOLATION:CAPS"></a>GO_STYLE_INTERPOLATION</p></td>
+<td class="enum_member_description">
+<p>curve interpolation.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-STYLE-MARKER-NO-COLOR:CAPS"></a>GO_STYLE_MARKER_NO_COLOR</p></td>
+<td class="enum_member_description">
+<p>marker with no color.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-STYLE-ALL:CAPS"></a>GO_STYLE_ALL</p></td>
+<td class="enum_member_description">
+<p>all elements</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOStyleLine"></a><h3>GOStyleLine</h3>
+<pre class="programlisting">typedef struct {
+	/* &lt;0 == no outline,
+	 * =0 == hairline : unscaled, minimum useful (can be bigger than visible) size.
+	 * &gt;0 in pts */
+	double	 	 width;
+	GOLineDashType 	 dash_type;
+	gboolean	 auto_dash;
+	GOColor	 	 color; /* color is used as background for compatibility
+						(pattern == 0 means filled with background color) */
+	GOColor	 	 fore;
+	gboolean 	 auto_color;
+	gboolean 	 auto_fore;
+	gboolean 	 auto_width;
+	GOPatternType	 pattern;
+	cairo_line_cap_t cap;
+	cairo_line_join_t join;
+	double		 miter_limit;
+} GOStyleLine;
+</pre>
+<div class="refsect3">
+<a name="GOStyleLine.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="struct_members_name">
+<col class="struct_members_description">
+<col width="200px" class="struct_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="struct_member_name"><p><span class="type">double</span> <em class="structfield"><code><a name="GOStyleLine.width"></a>width</code></em>;</p></td>
+<td class="struct_member_description">
+<p>line width:
+&lt;0 == no line,
+=0 == hairline : unscaled, minimum useful (can be bigger than visible) size.</p>
+<div class="blockquote"><blockquote class="blockquote"><p>0 in pts.</p></blockquote></div>
+</td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><a class="link" href="goffice-0.10-Miscellaneous.html#GOLineDashType" title="enum GOLineDashType"><span class="type">GOLineDashType</span></a> <em class="structfield"><code><a name="GOStyleLine.dash-type"></a>dash_type</code></em>;</p></td>
+<td class="struct_member_description"><p><a class="link" href="goffice-0.10-Miscellaneous.html#GOLineDashType" title="enum GOLineDashType"><span class="type">GOLineDashType</span></a>.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><span class="type">gboolean</span> <em class="structfield"><code><a name="GOStyleLine.auto-dash"></a>auto_dash</code></em>;</p></td>
+<td class="struct_member_description"><p>automatic dash type.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><a class="link" href="goffice-0.10-GOColor.html#GOColor" title="GOColor"><span class="type">GOColor</span></a> <em class="structfield"><code><a name="GOStyleLine.color"></a>color</code></em>;</p></td>
+<td class="struct_member_description"><p>color is used as background for compatibility
+(pattern == 0 means filled with background color).</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><a class="link" href="goffice-0.10-GOColor.html#GOColor" title="GOColor"><span class="type">GOColor</span></a> <em class="structfield"><code><a name="GOStyleLine.fore"></a>fore</code></em>;</p></td>
+<td class="struct_member_description"><p>second color used for patterned lines.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><span class="type">gboolean</span> <em class="structfield"><code><a name="GOStyleLine.auto-color"></a>auto_color</code></em>;</p></td>
+<td class="struct_member_description"><p>color is automatic.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><span class="type">gboolean</span> <em class="structfield"><code><a name="GOStyleLine.auto-fore"></a>auto_fore</code></em>;</p></td>
+<td class="struct_member_description"><p>fore is automatic.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><span class="type">gboolean</span> <em class="structfield"><code><a name="GOStyleLine.auto-width"></a>auto_width</code></em>;</p></td>
+<td class="struct_member_description"><p>automatic width</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><a class="link" href="goffice-0.10-GOPattern.html#GOPatternType" title="enum GOPatternType"><span class="type">GOPatternType</span></a> <em class="structfield"><code><a name="GOStyleLine.pattern"></a>pattern</code></em>;</p></td>
+<td class="struct_member_description"><p>pattern.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><span class="type">cairo_line_cap_t</span> <em class="structfield"><code><a name="GOStyleLine.cap"></a>cap</code></em>;</p></td>
+<td class="struct_member_description"><p>cap style.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><span class="type">cairo_line_join_t</span> <em class="structfield"><code><a name="GOStyleLine.join"></a>join</code></em>;</p></td>
+<td class="struct_member_description"><p>join style.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><span class="type">double</span> <em class="structfield"><code><a name="GOStyleLine.miter-limit"></a>miter_limit</code></em>;</p></td>
+<td class="struct_member_description"><p>mitter limit.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOStyleMark"></a><h3>GOStyleMark</h3>
+<pre class="programlisting">typedef struct {
+	GOMarker *mark;
+	gboolean auto_shape;
+	gboolean auto_outline_color;
+	gboolean auto_fill_color;
+} GOStyleMark;
+</pre>
+<div class="refsect3">
+<a name="GOStyleMark.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="struct_members_name">
+<col class="struct_members_description">
+<col width="200px" class="struct_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="struct_member_name"><p><a class="link" href="GOMarker.html" title="GOMarker"><span class="type">GOMarker</span></a> *<em class="structfield"><code><a name="GOStyleMark.mark"></a>mark</code></em>;</p></td>
+<td class="struct_member_description"><p>the used <a class="link" href="GOMarker.html" title="GOMarker"><span class="type">GOMarker</span></a>.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><span class="type">gboolean</span> <em class="structfield"><code><a name="GOStyleMark.auto-shape"></a>auto_shape</code></em>;</p></td>
+<td class="struct_member_description"><p>automatic <em class="parameter"><code>marc</code></em>
+.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><span class="type">gboolean</span> <em class="structfield"><code><a name="GOStyleMark.auto-outline-color"></a>auto_outline_color</code></em>;</p></td>
+<td class="struct_member_description"><p>automatic outline color.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><span class="type">gboolean</span> <em class="structfield"><code><a name="GOStyleMark.auto-fill-color"></a>auto_fill_color</code></em>;</p></td>
+<td class="struct_member_description"><p>automatic fill color.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.32</div>
+</body>
+</html>

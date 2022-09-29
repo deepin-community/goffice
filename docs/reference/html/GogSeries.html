@@ -1,0 +1,1364 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>GogSeries: GOffice Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
+<link rel="home" href="index.html" title="GOffice Reference Manual">
+<link rel="up" href="ch02.html" title="Abstract Base Classes">
+<link rel="prev" href="GogPlot.html" title="GogPlot">
+<link rel="next" href="GogTrendLine.html" title="GogTrendLine">
+<meta name="generator" content="GTK-Doc V1.32 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#GogSeries.description" class="shortcut">Description</a></span><span id="nav_hierarchy">  <span class="dim">|</span> 
+                  <a href="#GogSeries.object-hierarchy" class="shortcut">Object Hierarchy</a></span><span id="nav_interfaces">  <span class="dim">|</span> 
+                  <a href="#GogSeries.implemented-interfaces" class="shortcut">Implemented Interfaces</a></span><span id="nav_properties">  <span class="dim">|</span> 
+                  <a href="#GogSeries.properties" class="shortcut">Properties</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="ch02.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="GogPlot.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="GogTrendLine.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="GogSeries"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="GogSeries.top_of_page"></a>GogSeries</span></h2>
+<p>GogSeries — A single data series.</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="GogSeries.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_proto_type">
+<col class="functions_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GogSeries.html#gog-series-check-validity" title="gog_series_check_validity ()">gog_series_check_validity</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GogSeries.html#GogSeriesElement"><span class="returnvalue">GogSeriesElement</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="GogSeries.html#gog-series-get-element" title="gog_series_get_element ()">gog_series_get_element</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GogSeries.html#GogSeriesFillType" title="enum GogSeriesFillType"><span class="returnvalue">GogSeriesFillType</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="GogSeries.html#gog-series-get-fill-type" title="gog_series_get_fill_type ()">gog_series_get_fill_type</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GogSeries.html#GogSeriesFillType" title="enum GogSeriesFillType"><span class="returnvalue">GogSeriesFillType</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="GogSeries.html#gog-series-get-fill-type-from-combo" title="gog_series_get_fill_type_from_combo ()">gog_series_get_fill_type_from_combo</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GogDataset.html" title="GogDataset"><span class="returnvalue">GogDataset</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="GogSeries.html#gog-series-get-interpolation-params" title="gog_series_get_interpolation_params ()">gog_series_get_interpolation_params</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GOData.html" title="GOData"><span class="returnvalue">GOData</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="GogSeries.html#gog-series-get-name" title="gog_series_get_name ()">gog_series_get_name</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">GList</span> const  	 *
+</td>
+<td class="function_name">
+<a class="link" href="GogSeries.html#gog-series-get-overrides" title="gog_series_get_overrides ()">gog_series_get_overrides</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GogPlot.html" title="GogPlot"><span class="returnvalue">GogPlot</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="GogSeries.html#gog-series-get-plot" title="gog_series_get_plot ()">gog_series_get_plot</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">unsigned</span>
+</td>
+<td class="function_name">
+<a class="link" href="GogSeries.html#gog-series-get-xy-data" title="gog_series_get_xy_data ()">gog_series_get_xy_data</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">unsigned</span>
+</td>
+<td class="function_name">
+<a class="link" href="GogSeries.html#gog-series-get-xyz-data" title="gog_series_get_xyz_data ()">gog_series_get_xyz_data</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gboolean</span>
+</td>
+<td class="function_name">
+<a class="link" href="GogSeries.html#gog-series-has-legend" title="gog_series_has_legend ()">gog_series_has_legend</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gboolean</span>
+</td>
+<td class="function_name">
+<a class="link" href="GogSeries.html#gog-series-is-valid" title="gog_series_is_valid ()">gog_series_is_valid</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">int</span>
+</td>
+<td class="function_name">
+<a class="link" href="GogSeries.html#gog-series-map-XL-dim" title="gog_series_map_XL_dim ()">gog_series_map_XL_dim</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">unsigned</span>
+</td>
+<td class="function_name">
+<a class="link" href="GogSeries.html#gog-series-num-elements" title="gog_series_num_elements ()">gog_series_num_elements</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GogSeries.html#gog-series-populate-fill-type-combo" title="gog_series_populate_fill_type_combo ()">gog_series_populate_fill_type_combo</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GogSeries.html#gog-series-set-XL-dim" title="gog_series_set_XL_dim ()">gog_series_set_XL_dim</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GogSeries.html#gog-series-set-dim" title="gog_series_set_dim ()">gog_series_set_dim</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GogSeries.html#gog-series-set-fill-type" title="gog_series_set_fill_type ()">gog_series_set_fill_type</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GogSeries.html#gog-series-set-index" title="gog_series_set_index ()">gog_series_set_index</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GogSeries.html#gog-series-set-name" title="gog_series_set_name ()">gog_series_set_name</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="GogSeries.properties"></a><h2>Properties</h2>
+<div class="informaltable"><table class="informaltable" border="0">
+<colgroup>
+<col width="150px" class="properties_type">
+<col width="300px" class="properties_name">
+<col width="200px" class="properties_flags">
+</colgroup>
+<tbody>
+<tr>
+<td class="property_type">
+<span class="type">gchar</span> *</td>
+<td class="property_name"><a class="link" href="GogSeries.html#GogSeries--fill-type" title="The “fill-type” property">fill-type</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type"><span class="type">gboolean</span></td>
+<td class="property_name"><a class="link" href="GogSeries.html#GogSeries--has-legend" title="The “has-legend” property">has-legend</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type">
+<span class="type">gchar</span> *</td>
+<td class="property_name"><a class="link" href="GogSeries.html#GogSeries--interpolation" title="The “interpolation” property">interpolation</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type"><span class="type">gboolean</span></td>
+<td class="property_name"><a class="link" href="GogSeries.html#GogSeries--interpolation-skip-invalid" title="The “interpolation-skip-invalid” property">interpolation-skip-invalid</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type"><span class="type">gint</span></td>
+<td class="property_name"><a class="link" href="GogSeries.html#GogSeriesElement--index" title="The “index” property">index</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<a name="GogSeriesElement"></a><div class="refsect1">
+<a name="GogSeries.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="other_proto_type">
+<col class="other_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="datatype_keyword"> </td>
+<td class="function_name"><a class="link" href="GogSeries.html#GogSeries-struct" title="GogSeries">GogSeries</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword"> </td>
+<td class="function_name"><a class="link" href="GogSeries.html#GogSeriesClass" title="GogSeriesClass">GogSeriesClass</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword"> </td>
+<td class="function_name"><a class="link" href="GogSeries.html#GogSeriesDesc" title="GogSeriesDesc">GogSeriesDesc</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword"> </td>
+<td class="function_name"><a class="link" href="GogSeries.html#GogSeriesDimDesc" title="GogSeriesDimDesc">GogSeriesDimDesc</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">enum</td>
+<td class="function_name"><a class="link" href="GogSeries.html#GogDimType" title="enum GogDimType">GogDimType</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">enum</td>
+<td class="function_name"><a class="link" href="GogSeries.html#GogMSDimType" title="enum GogMSDimType">GogMSDimType</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword"> </td>
+<td class="function_name"><a class="link" href="GogSeries.html#GogSeriesElement-struct" title="GogSeriesElement">GogSeriesElement</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword"> </td>
+<td class="function_name"><a class="link" href="GogSeries.html#GogSeriesElementClass" title="GogSeriesElementClass">GogSeriesElementClass</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">enum</td>
+<td class="function_name"><a class="link" href="GogSeries.html#GogSeriesPriority" title="enum GogSeriesPriority">GogSeriesPriority</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">enum</td>
+<td class="function_name"><a class="link" href="GogSeries.html#GogSeriesFillType" title="enum GogSeriesFillType">GogSeriesFillType</a></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="GogSeries.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="screen">    GObject
+    <span class="lineart">╰──</span> <a class="link" href="GogObject.html" title="GogObject">GogObject</a>
+        <span class="lineart">╰──</span> <a class="link" href="GogStyledObject.html" title="GogStyledObject">GogStyledObject</a>
+            <span class="lineart">├──</span> GogSeries
+            <span class="lineart">╰──</span> GogSeriesElement
+</pre>
+</div>
+<div class="refsect1">
+<a name="GogSeries.implemented-interfaces"></a><h2>Implemented Interfaces</h2>
+<p>
+GogSeries implements
+ <a class="link" href="GOStyledObject.html" title="GOStyledObject">GOStyledObject</a> and  <a class="link" href="GogDataset.html" title="GogDataset">GogDataset</a>.</p>
+<p>
+GogSeriesElement implements
+ <a class="link" href="GOStyledObject.html" title="GOStyledObject">GOStyledObject</a>.</p>
+</div>
+<div class="refsect1">
+<a name="GogSeries.description"></a><h2>Description</h2>
+<p>A <a class="link" href="GogSeries.html" title="GogSeries"><span class="type">GogSeries</span></a> represents a data series that can be added to a <a class="link" href="GogPlot.html" title="GogPlot"><span class="type">GogPlot</span></a>.</p>
+</div>
+<div class="refsect1">
+<a name="GogSeries.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="gog-series-check-validity"></a><h3>gog_series_check_validity ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+gog_series_check_validity (<em class="parameter"><code><a class="link" href="GogSeries.html" title="GogSeries"><span class="type">GogSeries</span></a> *series</code></em>);</pre>
+<p>Updates the is_valid flag for a series.
+This is an internal utility that should not really be necessary for general
+usage.</p>
+<div class="refsect3">
+<a name="gog-series-check-validity.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>series</p></td>
+<td class="parameter_description"><p><a class="link" href="GogSeries.html" title="GogSeries"><span class="type">GogSeries</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-series-get-element"></a><h3>gog_series_get_element ()</h3>
+<pre class="programlisting"><a class="link" href="GogSeries.html#GogSeriesElement"><span class="returnvalue">GogSeriesElement</span></a> *
+gog_series_get_element (<em class="parameter"><code><a class="link" href="GogSeries.html" title="GogSeries"><span class="type">GogSeries</span></a> const *series</code></em>,
+                        <em class="parameter"><code><span class="type">int</span> index</code></em>);</pre>
+<div class="refsect3">
+<a name="gog-series-get-element.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>series</p></td>
+<td class="parameter_description"><p><a class="link" href="GogSeries.html" title="GogSeries"><span class="type">GogSeries</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>index</p></td>
+<td class="parameter_description"><p>the element index</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="gog-series-get-element.returns"></a><h4>Returns</h4>
+<p>the <a class="link" href="GogSeries.html#GogSeriesElement"><span class="type">GogSeriesElement</span></a> corresponding to <em class="parameter"><code>index</code></em>
+if
+any. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-series-get-fill-type"></a><h3>gog_series_get_fill_type ()</h3>
+<pre class="programlisting"><a class="link" href="GogSeries.html#GogSeriesFillType" title="enum GogSeriesFillType"><span class="returnvalue">GogSeriesFillType</span></a>
+gog_series_get_fill_type (<em class="parameter"><code><a class="link" href="GogSeries.html" title="GogSeries"><span class="type">GogSeries</span></a> const *series</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-series-get-fill-type-from-combo"></a><h3>gog_series_get_fill_type_from_combo ()</h3>
+<pre class="programlisting"><a class="link" href="GogSeries.html#GogSeriesFillType" title="enum GogSeriesFillType"><span class="returnvalue">GogSeriesFillType</span></a>
+gog_series_get_fill_type_from_combo (<em class="parameter"><code><a class="link" href="GogSeries.html" title="GogSeries"><span class="type">GogSeries</span></a> const *series</code></em>,
+                                     <em class="parameter"><code><span class="type">GtkComboBox</span> *combo</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-series-get-interpolation-params"></a><h3>gog_series_get_interpolation_params ()</h3>
+<pre class="programlisting"><a class="link" href="GogDataset.html" title="GogDataset"><span class="returnvalue">GogDataset</span></a> *
+gog_series_get_interpolation_params (<em class="parameter"><code><a class="link" href="GogSeries.html" title="GogSeries"><span class="type">GogSeries</span></a> const *series</code></em>);</pre>
+<p>Only constrained cubic spline interpolation use parameters (for the
+slopes at each end).</p>
+<div class="refsect3">
+<a name="gog-series-get-interpolation-params.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>series</p></td>
+<td class="parameter_description"><p><a class="link" href="GogSeries.html" title="GogSeries"><span class="type">GogSeries</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="gog-series-get-interpolation-params.returns"></a><h4>Returns</h4>
+<p>the interpolation parameters. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-series-get-name"></a><h3>gog_series_get_name ()</h3>
+<pre class="programlisting"><a class="link" href="GOData.html" title="GOData"><span class="returnvalue">GOData</span></a> *
+gog_series_get_name (<em class="parameter"><code><a class="link" href="GogSeries.html" title="GogSeries"><span class="type">GogSeries</span></a> const *series</code></em>);</pre>
+<p>Gets the _source_ of the name associated with the series.
+NOTE : this is _NOT_ the actual name.</p>
+<div class="refsect3">
+<a name="gog-series-get-name.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>series</p></td>
+<td class="parameter_description"><p>a <a class="link" href="GogSeries.html" title="GogSeries"><span class="type">GogSeries</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="gog-series-get-name.returns"></a><h4>Returns</h4>
+<p>a <a class="link" href="GODataScalar.html" title="GODataScalar"><span class="type">GODataScalar</span></a>, without added reference. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-series-get-overrides"></a><h3>gog_series_get_overrides ()</h3>
+<pre class="programlisting"><span class="returnvalue">GList</span> const  	 *
+gog_series_get_overrides (<em class="parameter"><code><a class="link" href="GogSeries.html" title="GogSeries"><span class="type">GogSeries</span></a> const *series</code></em>);</pre>
+<p>Overrides are data owning their own style, overriding the series style.</p>
+<div class="refsect3">
+<a name="gog-series-get-overrides.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>series</p></td>
+<td class="parameter_description"><p><a class="link" href="GogSeries.html" title="GogSeries"><span class="type">GogSeries</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="gog-series-get-overrides.returns"></a><h4>Returns</h4>
+<p>the series
+overrides. </p>
+<p><span class="annotation">[<acronym title="Generics and defining elements of containers and arrays."><span class="acronym">element-type</span></acronym> GogSeriesElement][<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-series-get-plot"></a><h3>gog_series_get_plot ()</h3>
+<pre class="programlisting"><a class="link" href="GogPlot.html" title="GogPlot"><span class="returnvalue">GogPlot</span></a> *
+gog_series_get_plot (<em class="parameter"><code><a class="link" href="GogSeries.html" title="GogSeries"><span class="type">GogSeries</span></a> const *series</code></em>);</pre>
+<div class="refsect3">
+<a name="gog-series-get-plot.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>series</p></td>
+<td class="parameter_description"><p><a class="link" href="GogSeries.html" title="GogSeries"><span class="type">GogSeries</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="gog-series-get-plot.returns"></a><h4>Returns</h4>
+<p>the possibly NULL plot that contains this series. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-series-get-xy-data"></a><h3>gog_series_get_xy_data ()</h3>
+<pre class="programlisting"><span class="returnvalue">unsigned</span>
+gog_series_get_xy_data (<em class="parameter"><code><a class="link" href="GogSeries.html" title="GogSeries"><span class="type">GogSeries</span></a> const *series</code></em>,
+                        <em class="parameter"><code><span class="type">double</span> const **x</code></em>,
+                        <em class="parameter"><code><span class="type">double</span> const **y</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-series-get-xyz-data"></a><h3>gog_series_get_xyz_data ()</h3>
+<pre class="programlisting"><span class="returnvalue">unsigned</span>
+gog_series_get_xyz_data (<em class="parameter"><code><a class="link" href="GogSeries.html" title="GogSeries"><span class="type">GogSeries</span></a> const *series</code></em>,
+                         <em class="parameter"><code><span class="type">double</span> const **x</code></em>,
+                         <em class="parameter"><code><span class="type">double</span> const **y</code></em>,
+                         <em class="parameter"><code><span class="type">double</span> const **z</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-series-has-legend"></a><h3>gog_series_has_legend ()</h3>
+<pre class="programlisting"><span class="returnvalue">gboolean</span>
+gog_series_has_legend (<em class="parameter"><code><a class="link" href="GogSeries.html" title="GogSeries"><span class="type">GogSeries</span></a> const *series</code></em>);</pre>
+<div class="refsect3">
+<a name="gog-series-has-legend.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>series</p></td>
+<td class="parameter_description"><p><a class="link" href="GogSeries.html" title="GogSeries"><span class="type">GogSeries</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="gog-series-has-legend.returns"></a><h4>Returns</h4>
+<p> TRUE if the series has a visible legend entry</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-series-is-valid"></a><h3>gog_series_is_valid ()</h3>
+<pre class="programlisting"><span class="returnvalue">gboolean</span>
+gog_series_is_valid (<em class="parameter"><code><a class="link" href="GogSeries.html" title="GogSeries"><span class="type">GogSeries</span></a> const *series</code></em>);</pre>
+<div class="refsect3">
+<a name="gog-series-is-valid.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>series</p></td>
+<td class="parameter_description"><p><a class="link" href="GogSeries.html" title="GogSeries"><span class="type">GogSeries</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="gog-series-is-valid.returns"></a><h4>Returns</h4>
+<p> the current cached validity.  Does not recheck</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-series-map-XL-dim"></a><h3>gog_series_map_XL_dim ()</h3>
+<pre class="programlisting"><span class="returnvalue">int</span>
+gog_series_map_XL_dim (<em class="parameter"><code><a class="link" href="GogSeries.html" title="GogSeries"><span class="type">GogSeries</span></a> const *series</code></em>,
+                       <em class="parameter"><code><a class="link" href="GogSeries.html#GogMSDimType" title="enum GogMSDimType"><span class="type">GogMSDimType</span></a> ms_type</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-series-num-elements"></a><h3>gog_series_num_elements ()</h3>
+<pre class="programlisting"><span class="returnvalue">unsigned</span>
+gog_series_num_elements (<em class="parameter"><code><a class="link" href="GogSeries.html" title="GogSeries"><span class="type">GogSeries</span></a> const *series</code></em>);</pre>
+<div class="refsect3">
+<a name="gog-series-num-elements.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>series</p></td>
+<td class="parameter_description"><p><a class="link" href="GogSeries.html" title="GogSeries"><span class="type">GogSeries</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="gog-series-num-elements.returns"></a><h4>Returns</h4>
+<p> the number of elements in the series</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-series-populate-fill-type-combo"></a><h3>gog_series_populate_fill_type_combo ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+gog_series_populate_fill_type_combo (<em class="parameter"><code><a class="link" href="GogSeries.html" title="GogSeries"><span class="type">GogSeries</span></a> const *series</code></em>,
+                                     <em class="parameter"><code><span class="type">GtkComboBox</span> *combo</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-series-set-XL-dim"></a><h3>gog_series_set_XL_dim ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+gog_series_set_XL_dim (<em class="parameter"><code><a class="link" href="GogSeries.html" title="GogSeries"><span class="type">GogSeries</span></a> *series</code></em>,
+                       <em class="parameter"><code><a class="link" href="GogSeries.html#GogMSDimType" title="enum GogMSDimType"><span class="type">GogMSDimType</span></a> ms_type</code></em>,
+                       <em class="parameter"><code><a class="link" href="GOData.html" title="GOData"><span class="type">GOData</span></a> *val</code></em>,
+                       <em class="parameter"><code><span class="type">GError</span> **err</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-series-set-dim"></a><h3>gog_series_set_dim ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+gog_series_set_dim (<em class="parameter"><code><a class="link" href="GogSeries.html" title="GogSeries"><span class="type">GogSeries</span></a> *series</code></em>,
+                    <em class="parameter"><code><span class="type">int</span> dim_i</code></em>,
+                    <em class="parameter"><code><a class="link" href="GOData.html" title="GOData"><span class="type">GOData</span></a> *val</code></em>,
+                    <em class="parameter"><code><span class="type">GError</span> **err</code></em>);</pre>
+<p>Absorbs a ref to <em class="parameter"><code>val</code></em>
+</p>
+<div class="refsect3">
+<a name="gog-series-set-dim.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>series</p></td>
+<td class="parameter_description"><p><a class="link" href="GogSeries.html" title="GogSeries"><span class="type">GogSeries</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>dim_i</p></td>
+<td class="parameter_description"><p>Which dimension</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>val</p></td>
+<td class="parameter_description"><p><a class="link" href="GOData.html" title="GOData"><span class="type">GOData</span></a>. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Free data after the code is done."><span class="acronym">transfer full</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>err</p></td>
+<td class="parameter_description"><p>optional <span class="type">GError</span> pointer. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="NULL is OK, both for passing and for returning."><span class="acronym">allow-none</span></acronym>]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-series-set-fill-type"></a><h3>gog_series_set_fill_type ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+gog_series_set_fill_type (<em class="parameter"><code><a class="link" href="GogSeries.html" title="GogSeries"><span class="type">GogSeries</span></a> *series</code></em>,
+                          <em class="parameter"><code><a class="link" href="GogSeries.html#GogSeriesFillType" title="enum GogSeriesFillType"><span class="type">GogSeriesFillType</span></a> fill_type</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-series-set-index"></a><h3>gog_series_set_index ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+gog_series_set_index (<em class="parameter"><code><a class="link" href="GogSeries.html" title="GogSeries"><span class="type">GogSeries</span></a> *series</code></em>,
+                      <em class="parameter"><code><span class="type">int</span> ind</code></em>,
+                      <em class="parameter"><code><span class="type">gboolean</span> is_manual</code></em>);</pre>
+<p>If <em class="parameter"><code>ind</code></em>
+ &gt;= 0 attempt to assign the new index.  Auto
+indicies (<em class="parameter"><code>is_manual</code></em>
+ == FALSE) will not override the current
+index if it is manual.  An <em class="parameter"><code>index</code></em>
+ &lt; 0, will reset the index to
+automatic and potentially queue a revaluation of the parent
+chart's cardinality.</p>
+<div class="refsect3">
+<a name="gog-series-set-index.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>series</p></td>
+<td class="parameter_description"><p><a class="link" href="GogSeries.html" title="GogSeries"><span class="type">GogSeries</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>ind</p></td>
+<td class="parameter_description"><div class="blockquote"><blockquote class="blockquote"><p>= 0 assigns a new index, &lt; 0 resets to auto</p></blockquote></div></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>is_manual</p></td>
+<td class="parameter_description"><p>gboolean</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-series-set-name"></a><h3>gog_series_set_name ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+gog_series_set_name (<em class="parameter"><code><a class="link" href="GogSeries.html" title="GogSeries"><span class="type">GogSeries</span></a> *series</code></em>,
+                     <em class="parameter"><code><a class="link" href="GODataScalar.html" title="GODataScalar"><span class="type">GODataScalar</span></a> *name_src</code></em>,
+                     <em class="parameter"><code><span class="type">GError</span> **err</code></em>);</pre>
+<p>Absorbs a ref to <em class="parameter"><code>name_src</code></em>
+.</p>
+<div class="refsect3">
+<a name="gog-series-set-name.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>series</p></td>
+<td class="parameter_description"><p>a <a class="link" href="GogSeries.html" title="GogSeries"><span class="type">GogSeries</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>name_src</p></td>
+<td class="parameter_description"><p>a <a class="link" href="GODataScalar.html" title="GODataScalar"><span class="type">GODataScalar</span></a>. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Free data after the code is done."><span class="acronym">transfer full</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>err</p></td>
+<td class="parameter_description"><p>a <span class="type">GError</span></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="refsect1">
+<a name="GogSeries.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="GogSeries-struct"></a><h3>GogSeries</h3>
+<pre class="programlisting">typedef struct _GogSeries GogSeries;</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GogSeriesClass"></a><h3>GogSeriesClass</h3>
+<pre class="programlisting">typedef struct {
+	GogStyledObjectClass base;
+
+	gboolean		 has_interpolation;
+	gboolean		 has_fill_type;
+
+	GogSeriesFillType const *valid_fill_type_list;
+
+	GType			 series_element_type;
+
+	/* Virtuals */
+	void        (*dim_changed) (GogSeries *series, int dim_i);
+	unsigned    (*get_xy_data) (GogSeries const *series,
+	                            double const **x, double const **y);
+	GogDataset *(*get_interpolation_params) (GogSeries const *series);
+} GogSeriesClass;
+</pre>
+<div class="refsect3">
+<a name="GogSeriesClass.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="struct_members_name">
+<col class="struct_members_description">
+<col width="200px" class="struct_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="struct_member_name"><p><a class="link" href="GogStyledObject.html#GogStyledObjectClass" title="GogStyledObjectClass"><span class="type">GogStyledObjectClass</span></a> <em class="structfield"><code><a name="GogSeriesClass.base"></a>base</code></em>;</p></td>
+<td class="struct_member_description"><p>base class</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><span class="type">gboolean</span> <em class="structfield"><code><a name="GogSeriesClass.has-interpolation"></a>has_interpolation</code></em>;</p></td>
+<td class="struct_member_description"><p>supports interpolation.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><span class="type">gboolean</span> <em class="structfield"><code><a name="GogSeriesClass.has-fill-type"></a>has_fill_type</code></em>;</p></td>
+<td class="struct_member_description"><p><code class="literal">TRUE</code> if filling is supported.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><a class="link" href="GogSeries.html#GogSeriesFillType" title="enum GogSeriesFillType"><span class="type">GogSeriesFillType</span></a> const	 *<em class="structfield"><code><a name="GogSeriesClass.valid-fill-type-list"></a>valid_fill_type_list</code></em>;</p></td>
+<td class="struct_member_description"><p>list of supported <a class="link" href="GogSeries.html#GogSeriesFillType" title="enum GogSeriesFillType"><span class="type">GogSeriesFillType</span></a> values.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><span class="type">GType</span> <em class="structfield"><code><a name="GogSeriesClass.series-element-type"></a>series_element_type</code></em>;</p></td>
+<td class="struct_member_description"><p><span class="type">GType</span> for the series element if supported.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><em class="structfield"><code><a name="GogSeriesClass.dim-changed"></a>dim_changed</code></em> ()</p></td>
+<td class="struct_member_description"><p>called when data changed for the series.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><em class="structfield"><code><a name="GogSeriesClass.get-xy-data"></a>get_xy_data</code></em> ()</p></td>
+<td class="struct_member_description"><p>get X and Y data.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><em class="structfield"><code><a name="GogSeriesClass.get-interpolation-params"></a>get_interpolation_params</code></em> ()</p></td>
+<td class="struct_member_description"><p>get interpolation parameters if any, only applies
+to constrained cubic spline interpolation.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GogSeriesDesc"></a><h3>GogSeriesDesc</h3>
+<pre class="programlisting">typedef struct {
+	unsigned int style_fields;
+	unsigned int num_dim;
+	GogSeriesDimDesc const *dim;
+} GogSeriesDesc;
+</pre>
+<div class="refsect3">
+<a name="GogSeriesDesc.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="struct_members_name">
+<col class="struct_members_description">
+<col width="200px" class="struct_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="struct_member_name"><p>unsigned <span class="type">int</span> <em class="structfield"><code><a name="GogSeriesDesc.style-fields"></a>style_fields</code></em>;</p></td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p>unsigned <span class="type">int</span> <em class="structfield"><code><a name="GogSeriesDesc.num-dim"></a>num_dim</code></em>;</p></td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><a class="link" href="GogSeries.html#GogSeriesDimDesc" title="GogSeriesDimDesc"><span class="type">GogSeriesDimDesc</span></a> const  *<em class="structfield"><code><a name="GogSeriesDesc.dim"></a>dim</code></em>;</p></td>
+<td class="struct_member_description"><p>dimensions descriptions.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GogSeriesDimDesc"></a><h3>GogSeriesDimDesc</h3>
+<pre class="programlisting">typedef struct {
+	char const *name;
+	GogSeriesPriority priority;
+	gboolean		is_shared;
+	GogDimType		val_type;
+	GogMSDimType		ms_type;
+} GogSeriesDimDesc;
+</pre>
+<div class="refsect3">
+<a name="GogSeriesDimDesc.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="struct_members_name">
+<col class="struct_members_description">
+<col width="200px" class="struct_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="struct_member_name"><p><span class="type">char</span> const  *<em class="structfield"><code><a name="GogSeriesDimDesc.name"></a>name</code></em>;</p></td>
+<td class="struct_member_description"><p>name.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><a class="link" href="GogSeries.html#GogSeriesPriority" title="enum GogSeriesPriority"><span class="type">GogSeriesPriority</span></a> <em class="structfield"><code><a name="GogSeriesDimDesc.priority"></a>priority</code></em>;</p></td>
+<td class="struct_member_description"><p>priority.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><span class="type">gboolean</span> <em class="structfield"><code><a name="GogSeriesDimDesc.is-shared"></a>is_shared</code></em>;</p></td>
+<td class="struct_member_description"><p>whether the dimension is shared among the series.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><a class="link" href="GogSeries.html#GogDimType" title="enum GogDimType"><span class="type">GogDimType</span></a> <em class="structfield"><code><a name="GogSeriesDimDesc.val-type"></a>val_type</code></em>;</p></td>
+<td class="struct_member_description"><p>data type.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><a class="link" href="GogSeries.html#GogMSDimType" title="enum GogMSDimType"><span class="type">GogMSDimType</span></a> <em class="structfield"><code><a name="GogSeriesDimDesc.ms-type"></a>ms_type</code></em>;</p></td>
+<td class="struct_member_description"><p>data type for foreign formats.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GogDimType"></a><h3>enum GogDimType</h3>
+<p>Data types for plots.</p>
+<div class="refsect3">
+<a name="GogDimType.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="enum_members_name">
+<col class="enum_members_description">
+<col width="200px" class="enum_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-DIM-INVALID:CAPS"></a>GOG_DIM_INVALID</p></td>
+<td class="enum_member_description">
+<p>invalid should not occur.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-DIM-LABEL:CAPS"></a>GOG_DIM_LABEL</p></td>
+<td class="enum_member_description">
+<p>labels.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-DIM-INDEX:CAPS"></a>GOG_DIM_INDEX</p></td>
+<td class="enum_member_description">
+<p>indices.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-DIM-VALUE:CAPS"></a>GOG_DIM_VALUE</p></td>
+<td class="enum_member_description">
+<p>vector of values.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-DIM-MATRIX:CAPS"></a>GOG_DIM_MATRIX</p></td>
+<td class="enum_member_description">
+<p>matrix of values.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-DIM-TYPES:CAPS"></a>GOG_DIM_TYPES</p></td>
+<td class="enum_member_description">
+<p>should not occur.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GogMSDimType"></a><h3>enum GogMSDimType</h3>
+<p>Data types classed according to what they become when exported to foreign
+formats.</p>
+<div class="refsect3">
+<a name="GogMSDimType.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="enum_members_name">
+<col class="enum_members_description">
+<col width="200px" class="enum_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-MS-DIM-LABELS:CAPS"></a>GOG_MS_DIM_LABELS</p></td>
+<td class="enum_member_description">
+<p>labels.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-MS-DIM-VALUES:CAPS"></a>GOG_MS_DIM_VALUES</p></td>
+<td class="enum_member_description">
+<p>values.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-MS-DIM-CATEGORIES:CAPS"></a>GOG_MS_DIM_CATEGORIES</p></td>
+<td class="enum_member_description">
+<p>categories.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-MS-DIM-BUBBLES:CAPS"></a>GOG_MS_DIM_BUBBLES</p></td>
+<td class="enum_member_description">
+<p>bubble values.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-MS-DIM-TYPES:CAPS"></a>GOG_MS_DIM_TYPES</p></td>
+<td class="enum_member_description">
+<p>maximum value known by MS, should not occur.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-MS-DIM-ERR-plus1"></a>GOG_MS_DIM_ERR_plus1</p></td>
+<td class="enum_member_description">
+<p>positive erros on first dimension, we made it up.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-MS-DIM-ERR-minus1"></a>GOG_MS_DIM_ERR_minus1</p></td>
+<td class="enum_member_description">
+<p>negative erros on first dimension, we made it up.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-MS-DIM-ERR-plus2"></a>GOG_MS_DIM_ERR_plus2</p></td>
+<td class="enum_member_description">
+<p>positive erros on second dimension, we made it up.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-MS-DIM-ERR-minus2"></a>GOG_MS_DIM_ERR_minus2</p></td>
+<td class="enum_member_description">
+<p>negative erros on second dimension, we made it up</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-MS-DIM-START:CAPS"></a>GOG_MS_DIM_START</p></td>
+<td class="enum_member_description">
+<p>start value, we made it up for dropbars.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-MS-DIM-END:CAPS"></a>GOG_MS_DIM_END</p></td>
+<td class="enum_member_description">
+<p>end value, we made it up for dropbars.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-MS-DIM-LOW:CAPS"></a>GOG_MS_DIM_LOW</p></td>
+<td class="enum_member_description">
+<p>low value, we made it up for hi-lo.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-MS-DIM-HIGH:CAPS"></a>GOG_MS_DIM_HIGH</p></td>
+<td class="enum_member_description">
+<p>high value, we made it up for hi-lo.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-MS-DIM-EXTRA1:CAPS"></a>GOG_MS_DIM_EXTRA1</p></td>
+<td class="enum_member_description">
+<p>we made it up for other uses.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-MS-DIM-EXTRA2:CAPS"></a>GOG_MS_DIM_EXTRA2</p></td>
+<td class="enum_member_description">
+<p>we made it up for other uses.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GogSeriesElement-struct"></a><h3>GogSeriesElement</h3>
+<pre class="programlisting">typedef struct _GogSeriesElement GogSeriesElement;</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GogSeriesElementClass"></a><h3>GogSeriesElementClass</h3>
+<pre class="programlisting">typedef struct {
+	GogStyledObjectClass base;
+
+	/* Virtuals */
+	gpointer (*gse_populate_editor) (GogObject *gobj,
+					 GOEditor *editor,
+					 GOCmdContext *cc);
+} GogSeriesElementClass;
+</pre>
+<div class="refsect3">
+<a name="GogSeriesElementClass.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="struct_members_name">
+<col class="struct_members_description">
+<col width="200px" class="struct_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="struct_member_name"><p><a class="link" href="GogStyledObject.html#GogStyledObjectClass" title="GogStyledObjectClass"><span class="type">GogStyledObjectClass</span></a> <em class="structfield"><code><a name="GogSeriesElementClass.base"></a>base</code></em>;</p></td>
+<td class="struct_member_description"><p>base class</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><em class="structfield"><code><a name="GogSeriesElementClass.gse-populate-editor"></a>gse_populate_editor</code></em> ()</p></td>
+<td class="struct_member_description"><p>populates editor.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GogSeriesPriority"></a><h3>enum GogSeriesPriority</h3>
+<p>Applies to data declarations in <a class="link" href="GogSeries.html#GogSeriesDimDesc" title="GogSeriesDimDesc"><span class="type">GogSeriesDimDesc</span></a>.</p>
+<div class="refsect3">
+<a name="GogSeriesPriority.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="enum_members_name">
+<col class="enum_members_description">
+<col width="200px" class="enum_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-SERIES-REQUIRED:CAPS"></a>GOG_SERIES_REQUIRED</p></td>
+<td class="enum_member_description">
+<p>it must be there.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-SERIES-SUGGESTED:CAPS"></a>GOG_SERIES_SUGGESTED</p></td>
+<td class="enum_member_description">
+<p>allocator will fill it in, but use need not.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-SERIES-OPTIONAL:CAPS"></a>GOG_SERIES_OPTIONAL</p></td>
+<td class="enum_member_description">
+<p>optional data.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-SERIES-ERRORS:CAPS"></a>GOG_SERIES_ERRORS</p></td>
+<td class="enum_member_description">
+<p>optional data for error bars.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GogSeriesFillType"></a><h3>enum GogSeriesFillType</h3>
+<div class="refsect3">
+<a name="GogSeriesFillType.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="enum_members_name">
+<col class="enum_members_description">
+<col width="200px" class="enum_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-SERIES-FILL-TYPE-Y-ORIGIN:CAPS"></a>GOG_SERIES_FILL_TYPE_Y_ORIGIN</p></td>
+<td class="enum_member_description">
+<p>from origin ox the X-axis.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-SERIES-FILL-TYPE-X-ORIGIN:CAPS"></a>GOG_SERIES_FILL_TYPE_X_ORIGIN</p></td>
+<td class="enum_member_description">
+<p>from the origin of the Y-axis</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-SERIES-FILL-TYPE-BOTTOM:CAPS"></a>GOG_SERIES_FILL_TYPE_BOTTOM</p></td>
+<td class="enum_member_description">
+<p>from the chart bottom.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-SERIES-FILL-TYPE-LEFT:CAPS"></a>GOG_SERIES_FILL_TYPE_LEFT</p></td>
+<td class="enum_member_description">
+<p>from the chart left side.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-SERIES-FILL-TYPE-TOP:CAPS"></a>GOG_SERIES_FILL_TYPE_TOP</p></td>
+<td class="enum_member_description">
+<p>from the chart top.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-SERIES-FILL-TYPE-RIGHT:CAPS"></a>GOG_SERIES_FILL_TYPE_RIGHT</p></td>
+<td class="enum_member_description">
+<p>, from the chart right side.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-SERIES-FILL-TYPE-ORIGIN:CAPS"></a>GOG_SERIES_FILL_TYPE_ORIGIN</p></td>
+<td class="enum_member_description">
+<p>from the origin (for radar and polar plots).</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-SERIES-FILL-TYPE-CENTER:CAPS"></a>GOG_SERIES_FILL_TYPE_CENTER</p></td>
+<td class="enum_member_description">
+<p>from the center (for radar and polar plots).</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-SERIES-FILL-TYPE-EDGE:CAPS"></a>GOG_SERIES_FILL_TYPE_EDGE</p></td>
+<td class="enum_member_description">
+<p>from the edge (for radar and polar plots).</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-SERIES-FILL-TYPE-SELF:CAPS"></a>GOG_SERIES_FILL_TYPE_SELF</p></td>
+<td class="enum_member_description">
+<p>close the series curve and fills it.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-SERIES-FILL-TYPE-NEXT:CAPS"></a>GOG_SERIES_FILL_TYPE_NEXT</p></td>
+<td class="enum_member_description">
+<p>from next series.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-SERIES-FILL-TYPE-X-AXIS-MIN:CAPS"></a>GOG_SERIES_FILL_TYPE_X_AXIS_MIN</p></td>
+<td class="enum_member_description">
+<p>from X-axis minimum.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-SERIES-FILL-TYPE-X-AXIS-MAX:CAPS"></a>GOG_SERIES_FILL_TYPE_X_AXIS_MAX</p></td>
+<td class="enum_member_description">
+<p>from X-axis maximum.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-SERIES-FILL-TYPE-Y-AXIS-MIN:CAPS"></a>GOG_SERIES_FILL_TYPE_Y_AXIS_MIN</p></td>
+<td class="enum_member_description">
+<p>from Y-axis minimum.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-SERIES-FILL-TYPE-Y-AXIS-MAX:CAPS"></a>GOG_SERIES_FILL_TYPE_Y_AXIS_MAX</p></td>
+<td class="enum_member_description">
+<p>from Y-axis maximum.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-SERIES-FILL-TYPE-INVALID:CAPS"></a>GOG_SERIES_FILL_TYPE_INVALID</p></td>
+<td class="enum_member_description">
+<p>invalid, should not happen.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="refsect1">
+<a name="GogSeries.property-details"></a><h2>Property Details</h2>
+<div class="refsect2">
+<a name="GogSeries--fill-type"></a><h3>The <code class="literal">“fill-type”</code> property</h3>
+<pre class="programlisting">  “fill-type”                <span class="type">gchar</span> *</pre>
+<p>How to fill the area.</p>
+<p>Owner: GogSeries</p>
+<p>Flags: Read / Write</p>
+<p>Default value: "invalid"</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GogSeries--has-legend"></a><h3>The <code class="literal">“has-legend”</code> property</h3>
+<pre class="programlisting">  “has-legend”               <span class="type">gboolean</span></pre>
+<p>Should the series show up in legends.</p>
+<p>Owner: GogSeries</p>
+<p>Flags: Read / Write</p>
+<p>Default value: TRUE</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GogSeries--interpolation"></a><h3>The <code class="literal">“interpolation”</code> property</h3>
+<pre class="programlisting">  “interpolation”            <span class="type">gchar</span> *</pre>
+<p>Type of line interpolation.</p>
+<p>Owner: GogSeries</p>
+<p>Flags: Read / Write</p>
+<p>Default value: "linear"</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GogSeries--interpolation-skip-invalid"></a><h3>The <code class="literal">“interpolation-skip-invalid”</code> property</h3>
+<pre class="programlisting">  “interpolation-skip-invalid” <span class="type">gboolean</span></pre>
+<p>Should the series interpolation ignore the invalid data.</p>
+<p>Owner: GogSeries</p>
+<p>Flags: Read / Write</p>
+<p>Default value: FALSE</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GogSeriesElement--index"></a><h3>The <code class="literal">“index”</code> property</h3>
+<pre class="programlisting">  “index”                    <span class="type">gint</span></pre>
+<p>Index of the corresponding data element.</p>
+<p>Owner: GogSeriesElement</p>
+<p>Flags: Read / Write</p>
+<p>Allowed values: &gt;= 0</p>
+<p>Default value: 0</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.32</div>
+</body>
+</html>

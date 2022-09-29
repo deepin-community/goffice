@@ -1,0 +1,448 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>GOPalette: GOffice Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
+<link rel="home" href="index.html" title="GOffice Reference Manual">
+<link rel="up" href="ch07.html" title="Base widgets">
+<link rel="prev" href="GOOptionMenu.html" title="GOOptionMenu">
+<link rel="next" href="GOSelector.html" title="GOSelector">
+<meta name="generator" content="GTK-Doc V1.32 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#GOPalette.description" class="shortcut">Description</a></span><span id="nav_hierarchy">  <span class="dim">|</span> 
+                  <a href="#GOPalette.object-hierarchy" class="shortcut">Object Hierarchy</a></span><span id="nav_interfaces">  <span class="dim">|</span> 
+                  <a href="#GOPalette.implemented-interfaces" class="shortcut">Implemented Interfaces</a></span><span id="nav_signals">  <span class="dim">|</span> 
+                  <a href="#GOPalette.signals" class="shortcut">Signals</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="ch07.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="GOOptionMenu.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="GOSelector.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="GOPalette"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="GOPalette.top_of_page"></a>GOPalette</span></h2>
+<p>GOPalette</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="GOPalette.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_proto_type">
+<col class="functions_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<span class="c_punctuation">(</span><a class="link" href="GOPalette.html#GOPaletteSwatchRenderCallback" title="GOPaletteSwatchRenderCallback ()">*GOPaletteSwatchRenderCallback</a><span class="c_punctuation">)</span> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">const <span class="returnvalue">char</span> *
+</td>
+<td class="function_name">
+<span class="c_punctuation">(</span><a class="link" href="GOPalette.html#GOPaletteSwatchTooltipCallback" title="GOPaletteSwatchTooltipCallback ()">*GOPaletteSwatchTooltipCallback</a><span class="c_punctuation">)</span> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">int</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOPalette.html#go-palette-get-n-swatches" title="go_palette_get_n_swatches ()">go_palette_get_n_swatches</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gpointer</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOPalette.html#go-palette-get-user-data" title="go_palette_get_user_data ()">go_palette_get_user_data</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">GtkWidget</span> *
+</td>
+<td class="function_name">
+<a class="link" href="GOPalette.html#go-palette-new" title="go_palette_new ()">go_palette_new</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOPalette.html#go-palette-show-automatic" title="go_palette_show_automatic ()">go_palette_show_automatic</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOPalette.html#go-palette-show-custom" title="go_palette_show_custom ()">go_palette_show_custom</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">GtkWidget</span> *
+</td>
+<td class="function_name">
+<a class="link" href="GOPalette.html#go-palette-swatch-new" title="go_palette_swatch_new ()">go_palette_swatch_new</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="GOPalette.signals"></a><h2>Signals</h2>
+<div class="informaltable"><table class="informaltable" border="0">
+<colgroup>
+<col width="150px" class="signal_proto_type">
+<col width="300px" class="signal_proto_name">
+<col width="200px" class="signal_proto_flags">
+</colgroup>
+<tbody>
+<tr>
+<td class="signal_type"><span class="returnvalue">void</span></td>
+<td class="signal_name"><a class="link" href="GOPalette.html#GOPalette-activate" title="The “activate” signal">activate</a></td>
+<td class="signal_flags">Run Last</td>
+</tr>
+<tr>
+<td class="signal_type"><span class="returnvalue">void</span></td>
+<td class="signal_name"><a class="link" href="GOPalette.html#GOPalette-automatic-activate" title="The “automatic-activate” signal">automatic-activate</a></td>
+<td class="signal_flags">Run Last</td>
+</tr>
+<tr>
+<td class="signal_type"><span class="returnvalue">void</span></td>
+<td class="signal_name"><a class="link" href="GOPalette.html#GOPalette-custom-activate" title="The “custom-activate” signal">custom-activate</a></td>
+<td class="signal_flags">Run Last</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="GOPalette.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="other_proto_type">
+<col class="other_proto_name">
+</colgroup>
+<tbody><tr>
+<td class="datatype_keyword">struct</td>
+<td class="function_name"><a class="link" href="GOPalette.html#GOPalette-struct" title="struct GOPalette">GOPalette</a></td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="GOPalette.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="screen">    GObject
+    <span class="lineart">╰──</span> GInitiallyUnowned
+        <span class="lineart">╰──</span> GtkWidget
+            <span class="lineart">╰──</span> GtkContainer
+                <span class="lineart">╰──</span> GtkMenuShell
+                    <span class="lineart">╰──</span> GtkMenu
+                        <span class="lineart">╰──</span> GOPalette
+</pre>
+</div>
+<div class="refsect1">
+<a name="GOPalette.implemented-interfaces"></a><h2>Implemented Interfaces</h2>
+<p>
+GOPalette implements
+ AtkImplementorIface and  GtkBuildable.</p>
+</div>
+<div class="refsect1">
+<a name="GOPalette.description"></a><h2>Description</h2>
+</div>
+<div class="refsect1">
+<a name="GOPalette.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="GOPaletteSwatchRenderCallback"></a><h3>GOPaletteSwatchRenderCallback ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+<span class="c_punctuation">(</span>*GOPaletteSwatchRenderCallback<span class="c_punctuation">)</span> (<em class="parameter"><code><span class="type">cairo_t</span> *cr</code></em>,
+                                  <em class="parameter"><code><span class="type">GdkRectangle</span> const *area</code></em>,
+                                  <em class="parameter"><code><span class="type">int</span> index</code></em>,
+                                  <em class="parameter"><code><span class="type">gpointer</span> data</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOPaletteSwatchTooltipCallback"></a><h3>GOPaletteSwatchTooltipCallback ()</h3>
+<pre class="programlisting">const <span class="returnvalue">char</span> *
+<span class="c_punctuation">(</span>*GOPaletteSwatchTooltipCallback<span class="c_punctuation">)</span> (<em class="parameter"><code><span class="type">int</span> index</code></em>,
+                                   <em class="parameter"><code><span class="type">gpointer</span> data</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-palette-get-n-swatches"></a><h3>go_palette_get_n_swatches ()</h3>
+<pre class="programlisting"><span class="returnvalue">int</span>
+go_palette_get_n_swatches (<em class="parameter"><code><a class="link" href="GOPalette.html" title="GOPalette"><span class="type">GOPalette</span></a> *palette</code></em>);</pre>
+<p>A convenience function.</p>
+<div class="refsect3">
+<a name="go-palette-get-n-swatches.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>palette</p></td>
+<td class="parameter_description"><p>a <a class="link" href="GOPalette.html" title="GOPalette"><span class="type">GOPalette</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-palette-get-n-swatches.returns"></a><h4>Returns</h4>
+<p> the number of palette items.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-palette-get-user-data"></a><h3>go_palette_get_user_data ()</h3>
+<pre class="programlisting"><span class="returnvalue">gpointer</span>
+go_palette_get_user_data (<em class="parameter"><code><a class="link" href="GOPalette.html" title="GOPalette"><span class="type">GOPalette</span></a> *palette</code></em>);</pre>
+<div class="refsect3">
+<a name="go-palette-get-user-data.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>palette</p></td>
+<td class="parameter_description"><p>a <a class="link" href="GOPalette.html" title="GOPalette"><span class="type">GOPalette</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-palette-get-user-data.returns"></a><h4>Returns</h4>
+<p>a pointer to user data given to go_palette_new function. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-palette-new"></a><h3>go_palette_new ()</h3>
+<pre class="programlisting"><span class="returnvalue">GtkWidget</span> *
+go_palette_new (<em class="parameter"><code><span class="type">int</span> n_swatches</code></em>,
+                <em class="parameter"><code><span class="type">double</span> swatch_width</code></em>,
+                <em class="parameter"><code><span class="type">int</span> n_columns</code></em>,
+                <em class="parameter"><code><a class="link" href="GOPalette.html#GOPaletteSwatchRenderCallback" title="GOPaletteSwatchRenderCallback ()"><span class="type">GOPaletteSwatchRenderCallback</span></a> swatch_render</code></em>,
+                <em class="parameter"><code><a class="link" href="GOPalette.html#GOPaletteSwatchTooltipCallback" title="GOPaletteSwatchTooltipCallback ()"><span class="type">GOPaletteSwatchTooltipCallback</span></a> get_tooltip</code></em>,
+                <em class="parameter"><code><span class="type">gpointer</span> data</code></em>,
+                <em class="parameter"><code><span class="type">GDestroyNotify</span> destroy</code></em>);</pre>
+<div class="refsect3">
+<a name="go-palette-new.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>n_swatches</p></td>
+<td class="parameter_description"><p>number of palette items</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>swatch_width</p></td>
+<td class="parameter_description"><p>swatch width as multiple of swatch height</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>n_columns</p></td>
+<td class="parameter_description"><p>number of columns for displaying palette items</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>swatch_render</p></td>
+<td class="parameter_description"><p>a user function used for swatch rendering. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="The callback is valid until the GDestroyNotify argument is called."><span class="acronym">scope notified</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>get_tooltip</p></td>
+<td class="parameter_description"><p>a user function for tooltips. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="The callback is valid until the GDestroyNotify argument is called."><span class="acronym">scope notified</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>data</p></td>
+<td class="parameter_description"><p>user data for use by swatch render function</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>destroy</p></td>
+<td class="parameter_description"><p>a function to destroy user data on widget finalization. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="The callback is valid until first called."><span class="acronym">scope async</span></acronym>]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-palette-new.returns"></a><h4>Returns</h4>
+<p> a new <a class="link" href="GOPalette.html" title="GOPalette"><span class="type">GOPalette</span></a> object.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-palette-show-automatic"></a><h3>go_palette_show_automatic ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_palette_show_automatic (<em class="parameter"><code><a class="link" href="GOPalette.html" title="GOPalette"><span class="type">GOPalette</span></a> *palette</code></em>,
+                           <em class="parameter"><code><span class="type">int</span> index</code></em>,
+                           <em class="parameter"><code><span class="type">char</span> const *label</code></em>);</pre>
+<p>Adds an automatic button to <em class="parameter"><code>palette</code></em>
+.</p>
+<div class="refsect3">
+<a name="go-palette-show-automatic.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>palette</p></td>
+<td class="parameter_description"><p>a <a class="link" href="GOPalette.html" title="GOPalette"><span class="type">GOPalette</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>index</p></td>
+<td class="parameter_description"><p>index to use on automatic item activation</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>label</p></td>
+<td class="parameter_description"><p>if not <code class="literal">NULL</code>, replace automatic button label</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-palette-show-custom"></a><h3>go_palette_show_custom ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_palette_show_custom (<em class="parameter"><code><a class="link" href="GOPalette.html" title="GOPalette"><span class="type">GOPalette</span></a> *palette</code></em>,
+                        <em class="parameter"><code><span class="type">char</span> const *label</code></em>);</pre>
+<p>Adds a custom button to bottom of <em class="parameter"><code>palette</code></em>
+. An activation
+of custom button will cause an emition of "custom_activate" signal.</p>
+<div class="refsect3">
+<a name="go-palette-show-custom.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>palette</p></td>
+<td class="parameter_description"><p>a <a class="link" href="GOPalette.html" title="GOPalette"><span class="type">GOPalette</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>label</p></td>
+<td class="parameter_description"><p>if not <code class="literal">NULL</code>, replaces custom button label</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-palette-swatch-new"></a><h3>go_palette_swatch_new ()</h3>
+<pre class="programlisting"><span class="returnvalue">GtkWidget</span> *
+go_palette_swatch_new (<em class="parameter"><code><a class="link" href="GOPalette.html" title="GOPalette"><span class="type">GOPalette</span></a> *palette</code></em>,
+                       <em class="parameter"><code><span class="type">int</span> index</code></em>);</pre>
+<div class="refsect3">
+<a name="go-palette-swatch-new.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>palette</p></td>
+<td class="parameter_description"><p>a <a class="link" href="GOPalette.html" title="GOPalette"><span class="type">GOPalette</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>index</p></td>
+<td class="parameter_description"><p>default index</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-palette-swatch-new.returns"></a><h4>Returns</h4>
+<p>a new <span class="type">GtkDrawingArea</span> which will be rendered like a <em class="parameter"><code>palette</code></em>
+swatch. <em class="parameter"><code>index</code></em>
+can be changed later by changing swatch "index" data. </p>
+<p><span class="annotation">[<acronym title="Free data after the code is done."><span class="acronym">transfer full</span></acronym>]</span></p>
+</div>
+</div>
+</div>
+<div class="refsect1">
+<a name="GOPalette.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="GOPalette-struct"></a><h3>struct GOPalette</h3>
+<pre class="programlisting">struct GOPalette;</pre>
+</div>
+</div>
+<div class="refsect1">
+<a name="GOPalette.signal-details"></a><h2>Signal Details</h2>
+<div class="refsect2">
+<a name="GOPalette-activate"></a><h3>The <code class="literal">“activate”</code> signal</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+user_function (<a class="link" href="GOPalette.html" title="GOPalette"><span class="type">GOPalette</span></a> *gopalette,
+               <span class="type">gint</span>       arg1,
+               <span class="type">gpointer</span>   user_data)</pre>
+<p>Flags: Run Last</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOPalette-automatic-activate"></a><h3>The <code class="literal">“automatic-activate”</code> signal</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+user_function (<a class="link" href="GOPalette.html" title="GOPalette"><span class="type">GOPalette</span></a> *gopalette,
+               <span class="type">gint</span>       arg1,
+               <span class="type">gpointer</span>   user_data)</pre>
+<p>Flags: Run Last</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOPalette-custom-activate"></a><h3>The <code class="literal">“custom-activate”</code> signal</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+user_function (<a class="link" href="GOPalette.html" title="GOPalette"><span class="type">GOPalette</span></a> *gopalette,
+               <span class="type">gpointer</span>   user_data)</pre>
+<p>Flags: Run Last</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.32</div>
+</body>
+</html>

@@ -1,0 +1,1057 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>GOPath: GOffice Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
+<link rel="home" href="index.html" title="GOffice Reference Manual">
+<link rel="up" href="ch10.html" title="Rendering utilities">
+<link rel="prev" href="goffice-0.10-Cairo-utilities.html" title="Cairo utilities">
+<link rel="next" href="goffice-0.10-Geometry-helpers.html" title="Geometry helpers">
+<meta name="generator" content="GTK-Doc V1.32 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#GOPath.description" class="shortcut">Description</a></span><span id="nav_hierarchy">  <span class="dim">|</span> 
+                  <a href="#GOPath.object-hierarchy" class="shortcut">Object Hierarchy</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="ch10.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="goffice-0.10-Cairo-utilities.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="goffice-0.10-Geometry-helpers.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="GOPath"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="GOPath.top_of_page"></a>GOPath</span></h2>
+<p>GOPath</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="GOPath.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_proto_type">
+<col class="functions_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<span class="c_punctuation">(</span><a class="link" href="GOPath.html#GOPathClosePathFunc" title="GOPathClosePathFunc ()">*GOPathClosePathFunc</a><span class="c_punctuation">)</span> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<span class="c_punctuation">(</span><a class="link" href="GOPath.html#GOPathCurveToFunc" title="GOPathCurveToFunc ()">*GOPathCurveToFunc</a><span class="c_punctuation">)</span> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<span class="c_punctuation">(</span><a class="link" href="GOPath.html#GOPathLineToFunc" title="GOPathLineToFunc ()">*GOPathLineToFunc</a><span class="c_punctuation">)</span> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<span class="c_punctuation">(</span><a class="link" href="GOPath.html#GOPathMoveToFunc" title="GOPathMoveToFunc ()">*GOPathMoveToFunc</a><span class="c_punctuation">)</span> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GOPath.html" title="GOPath"><span class="returnvalue">GOPath</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="GOPath.html#go-path-append" title="go_path_append ()">go_path_append</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOPath.html#go-path-arc" title="go_path_arc ()">go_path_arc</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOPath.html#go-path-arc-to" title="go_path_arc_to ()">go_path_arc_to</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOPath.html#go-path-clear" title="go_path_clear ()">go_path_clear</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOPath.html#go-path-close" title="go_path_close ()">go_path_close</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GOPath.html" title="GOPath"><span class="returnvalue">GOPath</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="GOPath.html#go-path-copy" title="go_path_copy ()">go_path_copy</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GOPath.html" title="GOPath"><span class="returnvalue">GOPath</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="GOPath.html#go-path-copy-restricted" title="go_path_copy_restricted ()">go_path_copy_restricted</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOPath.html#go-path-curve-to" title="go_path_curve_to ()">go_path_curve_to</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOPath.html#go-path-free" title="go_path_free ()">go_path_free</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GOPath.html#GOPathOptions" title="enum GOPathOptions"><span class="returnvalue">GOPathOptions</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="GOPath.html#go-path-get-options" title="go_path_get_options ()">go_path_get_options</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOPath.html#go-path-interpret" title="go_path_interpret ()">go_path_interpret</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOPath.html#go-path-interpret-full" title="go_path_interpret_full ()">go_path_interpret_full</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOPath.html#go-path-line-to" title="go_path_line_to ()">go_path_line_to</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOPath.html#go-path-move-to" title="go_path_move_to ()">go_path_move_to</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GOPath.html" title="GOPath"><span class="returnvalue">GOPath</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="GOPath.html#go-path-new" title="go_path_new ()">go_path_new</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GOPath.html" title="GOPath"><span class="returnvalue">GOPath</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="GOPath.html#go-path-new-from-odf-enhanced-path" title="go_path_new_from_odf_enhanced_path ()">go_path_new_from_odf_enhanced_path</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GOPath.html" title="GOPath"><span class="returnvalue">GOPath</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="GOPath.html#go-path-new-from-svg" title="go_path_new_from_svg ()">go_path_new_from_svg</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOPath.html#go-path-pie-wedge" title="go_path_pie_wedge ()">go_path_pie_wedge</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOPath.html#go-path-rectangle" title="go_path_rectangle ()">go_path_rectangle</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GOPath.html" title="GOPath"><span class="returnvalue">GOPath</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="GOPath.html#go-path-ref" title="go_path_ref ()">go_path_ref</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOPath.html#go-path-ring-wedge" title="go_path_ring_wedge ()">go_path_ring_wedge</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOPath.html#go-path-set-options" title="go_path_set_options ()">go_path_set_options</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOPath.html#go-path-to-cairo" title="go_path_to_cairo ()">go_path_to_cairo</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">char</span> *
+</td>
+<td class="function_name">
+<a class="link" href="GOPath.html#go-path-to-svg" title="go_path_to_svg ()">go_path_to_svg</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GOPath.html" title="GOPath"><span class="returnvalue">GOPath</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="GOPath.html#go-path-scale" title="go_path_scale ()">go_path_scale</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="GOPath.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="other_proto_type">
+<col class="other_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="datatype_keyword"> </td>
+<td class="function_name"><a class="link" href="GOPath.html#GOPath-struct" title="GOPath">GOPath</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">enum</td>
+<td class="function_name"><a class="link" href="GOPath.html#GOPathDirection" title="enum GOPathDirection">GOPathDirection</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">enum</td>
+<td class="function_name"><a class="link" href="GOPath.html#GOPathOptions" title="enum GOPathOptions">GOPathOptions</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword"> </td>
+<td class="function_name"><a class="link" href="GOPath.html#GOPathPoint" title="GOPathPoint">GOPathPoint</a></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="GOPath.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="screen">    <a href="/usr/share/gtk-doc/html/gobject/gobject-Boxed-Types.html">GBoxed</a>
+    <span class="lineart">╰──</span> GOPath
+</pre>
+</div>
+<div class="refsect1">
+<a name="GOPath.description"></a><h2>Description</h2>
+</div>
+<div class="refsect1">
+<a name="GOPath.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="GOPathClosePathFunc"></a><h3>GOPathClosePathFunc ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+<span class="c_punctuation">(</span>*GOPathClosePathFunc<span class="c_punctuation">)</span> (<em class="parameter"><code><span class="type">void</span> *closure</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOPathCurveToFunc"></a><h3>GOPathCurveToFunc ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+<span class="c_punctuation">(</span>*GOPathCurveToFunc<span class="c_punctuation">)</span> (<em class="parameter"><code><span class="type">void</span> *closure</code></em>,
+                      <em class="parameter"><code><a class="link" href="GOPath.html#GOPathPoint" title="GOPathPoint"><span class="type">GOPathPoint</span></a> const *point0</code></em>,
+                      <em class="parameter"><code><a class="link" href="GOPath.html#GOPathPoint" title="GOPathPoint"><span class="type">GOPathPoint</span></a> const *point1</code></em>,
+                      <em class="parameter"><code><a class="link" href="GOPath.html#GOPathPoint" title="GOPathPoint"><span class="type">GOPathPoint</span></a> const *point2</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOPathLineToFunc"></a><h3>GOPathLineToFunc ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+<span class="c_punctuation">(</span>*GOPathLineToFunc<span class="c_punctuation">)</span> (<em class="parameter"><code><span class="type">void</span> *closure</code></em>,
+                     <em class="parameter"><code><a class="link" href="GOPath.html#GOPathPoint" title="GOPathPoint"><span class="type">GOPathPoint</span></a> const *point</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOPathMoveToFunc"></a><h3>GOPathMoveToFunc ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+<span class="c_punctuation">(</span>*GOPathMoveToFunc<span class="c_punctuation">)</span> (<em class="parameter"><code><span class="type">void</span> *closure</code></em>,
+                     <em class="parameter"><code><a class="link" href="GOPath.html#GOPathPoint" title="GOPathPoint"><span class="type">GOPathPoint</span></a> const *point</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-path-append"></a><h3>go_path_append ()</h3>
+<pre class="programlisting"><a class="link" href="GOPath.html" title="GOPath"><span class="returnvalue">GOPath</span></a> *
+go_path_append (<em class="parameter"><code><a class="link" href="GOPath.html" title="GOPath"><span class="type">GOPath</span></a> *path1</code></em>,
+                <em class="parameter"><code><a class="link" href="GOPath.html" title="GOPath"><span class="type">GOPath</span></a> const *path2</code></em>);</pre>
+<p>Appends <em class="parameter"><code>path2</code></em>
+ at the end of <em class="parameter"><code>path1</code></em>
+.</p>
+<div class="refsect3">
+<a name="go-path-append.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>path1</p></td>
+<td class="parameter_description"><p><a class="link" href="GOPath.html" title="GOPath"><span class="type">GOPath</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>path2</p></td>
+<td class="parameter_description"><p><a class="link" href="GOPath.html" title="GOPath"><span class="type">GOPath</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-path-append.returns"></a><h4>Returns</h4>
+<p> <em class="parameter"><code>path1</code></em>
+</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-path-arc"></a><h3>go_path_arc ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_path_arc (<em class="parameter"><code><a class="link" href="GOPath.html" title="GOPath"><span class="type">GOPath</span></a> *path</code></em>,
+             <em class="parameter"><code><span class="type">double</span> cx</code></em>,
+             <em class="parameter"><code><span class="type">double</span> cy</code></em>,
+             <em class="parameter"><code><span class="type">double</span> rx</code></em>,
+             <em class="parameter"><code><span class="type">double</span> ry</code></em>,
+             <em class="parameter"><code><span class="type">double</span> th0</code></em>,
+             <em class="parameter"><code><span class="type">double</span> th1</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-path-arc-to"></a><h3>go_path_arc_to ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_path_arc_to (<em class="parameter"><code><a class="link" href="GOPath.html" title="GOPath"><span class="type">GOPath</span></a> *path</code></em>,
+                <em class="parameter"><code><span class="type">double</span> cx</code></em>,
+                <em class="parameter"><code><span class="type">double</span> cy</code></em>,
+                <em class="parameter"><code><span class="type">double</span> rx</code></em>,
+                <em class="parameter"><code><span class="type">double</span> ry</code></em>,
+                <em class="parameter"><code><span class="type">double</span> th0</code></em>,
+                <em class="parameter"><code><span class="type">double</span> th1</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-path-clear"></a><h3>go_path_clear ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_path_clear (<em class="parameter"><code><a class="link" href="GOPath.html" title="GOPath"><span class="type">GOPath</span></a> *path</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-path-close"></a><h3>go_path_close ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_path_close (<em class="parameter"><code><a class="link" href="GOPath.html" title="GOPath"><span class="type">GOPath</span></a> *path</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-path-copy"></a><h3>go_path_copy ()</h3>
+<pre class="programlisting"><a class="link" href="GOPath.html" title="GOPath"><span class="returnvalue">GOPath</span></a> *
+go_path_copy (<em class="parameter"><code><a class="link" href="GOPath.html" title="GOPath"><span class="type">GOPath</span></a> const *path</code></em>);</pre>
+<div class="refsect3">
+<a name="go-path-copy.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>path</p></td>
+<td class="parameter_description"><p><a class="link" href="GOPath.html" title="GOPath"><span class="type">GOPath</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-path-copy.returns"></a><h4>Returns</h4>
+<p> a new <a class="link" href="GOPath.html" title="GOPath"><span class="type">GOPath</span></a> identical to <em class="parameter"><code>path</code></em>
+.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-path-copy-restricted"></a><h3>go_path_copy_restricted ()</h3>
+<pre class="programlisting"><a class="link" href="GOPath.html" title="GOPath"><span class="returnvalue">GOPath</span></a> *
+go_path_copy_restricted (<em class="parameter"><code><a class="link" href="GOPath.html" title="GOPath"><span class="type">GOPath</span></a> const *path</code></em>,
+                         <em class="parameter"><code><span class="type">gssize</span> start</code></em>,
+                         <em class="parameter"><code><span class="type">gssize</span> end</code></em>);</pre>
+<p>Copies actions between start and end will be copied inside a new <a class="link" href="GOPath.html" title="GOPath"><span class="type">GOPath</span></a>.</p>
+<div class="refsect3">
+<a name="go-path-copy-restricted.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>path</p></td>
+<td class="parameter_description"><p><a class="link" href="GOPath.html" title="GOPath"><span class="type">GOPath</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>start</p></td>
+<td class="parameter_description"><p>the first action to copy</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>end</p></td>
+<td class="parameter_description"><p>the second action to copy</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-path-copy-restricted.returns"></a><h4>Returns</h4>
+<p> a new <a class="link" href="GOPath.html" title="GOPath"><span class="type">GOPath</span></a>. If start or end is
+negative, it is not taken into account.</p>
+</div>
+<p class="since">Since: 0.10.5</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-path-curve-to"></a><h3>go_path_curve_to ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_path_curve_to (<em class="parameter"><code><a class="link" href="GOPath.html" title="GOPath"><span class="type">GOPath</span></a> *path</code></em>,
+                  <em class="parameter"><code><span class="type">double</span> x0</code></em>,
+                  <em class="parameter"><code><span class="type">double</span> y0</code></em>,
+                  <em class="parameter"><code><span class="type">double</span> x1</code></em>,
+                  <em class="parameter"><code><span class="type">double</span> y1</code></em>,
+                  <em class="parameter"><code><span class="type">double</span> x2</code></em>,
+                  <em class="parameter"><code><span class="type">double</span> y2</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-path-free"></a><h3>go_path_free ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_path_free (<em class="parameter"><code><a class="link" href="GOPath.html" title="GOPath"><span class="type">GOPath</span></a> *path</code></em>);</pre>
+<p>Decrements references count and frees all memory allocated for <em class="parameter"><code>path</code></em>
+ if
+references count reaches 0.</p>
+<div class="refsect3">
+<a name="go-path-free.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>path</p></td>
+<td class="parameter_description"><p>a <a class="link" href="GOPath.html" title="GOPath"><span class="type">GOPath</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-path-get-options"></a><h3>go_path_get_options ()</h3>
+<pre class="programlisting"><a class="link" href="GOPath.html#GOPathOptions" title="enum GOPathOptions"><span class="returnvalue">GOPathOptions</span></a>
+go_path_get_options (<em class="parameter"><code><a class="link" href="GOPath.html" title="GOPath"><span class="type">GOPath</span></a> const *path</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-path-interpret"></a><h3>go_path_interpret ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_path_interpret (<em class="parameter"><code><a class="link" href="GOPath.html" title="GOPath"><span class="type">GOPath</span></a> const *path</code></em>,
+                   <em class="parameter"><code><a class="link" href="GOPath.html#GOPathDirection" title="enum GOPathDirection"><span class="type">GOPathDirection</span></a> direction</code></em>,
+                   <em class="parameter"><code><a class="link" href="GOPath.html#GOPathMoveToFunc" title="GOPathMoveToFunc ()"><span class="type">GOPathMoveToFunc</span></a> move_to</code></em>,
+                   <em class="parameter"><code><a class="link" href="GOPath.html#GOPathLineToFunc" title="GOPathLineToFunc ()"><span class="type">GOPathLineToFunc</span></a> line_to</code></em>,
+                   <em class="parameter"><code><a class="link" href="GOPath.html#GOPathCurveToFunc" title="GOPathCurveToFunc ()"><span class="type">GOPathCurveToFunc</span></a> curve_to</code></em>,
+                   <em class="parameter"><code><a class="link" href="GOPath.html#GOPathClosePathFunc" title="GOPathClosePathFunc ()"><span class="type">GOPathClosePathFunc</span></a> close_path</code></em>,
+                   <em class="parameter"><code><span class="type">void</span> *closure</code></em>);</pre>
+<p>This function can be used to draw a path or for other purposes.
+To draw using cairo, the closure argument should be a valid <span class="type">cairo_t</span>.</p>
+<div class="refsect3">
+<a name="go-path-interpret.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>path</p></td>
+<td class="parameter_description"><p><a class="link" href="GOPath.html" title="GOPath"><span class="type">GOPath</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>direction</p></td>
+<td class="parameter_description"><p><a class="link" href="GOPath.html#GOPathDirection" title="enum GOPathDirection"><span class="type">GOPathDirection</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>move_to</p></td>
+<td class="parameter_description"><p>the callback for move to. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="The callback is valid only during the call to the method."><span class="acronym">scope call</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>line_to</p></td>
+<td class="parameter_description"><p>the callback for drawing a line. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="The callback is valid only during the call to the method."><span class="acronym">scope call</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>curve_to</p></td>
+<td class="parameter_description"><p>the callback for drawing a bezier cubic spline. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="The callback is valid only during the call to the method."><span class="acronym">scope call</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>close_path</p></td>
+<td class="parameter_description"><p>the callback for closing the path. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="The callback is valid only during the call to the method."><span class="acronym">scope call</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>closure</p></td>
+<td class="parameter_description"><p>data to pass as first argument to the callbacks.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-path-interpret-full"></a><h3>go_path_interpret_full ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_path_interpret_full (<em class="parameter"><code><a class="link" href="GOPath.html" title="GOPath"><span class="type">GOPath</span></a> const *path</code></em>,
+                        <em class="parameter"><code><span class="type">gssize</span> start</code></em>,
+                        <em class="parameter"><code><span class="type">gssize</span> end</code></em>,
+                        <em class="parameter"><code><a class="link" href="GOPath.html#GOPathDirection" title="enum GOPathDirection"><span class="type">GOPathDirection</span></a> direction</code></em>,
+                        <em class="parameter"><code><a class="link" href="GOPath.html#GOPathMoveToFunc" title="GOPathMoveToFunc ()"><span class="type">GOPathMoveToFunc</span></a> move_to</code></em>,
+                        <em class="parameter"><code><a class="link" href="GOPath.html#GOPathLineToFunc" title="GOPathLineToFunc ()"><span class="type">GOPathLineToFunc</span></a> line_to</code></em>,
+                        <em class="parameter"><code><a class="link" href="GOPath.html#GOPathCurveToFunc" title="GOPathCurveToFunc ()"><span class="type">GOPathCurveToFunc</span></a> curve_to</code></em>,
+                        <em class="parameter"><code><a class="link" href="GOPath.html#GOPathClosePathFunc" title="GOPathClosePathFunc ()"><span class="type">GOPathClosePathFunc</span></a> close_path</code></em>,
+                        <em class="parameter"><code><span class="type">void</span> *closure</code></em>);</pre>
+<p>This function can be used to draw a portion path or for other purposes.
+Only actions between start and end will be executed. If start or end is
+negative, it is not taken into account.</p>
+<div class="refsect3">
+<a name="go-path-interpret-full.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>path</p></td>
+<td class="parameter_description"><p><a class="link" href="GOPath.html" title="GOPath"><span class="type">GOPath</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>start</p></td>
+<td class="parameter_description"><p>index of the first action to interpret</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>end</p></td>
+<td class="parameter_description"><p>index of the last action to interpret</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>direction</p></td>
+<td class="parameter_description"><p><a class="link" href="GOPath.html#GOPathDirection" title="enum GOPathDirection"><span class="type">GOPathDirection</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>move_to</p></td>
+<td class="parameter_description"><p>the callback for move to. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="The callback is valid only during the call to the method."><span class="acronym">scope call</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>line_to</p></td>
+<td class="parameter_description"><p>the callback for drawing a line. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="The callback is valid only during the call to the method."><span class="acronym">scope call</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>curve_to</p></td>
+<td class="parameter_description"><p>the callback for drawing a bezier cubic spline. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="The callback is valid only during the call to the method."><span class="acronym">scope call</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>close_path</p></td>
+<td class="parameter_description"><p>the callback for closing the path. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="The callback is valid only during the call to the method."><span class="acronym">scope call</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>closure</p></td>
+<td class="parameter_description"><p>data to pass as first argument to the callbacks.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: 0.10.5</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-path-line-to"></a><h3>go_path_line_to ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_path_line_to (<em class="parameter"><code><a class="link" href="GOPath.html" title="GOPath"><span class="type">GOPath</span></a> *path</code></em>,
+                 <em class="parameter"><code><span class="type">double</span> x</code></em>,
+                 <em class="parameter"><code><span class="type">double</span> y</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-path-move-to"></a><h3>go_path_move_to ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_path_move_to (<em class="parameter"><code><a class="link" href="GOPath.html" title="GOPath"><span class="type">GOPath</span></a> *path</code></em>,
+                 <em class="parameter"><code><span class="type">double</span> x</code></em>,
+                 <em class="parameter"><code><span class="type">double</span> y</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-path-new"></a><h3>go_path_new ()</h3>
+<pre class="programlisting"><a class="link" href="GOPath.html" title="GOPath"><span class="returnvalue">GOPath</span></a> *
+go_path_new (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-path-new-from-odf-enhanced-path"></a><h3>go_path_new_from_odf_enhanced_path ()</h3>
+<pre class="programlisting"><a class="link" href="GOPath.html" title="GOPath"><span class="returnvalue">GOPath</span></a> *
+go_path_new_from_odf_enhanced_path (<em class="parameter"><code><span class="type">char</span> const *src</code></em>,
+                                    <em class="parameter"><code><span class="type">GHashTable</span> const *variables</code></em>);</pre>
+<div class="refsect3">
+<a name="go-path-new-from-odf-enhanced-path.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>src</p></td>
+<td class="parameter_description"><p>an ODF enhanced path.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>variables</p></td>
+<td class="parameter_description"><p>environment</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-path-new-from-odf-enhanced-path.returns"></a><h4>Returns</h4>
+<p>the newly allocated <a class="link" href="GOPath.html" title="GOPath"><span class="type">GOPath</span></a> or <code class="literal">NULL</code> on error. </p>
+<p><span class="annotation">[<acronym title="Free data after the code is done."><span class="acronym">transfer full</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-path-new-from-svg"></a><h3>go_path_new_from_svg ()</h3>
+<pre class="programlisting"><a class="link" href="GOPath.html" title="GOPath"><span class="returnvalue">GOPath</span></a> *
+go_path_new_from_svg (<em class="parameter"><code><span class="type">char</span> const *src</code></em>);</pre>
+<div class="refsect3">
+<a name="go-path-new-from-svg.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>src</p></td>
+<td class="parameter_description"><p>an SVG path.</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-path-new-from-svg.returns"></a><h4>Returns</h4>
+<p>the newly allocated <a class="link" href="GOPath.html" title="GOPath"><span class="type">GOPath</span></a>. </p>
+<p><span class="annotation">[<acronym title="Free data after the code is done."><span class="acronym">transfer full</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-path-pie-wedge"></a><h3>go_path_pie_wedge ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_path_pie_wedge (<em class="parameter"><code><a class="link" href="GOPath.html" title="GOPath"><span class="type">GOPath</span></a> *path</code></em>,
+                   <em class="parameter"><code><span class="type">double</span> cx</code></em>,
+                   <em class="parameter"><code><span class="type">double</span> cy</code></em>,
+                   <em class="parameter"><code><span class="type">double</span> rx</code></em>,
+                   <em class="parameter"><code><span class="type">double</span> ry</code></em>,
+                   <em class="parameter"><code><span class="type">double</span> th0</code></em>,
+                   <em class="parameter"><code><span class="type">double</span> th1</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-path-rectangle"></a><h3>go_path_rectangle ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_path_rectangle (<em class="parameter"><code><a class="link" href="GOPath.html" title="GOPath"><span class="type">GOPath</span></a> *path</code></em>,
+                   <em class="parameter"><code><span class="type">double</span> x</code></em>,
+                   <em class="parameter"><code><span class="type">double</span> y</code></em>,
+                   <em class="parameter"><code><span class="type">double</span> width</code></em>,
+                   <em class="parameter"><code><span class="type">double</span> height</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-path-ref"></a><h3>go_path_ref ()</h3>
+<pre class="programlisting"><a class="link" href="GOPath.html" title="GOPath"><span class="returnvalue">GOPath</span></a> *
+go_path_ref (<em class="parameter"><code><a class="link" href="GOPath.html" title="GOPath"><span class="type">GOPath</span></a> *path</code></em>);</pre>
+<p>Increments references count to <em class="parameter"><code>path</code></em>
+.</p>
+<div class="refsect3">
+<a name="go-path-ref.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>path</p></td>
+<td class="parameter_description"><p>a <a class="link" href="GOPath.html" title="GOPath"><span class="type">GOPath</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-path-ref.returns"></a><h4>Returns</h4>
+<p> the path with an incremented references count.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-path-ring-wedge"></a><h3>go_path_ring_wedge ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_path_ring_wedge (<em class="parameter"><code><a class="link" href="GOPath.html" title="GOPath"><span class="type">GOPath</span></a> *path</code></em>,
+                    <em class="parameter"><code><span class="type">double</span> cx</code></em>,
+                    <em class="parameter"><code><span class="type">double</span> cy</code></em>,
+                    <em class="parameter"><code><span class="type">double</span> rx_out</code></em>,
+                    <em class="parameter"><code><span class="type">double</span> ry_out</code></em>,
+                    <em class="parameter"><code><span class="type">double</span> rx_in</code></em>,
+                    <em class="parameter"><code><span class="type">double</span> ry_in</code></em>,
+                    <em class="parameter"><code><span class="type">double</span> th0</code></em>,
+                    <em class="parameter"><code><span class="type">double</span> th1</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-path-set-options"></a><h3>go_path_set_options ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_path_set_options (<em class="parameter"><code><a class="link" href="GOPath.html" title="GOPath"><span class="type">GOPath</span></a> *path</code></em>,
+                     <em class="parameter"><code><a class="link" href="GOPath.html#GOPathOptions" title="enum GOPathOptions"><span class="type">GOPathOptions</span></a> options</code></em>);</pre>
+<p>Change the rendering options for <em class="parameter"><code>path</code></em>
+ using
+<a class="link" href="GOPath.html#GO-PATH-OPTIONS-SNAP-COORDINATES:CAPS"><code class="literal">GO_PATH_OPTIONS_SNAP_COORDINATES</code></a>
+<a class="link" href="GOPath.html#GO-PATH-OPTIONS-SNAP-WIDTH:CAPS"><code class="literal">GO_PATH_OPTIONS_SNAP_WIDTH</code></a>
+<a class="link" href="GOPath.html#GO-PATH-OPTIONS-SHARP:CAPS"><code class="literal">GO_PATH_OPTIONS_SHARP</code></a></p>
+<div class="refsect3">
+<a name="go-path-set-options.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>path</p></td>
+<td class="parameter_description"><p>a <a class="link" href="GOPath.html" title="GOPath"><span class="type">GOPath</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>options</p></td>
+<td class="parameter_description"><p><a class="link" href="GOPath.html#GOPathOptions" title="enum GOPathOptions"><span class="type">GOPathOptions</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-path-to-cairo"></a><h3>go_path_to_cairo ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_path_to_cairo (<em class="parameter"><code><a class="link" href="GOPath.html" title="GOPath"><span class="type">GOPath</span></a> const *path</code></em>,
+                  <em class="parameter"><code><a class="link" href="GOPath.html#GOPathDirection" title="enum GOPathDirection"><span class="type">GOPathDirection</span></a> direction</code></em>,
+                  <em class="parameter"><code><span class="type">cairo_t</span> *cr</code></em>);</pre>
+<p>Renders the path to the cairo context using its current settings.</p>
+<div class="refsect3">
+<a name="go-path-to-cairo.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>path</p></td>
+<td class="parameter_description"><p><a class="link" href="GOPath.html" title="GOPath"><span class="type">GOPath</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>direction</p></td>
+<td class="parameter_description"><p><a class="link" href="GOPath.html#GOPathDirection" title="enum GOPathDirection"><span class="type">GOPathDirection</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>cr</p></td>
+<td class="parameter_description"><p><span class="type">cairo_t</span></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-path-to-svg"></a><h3>go_path_to_svg ()</h3>
+<pre class="programlisting"><span class="returnvalue">char</span> *
+go_path_to_svg (<em class="parameter"><code><a class="link" href="GOPath.html" title="GOPath"><span class="type">GOPath</span></a> *path</code></em>);</pre>
+<p>Builds an svg path from <em class="parameter"><code>path</code></em>
+.</p>
+<div class="refsect3">
+<a name="go-path-to-svg.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>path</p></td>
+<td class="parameter_description"><p>a <a class="link" href="GOPath.html" title="GOPath"><span class="type">GOPath</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-path-to-svg.returns"></a><h4>Returns</h4>
+<p>the svg:d string. </p>
+<p><span class="annotation">[<acronym title="Free data after the code is done."><span class="acronym">transfer full</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-path-scale"></a><h3>go_path_scale ()</h3>
+<pre class="programlisting"><a class="link" href="GOPath.html" title="GOPath"><span class="returnvalue">GOPath</span></a> *
+go_path_scale (<em class="parameter"><code><a class="link" href="GOPath.html" title="GOPath"><span class="type">GOPath</span></a> *path</code></em>,
+               <em class="parameter"><code><span class="type">double</span> scale_x</code></em>,
+               <em class="parameter"><code><span class="type">double</span> scale_y</code></em>);</pre>
+<p>Builds a scaled.</p>
+<div class="refsect3">
+<a name="go-path-scale.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>path</p></td>
+<td class="parameter_description"><p><a class="link" href="GOPath.html" title="GOPath"><span class="type">GOPath</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>scale_x</p></td>
+<td class="parameter_description"><p>horizontal scale.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>scale_y</p></td>
+<td class="parameter_description"><p>vertical scale.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-path-scale.returns"></a><h4>Returns</h4>
+<p>the scaled path. </p>
+<p><span class="annotation">[<acronym title="Free data after the code is done."><span class="acronym">transfer full</span></acronym>]</span></p>
+</div>
+</div>
+</div>
+<div class="refsect1">
+<a name="GOPath.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="GOPath-struct"></a><h3>GOPath</h3>
+<pre class="programlisting">typedef struct _GOPath GOPath;</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOPathDirection"></a><h3>enum GOPathDirection</h3>
+<div class="refsect3">
+<a name="GOPathDirection.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="enum_members_name">
+<col class="enum_members_description">
+<col width="200px" class="enum_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="enum_member_name"><p><a name="GO-PATH-DIRECTION-FORWARD:CAPS"></a>GO_PATH_DIRECTION_FORWARD</p></td>
+<td class="enum_member_description">
+<p>go through the pass from start to end.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-PATH-DIRECTION-BACKWARD:CAPS"></a>GO_PATH_DIRECTION_BACKWARD</p></td>
+<td class="enum_member_description">
+<p>go through the pass from end to start.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOPathOptions"></a><h3>enum GOPathOptions</h3>
+<div class="refsect3">
+<a name="GOPathOptions.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="enum_members_name">
+<col class="enum_members_description">
+<col width="200px" class="enum_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="enum_member_name"><p><a name="GO-PATH-OPTIONS-SNAP-COORDINATES:CAPS"></a>GO_PATH_OPTIONS_SNAP_COORDINATES</p></td>
+<td class="enum_member_description">
+<p>round coordinates to avoid aliasing in pixbufs.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-PATH-OPTIONS-SNAP-WIDTH:CAPS"></a>GO_PATH_OPTIONS_SNAP_WIDTH</p></td>
+<td class="enum_member_description">
+<p>round width so that it correpond to a round pixels number.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-PATH-OPTIONS-SHARP:CAPS"></a>GO_PATH_OPTIONS_SHARP</p></td>
+<td class="enum_member_description">
+<p>use raw coordinates.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOPathPoint"></a><h3>GOPathPoint</h3>
+<pre class="programlisting">typedef struct {
+	double x;
+	double y;
+} GOPathPoint;
+</pre>
+<div class="refsect3">
+<a name="GOPathPoint.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="struct_members_name">
+<col class="struct_members_description">
+<col width="200px" class="struct_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="struct_member_name"><p><span class="type">double</span> <em class="structfield"><code><a name="GOPathPoint.x"></a>x</code></em>;</p></td>
+<td class="struct_member_description"><p>horizontal position.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><span class="type">double</span> <em class="structfield"><code><a name="GOPathPoint.y"></a>y</code></em>;</p></td>
+<td class="struct_member_description"><p>vertical dimension.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.32</div>
+</body>
+</html>

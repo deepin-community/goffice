@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>GODocControl: GOffice Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
+<link rel="home" href="index.html" title="GOffice Reference Manual">
+<link rel="up" href="ch15.html" title="Application">
+<link rel="prev" href="GOCmdContext.html" title="GOCmdContext">
+<link rel="next" href="GODoc.html" title="GODoc">
+<meta name="generator" content="GTK-Doc V1.32 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#GODocControl.description" class="shortcut">Description</a></span><span id="nav_hierarchy">  <span class="dim">|</span> 
+                  <a href="#GODocControl.object-hierarchy" class="shortcut">Object Hierarchy</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="ch15.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="GOCmdContext.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="GODoc.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="GODocControl"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="GODocControl.top_of_page"></a>GODocControl</span></h2>
+<p>GODocControl</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="GODocControl.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_proto_type">
+<col class="functions_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<a class="link" href="GODoc.html" title="GODoc"><span class="returnvalue">GODoc</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="GODocControl.html#go-doc-control-get-doc" title="go_doc_control_get_doc ()">go_doc_control_get_doc</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GODocControl.html#go-doc-control-set-doc" title="go_doc_control_set_doc ()">go_doc_control_set_doc</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="GODocControl.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="other_proto_type">
+<col class="other_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="datatype_keyword"> </td>
+<td class="function_name"><a class="link" href="GODocControl.html#GODocControl-struct" title="GODocControl">GODocControl</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">enum</td>
+<td class="function_name"><a class="link" href="GODocControl.html#GODocControlState" title="enum GODocControlState">GODocControlState</a></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="GODocControl.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="screen">    GObject
+    <span class="lineart">╰──</span> GODocControl
+</pre>
+</div>
+<div class="refsect1">
+<a name="GODocControl.description"></a><h2>Description</h2>
+</div>
+<div class="refsect1">
+<a name="GODocControl.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="go-doc-control-get-doc"></a><h3>go_doc_control_get_doc ()</h3>
+<pre class="programlisting"><a class="link" href="GODoc.html" title="GODoc"><span class="returnvalue">GODoc</span></a> *
+go_doc_control_get_doc (<em class="parameter"><code><a class="link" href="GODocControl.html" title="GODocControl"><span class="type">GODocControl</span></a> *dc</code></em>);</pre>
+<div class="refsect3">
+<a name="go-doc-control-get-doc.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>dc</p></td>
+<td class="parameter_description"><p><a class="link" href="GODocControl.html" title="GODocControl"><span class="type">GODocControl</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-doc-control-get-doc.returns"></a><h4>Returns</h4>
+<p>the <a class="link" href="GODoc.html" title="GODoc"><span class="type">GODoc</span></a> associated to <em class="parameter"><code>dc</code></em>
+. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-doc-control-set-doc"></a><h3>go_doc_control_set_doc ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_doc_control_set_doc (<em class="parameter"><code><a class="link" href="GODocControl.html" title="GODocControl"><span class="type">GODocControl</span></a> *dc</code></em>,
+                        <em class="parameter"><code><a class="link" href="GODoc.html" title="GODoc"><span class="type">GODoc</span></a> *doc</code></em>);</pre>
+</div>
+</div>
+<div class="refsect1">
+<a name="GODocControl.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="GODocControl-struct"></a><h3>GODocControl</h3>
+<pre class="programlisting">typedef struct _GODocControl GODocControl;</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GODocControlState"></a><h3>enum GODocControlState</h3>
+<div class="refsect3">
+<a name="GODocControlState.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="enum_members_name">
+<col class="enum_members_description">
+<col width="200px" class="enum_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="enum_member_name"><p><a name="GO-DOC-CONTROL-STATE-NORMAL:CAPS"></a>GO_DOC_CONTROL_STATE_NORMAL</p></td>
+<td class="enum_member_description">
+<p>normal.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-DOC-CONTROL-STATE-FULLSCREEN:CAPS"></a>GO_DOC_CONTROL_STATE_FULLSCREEN</p></td>
+<td class="enum_member_description">
+<p>full screen.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-DOC-CONTROL-STATE-MAX:CAPS"></a>GO_DOC_CONTROL_STATE_MAX</p></td>
+<td class="enum_member_description">
+<p>maximum value, shoulkd not happen.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.32</div>
+</body>
+</html>

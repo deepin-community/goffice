@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Gettings Started with GOffice: GOffice Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
+<link rel="home" href="index.html" title="GOffice Reference Manual">
+<link rel="up" href="index.html" title="GOffice Reference Manual">
+<link rel="prev" href="index.html" title="GOffice Reference Manual">
+<link rel="next" href="pt01.html" title="Part I. Graphs">
+<meta name="generator" content="GTK-Doc V1.32 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#goffice-0.10-Gettings-Started-with-GOffice.description" class="shortcut">Description</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><img src="up-insensitive.png" width="16" height="16" border="0"></td>
+<td><a accesskey="p" href="index.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="pt01.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="goffice-0.10-Gettings-Started-with-GOffice"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="goffice-0.10-Gettings-Started-with-GOffice.top_of_page"></a>Gettings Started with GOffice</span></h2>
+<p>Gettings Started with GOffice</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="goffice-0.10-Gettings-Started-with-GOffice.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_proto_type">
+<col class="functions_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="goffice-0.10-Gettings-Started-with-GOffice.html#libgoffice-init" title="libgoffice_init ()">libgoffice_init</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="goffice-0.10-Gettings-Started-with-GOffice.html#libgoffice-shutdown" title="libgoffice_shutdown ()">libgoffice_shutdown</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="goffice-0.10-Gettings-Started-with-GOffice.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="other_proto_type">
+<col class="other_proto_name">
+</colgroup>
+<tbody><tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="goffice-0.10-Gettings-Started-with-GOffice.html#GO-VAR-DECL:CAPS" title="GO_VAR_DECL">GO_VAR_DECL</a></td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="goffice-0.10-Gettings-Started-with-GOffice.description"></a><h2>Description</h2>
+<p>GOffice is a <span class="type">GObject</span> based C library. It provides easy API access to
+creating and manipulating graphs and canvases. See <a class="link" href="GogGraph.html" title="GogGraph"><span class="type">GogGraph</span></a> and <a class="link" href="GocCanvas.html" title="GocCanvas"><span class="type">GocCanvas</span></a>.
+It also includes a number of utilities and widgets that might be useful in
+office productivity software and similar.</p>
+<p>The GOffice code was originally a part of Gnumeric, but was split into a
+separate library in 2005. Today it is being used by projects such as
+Gnumeric, Gnucash, Abiword (optional), GChemUtils and more.</p>
+<p>GOffice is cross platform, with support for Windows, OSX, GNU/Linux,
+and other Unix-like systems. It can be built with or without GTK+
+integration support.</p>
+<p>To include GOffice use:</p>
+<div class="informalexample">
+  <table class="listing_frame" border="0" cellpadding="0" cellspacing="0">
+    <tbody>
+      <tr>
+        <td class="listing_lines" align="right"><pre>1</pre></td>
+        <td class="listing_code"><pre class="programlisting"><span class="cp">#include</span> <span class="cpf">&lt;goffice/goffice.h&gt;</span><span class="cp"></span></pre></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<p>GOffice provides a pkg-config metadata file named
+"libgoffice-$major.$minor.pc", where $major and $minor denote which version
+GOffice is. So to link against GOffice 0.10 series, use:</p>
+<div class="informalexample">
+  <table class="listing_frame" border="0" cellpadding="0" cellspacing="0">
+    <tbody>
+      <tr>
+        <td class="listing_lines" align="right"><pre>1</pre></td>
+        <td class="listing_code"><pre class="programlisting"><span class="n">pkg</span><span class="o">-</span><span class="n">config</span> <span class="o">--</span><span class="n">libs</span> <span class="n">libgoffice</span><span class="o">-</span><span class="mf">0.10</span></pre></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<p>API and ABI compatability is maintained per minor release series, e.g:
+all 0.8.x releases are ABI/API compatible with previous 0.8.x releases.</p>
+<p>Bindings for other languages than C and C++ are available through GObject
+Introspection. To start using GOffice from Python:</p>
+<div class="informalexample">
+  <table class="listing_frame" border="0" cellpadding="0" cellspacing="0">
+    <tbody>
+      <tr>
+        <td class="listing_lines" align="right"><pre>1
+2</pre></td>
+        <td class="listing_code"><pre class="programlisting"><span class="n">from</span> <span class="n">gi</span><span class="p">.</span><span class="n">repository</span> <span class="n">import</span> <span class="n">GOffice</span>
+<span class="n">GOffice</span><span class="p">.</span><span class="n">init</span><span class="p">()</span></pre></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+</div>
+<div class="refsect1">
+<a name="goffice-0.10-Gettings-Started-with-GOffice.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="libgoffice-init"></a><h3>libgoffice_init ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+libgoffice_init (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+<p>Initialize GOffice.</p>
+<p>This function can be called several times; each call will
+increment a reference counter. Code that calls this function should call
+<a class="link" href="goffice-0.10-Gettings-Started-with-GOffice.html#libgoffice-shutdown" title="libgoffice_shutdown ()"><code class="function">libgoffice_shutdown()</code></a> when done to decrement the counter.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="libgoffice-shutdown"></a><h3>libgoffice_shutdown ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+libgoffice_shutdown (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+<p>Decrements the counter for data initialized by <a class="link" href="goffice-0.10-Gettings-Started-with-GOffice.html#libgoffice-init" title="libgoffice_init ()"><code class="function">libgoffice_init()</code></a>.
+When the counter reaches 0, the data is freed/cleaned up as appropriate.</p>
+</div>
+</div>
+<div class="refsect1">
+<a name="goffice-0.10-Gettings-Started-with-GOffice.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="GO-VAR-DECL:CAPS"></a><h3>GO_VAR_DECL</h3>
+<pre class="programlisting">#      define GO_VAR_DECL extern __declspec(dllexport)
+</pre>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.32</div>
+</body>
+</html>

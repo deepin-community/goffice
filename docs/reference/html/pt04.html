@@ -1,0 +1,244 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Part IV. Utilities: GOffice Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
+<link rel="home" href="index.html" title="GOffice Reference Manual">
+<link rel="up" href="index.html" title="GOffice Reference Manual">
+<link rel="prev" href="GORotationSel.html" title="GORotationSel">
+<link rel="next" href="ch09.html" title="Graphic object properties">
+<meta name="generator" content="GTK-Doc V1.32 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts"></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><img src="up-insensitive.png" width="16" height="16" border="0"></td>
+<td><a accesskey="p" href="GORotationSel.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="ch09.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="part">
+<div class="titlepage"><div><div><h1 class="title">
+<a name="id-1.6"></a>Part IV. Utilities</h1></div></div></div>
+<div class="toc">
+<p><b>Table of Contents</b></p>
+<dl class="toc">
+<dt><span class="chapter"><a href="ch09.html">Graphic object properties</a></span></dt>
+<dd><dl>
+<dt>
+<span class="refentrytitle"><a href="GOArrow.html">GOArrow</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="goffice-0.10-GOColor.html">GOColor</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GOEditor.html">GOEditor</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GOFont.html">GOFont</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="goffice-0.10-Gradient.html">Gradient</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="goffice-0.10-Line.html">Line</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GOMarker.html">GOMarker</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="goffice-0.10-GOPattern.html">GOPattern</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GOStyle.html">GOStyle</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GOStyledObject.html">GOStyledObject</a></span><span class="refpurpose"> — Objects with style</span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="goffice-0.10-Miscellaneous.html">Miscellaneous</a></span><span class="refpurpose"></span>
+</dt>
+</dl></dd>
+<dt><span class="chapter"><a href="ch10.html">Rendering utilities</a></span></dt>
+<dd><dl>
+<dt>
+<span class="refentrytitle"><a href="goffice-0.10-Cairo-utilities.html">Cairo utilities</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GOPath.html">GOPath</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="goffice-0.10-Geometry-helpers.html">Geometry helpers</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GOBezierSpline.html">GOBezierSpline</a></span><span class="refpurpose"></span>
+</dt>
+</dl></dd>
+<dt><span class="chapter"><a href="ch11.html">Images</a></span></dt>
+<dd><dl>
+<dt>
+<span class="refentrytitle"><a href="GOImage.html">GOImage</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GOPixbuf.html">GOPixbuf</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="goffice-0.10-Scalable-Vector-Graphics-support.html">Scalable Vector Graphics support</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="goffice-0.10-Windows-Metafiles-support.html">Windows Metafiles support</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="goffice-0.10-Encapsulated-Postscript-support.html">Encapsulated Postscript support</a></span><span class="refpurpose"></span>
+</dt>
+</dl></dd>
+<dt><span class="chapter"><a href="ch12.html">Data</a></span></dt>
+<dd><dl>
+<dt>
+<span class="refentrytitle"><a href="GOData.html">GOData</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GODataScalar.html">GODataScalar</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="goffice-0.10-GODataCVector.html">GODataCVector</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GODataMatrix.html">GODataMatrix</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="goffice-0.10-Simple-data.html">Simple data</a></span><span class="refpurpose"></span>
+</dt>
+</dl></dd>
+<dt><span class="chapter"><a href="ch13.html">Mathematical functions</a></span></dt>
+<dd><dl>
+<dt>
+<span class="refentrytitle"><a href="goffice-0.10-Mathematics.html">Mathematics</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GOComplex.html">GOComplex</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="goffice-0.10-Cubic-splines.html">Cubic splines</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GODistribution.html">GODistribution</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="goffice-0.10-Fast-Fourier-transform.html">Fast Fourier transform</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="goffice-0.10-GORange.html">GORange</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="goffice-0.10-GORegression.html">GORegression</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="goffice-0.10-Units.html">Units</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="goffice-0.10-GOQuad.html">GOQuad</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="goffice-0.10-GOAccumulator.html">GOAccumulator</a></span><span class="refpurpose"></span>
+</dt>
+</dl></dd>
+<dt><span class="chapter"><a href="ch14.html">File utilities</a></span></dt>
+<dd><dl>
+<dt>
+<span class="refentrytitle"><a href="goffice-0.10-File-utilities.html">File utilities</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="goffice-0.10-Files.html">Files</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="goffice-0.10-GOFileOpeners.html">GOFileOpeners</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GOFileSaver.html">GOFileSaver</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="goffice-0.10-URL-utilities.html">URL utilities</a></span><span class="refpurpose"></span>
+</dt>
+</dl></dd>
+<dt><span class="chapter"><a href="ch15.html">Application</a></span></dt>
+<dd><dl>
+<dt>
+<span class="refentrytitle"><a href="GOCmdContext.html">GOCmdContext</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GODocControl.html">GODocControl</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GODoc.html">GODoc</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GOErrorInfo.html">GOErrorInfo</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GOIOContext.html">GOIOContext</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GOPlugin.html">GOPlugin</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GOPluginLoader.html">GOPluginLoader</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GOPluginLoaderModule.html">GOPluginLoaderModule</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GOPluginService.html">GOPluginService</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GoView.html">GoView</a></span><span class="refpurpose"></span>
+</dt>
+</dl></dd>
+<dt><span class="chapter"><a href="ch16.html">Components</a></span></dt>
+<dd><dl>
+<dt>
+<span class="refentrytitle"><a href="goffice-0.10-Components-factory.html">Components factory</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GOComponent.html">GOComponent</a></span><span class="refpurpose"></span>
+</dt>
+</dl></dd>
+<dt><span class="chapter"><a href="ch17.html">Miscellaneous</a></span></dt>
+<dd><dl>
+<dt>
+<span class="refentrytitle"><a href="GODateConventions.html">GODateConventions</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="goffice-0.10-GORegexp.html">GORegexp</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GOSearchReplace.html">GOSearchReplace</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GOFormat.html">GOFormat</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="goffice-0.10-GLib-extras.html">GLib extras</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="goffice-0.10-LibXML-extras.html">LibXML extras</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GOPersist.html">GOPersist</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GOUndoUnary.html">GOUndoUnary</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GOString.html">GOString</a></span><span class="refpurpose"></span>
+</dt>
+</dl></dd>
+</dl>
+</div>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.32</div>
+</body>
+</html>

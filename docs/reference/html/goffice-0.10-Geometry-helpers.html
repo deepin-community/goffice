@@ -1,0 +1,777 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Geometry helpers: GOffice Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
+<link rel="home" href="index.html" title="GOffice Reference Manual">
+<link rel="up" href="ch10.html" title="Rendering utilities">
+<link rel="prev" href="GOPath.html" title="GOPath">
+<link rel="next" href="GOBezierSpline.html" title="GOBezierSpline">
+<meta name="generator" content="GTK-Doc V1.32 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#goffice-0.10-Geometry-helpers.description" class="shortcut">Description</a></span><span id="nav_hierarchy">  <span class="dim">|</span> 
+                  <a href="#goffice-0.10-Geometry-helpers.object-hierarchy" class="shortcut">Object Hierarchy</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="ch10.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="GOPath.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="GOBezierSpline.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="goffice-0.10-Geometry-helpers"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="goffice-0.10-Geometry-helpers.top_of_page"></a>Geometry helpers</span></h2>
+<p>Geometry helpers</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="goffice-0.10-Geometry-helpers.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_proto_type">
+<col class="functions_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<span class="returnvalue">char</span> const *
+</td>
+<td class="function_name">
+<a class="link" href="goffice-0.10-Geometry-helpers.html#go-direction-get-name" title="go_direction_get_name ()">go_direction_get_name</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gboolean</span>
+</td>
+<td class="function_name">
+<a class="link" href="goffice-0.10-Geometry-helpers.html#go-direction-is-forward" title="go_direction_is_forward ()">go_direction_is_forward</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gboolean</span>
+</td>
+<td class="function_name">
+<a class="link" href="goffice-0.10-Geometry-helpers.html#go-direction-is-horizontal" title="go_direction_is_horizontal ()">go_direction_is_horizontal</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="goffice-0.10-Geometry-helpers.html#go-geometry-AABR-add" title="go_geometry_AABR_add ()">go_geometry_AABR_add</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="goffice-0.10-Geometry-helpers.html#go-geometry-OBR-to-AABR" title="go_geometry_OBR_to_AABR ()">go_geometry_OBR_to_AABR</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="goffice-0.10-Geometry-helpers.html#GOGeometrySide" title="enum GOGeometrySide"><span class="returnvalue">GOGeometrySide</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="goffice-0.10-Geometry-helpers.html#go-geometry-calc-label-anchor" title="go_geometry_calc_label_anchor ()">go_geometry_calc_label_anchor</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="goffice-0.10-Geometry-helpers.html#GOGeometrySide" title="enum GOGeometrySide"><span class="returnvalue">GOGeometrySide</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="goffice-0.10-Geometry-helpers.html#go-geometry-calc-label-position" title="go_geometry_calc_label_position ()">go_geometry_calc_label_position</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="goffice-0.10-Geometry-helpers.html#go-geometry-cartesian-to-polar" title="go_geometry_cartesian_to_polar ()">go_geometry_cartesian_to_polar</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="goffice-0.10-Geometry-helpers.html#GOGeometryRotationType" title="enum GOGeometryRotationType"><span class="returnvalue">GOGeometryRotationType</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="goffice-0.10-Geometry-helpers.html#go-geometry-get-rotation-type" title="go_geometry_get_rotation_type ()">go_geometry_get_rotation_type</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">double</span>
+</td>
+<td class="function_name">
+<a class="link" href="goffice-0.10-Geometry-helpers.html#go-geometry-point-to-segment" title="go_geometry_point_to_segment ()">go_geometry_point_to_segment</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gboolean</span>
+</td>
+<td class="function_name">
+<a class="link" href="goffice-0.10-Geometry-helpers.html#go-geometry-test-OBR-overlap" title="go_geometry_test_OBR_overlap ()">go_geometry_test_OBR_overlap</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="goffice-0.10-Geometry-helpers.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="other_proto_type">
+<col class="other_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="typedef_keyword">typedef</td>
+<td class="function_name"><a class="link" href="goffice-0.10-Geometry-helpers.html#GOGeometryAABR" title="GOGeometryAABR">GOGeometryAABR</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword"> </td>
+<td class="function_name"><a class="link" href="goffice-0.10-Geometry-helpers.html#GOGeometryOBR" title="GOGeometryOBR">GOGeometryOBR</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">enum</td>
+<td class="function_name"><a class="link" href="goffice-0.10-Geometry-helpers.html#GOGeometryRotationType" title="enum GOGeometryRotationType">GOGeometryRotationType</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">enum</td>
+<td class="function_name"><a class="link" href="goffice-0.10-Geometry-helpers.html#GOGeometrySide" title="enum GOGeometrySide">GOGeometrySide</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="goffice-0.10-Geometry-helpers.html#GO-GEOMETRY-ANGLE-TOLERANCE:CAPS" title="GO_GEOMETRY_ANGLE_TOLERANCE">GO_GEOMETRY_ANGLE_TOLERANCE</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">enum</td>
+<td class="function_name"><a class="link" href="goffice-0.10-Geometry-helpers.html#GODirection" title="enum GODirection">GODirection</a></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="goffice-0.10-Geometry-helpers.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="screen">    <a href="/usr/share/gtk-doc/html/gobject/gobject-Enumeration-and-Flag-Types.html">GEnum</a>
+    <span class="lineart">╰──</span> GODirection
+</pre>
+</div>
+<div class="refsect1">
+<a name="goffice-0.10-Geometry-helpers.description"></a><h2>Description</h2>
+</div>
+<div class="refsect1">
+<a name="goffice-0.10-Geometry-helpers.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="go-direction-get-name"></a><h3>go_direction_get_name ()</h3>
+<pre class="programlisting"><span class="returnvalue">char</span> const *
+go_direction_get_name (<em class="parameter"><code><a class="link" href="goffice-0.10-Geometry-helpers.html#GODirection" title="enum GODirection"><span class="type">GODirection</span></a> d</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-direction-is-forward"></a><h3>go_direction_is_forward ()</h3>
+<pre class="programlisting"><span class="returnvalue">gboolean</span>
+go_direction_is_forward (<em class="parameter"><code><a class="link" href="goffice-0.10-Geometry-helpers.html#GODirection" title="enum GODirection"><span class="type">GODirection</span></a> d</code></em>);</pre>
+<div class="refsect3">
+<a name="go-direction-is-forward.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>d</p></td>
+<td class="parameter_description"><p><a class="link" href="goffice-0.10-Geometry-helpers.html#GODirection" title="enum GODirection"><span class="type">GODirection</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-direction-is-forward.returns"></a><h4>Returns</h4>
+<p> TRUE for GO_DIRECTION_DOWN or GO_DIRECTION_RIGHT.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-direction-is-horizontal"></a><h3>go_direction_is_horizontal ()</h3>
+<pre class="programlisting"><span class="returnvalue">gboolean</span>
+go_direction_is_horizontal (<em class="parameter"><code><a class="link" href="goffice-0.10-Geometry-helpers.html#GODirection" title="enum GODirection"><span class="type">GODirection</span></a> d</code></em>);</pre>
+<div class="refsect3">
+<a name="go-direction-is-horizontal.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>d</p></td>
+<td class="parameter_description"><p><a class="link" href="goffice-0.10-Geometry-helpers.html#GODirection" title="enum GODirection"><span class="type">GODirection</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-direction-is-horizontal.returns"></a><h4>Returns</h4>
+<p> TRUE for GO_DIRECTION_LEFT and GO_DIRECTION_RIGHT.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-geometry-AABR-add"></a><h3>go_geometry_AABR_add ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_geometry_AABR_add (<em class="parameter"><code><a class="link" href="goffice-0.10-Geometry-helpers.html#GOGeometryAABR" title="GOGeometryAABR"><span class="type">GOGeometryAABR</span></a> *aabr0</code></em>,
+                      <em class="parameter"><code><a class="link" href="goffice-0.10-Geometry-helpers.html#GOGeometryAABR" title="GOGeometryAABR"><span class="type">GOGeometryAABR</span></a> const *aabr1</code></em>);</pre>
+<p>Computes the Axis Aligned Bounding Rectangle of aabr0 and aabr1,
+and stores result in aabr0.</p>
+<div class="refsect3">
+<a name="go-geometry-AABR-add.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>aabr0</p></td>
+<td class="parameter_description"><p>a <a class="link" href="goffice-0.10-Geometry-helpers.html#GOGeometryAABR" title="GOGeometryAABR"><span class="type">GOGeometryAABR</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>aabr1</p></td>
+<td class="parameter_description"><p>a <a class="link" href="goffice-0.10-Geometry-helpers.html#GOGeometryAABR" title="GOGeometryAABR"><span class="type">GOGeometryAABR</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-geometry-OBR-to-AABR"></a><h3>go_geometry_OBR_to_AABR ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_geometry_OBR_to_AABR (<em class="parameter"><code><a class="link" href="goffice-0.10-Geometry-helpers.html#GOGeometryOBR" title="GOGeometryOBR"><span class="type">GOGeometryOBR</span></a> const *obr</code></em>,
+                         <em class="parameter"><code><a class="link" href="goffice-0.10-Geometry-helpers.html#GOGeometryAABR" title="GOGeometryAABR"><span class="type">GOGeometryAABR</span></a> *aabr</code></em>);</pre>
+<p>Stores Axis Aligned Bounding Rectangle of <em class="parameter"><code>obr</code></em>
+ in <em class="parameter"><code>aabr</code></em>
+.</p>
+<div class="refsect3">
+<a name="go-geometry-OBR-to-AABR.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>obr</p></td>
+<td class="parameter_description"><p>a <a class="link" href="goffice-0.10-Geometry-helpers.html#GOGeometryOBR" title="GOGeometryOBR"><span class="type">GOGeometryOBR</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>aabr</p></td>
+<td class="parameter_description"><p>a <a class="link" href="goffice-0.10-Geometry-helpers.html#GOGeometryAABR" title="GOGeometryAABR"><span class="type">GOGeometryAABR</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-geometry-calc-label-anchor"></a><h3>go_geometry_calc_label_anchor ()</h3>
+<pre class="programlisting"><a class="link" href="goffice-0.10-Geometry-helpers.html#GOGeometrySide" title="enum GOGeometrySide"><span class="returnvalue">GOGeometrySide</span></a>
+go_geometry_calc_label_anchor (<em class="parameter"><code><a class="link" href="goffice-0.10-Geometry-helpers.html#GOGeometryOBR" title="GOGeometryOBR"><span class="type">GOGeometryOBR</span></a> *obr</code></em>,
+                               <em class="parameter"><code><span class="type">double</span> alpha</code></em>);</pre>
+<div class="refsect3">
+<a name="go-geometry-calc-label-anchor.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>obr</p></td>
+<td class="parameter_description"><p>bounding rectangle of label</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>alpha</p></td>
+<td class="parameter_description"><p>angle of axis</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-geometry-calc-label-anchor.returns"></a><h4>Returns</h4>
+<p> computed label anchor, to be used by go_geometry_calc_label_position.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-geometry-calc-label-position"></a><h3>go_geometry_calc_label_position ()</h3>
+<pre class="programlisting"><a class="link" href="goffice-0.10-Geometry-helpers.html#GOGeometrySide" title="enum GOGeometrySide"><span class="returnvalue">GOGeometrySide</span></a>
+go_geometry_calc_label_position (<em class="parameter"><code><a class="link" href="goffice-0.10-Geometry-helpers.html#GOGeometryOBR" title="GOGeometryOBR"><span class="type">GOGeometryOBR</span></a> *obr</code></em>,
+                                 <em class="parameter"><code><span class="type">double</span> alpha</code></em>,
+                                 <em class="parameter"><code><span class="type">double</span> offset</code></em>,
+                                 <em class="parameter"><code><a class="link" href="goffice-0.10-Geometry-helpers.html#GOGeometrySide" title="enum GOGeometrySide"><span class="type">GOGeometrySide</span></a> side</code></em>,
+                                 <em class="parameter"><code><a class="link" href="goffice-0.10-Geometry-helpers.html#GOGeometrySide" title="enum GOGeometrySide"><span class="type">GOGeometrySide</span></a> anchor</code></em>);</pre>
+<p>Convenience routine that computes position of a label relative to an axis.</p>
+<div class="refsect3">
+<a name="go-geometry-calc-label-position.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>obr</p></td>
+<td class="parameter_description"><p>bounding rectangle of label</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>alpha</p></td>
+<td class="parameter_description"><p>angle of axis</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>offset</p></td>
+<td class="parameter_description"><p>minimum distance between label and axis</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>side</p></td>
+<td class="parameter_description"><p>side of label with respect to axis</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>anchor</p></td>
+<td class="parameter_description"><p>where to anchor the label</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-geometry-calc-label-position.returns"></a><h4>Returns</h4>
+<p> the computed anchor if <em class="parameter"><code>anchor</code></em>
+== GO_SIDE_AUTO, or <em class="parameter"><code>anchor</code></em>
+value.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-geometry-cartesian-to-polar"></a><h3>go_geometry_cartesian_to_polar ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_geometry_cartesian_to_polar (<em class="parameter"><code><span class="type">double</span> x</code></em>,
+                                <em class="parameter"><code><span class="type">double</span> y</code></em>,
+                                <em class="parameter"><code><span class="type">double</span> *rho</code></em>,
+                                <em class="parameter"><code><span class="type">double</span> *theta</code></em>);</pre>
+<p>Converts cartesion coordinates to polar coordinates.</p>
+<div class="refsect3">
+<a name="go-geometry-cartesian-to-polar.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>x</p></td>
+<td class="parameter_description"><p>cartesian coordinate</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>y</p></td>
+<td class="parameter_description"><p>cartesian coordinate</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>rho</p></td>
+<td class="parameter_description"><p>polar coordinate</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>theta</p></td>
+<td class="parameter_description"><p>polar coordinate</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-geometry-get-rotation-type"></a><h3>go_geometry_get_rotation_type ()</h3>
+<pre class="programlisting"><a class="link" href="goffice-0.10-Geometry-helpers.html#GOGeometryRotationType" title="enum GOGeometryRotationType"><span class="returnvalue">GOGeometryRotationType</span></a>
+go_geometry_get_rotation_type (<em class="parameter"><code><span class="type">double</span> alpha</code></em>);</pre>
+<p>Calculates rotation type for handling of special angles (alpha = n * pi / 2)</p>
+<div class="refsect3">
+<a name="go-geometry-get-rotation-type.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>alpha</p></td>
+<td class="parameter_description"><p>angle in radians</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-geometry-get-rotation-type.returns"></a><h4>Returns</h4>
+<p> a <a class="link" href="goffice-0.10-Geometry-helpers.html#GOGeometryRotationType" title="enum GOGeometryRotationType"><span class="type">GOGeometryRotationType</span></a></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-geometry-point-to-segment"></a><h3>go_geometry_point_to_segment ()</h3>
+<pre class="programlisting"><span class="returnvalue">double</span>
+go_geometry_point_to_segment (<em class="parameter"><code><span class="type">double</span> xp</code></em>,
+                              <em class="parameter"><code><span class="type">double</span> yp</code></em>,
+                              <em class="parameter"><code><span class="type">double</span> xs</code></em>,
+                              <em class="parameter"><code><span class="type">double</span> ys</code></em>,
+                              <em class="parameter"><code><span class="type">double</span> w</code></em>,
+                              <em class="parameter"><code><span class="type">double</span> h</code></em>);</pre>
+<div class="refsect3">
+<a name="go-geometry-point-to-segment.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>xp</p></td>
+<td class="parameter_description"><p>point coordinate</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>yp</p></td>
+<td class="parameter_description"><p>point coordinate</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>xs</p></td>
+<td class="parameter_description"><p>segment start coordinate</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>ys</p></td>
+<td class="parameter_description"><p>segment start coordinate</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>w</p></td>
+<td class="parameter_description"><p>extent of segment</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>h</p></td>
+<td class="parameter_description"><p>extent of segment</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-geometry-point-to-segment.returns"></a><h4>Returns</h4>
+<p> the distance between a point and a segment.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-geometry-test-OBR-overlap"></a><h3>go_geometry_test_OBR_overlap ()</h3>
+<pre class="programlisting"><span class="returnvalue">gboolean</span>
+go_geometry_test_OBR_overlap (<em class="parameter"><code><a class="link" href="goffice-0.10-Geometry-helpers.html#GOGeometryOBR" title="GOGeometryOBR"><span class="type">GOGeometryOBR</span></a> const *obr0</code></em>,
+                              <em class="parameter"><code><a class="link" href="goffice-0.10-Geometry-helpers.html#GOGeometryOBR" title="GOGeometryOBR"><span class="type">GOGeometryOBR</span></a> const *obr1</code></em>);</pre>
+<p>Overlap test of Oriented Bounding Rectangles by the separating axis method.</p>
+<div class="refsect3">
+<a name="go-geometry-test-OBR-overlap.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>obr0</p></td>
+<td class="parameter_description"><p>a <a class="link" href="goffice-0.10-Geometry-helpers.html#GOGeometryOBR" title="GOGeometryOBR"><span class="type">GOGeometryOBR</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>obr1</p></td>
+<td class="parameter_description"><p>a <a class="link" href="goffice-0.10-Geometry-helpers.html#GOGeometryOBR" title="GOGeometryOBR"><span class="type">GOGeometryOBR</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-geometry-test-OBR-overlap.returns"></a><h4>Returns</h4>
+<p> <code class="literal">TRUE</code> if OOBRs overlap</p>
+</div>
+</div>
+</div>
+<div class="refsect1">
+<a name="goffice-0.10-Geometry-helpers.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="GOGeometryAABR"></a><h3>GOGeometryAABR</h3>
+<pre class="programlisting">typedef struct _GogViewAllocation GOGeometryAABR;
+</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOGeometryOBR"></a><h3>GOGeometryOBR</h3>
+<pre class="programlisting">typedef struct {
+        double x, y;
+        double w, h;
+        double alpha;
+} GOGeometryOBR;
+</pre>
+<div class="refsect3">
+<a name="GOGeometryOBR.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="struct_members_name">
+<col class="struct_members_description">
+<col width="200px" class="struct_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="struct_member_name"><p><span class="type">double</span> <em class="structfield"><code><a name="GOGeometryOBR.x"></a>x</code></em>;</p></td>
+<td class="struct_member_description"><p>horizontal position of the center.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><span class="type">double</span> <em class="structfield"><code><a name="GOGeometryOBR.y"></a>y</code></em>;</p></td>
+<td class="struct_member_description"><p>vertical position of the center.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><span class="type">double</span> <em class="structfield"><code><a name="GOGeometryOBR.w"></a>w</code></em>;</p></td>
+<td class="struct_member_description"><p>width of edge.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><span class="type">double</span> <em class="structfield"><code><a name="GOGeometryOBR.h"></a>h</code></em>;</p></td>
+<td class="struct_member_description"><p>height of edge.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><span class="type">double</span> <em class="structfield"><code><a name="GOGeometryOBR.alpha"></a>alpha</code></em>;</p></td>
+<td class="struct_member_description"><p>Aangle from x axis to w edge, in radians.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOGeometryRotationType"></a><h3>enum GOGeometryRotationType</h3>
+<div class="refsect3">
+<a name="GOGeometryRotationType.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="enum_members_name">
+<col class="enum_members_description">
+<col width="200px" class="enum_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="enum_member_name"><p><a name="GO-ROTATE-NONE:CAPS"></a>GO_ROTATE_NONE</p></td>
+<td class="enum_member_description">
+<p>no rotation.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-ROTATE-COUNTERCLOCKWISE:CAPS"></a>GO_ROTATE_COUNTERCLOCKWISE</p></td>
+<td class="enum_member_description">
+<p>counter clockwise.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-ROTATE-UPSIDEDOWN:CAPS"></a>GO_ROTATE_UPSIDEDOWN</p></td>
+<td class="enum_member_description">
+<p>upside down.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-ROTATE-CLOCKWISE:CAPS"></a>GO_ROTATE_CLOCKWISE</p></td>
+<td class="enum_member_description">
+<p>clockwise.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-ROTATE-FREE:CAPS"></a>GO_ROTATE_FREE</p></td>
+<td class="enum_member_description">
+<p>free rotation.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOGeometrySide"></a><h3>enum GOGeometrySide</h3>
+<div class="refsect3">
+<a name="GOGeometrySide.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="enum_members_name">
+<col class="enum_members_description">
+<col width="200px" class="enum_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="enum_member_name"><p><a name="GO-SIDE-LEFT:CAPS"></a>GO_SIDE_LEFT</p></td>
+<td class="enum_member_description">
+<p>left.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-SIDE-RIGHT:CAPS"></a>GO_SIDE_RIGHT</p></td>
+<td class="enum_member_description">
+<p>right.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-SIDE-LEFT-RIGHT:CAPS"></a>GO_SIDE_LEFT_RIGHT</p></td>
+<td class="enum_member_description">
+<p>left or right.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-SIDE-TOP:CAPS"></a>GO_SIDE_TOP</p></td>
+<td class="enum_member_description">
+<p>top.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-SIDE-BOTTOM:CAPS"></a>GO_SIDE_BOTTOM</p></td>
+<td class="enum_member_description">
+<p>bottom.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-SIDE-TOP-BOTTOM:CAPS"></a>GO_SIDE_TOP_BOTTOM</p></td>
+<td class="enum_member_description">
+<p>top or bottom.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-SIDE-AUTO:CAPS"></a>GO_SIDE_AUTO</p></td>
+<td class="enum_member_description">
+<p>auto.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GO-GEOMETRY-ANGLE-TOLERANCE:CAPS"></a><h3>GO_GEOMETRY_ANGLE_TOLERANCE</h3>
+<pre class="programlisting">#define GO_GEOMETRY_ANGLE_TOLERANCE 1E-3
+</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GODirection"></a><h3>enum GODirection</h3>
+<div class="refsect3">
+<a name="GODirection.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="enum_members_name">
+<col class="enum_members_description">
+<col width="200px" class="enum_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="enum_member_name"><p><a name="GO-DIRECTION-UP:CAPS"></a>GO_DIRECTION_UP</p></td>
+<td class="enum_member_description">
+<p>up.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-DIRECTION-DOWN:CAPS"></a>GO_DIRECTION_DOWN</p></td>
+<td class="enum_member_description">
+<p>down.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-DIRECTION-LEFT:CAPS"></a>GO_DIRECTION_LEFT</p></td>
+<td class="enum_member_description">
+<p>left.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-DIRECTION-RIGHT:CAPS"></a>GO_DIRECTION_RIGHT</p></td>
+<td class="enum_member_description">
+<p>right.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-DIRECTION-NONE:CAPS"></a>GO_DIRECTION_NONE</p></td>
+<td class="enum_member_description">
+<p>no direction.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.32</div>
+</body>
+</html>

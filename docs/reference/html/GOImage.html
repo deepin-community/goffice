@@ -1,0 +1,906 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>GOImage: GOffice Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
+<link rel="home" href="index.html" title="GOffice Reference Manual">
+<link rel="up" href="ch11.html" title="Images">
+<link rel="prev" href="ch11.html" title="Images">
+<link rel="next" href="GOPixbuf.html" title="GOPixbuf">
+<meta name="generator" content="GTK-Doc V1.32 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#GOImage.description" class="shortcut">Description</a></span><span id="nav_hierarchy">  <span class="dim">|</span> 
+                  <a href="#GOImage.object-hierarchy" class="shortcut">Object Hierarchy</a></span><span id="nav_properties">  <span class="dim">|</span> 
+                  <a href="#GOImage.properties" class="shortcut">Properties</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="ch11.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="ch11.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="GOPixbuf.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="GOImage"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="GOImage.top_of_page"></a>GOImage</span></h2>
+<p>GOImage</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="GOImage.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_proto_type">
+<col class="functions_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gboolean</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOImage.html#go-image-differ" title="go_image_differ ()">go_image_differ</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOImage.html#go-image-draw" title="go_image_draw ()">go_image_draw</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">GType</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOImage.html#go-image-format-info-get-type" title="go_image_format_info_get_type ()">go_image_format_info_get_type</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">char</span> *
+</td>
+<td class="function_name">
+<a class="link" href="GOImage.html#go-image-format-to-mime" title="go_image_format_to_mime ()">go_image_format_to_mime</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">guint8</span> const	*
+</td>
+<td class="function_name">
+<a class="link" href="GOImage.html#go-image-get-data" title="go_image_get_data ()">go_image_get_data</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOImage.html#go-image-get-default-dpi" title="go_image_get_default_dpi ()">go_image_get_default_dpi</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GOImage.html#GOImageFormat" title="enum GOImageFormat"><span class="returnvalue">GOImageFormat</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="GOImage.html#go-image-get-format-from-name" title="go_image_get_format_from_name ()">go_image_get_format_from_name</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GOImage.html#GOImageFormatInfo"><span class="returnvalue">GOImageFormatInfo</span></a> const *
+</td>
+<td class="function_name">
+<a class="link" href="GOImage.html#go-image-get-format-info" title="go_image_get_format_info ()">go_image_get_format_info</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">GSList</span> *
+</td>
+<td class="function_name">
+<a class="link" href="GOImage.html#go-image-get-formats-with-pixbuf-saver" title="go_image_get_formats_with_pixbuf_saver ()">go_image_get_formats_with_pixbuf_saver</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">double</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOImage.html#go-image-get-height" title="go_image_get_height ()">go_image_get_height</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GOImage.html#GOImageFormatInfo"><span class="returnvalue">GOImageFormatInfo</span></a> const *
+</td>
+<td class="function_name">
+<a class="link" href="GOImage.html#go-image-get-info" title="go_image_get_info ()">go_image_get_info</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">char</span> const	*
+</td>
+<td class="function_name">
+<a class="link" href="GOImage.html#go-image-get-name" title="go_image_get_name ()">go_image_get_name</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">GdkPixbuf</span> *
+</td>
+<td class="function_name">
+<a class="link" href="GOImage.html#go-image-get-pixbuf" title="go_image_get_pixbuf ()">go_image_get_pixbuf</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">GdkPixbuf</span> *
+</td>
+<td class="function_name">
+<a class="link" href="GOImage.html#go-image-get-scaled-pixbuf" title="go_image_get_scaled_pixbuf ()">go_image_get_scaled_pixbuf</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">GdkPixbuf</span> const *
+</td>
+<td class="function_name">
+<a class="link" href="GOImage.html#go-image-get-thumbnail" title="go_image_get_thumbnail ()">go_image_get_thumbnail</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">double</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOImage.html#go-image-get-width" title="go_image_get_width ()">go_image_get_width</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOImage.html#go-image-load-attrs" title="go_image_load_attrs ()">go_image_load_attrs</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOImage.html#go-image-load-data" title="go_image_load_data ()">go_image_load_data</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GOImage.html" title="GOImage"><span class="returnvalue">GOImage</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="GOImage.html#go-image-new-for-format" title="go_image_new_for_format ()">go_image_new_for_format</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GOImage.html" title="GOImage"><span class="returnvalue">GOImage</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="GOImage.html#go-image-new-from-data" title="go_image_new_from_data ()">go_image_new_from_data</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GOImage.html" title="GOImage"><span class="returnvalue">GOImage</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="GOImage.html#go-image-new-from-file" title="go_image_new_from_file ()">go_image_new_from_file</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOImage.html#go-image-save" title="go_image_save ()">go_image_save</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOImage.html#go-image-set-default-dpi" title="go_image_set_default_dpi ()">go_image_set_default_dpi</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOImage.html#go-image-set-name" title="go_image_set_name ()">go_image_set_name</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">GType</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOImage.html#go-image-type-for-format" title="go_image_type_for_format ()">go_image_type_for_format</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">char</span> *
+</td>
+<td class="function_name">
+<a class="link" href="GOImage.html#go-mime-to-image-format" title="go_mime_to_image_format ()">go_mime_to_image_format</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="GOImage.properties"></a><h2>Properties</h2>
+<div class="informaltable"><table class="informaltable" border="0">
+<colgroup>
+<col width="150px" class="properties_type">
+<col width="300px" class="properties_name">
+<col width="200px" class="properties_flags">
+</colgroup>
+<tbody>
+<tr>
+<td class="property_type"><span class="type">guint</span></td>
+<td class="property_name"><a class="link" href="GOImage.html#GOImage--height" title="The “height” property">height</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type"><span class="type">guint</span></td>
+<td class="property_name"><a class="link" href="GOImage.html#GOImage--width" title="The “width” property">width</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<a name="GOImageFormatInfo"></a><div class="refsect1">
+<a name="GOImage.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="other_proto_type">
+<col class="other_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="datatype_keyword"> </td>
+<td class="function_name"><a class="link" href="GOImage.html#GOImage-struct" title="GOImage">GOImage</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword"> </td>
+<td class="function_name"><a class="link" href="GOImage.html#GOImageClass" title="GOImageClass">GOImageClass</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">enum</td>
+<td class="function_name"><a class="link" href="GOImage.html#GOImageFormat" title="enum GOImageFormat">GOImageFormat</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword"> </td>
+<td class="function_name"><a class="link" href="GOImage.html#GOImageFormatInfo-struct" title="GOImageFormatInfo">GOImageFormatInfo</a></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="GOImage.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="screen">    <a href="/usr/share/gtk-doc/html/gobject/gobject-Boxed-Types.html">GBoxed</a>
+    <span class="lineart">╰──</span> GOImageFormatInfo
+    GObject
+    <span class="lineart">╰──</span> GOImage
+        <span class="lineart">├──</span> <a class="link" href="goffice-0.10-Windows-Metafiles-support.html#GOEmf">GOEmf</a>
+        <span class="lineart">├──</span> <a class="link" href="GOPixbuf.html" title="GOPixbuf">GOPixbuf</a>
+        <span class="lineart">├──</span> <a class="link" href="goffice-0.10-Encapsulated-Postscript-support.html#GOSpectre">GOSpectre</a>
+        <span class="lineart">╰──</span> <a class="link" href="goffice-0.10-Scalable-Vector-Graphics-support.html#GOSvg">GOSvg</a>
+</pre>
+</div>
+<div class="refsect1">
+<a name="GOImage.description"></a><h2>Description</h2>
+</div>
+<div class="refsect1">
+<a name="GOImage.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="go-image-differ"></a><h3>go_image_differ ()</h3>
+<pre class="programlisting"><span class="returnvalue">gboolean</span>
+go_image_differ (<em class="parameter"><code><a class="link" href="GOImage.html" title="GOImage"><span class="type">GOImage</span></a> *first</code></em>,
+                 <em class="parameter"><code><a class="link" href="GOImage.html" title="GOImage"><span class="type">GOImage</span></a> *second</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-image-draw"></a><h3>go_image_draw ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_image_draw (<em class="parameter"><code><a class="link" href="GOImage.html" title="GOImage"><span class="type">GOImage</span></a> *image</code></em>,
+               <em class="parameter"><code><span class="type">cairo_t</span> *cr</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-image-format-info-get-type"></a><h3>go_image_format_info_get_type ()</h3>
+<pre class="programlisting"><span class="returnvalue">GType</span>
+go_image_format_info_get_type (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-image-format-to-mime"></a><h3>go_image_format_to_mime ()</h3>
+<pre class="programlisting"><span class="returnvalue">char</span> *
+go_image_format_to_mime (<em class="parameter"><code><span class="type">char</span> const *format</code></em>);</pre>
+<div class="refsect3">
+<a name="go-image-format-to-mime.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>format</p></td>
+<td class="parameter_description"><p>a file extension string</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-image-format-to-mime.returns"></a><h4>Returns</h4>
+<p> corresponding mime type.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-image-get-data"></a><h3>go_image_get_data ()</h3>
+<pre class="programlisting"><span class="returnvalue">guint8</span> const	*
+go_image_get_data (<em class="parameter"><code><a class="link" href="GOImage.html" title="GOImage"><span class="type">GOImage</span></a> *image</code></em>,
+                   <em class="parameter"><code><span class="type">gsize</span> *length</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-image-get-default-dpi"></a><h3>go_image_get_default_dpi ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_image_get_default_dpi (<em class="parameter"><code><span class="type">double</span> *dpi_x</code></em>,
+                          <em class="parameter"><code><span class="type">double</span> *dpi_y</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-image-get-format-from-name"></a><h3>go_image_get_format_from_name ()</h3>
+<pre class="programlisting"><a class="link" href="GOImage.html#GOImageFormat" title="enum GOImageFormat"><span class="returnvalue">GOImageFormat</span></a>
+go_image_get_format_from_name (<em class="parameter"><code><span class="type">char</span> const *name</code></em>);</pre>
+<div class="refsect3">
+<a name="go-image-get-format-from-name.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>name</p></td>
+<td class="parameter_description"><p>a string</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-image-get-format-from-name.returns"></a><h4>Returns</h4>
+<p> corresponding <a class="link" href="GOImage.html#GOImageFormat" title="enum GOImageFormat"><span class="type">GOImageFormat</span></a>.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-image-get-format-info"></a><h3>go_image_get_format_info ()</h3>
+<pre class="programlisting"><a class="link" href="GOImage.html#GOImageFormatInfo"><span class="returnvalue">GOImageFormatInfo</span></a> const *
+go_image_get_format_info (<em class="parameter"><code><a class="link" href="GOImage.html#GOImageFormat" title="enum GOImageFormat"><span class="type">GOImageFormat</span></a> format</code></em>);</pre>
+<p>Retrieves information associated to <em class="parameter"><code>format</code></em>
+.</p>
+<div class="refsect3">
+<a name="go-image-get-format-info.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>format</p></td>
+<td class="parameter_description"><p>a <a class="link" href="GOImage.html#GOImageFormat" title="enum GOImageFormat"><span class="type">GOImageFormat</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-image-get-format-info.returns"></a><h4>Returns</h4>
+<p> a <a class="link" href="GOImage.html#GOImageFormatInfo"><span class="type">GOImageFormatInfo</span></a> struct.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-image-get-formats-with-pixbuf-saver"></a><h3>go_image_get_formats_with_pixbuf_saver ()</h3>
+<pre class="programlisting"><span class="returnvalue">GSList</span> *
+go_image_get_formats_with_pixbuf_saver
+                               (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+<div class="refsect3">
+<a name="go-image-get-formats-with-pixbuf-saver.returns"></a><h4>Returns</h4>
+<p>a list of <a class="link" href="GOImage.html#GOImageFormat" title="enum GOImageFormat"><span class="type">GOImageFormat</span></a> that can be created
+from a pixbuf. </p>
+<p><span class="annotation">[<acronym title="Generics and defining elements of containers and arrays."><span class="acronym">element-type</span></acronym> GOImageFormat][<acronym title="Free data container after the code is done."><span class="acronym">transfer container</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-image-get-height"></a><h3>go_image_get_height ()</h3>
+<pre class="programlisting"><span class="returnvalue">double</span>
+go_image_get_height (<em class="parameter"><code><a class="link" href="GOImage.html" title="GOImage"><span class="type">GOImage</span></a> const *image</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-image-get-info"></a><h3>go_image_get_info ()</h3>
+<pre class="programlisting"><a class="link" href="GOImage.html#GOImageFormatInfo"><span class="returnvalue">GOImageFormatInfo</span></a> const *
+go_image_get_info (<em class="parameter"><code><a class="link" href="GOImage.html" title="GOImage"><span class="type">GOImage</span></a> *image</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-image-get-name"></a><h3>go_image_get_name ()</h3>
+<pre class="programlisting"><span class="returnvalue">char</span> const	*
+go_image_get_name (<em class="parameter"><code><a class="link" href="GOImage.html" title="GOImage"><span class="type">GOImage</span></a> const *image</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-image-get-pixbuf"></a><h3>go_image_get_pixbuf ()</h3>
+<pre class="programlisting"><span class="returnvalue">GdkPixbuf</span> *
+go_image_get_pixbuf (<em class="parameter"><code><a class="link" href="GOImage.html" title="GOImage"><span class="type">GOImage</span></a> *image</code></em>);</pre>
+<p>Builds a pixbuf from the image if not already done and returns it, adding
+a reference.</p>
+<div class="refsect3">
+<a name="go-image-get-pixbuf.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>image</p></td>
+<td class="parameter_description"><p><a class="link" href="GOImage.html" title="GOImage"><span class="type">GOImage</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-image-get-pixbuf.returns"></a><h4>Returns</h4>
+<p>the pixbuf for <em class="parameter"><code>image</code></em>
+. </p>
+<p><span class="annotation">[<acronym title="Free data after the code is done."><span class="acronym">transfer full</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-image-get-scaled-pixbuf"></a><h3>go_image_get_scaled_pixbuf ()</h3>
+<pre class="programlisting"><span class="returnvalue">GdkPixbuf</span> *
+go_image_get_scaled_pixbuf (<em class="parameter"><code><a class="link" href="GOImage.html" title="GOImage"><span class="type">GOImage</span></a> *image</code></em>,
+                            <em class="parameter"><code><span class="type">int</span> width</code></em>,
+                            <em class="parameter"><code><span class="type">int</span> height</code></em>);</pre>
+<p>Builds a scaled pixbuf from the image and returns it. The caller needs to
+unref it. The pixbuf is scaled so that its width and height are not larger
+than, respectively, <em class="parameter"><code>width</code></em>
+ and <em class="parameter"><code>height</code></em>
+, and preserving the aspect ratio.</p>
+<div class="refsect3">
+<a name="go-image-get-scaled-pixbuf.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>image</p></td>
+<td class="parameter_description"><p><a class="link" href="GOImage.html" title="GOImage"><span class="type">GOImage</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>width</p></td>
+<td class="parameter_description"><p>the new pixbuf width</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>height</p></td>
+<td class="parameter_description"><p>the new pixbuf height</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-image-get-scaled-pixbuf.returns"></a><h4>Returns</h4>
+<p>the scaled pixbuf for <em class="parameter"><code>image</code></em>
+. </p>
+<p><span class="annotation">[<acronym title="Free data after the code is done."><span class="acronym">transfer full</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-image-get-thumbnail"></a><h3>go_image_get_thumbnail ()</h3>
+<pre class="programlisting"><span class="returnvalue">GdkPixbuf</span> const *
+go_image_get_thumbnail (<em class="parameter"><code><a class="link" href="GOImage.html" title="GOImage"><span class="type">GOImage</span></a> *image</code></em>);</pre>
+<p>Generates a thumbnail for <em class="parameter"><code>image</code></em>
+ if not already done and returns it, adding
+ a reference. The pixbuf is scaled so that its width and height are not larger
+than 64 pixels, and preserving the aspect ratio.</p>
+<div class="refsect3">
+<a name="go-image-get-thumbnail.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>image</p></td>
+<td class="parameter_description"><p><a class="link" href="GOImage.html" title="GOImage"><span class="type">GOImage</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-image-get-thumbnail.returns"></a><h4>Returns</h4>
+<p>the thumbnail for <em class="parameter"><code>image</code></em>
+. </p>
+<p><span class="annotation">[<acronym title="Free data after the code is done."><span class="acronym">transfer full</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-image-get-width"></a><h3>go_image_get_width ()</h3>
+<pre class="programlisting"><span class="returnvalue">double</span>
+go_image_get_width (<em class="parameter"><code><a class="link" href="GOImage.html" title="GOImage"><span class="type">GOImage</span></a> const *image</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-image-load-attrs"></a><h3>go_image_load_attrs ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_image_load_attrs (<em class="parameter"><code><a class="link" href="GOImage.html" title="GOImage"><span class="type">GOImage</span></a> *image</code></em>,
+                     <em class="parameter"><code><a href="../gsf/gsf-XML-and-libxml.html#GsfXMLIn"><span class="type">GsfXMLIn</span></a> *xin</code></em>,
+                     <em class="parameter"><code><span class="type">xmlChar</span> const **attrs</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-image-load-data"></a><h3>go_image_load_data ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_image_load_data (<em class="parameter"><code><a class="link" href="GOImage.html" title="GOImage"><span class="type">GOImage</span></a> *image</code></em>,
+                    <em class="parameter"><code><a href="../gsf/gsf-XML-and-libxml.html#GsfXMLIn"><span class="type">GsfXMLIn</span></a> *xin</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-image-new-for-format"></a><h3>go_image_new_for_format ()</h3>
+<pre class="programlisting"><a class="link" href="GOImage.html" title="GOImage"><span class="returnvalue">GOImage</span></a> *
+go_image_new_for_format (<em class="parameter"><code><span class="type">char</span> const *format</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-image-new-from-data"></a><h3>go_image_new_from_data ()</h3>
+<pre class="programlisting"><a class="link" href="GOImage.html" title="GOImage"><span class="returnvalue">GOImage</span></a> *
+go_image_new_from_data (<em class="parameter"><code><span class="type">char</span> const *type</code></em>,
+                        <em class="parameter"><code><span class="type">guint8</span> const *data</code></em>,
+                        <em class="parameter"><code><span class="type">gsize</span> length</code></em>,
+                        <em class="parameter"><code><span class="type">char</span> **format</code></em>,
+                        <em class="parameter"><code><span class="type">GError</span> **error</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-image-new-from-file"></a><h3>go_image_new_from_file ()</h3>
+<pre class="programlisting"><a class="link" href="GOImage.html" title="GOImage"><span class="returnvalue">GOImage</span></a> *
+go_image_new_from_file (<em class="parameter"><code><span class="type">char</span> const *filename</code></em>,
+                        <em class="parameter"><code><span class="type">GError</span> **error</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-image-save"></a><h3>go_image_save ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_image_save (<em class="parameter"><code><a class="link" href="GOImage.html" title="GOImage"><span class="type">GOImage</span></a> *image</code></em>,
+               <em class="parameter"><code><a href="../gsf/gsf-XML-and-libxml.html#GsfXMLOut-struct"><span class="type">GsfXMLOut</span></a> *output</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-image-set-default-dpi"></a><h3>go_image_set_default_dpi ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_image_set_default_dpi (<em class="parameter"><code><span class="type">double</span> dpi_x</code></em>,
+                          <em class="parameter"><code><span class="type">double</span> dpi_y</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-image-set-name"></a><h3>go_image_set_name ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_image_set_name (<em class="parameter"><code><a class="link" href="GOImage.html" title="GOImage"><span class="type">GOImage</span></a> *image</code></em>,
+                   <em class="parameter"><code><span class="type">char</span> const *name</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-image-type-for-format"></a><h3>go_image_type_for_format ()</h3>
+<pre class="programlisting"><span class="returnvalue">GType</span>
+go_image_type_for_format (<em class="parameter"><code><span class="type">char</span> const *format</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-mime-to-image-format"></a><h3>go_mime_to_image_format ()</h3>
+<pre class="programlisting"><span class="returnvalue">char</span> *
+go_mime_to_image_format (<em class="parameter"><code><span class="type">char</span> const *mime_type</code></em>);</pre>
+<div class="refsect3">
+<a name="go-mime-to-image-format.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>mime_type</p></td>
+<td class="parameter_description"><p>a mime type string</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-mime-to-image-format.returns"></a><h4>Returns</h4>
+<p> file extension for the given mime type.</p>
+</div>
+</div>
+</div>
+<div class="refsect1">
+<a name="GOImage.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="GOImage-struct"></a><h3>GOImage</h3>
+<pre class="programlisting">typedef struct _GOImage GOImage;</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOImageClass"></a><h3>GOImageClass</h3>
+<pre class="programlisting">typedef struct {
+	GObjectClass parent_klass;
+
+	GdkPixbuf *(*get_pixbuf) (GOImage *image);
+	GdkPixbuf *(*get_scaled_pixbuf) (GOImage *image, int width, int height);
+	void (*save) (GOImage *image, GsfXMLOut *output);
+	void (*load_attr) (GOImage *image, xmlChar const *attr_name, xmlChar const *attr_value);
+	void (*load_data) (GOImage *image, GsfXMLIn *xin);
+	void (*draw) (GOImage *image, cairo_t *cr);
+	gboolean (*differ) (GOImage *first, GOImage *second);
+} GOImageClass;
+</pre>
+<div class="refsect3">
+<a name="GOImageClass.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="struct_members_name">
+<col class="struct_members_description">
+<col width="200px" class="struct_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="struct_member_name"><p><span class="type">GObjectClass</span> <em class="structfield"><code><a name="GOImageClass.parent-klass"></a>parent_klass</code></em>;</p></td>
+<td class="struct_member_description"><p>parent class.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><em class="structfield"><code><a name="GOImageClass.get-pixbuf"></a>get_pixbuf</code></em> ()</p></td>
+<td class="struct_member_description"><p>gets a pixbuf with the same size as the image.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><em class="structfield"><code><a name="GOImageClass.get-scaled-pixbuf"></a>get_scaled_pixbuf</code></em> ()</p></td>
+<td class="struct_member_description"><p>gets a scaled pixbuf respecting the original aspect ratio.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><em class="structfield"><code><a name="GOImageClass.save"></a>save</code></em> ()</p></td>
+<td class="struct_member_description"><p>saves the image.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><em class="structfield"><code><a name="GOImageClass.load-attr"></a>load_attr</code></em> ()</p></td>
+<td class="struct_member_description"><p>loads the images properties.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><em class="structfield"><code><a name="GOImageClass.load-data"></a>load_data</code></em> ()</p></td>
+<td class="struct_member_description"><p>loads the image data.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><em class="structfield"><code><a name="GOImageClass.draw"></a>draw</code></em> ()</p></td>
+<td class="struct_member_description"><p>draws the image.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><em class="structfield"><code><a name="GOImageClass.differ"></a>differ</code></em> ()</p></td>
+<td class="struct_member_description"><p>returns <code class="literal">TRUE</code> if the two images are different.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOImageFormat"></a><h3>enum GOImageFormat</h3>
+<div class="refsect3">
+<a name="GOImageFormat.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="enum_members_name">
+<col class="enum_members_description">
+<col width="200px" class="enum_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="enum_member_name"><p><a name="GO-IMAGE-FORMAT-SVG:CAPS"></a>GO_IMAGE_FORMAT_SVG</p></td>
+<td class="enum_member_description">
+<p>SVG.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-IMAGE-FORMAT-PNG:CAPS"></a>GO_IMAGE_FORMAT_PNG</p></td>
+<td class="enum_member_description">
+<p>PNG.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-IMAGE-FORMAT-JPG:CAPS"></a>GO_IMAGE_FORMAT_JPG</p></td>
+<td class="enum_member_description">
+<p>JPEG.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-IMAGE-FORMAT-PDF:CAPS"></a>GO_IMAGE_FORMAT_PDF</p></td>
+<td class="enum_member_description">
+<p>PDF.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-IMAGE-FORMAT-PS:CAPS"></a>GO_IMAGE_FORMAT_PS</p></td>
+<td class="enum_member_description">
+<p>PostScript.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-IMAGE-FORMAT-EMF:CAPS"></a>GO_IMAGE_FORMAT_EMF</p></td>
+<td class="enum_member_description">
+<p>Enhanced Metafile.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-IMAGE-FORMAT-WMF:CAPS"></a>GO_IMAGE_FORMAT_WMF</p></td>
+<td class="enum_member_description">
+<p>Windows Metafile.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-IMAGE-FORMAT-EPS:CAPS"></a>GO_IMAGE_FORMAT_EPS</p></td>
+<td class="enum_member_description">
+<p>Encapsulated Postscript.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-IMAGE-FORMAT-UNKNOWN:CAPS"></a>GO_IMAGE_FORMAT_UNKNOWN</p></td>
+<td class="enum_member_description">
+<p>unknown.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOImageFormatInfo-struct"></a><h3>GOImageFormatInfo</h3>
+<pre class="programlisting">typedef struct {
+	GOImageFormat format;
+	char *name;
+	char *desc;
+	char *ext;
+	gboolean has_pixbuf_saver;
+	gboolean is_dpi_useful;
+	gboolean alpha_support;
+} GOImageFormatInfo;
+</pre>
+<div class="refsect3">
+<a name="GOImageFormatInfo.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="struct_members_name">
+<col class="struct_members_description">
+<col width="200px" class="struct_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="struct_member_name"><p><a class="link" href="GOImage.html#GOImageFormat" title="enum GOImageFormat"><span class="type">GOImageFormat</span></a> <em class="structfield"><code><a name="GOImageFormatInfo-struct.format"></a>format</code></em>;</p></td>
+<td class="struct_member_description"><p><a class="link" href="GOImage.html#GOImageFormat" title="enum GOImageFormat"><span class="type">GOImageFormat</span></a>.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><span class="type">char</span> *<em class="structfield"><code><a name="GOImageFormatInfo-struct.name"></a>name</code></em>;</p></td>
+<td class="struct_member_description"><p>image type name.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><span class="type">char</span> *<em class="structfield"><code><a name="GOImageFormatInfo-struct.desc"></a>desc</code></em>;</p></td>
+<td class="struct_member_description"><p>image type description.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><span class="type">char</span> *<em class="structfield"><code><a name="GOImageFormatInfo-struct.ext"></a>ext</code></em>;</p></td>
+<td class="struct_member_description"><p>file extension.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><span class="type">gboolean</span> <em class="structfield"><code><a name="GOImageFormatInfo-struct.has-pixbuf-saver"></a>has_pixbuf_saver</code></em>;</p></td>
+<td class="struct_member_description"><p>can be saved as pixbuf.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><span class="type">gboolean</span> <em class="structfield"><code><a name="GOImageFormatInfo-struct.is-dpi-useful"></a>is_dpi_useful</code></em>;</p></td>
+<td class="struct_member_description"><p>depends upon device resolution.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><span class="type">gboolean</span> <em class="structfield"><code><a name="GOImageFormatInfo-struct.alpha-support"></a>alpha_support</code></em>;</p></td>
+<td class="struct_member_description"><p>supports transparency.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="refsect1">
+<a name="GOImage.property-details"></a><h2>Property Details</h2>
+<div class="refsect2">
+<a name="GOImage--height"></a><h3>The <code class="literal">“height”</code> property</h3>
+<pre class="programlisting">  “height”                   <span class="type">guint</span></pre>
+<p>Image height in pixels.</p>
+<p>Owner: GOImage</p>
+<p>Flags: Read / Write</p>
+<p>Allowed values: &lt;= 65535</p>
+<p>Default value: 0</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOImage--width"></a><h3>The <code class="literal">“width”</code> property</h3>
+<pre class="programlisting">  “width”                    <span class="type">guint</span></pre>
+<p>Image width in pixels.</p>
+<p>Owner: GOImage</p>
+<p>Flags: Read / Write</p>
+<p>Allowed values: &lt;= 65535</p>
+<p>Default value: 0</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.32</div>
+</body>
+</html>

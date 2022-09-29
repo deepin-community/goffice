@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>URL utilities: GOffice Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
+<link rel="home" href="index.html" title="GOffice Reference Manual">
+<link rel="up" href="ch14.html" title="File utilities">
+<link rel="prev" href="GOFileSaver.html" title="GOFileSaver">
+<link rel="next" href="ch15.html" title="Application">
+<meta name="generator" content="GTK-Doc V1.32 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#goffice-0.10-URL-utilities.description" class="shortcut">Description</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="ch14.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="GOFileSaver.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="ch15.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="goffice-0.10-URL-utilities"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="goffice-0.10-URL-utilities.top_of_page"></a>URL utilities</span></h2>
+<p>URL utilities</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="goffice-0.10-URL-utilities.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_proto_type">
+<col class="functions_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gboolean</span>
+</td>
+<td class="function_name">
+<a class="link" href="goffice-0.10-URL-utilities.html#go-url-check-extension" title="go_url_check_extension ()">go_url_check_extension</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gchar</span> *
+</td>
+<td class="function_name">
+<a class="link" href="goffice-0.10-URL-utilities.html#go-url-encode" title="go_url_encode ()">go_url_encode</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">char</span> *
+</td>
+<td class="function_name">
+<a class="link" href="goffice-0.10-URL-utilities.html#go-url-make-relative" title="go_url_make_relative ()">go_url_make_relative</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">char</span> *
+</td>
+<td class="function_name">
+<a class="link" href="goffice-0.10-URL-utilities.html#go-url-resolve-relative" title="go_url_resolve_relative ()">go_url_resolve_relative</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">char</span> *
+</td>
+<td class="function_name">
+<a class="link" href="goffice-0.10-URL-utilities.html#go-url-simplify" title="go_url_simplify ()">go_url_simplify</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="goffice-0.10-URL-utilities.description"></a><h2>Description</h2>
+</div>
+<div class="refsect1">
+<a name="goffice-0.10-URL-utilities.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="go-url-check-extension"></a><h3>go_url_check_extension ()</h3>
+<pre class="programlisting"><span class="returnvalue">gboolean</span>
+go_url_check_extension (<em class="parameter"><code><span class="type">gchar</span> const *uri</code></em>,
+                        <em class="parameter"><code><span class="type">gchar</span> const *std_ext</code></em>,
+                        <em class="parameter"><code><span class="type">gchar</span> **new_uri</code></em>);</pre>
+<p>Modifies given <em class="parameter"><code>uri</code></em>
+ by adding the extension <em class="parameter"><code>std_ext</code></em>
+ if needed.
+If no <em class="parameter"><code>std_ext</code></em>
+ is given or <em class="parameter"><code>uri</code></em>
+ already has some extension,
+it just copies <em class="parameter"><code>uri</code></em>
+.</p>
+<p>Value in new_uri:  newly allocated string which you should free after
+                   use, containing (optionally) modified uri.</p>
+<div class="refsect3">
+<a name="go-url-check-extension.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>uri</p></td>
+<td class="parameter_description"><p>Uri</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>std_ext</p></td>
+<td class="parameter_description"><p>Standard extension for the content type</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>new_uri</p></td>
+<td class="parameter_description"><p>New uri. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>][<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-url-check-extension.returns"></a><h4>Returns</h4>
+<p> <code class="literal">FALSE</code> if the uri has an extension not matching <em class="parameter"><code>std_ext</code></em>
+</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-url-encode"></a><h3>go_url_encode ()</h3>
+<pre class="programlisting"><span class="returnvalue">gchar</span> *
+go_url_encode (<em class="parameter"><code><span class="type">gchar</span> const *uri</code></em>,
+               <em class="parameter"><code><span class="type">int</span> type</code></em>);</pre>
+<p>url-encode a string according to RFC 2368.</p>
+<div class="refsect3">
+<a name="go-url-encode.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>uri</p></td>
+<td class="parameter_description"><p>The uri part to be encoded</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>type</p></td>
+<td class="parameter_description"><p>0: mailto, 1: file or http</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-url-encode.returns"></a><h4>Returns</h4>
+<p> an encoded string which the caller is responsible for freeing.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-url-make-relative"></a><h3>go_url_make_relative ()</h3>
+<pre class="programlisting"><span class="returnvalue">char</span> *
+go_url_make_relative (<em class="parameter"><code>const <span class="type">char</span> *uri</code></em>,
+                      <em class="parameter"><code>const <span class="type">char</span> *ref_uri</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-url-resolve-relative"></a><h3>go_url_resolve_relative ()</h3>
+<pre class="programlisting"><span class="returnvalue">char</span> *
+go_url_resolve_relative (<em class="parameter"><code>const <span class="type">char</span> *ref_uri</code></em>,
+                         <em class="parameter"><code>const <span class="type">char</span> *rel_uri</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-url-simplify"></a><h3>go_url_simplify ()</h3>
+<pre class="programlisting"><span class="returnvalue">char</span> *
+go_url_simplify (<em class="parameter"><code>const <span class="type">char</span> *uri</code></em>);</pre>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.32</div>
+</body>
+</html>

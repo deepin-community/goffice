@@ -1,0 +1,1079 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>GOComponent: GOffice Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
+<link rel="home" href="index.html" title="GOffice Reference Manual">
+<link rel="up" href="ch16.html" title="Components">
+<link rel="prev" href="goffice-0.10-Components-factory.html" title="Components factory">
+<link rel="next" href="ch17.html" title="Miscellaneous">
+<meta name="generator" content="GTK-Doc V1.32 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#GOComponent.description" class="shortcut">Description</a></span><span id="nav_hierarchy">  <span class="dim">|</span> 
+                  <a href="#GOComponent.object-hierarchy" class="shortcut">Object Hierarchy</a></span><span id="nav_properties">  <span class="dim">|</span> 
+                  <a href="#GOComponent.properties" class="shortcut">Properties</a></span><span id="nav_signals">  <span class="dim">|</span> 
+                  <a href="#GOComponent.signals" class="shortcut">Signals</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="ch16.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="goffice-0.10-Components-factory.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="ch17.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="GOComponent"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="GOComponent.top_of_page"></a>GOComponent</span></h2>
+<p>GOComponent</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="GOComponent.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_proto_type">
+<col class="functions_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<span class="c_punctuation">(</span><a class="link" href="GOComponent.html#GOComponentSaxHandler" title="GOComponentSaxHandler ()">*GOComponentSaxHandler</a><span class="c_punctuation">)</span> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GOComponent.html#GOSnapshotType" title="enum GOSnapshotType"><span class="returnvalue">GOSnapshotType</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="GOComponent.html#go-component-build-snapshot" title="go_component_build_snapshot ()">go_component_build_snapshot</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GOComponent.html" title="GOComponent"><span class="returnvalue">GOComponent</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="GOComponent.html#go-component-duplicate" title="go_component_duplicate ()">go_component_duplicate</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">GtkWindow</span> *
+</td>
+<td class="function_name">
+<a class="link" href="GOComponent.html#go-component-edit" title="go_component_edit ()">go_component_edit</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOComponent.html#go-component-emit-changed" title="go_component_emit_changed ()">go_component_emit_changed</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gboolean</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOComponent.html#go-component-export-image" title="go_component_export_image ()">go_component_export_image</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GOCmdContext.html" title="GOCmdContext"><span class="returnvalue">GOCmdContext</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="GOComponent.html#go-component-get-command-context" title="go_component_get_command_context ()">go_component_get_command_context</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gboolean</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOComponent.html#go-component-get-data" title="go_component_get_data ()">go_component_get_data</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gboolean</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOComponent.html#go-component-get-inline" title="go_component_get_inline ()">go_component_get_inline</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">char</span> const *
+</td>
+<td class="function_name">
+<a class="link" href="GOComponent.html#go-component-get-mime-type" title="go_component_get_mime_type ()">go_component_get_mime_type</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOComponent.html#go-component-get-size" title="go_component_get_size ()">go_component_get_size</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span> const *
+</td>
+<td class="function_name">
+<a class="link" href="GOComponent.html#go-component-get-snapshot" title="go_component_get_snapshot ()">go_component_get_snapshot</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gboolean</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOComponent.html#go-component-get-use-font-from-app" title="go_component_get_use_font_from_app ()">go_component_get_use_font_from_app</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gboolean</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOComponent.html#go-component-is-editable" title="go_component_is_editable ()">go_component_is_editable</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gboolean</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOComponent.html#go-component-is-resizable" title="go_component_is_resizable ()">go_component_is_resizable</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GOComponent.html" title="GOComponent"><span class="returnvalue">GOComponent</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="GOComponent.html#go-component-new-by-mime-type" title="go_component_new_by_mime_type ()">go_component_new_by_mime_type</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GOComponent.html" title="GOComponent"><span class="returnvalue">GOComponent</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="GOComponent.html#go-component-new-from-uri" title="go_component_new_from_uri ()">go_component_new_from_uri</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOComponent.html#go-component-render" title="go_component_render ()">go_component_render</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOComponent.html#go-component-sax-push-parser" title="go_component_sax_push_parser ()">go_component_sax_push_parser</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOComponent.html#go-component-set-command-context" title="go_component_set_command_context ()">go_component_set_command_context</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOComponent.html#go-component-set-data" title="go_component_set_data ()">go_component_set_data</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOComponent.html#go-component-set-default-command-context" title="go_component_set_default_command_context ()">go_component_set_default_command_context</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOComponent.html#go-component-set-default-size" title="go_component_set_default_size ()">go_component_set_default_size</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gboolean</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOComponent.html#go-component-set-font" title="go_component_set_font ()">go_component_set_font</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOComponent.html#go-component-set-inline" title="go_component_set_inline ()">go_component_set_inline</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOComponent.html#go-component-set-size" title="go_component_set_size ()">go_component_set_size</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOComponent.html#go-component-set-window" title="go_component_set_window ()">go_component_set_window</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOComponent.html#go-component-set-use-font-from-app" title="go_component_set_use_font_from_app ()">go_component_set_use_font_from_app</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOComponent.html#go-component-stop-editing" title="go_component_stop_editing ()">go_component_stop_editing</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOComponent.html#go-component-write-xml-sax" title="go_component_write_xml_sax ()">go_component_write_xml_sax</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="GOComponent.properties"></a><h2>Properties</h2>
+<div class="informaltable"><table class="informaltable" border="0">
+<colgroup>
+<col width="150px" class="properties_type">
+<col width="300px" class="properties_name">
+<col width="200px" class="properties_flags">
+</colgroup>
+<tbody>
+<tr>
+<td class="property_type"><span class="type">gdouble</span></td>
+<td class="property_name"><a class="link" href="GOComponent.html#GOComponent--ascent" title="The “ascent” property">ascent</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type"><span class="type">gdouble</span></td>
+<td class="property_name"><a class="link" href="GOComponent.html#GOComponent--descent" title="The “descent” property">descent</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type"><span class="type">gdouble</span></td>
+<td class="property_name"><a class="link" href="GOComponent.html#GOComponent--height" title="The “height” property">height</a></td>
+<td class="property_flags">Read</td>
+</tr>
+<tr>
+<td class="property_type"><span class="type">gboolean</span></td>
+<td class="property_name"><a class="link" href="GOComponent.html#GOComponent--inline" title="The “inline” property">inline</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type">
+<span class="type">gchar</span> *</td>
+<td class="property_name"><a class="link" href="GOComponent.html#GOComponent--mime-type" title="The “mime-type” property">mime-type</a></td>
+<td class="property_flags">Read / Write / Construct Only</td>
+</tr>
+<tr>
+<td class="property_type"><span class="type">gdouble</span></td>
+<td class="property_name"><a class="link" href="GOComponent.html#GOComponent--width" title="The “width” property">width</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="GOComponent.signals"></a><h2>Signals</h2>
+<div class="informaltable"><table class="informaltable" border="0">
+<colgroup>
+<col width="150px" class="signal_proto_type">
+<col width="300px" class="signal_proto_name">
+<col width="200px" class="signal_proto_flags">
+</colgroup>
+<tbody><tr>
+<td class="signal_type"><span class="returnvalue">void</span></td>
+<td class="signal_name"><a class="link" href="GOComponent.html#GOComponent-changed" title="The “changed” signal">changed</a></td>
+<td class="signal_flags">Run Last</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="GOComponent.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="other_proto_type">
+<col class="other_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="datatype_keyword"> </td>
+<td class="function_name"><a class="link" href="GOComponent.html#GOComponent-struct" title="GOComponent">GOComponent</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword"> </td>
+<td class="function_name"><a class="link" href="GOComponent.html#GOComponentClass" title="GOComponentClass">GOComponentClass</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">enum</td>
+<td class="function_name"><a class="link" href="GOComponent.html#GOSnapshotType" title="enum GOSnapshotType">GOSnapshotType</a></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="GOComponent.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="screen">    GObject
+    <span class="lineart">╰──</span> GOComponent
+</pre>
+</div>
+<div class="refsect1">
+<a name="GOComponent.description"></a><h2>Description</h2>
+</div>
+<div class="refsect1">
+<a name="GOComponent.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="GOComponentSaxHandler"></a><h3>GOComponentSaxHandler ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+<span class="c_punctuation">(</span>*GOComponentSaxHandler<span class="c_punctuation">)</span> (<em class="parameter"><code><a class="link" href="GOComponent.html" title="GOComponent"><span class="type">GOComponent</span></a> *component</code></em>,
+                          <em class="parameter"><code><span class="type">gpointer</span> user_data</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-component-build-snapshot"></a><h3>go_component_build_snapshot ()</h3>
+<pre class="programlisting"><a class="link" href="GOComponent.html#GOSnapshotType" title="enum GOSnapshotType"><span class="returnvalue">GOSnapshotType</span></a>
+go_component_build_snapshot (<em class="parameter"><code><a class="link" href="GOComponent.html" title="GOComponent"><span class="type">GOComponent</span></a> *component</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-component-duplicate"></a><h3>go_component_duplicate ()</h3>
+<pre class="programlisting"><a class="link" href="GOComponent.html" title="GOComponent"><span class="returnvalue">GOComponent</span></a> *
+go_component_duplicate (<em class="parameter"><code><a class="link" href="GOComponent.html" title="GOComponent"><span class="type">GOComponent</span></a> const *component</code></em>);</pre>
+<p>Duplicates the component.</p>
+<div class="refsect3">
+<a name="go-component-duplicate.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>component</p></td>
+<td class="parameter_description"><p>a <a class="link" href="GOComponent.html" title="GOComponent"><span class="type">GOComponent</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-component-duplicate.returns"></a><h4>Returns</h4>
+<p>the duplicated component. </p>
+<p><span class="annotation">[<acronym title="Free data after the code is done."><span class="acronym">transfer full</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-component-edit"></a><h3>go_component_edit ()</h3>
+<pre class="programlisting"><span class="returnvalue">GtkWindow</span> *
+go_component_edit (<em class="parameter"><code><a class="link" href="GOComponent.html" title="GOComponent"><span class="type">GOComponent</span></a> *component</code></em>);</pre>
+<p>Opens a top level window editor for the component if it can be edited.</p>
+<div class="refsect3">
+<a name="go-component-edit.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>component</p></td>
+<td class="parameter_description"><p><a class="link" href="GOComponent.html" title="GOComponent"><span class="type">GOComponent</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-component-edit.returns"></a><h4>Returns</h4>
+<p>the editor window or <code class="literal">NULL</code>. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-component-emit-changed"></a><h3>go_component_emit_changed ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_component_emit_changed (<em class="parameter"><code><a class="link" href="GOComponent.html" title="GOComponent"><span class="type">GOComponent</span></a> *component</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-component-export-image"></a><h3>go_component_export_image ()</h3>
+<pre class="programlisting"><span class="returnvalue">gboolean</span>
+go_component_export_image (<em class="parameter"><code><a class="link" href="GOComponent.html" title="GOComponent"><span class="type">GOComponent</span></a> *component</code></em>,
+                           <em class="parameter"><code><a class="link" href="GOImage.html#GOImageFormat" title="enum GOImageFormat"><span class="type">GOImageFormat</span></a> format</code></em>,
+                           <em class="parameter"><code><a href="../gsf/gsf-Output-to-unstructured-files.html#GsfOutput-struct"><span class="type">GsfOutput</span></a> *output</code></em>,
+                           <em class="parameter"><code><span class="type">double</span> x_dpi</code></em>,
+                           <em class="parameter"><code><span class="type">double</span> y_dpi</code></em>);</pre>
+<p>Exports an image of <em class="parameter"><code>graph</code></em>
+ in given <em class="parameter"><code>format</code></em>
+, writing results in a <a href="../gsf/gsf-Output-to-unstructured-files.html#GsfOutput-struct"><span class="type">GsfOutput</span></a> stream.
+If export format type is a bitmap one, it computes image size with x_dpi, y_dpi and
+<em class="parameter"><code>graph</code></em>
+ size (see <em class="parameter"><code><a class="link" href="GogGraph.html#gog-graph-get-size" title="gog_graph_get_size ()"><code class="function">gog_graph_get_size()</code></a></code></em>
+).</p>
+<div class="refsect3">
+<a name="go-component-export-image.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>component</p></td>
+<td class="parameter_description"><p>a <a class="link" href="GOComponent.html" title="GOComponent"><span class="type">GOComponent</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>format</p></td>
+<td class="parameter_description"><p>image format for export</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>output</p></td>
+<td class="parameter_description"><p>a <a href="../gsf/gsf-Output-to-unstructured-files.html#GsfOutput-struct"><span class="type">GsfOutput</span></a> stream</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>x_dpi</p></td>
+<td class="parameter_description"><p>x resolution of exported graph</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>y_dpi</p></td>
+<td class="parameter_description"><p>y resolution of exported graph</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-component-export-image.returns"></a><h4>Returns</h4>
+<p> <code class="literal">TRUE</code> if export succeed.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-component-get-command-context"></a><h3>go_component_get_command_context ()</h3>
+<pre class="programlisting"><a class="link" href="GOCmdContext.html" title="GOCmdContext"><span class="returnvalue">GOCmdContext</span></a> *
+go_component_get_command_context (<em class="parameter"><code><a class="link" href="GOComponent.html" title="GOComponent"><span class="type">GOComponent</span></a> *component</code></em>);</pre>
+<div class="refsect3">
+<a name="go-component-get-command-context.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>component</p></td>
+<td class="parameter_description"><p><a class="link" href="GOComponent.html" title="GOComponent"><span class="type">GOComponent</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-component-get-command-context.returns"></a><h4>Returns</h4>
+<p>the command context used by the component or the
+default command context if the argument is NULL. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-component-get-data"></a><h3>go_component_get_data ()</h3>
+<pre class="programlisting"><span class="returnvalue">gboolean</span>
+go_component_get_data (<em class="parameter"><code><a class="link" href="GOComponent.html" title="GOComponent"><span class="type">GOComponent</span></a> *component</code></em>,
+                       <em class="parameter"><code><span class="type">gpointer</span> *data</code></em>,
+                       <em class="parameter"><code><span class="type">int</span> *length</code></em>,
+                       <em class="parameter"><code><span class="type">GDestroyNotify</span> *clearfunc</code></em>,
+                       <em class="parameter"><code><span class="type">gpointer</span> *user_data</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-component-get-inline"></a><h3>go_component_get_inline ()</h3>
+<pre class="programlisting"><span class="returnvalue">gboolean</span>
+go_component_get_inline (<em class="parameter"><code><a class="link" href="GOComponent.html" title="GOComponent"><span class="type">GOComponent</span></a> *component</code></em>);</pre>
+<p>Returns the in-line or not nature of the component.</p>
+<div class="refsect3">
+<a name="go-component-get-inline.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>component</p></td>
+<td class="parameter_description"><p>a <a class="link" href="GOComponent.html" title="GOComponent"><span class="type">GOComponent</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-component-get-inline.returns"></a><h4>Returns</h4>
+<p> whether the component is displayed in-line</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-component-get-mime-type"></a><h3>go_component_get_mime_type ()</h3>
+<pre class="programlisting"><span class="returnvalue">char</span> const *
+go_component_get_mime_type (<em class="parameter"><code><a class="link" href="GOComponent.html" title="GOComponent"><span class="type">GOComponent</span></a> *component</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-component-get-size"></a><h3>go_component_get_size ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_component_get_size (<em class="parameter"><code><a class="link" href="GOComponent.html" title="GOComponent"><span class="type">GOComponent</span></a> *component</code></em>,
+                       <em class="parameter"><code><span class="type">double</span> *width</code></em>,
+                       <em class="parameter"><code><span class="type">double</span> *height</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-component-get-snapshot"></a><h3>go_component_get_snapshot ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span> const *
+go_component_get_snapshot (<em class="parameter"><code><a class="link" href="GOComponent.html" title="GOComponent"><span class="type">GOComponent</span></a> *component</code></em>,
+                           <em class="parameter"><code><a class="link" href="GOComponent.html#GOSnapshotType" title="enum GOSnapshotType"><span class="type">GOSnapshotType</span></a> *type</code></em>,
+                           <em class="parameter"><code><span class="type">size_t</span> *length</code></em>);</pre>
+<p>Returns a snapshot is either svg or png format for the component.</p>
+<div class="refsect3">
+<a name="go-component-get-snapshot.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>component</p></td>
+<td class="parameter_description"><p><a class="link" href="GOComponent.html" title="GOComponent"><span class="type">GOComponent</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>type</p></td>
+<td class="parameter_description"><p><a class="link" href="GOComponent.html#GOSnapshotType" title="enum GOSnapshotType"><span class="type">GOSnapshotType</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>length</p></td>
+<td class="parameter_description"><p>where to store the data length</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-component-get-snapshot.returns"></a><h4>Returns</h4>
+<p>the snapshot as an arry of bytes. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-component-get-use-font-from-app"></a><h3>go_component_get_use_font_from_app ()</h3>
+<pre class="programlisting"><span class="returnvalue">gboolean</span>
+go_component_get_use_font_from_app (<em class="parameter"><code><a class="link" href="GOComponent.html" title="GOComponent"><span class="type">GOComponent</span></a> *component</code></em>);</pre>
+<p>Returns whether the component should use the font from the calling
+application or use its own font.</p>
+<div class="refsect3">
+<a name="go-component-get-use-font-from-app.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>component</p></td>
+<td class="parameter_description"><p>a <a class="link" href="GOComponent.html" title="GOComponent"><span class="type">GOComponent</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-component-get-use-font-from-app.returns"></a><h4>Returns</h4>
+<p> whether the component should use the font from the calling
+application</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-component-is-editable"></a><h3>go_component_is_editable ()</h3>
+<pre class="programlisting"><span class="returnvalue">gboolean</span>
+go_component_is_editable (<em class="parameter"><code><a class="link" href="GOComponent.html" title="GOComponent"><span class="type">GOComponent</span></a> *component</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-component-is-resizable"></a><h3>go_component_is_resizable ()</h3>
+<pre class="programlisting"><span class="returnvalue">gboolean</span>
+go_component_is_resizable (<em class="parameter"><code><a class="link" href="GOComponent.html" title="GOComponent"><span class="type">GOComponent</span></a> *component</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-component-new-by-mime-type"></a><h3>go_component_new_by_mime_type ()</h3>
+<pre class="programlisting"><a class="link" href="GOComponent.html" title="GOComponent"><span class="returnvalue">GOComponent</span></a> *
+go_component_new_by_mime_type (<em class="parameter"><code><span class="type">char</span> const *mime_type</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-component-new-from-uri"></a><h3>go_component_new_from_uri ()</h3>
+<pre class="programlisting"><a class="link" href="GOComponent.html" title="GOComponent"><span class="returnvalue">GOComponent</span></a> *
+go_component_new_from_uri (<em class="parameter"><code><span class="type">char</span> const *uri</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-component-render"></a><h3>go_component_render ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_component_render (<em class="parameter"><code><a class="link" href="GOComponent.html" title="GOComponent"><span class="type">GOComponent</span></a> *component</code></em>,
+                     <em class="parameter"><code><span class="type">cairo_t</span> *cr</code></em>,
+                     <em class="parameter"><code><span class="type">double</span> width</code></em>,
+                     <em class="parameter"><code><span class="type">double</span> height</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-component-sax-push-parser"></a><h3>go_component_sax_push_parser ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_component_sax_push_parser (<em class="parameter"><code><a href="../gsf/gsf-XML-and-libxml.html#GsfXMLIn"><span class="type">GsfXMLIn</span></a> *xin</code></em>,
+                              <em class="parameter"><code><span class="type">xmlChar</span> const **attrs</code></em>,
+                              <em class="parameter"><code><a class="link" href="GOComponent.html#GOComponentSaxHandler" title="GOComponentSaxHandler ()"><span class="type">GOComponentSaxHandler</span></a> handler</code></em>,
+                              <em class="parameter"><code><span class="type">gpointer</span> user_data</code></em>);</pre>
+<p>Loads the component from the xml stream. <em class="parameter"><code>handler</code></em>
+ will be called when done.</p>
+<div class="refsect3">
+<a name="go-component-sax-push-parser.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>xin</p></td>
+<td class="parameter_description"><p><a href="../gsf/gsf-Input-from-unstructured-files.html#GsfInput-struct"><span class="type">GsfInput</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>attrs</p></td>
+<td class="parameter_description"><p>the current node attributes.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>handler</p></td>
+<td class="parameter_description"><p><a class="link" href="GOComponent.html#GOComponentSaxHandler" title="GOComponentSaxHandler ()"><span class="type">GOComponentSaxHandler</span></a>. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="The callback is valid only during the call to the method."><span class="acronym">scope call</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>data to pass to <em class="parameter"><code>handler</code></em>
+</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-component-set-command-context"></a><h3>go_component_set_command_context ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_component_set_command_context (<em class="parameter"><code><a class="link" href="GOComponent.html" title="GOComponent"><span class="type">GOComponent</span></a> *component</code></em>,
+                                  <em class="parameter"><code><a class="link" href="GOCmdContext.html" title="GOCmdContext"><span class="type">GOCmdContext</span></a> *cc</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-component-set-data"></a><h3>go_component_set_data ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_component_set_data (<em class="parameter"><code><a class="link" href="GOComponent.html" title="GOComponent"><span class="type">GOComponent</span></a> *component</code></em>,
+                       <em class="parameter"><code><span class="type">char</span> const *data</code></em>,
+                       <em class="parameter"><code><span class="type">int</span> length</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-component-set-default-command-context"></a><h3>go_component_set_default_command_context ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_component_set_default_command_context
+                               (<em class="parameter"><code><a class="link" href="GOCmdContext.html" title="GOCmdContext"><span class="type">GOCmdContext</span></a> *cc</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-component-set-default-size"></a><h3>go_component_set_default_size ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_component_set_default_size (<em class="parameter"><code><a class="link" href="GOComponent.html" title="GOComponent"><span class="type">GOComponent</span></a> *component</code></em>,
+                               <em class="parameter"><code><span class="type">double</span> width</code></em>,
+                               <em class="parameter"><code><span class="type">double</span> ascent</code></em>,
+                               <em class="parameter"><code><span class="type">double</span> descent</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-component-set-font"></a><h3>go_component_set_font ()</h3>
+<pre class="programlisting"><span class="returnvalue">gboolean</span>
+go_component_set_font (<em class="parameter"><code><a class="link" href="GOComponent.html" title="GOComponent"><span class="type">GOComponent</span></a> *component</code></em>,
+                       <em class="parameter"><code><span class="type">PangoFontDescription</span> const *desc</code></em>);</pre>
+<p>Sets the font the component should use. Not all components will actually
+changed the font they use.</p>
+<div class="refsect3">
+<a name="go-component-set-font.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>component</p></td>
+<td class="parameter_description"><p><a class="link" href="GOComponent.html" title="GOComponent"><span class="type">GOComponent</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>desc</p></td>
+<td class="parameter_description"><p><span class="type">PangoFontDescription</span></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-component-set-font.returns"></a><h4>Returns</h4>
+<p> <code class="literal">TRUE</code> if size changed.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-component-set-inline"></a><h3>go_component_set_inline ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_component_set_inline (<em class="parameter"><code><a class="link" href="GOComponent.html" title="GOComponent"><span class="type">GOComponent</span></a> *component</code></em>,
+                         <em class="parameter"><code><span class="type">gboolean</span> is_inline</code></em>);</pre>
+<p>Sets the in-line or not nature of the component. Default is <code class="literal">FALSE</code>.</p>
+<div class="refsect3">
+<a name="go-component-set-inline.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>component</p></td>
+<td class="parameter_description"><p>a <a class="link" href="GOComponent.html" title="GOComponent"><span class="type">GOComponent</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>is_inline</p></td>
+<td class="parameter_description"><p>whether the component should be displayed in-line</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-component-set-size"></a><h3>go_component_set_size ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_component_set_size (<em class="parameter"><code><a class="link" href="GOComponent.html" title="GOComponent"><span class="type">GOComponent</span></a> *component</code></em>,
+                       <em class="parameter"><code><span class="type">double</span> width</code></em>,
+                       <em class="parameter"><code><span class="type">double</span> height</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-component-set-window"></a><h3>go_component_set_window ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_component_set_window (<em class="parameter"><code><a class="link" href="GOComponent.html" title="GOComponent"><span class="type">GOComponent</span></a> *component</code></em>,
+                         <em class="parameter"><code><span class="type">GdkWindow</span> *window</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-component-set-use-font-from-app"></a><h3>go_component_set_use_font_from_app ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_component_set_use_font_from_app (<em class="parameter"><code><a class="link" href="GOComponent.html" title="GOComponent"><span class="type">GOComponent</span></a> *component</code></em>,
+                                    <em class="parameter"><code><span class="type">gboolean</span> use_font_from_app</code></em>);</pre>
+<p>Sets the source of the font that the component should use. Default is <code class="literal">FALSE</code>.</p>
+<div class="refsect3">
+<a name="go-component-set-use-font-from-app.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>component</p></td>
+<td class="parameter_description"><p>a <a class="link" href="GOComponent.html" title="GOComponent"><span class="type">GOComponent</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>use_font_from_app</p></td>
+<td class="parameter_description"><p>whether the component should use the font from the
+calling application or use its own font.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-component-stop-editing"></a><h3>go_component_stop_editing ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_component_stop_editing (<em class="parameter"><code><a class="link" href="GOComponent.html" title="GOComponent"><span class="type">GOComponent</span></a> *component</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-component-write-xml-sax"></a><h3>go_component_write_xml_sax ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_component_write_xml_sax (<em class="parameter"><code><a class="link" href="GOComponent.html" title="GOComponent"><span class="type">GOComponent</span></a> *component</code></em>,
+                            <em class="parameter"><code><a href="../gsf/gsf-XML-and-libxml.html#GsfXMLOut-struct"><span class="type">GsfXMLOut</span></a> *output</code></em>);</pre>
+</div>
+</div>
+<div class="refsect1">
+<a name="GOComponent.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="GOComponent-struct"></a><h3>GOComponent</h3>
+<pre class="programlisting">typedef struct _GOComponent GOComponent;</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOComponentClass"></a><h3>GOComponentClass</h3>
+<pre class="programlisting">typedef struct {
+	GObjectClass parent_class;
+
+	GtkWindow* (*edit) (GOComponent *component);
+	gboolean (*get_data) (GOComponent *component, gpointer *data, int *length,
+			      GDestroyNotify *clearfunc, gpointer *user_data);
+	void (*mime_type_set) (GOComponent* component);
+	void (*set_data) (GOComponent *component);
+	void (*set_default_size) (GOComponent* component);
+	void (*set_size) (GOComponent *component);
+	void (*render) (GOComponent *component, cairo_t *cr,
+			    double width, double height);
+	gboolean (*set_font) (GOComponent *component, PangoFontDescription const *desc);
+} GOComponentClass;
+</pre>
+<p>The component base object class.</p>
+<div class="refsect3">
+<a name="GOComponentClass.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="struct_members_name">
+<col class="struct_members_description">
+<col width="200px" class="struct_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="struct_member_name"><p><em class="structfield"><code><a name="GOComponentClass.edit"></a>edit</code></em> ()</p></td>
+<td class="struct_member_description"><p>callback for component edition.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><em class="structfield"><code><a name="GOComponentClass.get-data"></a>get_data</code></em> ()</p></td>
+<td class="struct_member_description"><p>returns the data embedded in the component.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><em class="structfield"><code><a name="GOComponentClass.mime-type-set"></a>mime_type_set</code></em> ()</p></td>
+<td class="struct_member_description"><p>sets the mime type.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><em class="structfield"><code><a name="GOComponentClass.set-data"></a>set_data</code></em> ()</p></td>
+<td class="struct_member_description"><p>sets the data embedded in the component.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><em class="structfield"><code><a name="GOComponentClass.set-default-size"></a>set_default_size</code></em> ()</p></td>
+<td class="struct_member_description"><p>sets the default size for the component.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><em class="structfield"><code><a name="GOComponentClass.set-size"></a>set_size</code></em> ()</p></td>
+<td class="struct_member_description"><p>sets the requested size.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><em class="structfield"><code><a name="GOComponentClass.render"></a>render</code></em> ()</p></td>
+<td class="struct_member_description"><p>displays the contents.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><em class="structfield"><code><a name="GOComponentClass.set-font"></a>set_font</code></em> ()</p></td>
+<td class="struct_member_description"><p>sets the default font for the component.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOSnapshotType"></a><h3>enum GOSnapshotType</h3>
+<div class="refsect3">
+<a name="GOSnapshotType.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="enum_members_name">
+<col class="enum_members_description">
+<col width="200px" class="enum_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="enum_member_name"><p><a name="GO-SNAPSHOT-NONE:CAPS"></a>GO_SNAPSHOT_NONE</p></td>
+<td class="enum_member_description">
+<p>no snapshot.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-SNAPSHOT-SVG:CAPS"></a>GO_SNAPSHOT_SVG</p></td>
+<td class="enum_member_description">
+<p>svg snapshot.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GO-SNAPSHOT-PNG:CAPS"></a>GO_SNAPSHOT_PNG</p></td>
+<td class="enum_member_description">
+<p>png snapshot.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="refsect1">
+<a name="GOComponent.property-details"></a><h2>Property Details</h2>
+<div class="refsect2">
+<a name="GOComponent--ascent"></a><h3>The <code class="literal">“ascent”</code> property</h3>
+<pre class="programlisting">  “ascent”                   <span class="type">gdouble</span></pre>
+<p>Component ascent.</p>
+<p>Owner: GOComponent</p>
+<p>Flags: Read / Write</p>
+<p>Allowed values: &gt;= 0</p>
+<p>Default value: 0</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOComponent--descent"></a><h3>The <code class="literal">“descent”</code> property</h3>
+<pre class="programlisting">  “descent”                  <span class="type">gdouble</span></pre>
+<p>Component descent.</p>
+<p>Owner: GOComponent</p>
+<p>Flags: Read / Write</p>
+<p>Allowed values: &gt;= 0</p>
+<p>Default value: 0</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOComponent--height"></a><h3>The <code class="literal">“height”</code> property</h3>
+<pre class="programlisting">  “height”                   <span class="type">gdouble</span></pre>
+<p>Component height.</p>
+<p>Owner: GOComponent</p>
+<p>Flags: Read</p>
+<p>Allowed values: &gt;= 0</p>
+<p>Default value: 0</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOComponent--inline"></a><h3>The <code class="literal">“inline”</code> property</h3>
+<pre class="programlisting">  “inline”                   <span class="type">gboolean</span></pre>
+<p>Whether the component should be displayed in-line.</p>
+<p>Owner: GOComponent</p>
+<p>Flags: Read / Write</p>
+<p>Default value: FALSE</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOComponent--mime-type"></a><h3>The <code class="literal">“mime-type”</code> property</h3>
+<pre class="programlisting">  “mime-type”                <span class="type">gchar</span> *</pre>
+<p>mime type of the content of the component.</p>
+<p>Owner: GOComponent</p>
+<p>Flags: Read / Write / Construct Only</p>
+<p>Default value: NULL</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOComponent--width"></a><h3>The <code class="literal">“width”</code> property</h3>
+<pre class="programlisting">  “width”                    <span class="type">gdouble</span></pre>
+<p>Component width.</p>
+<p>Owner: GOComponent</p>
+<p>Flags: Read / Write</p>
+<p>Allowed values: &gt;= 0</p>
+<p>Default value: 0</p>
+</div>
+</div>
+<div class="refsect1">
+<a name="GOComponent.signal-details"></a><h2>Signal Details</h2>
+<div class="refsect2">
+<a name="GOComponent-changed"></a><h3>The <code class="literal">“changed”</code> signal</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+user_function (<a class="link" href="GOComponent.html" title="GOComponent"><span class="type">GOComponent</span></a> *gocomponent,
+               <span class="type">gpointer</span>     user_data)</pre>
+<p>Flags: Run Last</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.32</div>
+</body>
+</html>

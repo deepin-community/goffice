@@ -1,0 +1,116 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+include /usr/share/dpkg/pkg-info.mk
+upstreamversion=$(DEB_VERSION_UPSTREAM)
+versionh=$(shell echo $(upstreamversion) | sed -e 's/\.[^.]*$$//')
+versiont=$(shell echo $(upstreamversion) | sed -e 's/^.*\.//')
+nextupstreamversion=$(shell echo $(versionh).$$(expr $(versiont) + 1))
+
+epoch=$(shell perl -nE 'print $$1 if m{^m4_define\S\[goffice_version_epoch\],\s*\[(\d+)\]};' configure.ac)
+# ABI major version
+somajor=$(shell perl -nE 'print $$1 if m{^m4_define\S\[goffice_version_major\],\s*\[(\d+)\]};' configure.ac)
+# API version - must match what's present/generated in configure
+apiver=$(epoch).$(somajor)
+# The base library name
+pruntime=libgoffice-$(apiver)-$(somajor)
+pcommon=$(pruntime)-common
+pdevel=libgoffice-$(apiver)-dev
+pdoc=libgoffice-$(apiver)-doc
+pgir=gir1.2-goffice-$(apiver)
+
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+
+CFLAGS += -Wall -g
+
+# Ensure the build aborts when there are still references to undefined
+# symbols.
+LDFLAGS += -Wl,-z,defs
+
+# Make the linker work a bit harder so dynamic loading can be done faster
+LDFLAGS += -Wl,-O1
+
+# Make the linker only include actual dependencies on libraries, rather than
+# for all libraries specified in the link line.
+LDFLAGS += -Wl,--as-needed
+
+# Make the linker find the X libraries
+LDFLAGS += -L/usr/X11R6/lib
+
+confflags := -v \
+	--host=$(DEB_HOST_GNU_TYPE) \
+	--build=$(DEB_BUILD_GNU_TYPE) \
+	--prefix=/usr \
+	--mandir=\$${prefix}/share/man \
+	--infodir=\$${prefix}/share/info
+
+# FHS locations
+confflags +=	--prefix=/usr \
+		--mandir=\$${prefix}/share/man \
+		--infodir=\$${prefix}/share/info \
+		--datadir=\$${prefix}/share \
+		--libdir=\$${prefix}/lib
+
+# Compiler, language dialect
+confflags +=    --disable-iso-c \
+                --disable-silent-rules \
+                --enable-compile-warnings=maximum
+
+# Features
+confflags +=    --enable-static --enable-gtk-doc --enable-introspection=yes
+
+%:
+	dh $@ --with autoreconf,gir
+
+override_dh_clean:
+	$(RM) -rv build
+	dh_clean
+
+override_dh_autoreconf:
+	dh_autoreconf --as-needed
+	# Generate a .pot file
+	cd po && intltool-update -p
+
+override_dh_auto_configure:
+	$(info I: library-name=$(pruntime))
+	$(if $(wildcard debian/$(pruntime).install),,$(error Packaging files are not set up for base library name $(pruntime).))
+	dh_auto_configure -- $(confflags)
+
+override_dh_auto_install:
+	dh_auto_install --destdir=$(CURDIR)/debian/tmp
+	# Removing *.la files
+	find $(CURDIR)/debian -name '*.la' -delete -printf 'removed %p\n'
+
+override_dh_install:
+	dh_install --sourcedir=debian/tmp -Xindex.sgml
+	# Remove files from the main package that belong to a more
+	# specialist package
+	while read l ; do \
+            $(RM) -rv debian/$(pruntime)/$$l ; \
+        done < debian/$(pcommon).install
+	# Wipe empty dirs if any
+	find $(CURDIR)/debian -type d -empty -delete -printf 'removed %p\n'
+
+override_dh_makeshlibs:
+	# "-Xplugins" to avoid generation of symbols for plugins
+	dh_makeshlibs -V -Xplugins
+
+override_dh_strip:
+	dh_strip --dbgsym-migration='libgoffice-dbg (<< 0.10.29~)'
+
+override_dh_gencontrol:
+	dh_gencontrol -v -- -VUpstream-Version=$(upstreamversion) -Vapiver=$(apiver)
+
+override_dh_girepository:
+	dh_girepository -p$(pgir)
+
+override_dh_auto_test:
+	## https://bugzilla.gnome.org/show_bug.cgi?id=748504
+ifeq ($(DEB_BUILD_ARCH),$(filter $(DEB_BUILD_ARCH),powerpc ppc64el))
+	@echo "======== will not abort on test(s) failure ========"
+	-dh_auto_test
+else
+	dh_auto_test
+endif

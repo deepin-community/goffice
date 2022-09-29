@@ -1,0 +1,965 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>GOFileSaver: GOffice Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
+<link rel="home" href="index.html" title="GOffice Reference Manual">
+<link rel="up" href="ch14.html" title="File utilities">
+<link rel="prev" href="goffice-0.10-GOFileOpeners.html" title="GOFileOpeners">
+<link rel="next" href="goffice-0.10-URL-utilities.html" title="URL utilities">
+<meta name="generator" content="GTK-Doc V1.32 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#GOFileSaver.description" class="shortcut">Description</a></span><span id="nav_hierarchy">  <span class="dim">|</span> 
+                  <a href="#GOFileSaver.object-hierarchy" class="shortcut">Object Hierarchy</a></span><span id="nav_properties">  <span class="dim">|</span> 
+                  <a href="#GOFileSaver.properties" class="shortcut">Properties</a></span><span id="nav_signals">  <span class="dim">|</span> 
+                  <a href="#GOFileSaver.signals" class="shortcut">Signals</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="ch14.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="goffice-0.10-GOFileOpeners.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="goffice-0.10-URL-utilities.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="GOFileSaver"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="GOFileSaver.top_of_page"></a>GOFileSaver</span></h2>
+<p>GOFileSaver</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="GOFileSaver.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_proto_type">
+<col class="functions_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<span class="c_punctuation">(</span><a class="link" href="GOFileSaver.html#GOFileSaverSaveFunc" title="GOFileSaverSaveFunc ()">*GOFileSaverSaveFunc</a><span class="c_punctuation">)</span> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GOFileSaver.html" title="GOFileSaver"><span class="returnvalue">GOFileSaver</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="GOFileSaver.html#go-file-saver-for-file-name" title="go_file_saver_for_file_name ()">go_file_saver_for_file_name</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GOFileSaver.html" title="GOFileSaver"><span class="returnvalue">GOFileSaver</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="GOFileSaver.html#go-file-saver-for-id" title="go_file_saver_for_id ()">go_file_saver_for_id</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GOFileSaver.html" title="GOFileSaver"><span class="returnvalue">GOFileSaver</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="GOFileSaver.html#go-file-saver-for-mime-type" title="go_file_saver_for_mime_type ()">go_file_saver_for_mime_type</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GOFileSaver.html" title="GOFileSaver"><span class="returnvalue">GOFileSaver</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="GOFileSaver.html#go-file-saver-get-default" title="go_file_saver_get_default ()">go_file_saver_get_default</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">char</span> const *
+</td>
+<td class="function_name">
+<a class="link" href="GOFileSaver.html#go-file-saver-get-description" title="go_file_saver_get_description ()">go_file_saver_get_description</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">char</span> const *
+</td>
+<td class="function_name">
+<a class="link" href="GOFileSaver.html#go-file-saver-get-extension" title="go_file_saver_get_extension ()">go_file_saver_get_extension</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="goffice-0.10-Files.html#GOFileFormatLevel" title="enum GOFileFormatLevel"><span class="returnvalue">GOFileFormatLevel</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="GOFileSaver.html#go-file-saver-get-format-level" title="go_file_saver_get_format_level ()">go_file_saver_get_format_level</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">char</span> const *
+</td>
+<td class="function_name">
+<a class="link" href="GOFileSaver.html#go-file-saver-get-id" title="go_file_saver_get_id ()">go_file_saver_get_id</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">char</span> const *
+</td>
+<td class="function_name">
+<a class="link" href="GOFileSaver.html#go-file-saver-get-mime-type" title="go_file_saver_get_mime_type ()">go_file_saver_get_mime_type</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="goffice-0.10-Files.html#GOFileSaveScope" title="enum GOFileSaveScope"><span class="returnvalue">GOFileSaveScope</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="GOFileSaver.html#go-file-saver-get-save-scope" title="go_file_saver_get_save_scope ()">go_file_saver_get_save_scope</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GOFileSaver.html" title="GOFileSaver"><span class="returnvalue">GOFileSaver</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="GOFileSaver.html#go-file-saver-new" title="go_file_saver_new ()">go_file_saver_new</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOFileSaver.html#go-file-saver-register" title="go_file_saver_register ()">go_file_saver_register</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOFileSaver.html#go-file-saver-register-as-default" title="go_file_saver_register_as_default ()">go_file_saver_register_as_default</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOFileSaver.html#go-file-saver-save" title="go_file_saver_save ()">go_file_saver_save</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gboolean</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOFileSaver.html#go-file-saver-set-export-options" title="go_file_saver_set_export_options ()">go_file_saver_set_export_options</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOFileSaver.html#go-file-saver-set-overwrite-files" title="go_file_saver_set_overwrite_files ()">go_file_saver_set_overwrite_files</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOFileSaver.html#go-file-saver-set-save-scope" title="go_file_saver_set_save_scope ()">go_file_saver_set_save_scope</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOFileSaver.html#go-file-saver-unregister" title="go_file_saver_unregister ()">go_file_saver_unregister</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="GOFileSaver.properties"></a><h2>Properties</h2>
+<div class="informaltable"><table class="informaltable" border="0">
+<colgroup>
+<col width="150px" class="properties_type">
+<col width="300px" class="properties_name">
+<col width="200px" class="properties_flags">
+</colgroup>
+<tbody>
+<tr>
+<td class="property_type">
+<span class="type">gchar</span> *</td>
+<td class="property_name"><a class="link" href="GOFileSaver.html#GOFileSaver--description" title="The “description” property">description</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type">
+<span class="type">gchar</span> *</td>
+<td class="property_name"><a class="link" href="GOFileSaver.html#GOFileSaver--extension" title="The “extension” property">extension</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type"><a class="link" href="goffice-0.10-Files.html#GOFileFormatLevel" title="enum GOFileFormatLevel"><span class="type">GOFileFormatLevel</span></a></td>
+<td class="property_name"><a class="link" href="GOFileSaver.html#GOFileSaver--format-level" title="The “format-level” property">format-level</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type">
+<span class="type">gchar</span> *</td>
+<td class="property_name"><a class="link" href="GOFileSaver.html#GOFileSaver--id" title="The “id” property">id</a></td>
+<td class="property_flags">Read / Write / Construct Only</td>
+</tr>
+<tr>
+<td class="property_type"><span class="type">gboolean</span></td>
+<td class="property_name"><a class="link" href="GOFileSaver.html#GOFileSaver--interactive-only" title="The “interactive-only” property">interactive-only</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type">
+<span class="type">gchar</span> *</td>
+<td class="property_name"><a class="link" href="GOFileSaver.html#GOFileSaver--mime-type" title="The “mime-type” property">mime-type</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type"><span class="type">gboolean</span></td>
+<td class="property_name"><a class="link" href="GOFileSaver.html#GOFileSaver--overwrite" title="The “overwrite” property">overwrite</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type"><a class="link" href="goffice-0.10-Files.html#GOFileSaveScope" title="enum GOFileSaveScope"><span class="type">GOFileSaveScope</span></a></td>
+<td class="property_name"><a class="link" href="GOFileSaver.html#GOFileSaver--scope" title="The “scope” property">scope</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type"><span class="type">gboolean</span></td>
+<td class="property_name"><a class="link" href="GOFileSaver.html#GOFileSaver--sheet-selection" title="The “sheet-selection” property">sheet-selection</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="GOFileSaver.signals"></a><h2>Signals</h2>
+<div class="informaltable"><table class="informaltable" border="0">
+<colgroup>
+<col width="150px" class="signal_proto_type">
+<col width="300px" class="signal_proto_name">
+<col width="200px" class="signal_proto_flags">
+</colgroup>
+<tbody><tr>
+<td class="signal_type"><span class="returnvalue">gboolean</span></td>
+<td class="signal_name"><a class="link" href="GOFileSaver.html#GOFileSaver-set-export-options" title="The “set-export-options” signal">set-export-options</a></td>
+<td class="signal_flags">Run Last</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="GOFileSaver.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="other_proto_type">
+<col class="other_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="datatype_keyword"> </td>
+<td class="function_name"><a class="link" href="GOFileSaver.html#GOFileSaver-struct" title="GOFileSaver">GOFileSaver</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword"> </td>
+<td class="function_name"><a class="link" href="GOFileSaver.html#GOFileSaverClass" title="GOFileSaverClass">GOFileSaverClass</a></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="GOFileSaver.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="screen">    GObject
+    <span class="lineart">╰──</span> GOFileSaver
+</pre>
+</div>
+<div class="refsect1">
+<a name="GOFileSaver.description"></a><h2>Description</h2>
+</div>
+<div class="refsect1">
+<a name="GOFileSaver.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="GOFileSaverSaveFunc"></a><h3>GOFileSaverSaveFunc ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+<span class="c_punctuation">(</span>*GOFileSaverSaveFunc<span class="c_punctuation">)</span> (<em class="parameter"><code><a class="link" href="GOFileSaver.html" title="GOFileSaver"><span class="type">GOFileSaver</span></a> const *fs</code></em>,
+                        <em class="parameter"><code><a class="link" href="GOIOContext.html" title="GOIOContext"><span class="type">GOIOContext</span></a> *io_context</code></em>,
+                        <em class="parameter"><code><a class="link" href="GoView.html" title="GoView"><span class="type">GoView</span></a> const *view</code></em>,
+                        <em class="parameter"><code><a href="../gsf/gsf-Output-to-unstructured-files.html#GsfOutput-struct"><span class="type">GsfOutput</span></a> *output</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-file-saver-for-file-name"></a><h3>go_file_saver_for_file_name ()</h3>
+<pre class="programlisting"><a class="link" href="GOFileSaver.html" title="GOFileSaver"><span class="returnvalue">GOFileSaver</span></a> *
+go_file_saver_for_file_name (<em class="parameter"><code><span class="type">char</span> const *file_name</code></em>);</pre>
+<p>Searches for file saver matching the given <em class="parameter"><code>file_name</code></em>
+, registered using
+go_file_saver_register.</p>
+<div class="refsect3">
+<a name="go-file-saver-for-file-name.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>file_name</p></td>
+<td class="parameter_description"><p>name</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-file-saver-for-file-name.returns"></a><h4>Returns</h4>
+<p><a class="link" href="GOFileSaver.html" title="GOFileSaver"><span class="type">GOFileSaver</span></a> for <em class="parameter"><code>file_name</code></em>
+. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>][<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-file-saver-for-id"></a><h3>go_file_saver_for_id ()</h3>
+<pre class="programlisting"><a class="link" href="GOFileSaver.html" title="GOFileSaver"><span class="returnvalue">GOFileSaver</span></a> *
+go_file_saver_for_id (<em class="parameter"><code><span class="type">char</span> const *id</code></em>);</pre>
+<p>Searches for file saver with given <em class="parameter"><code>id</code></em>
+, registered using
+go_file_saver_register or register_file_opener_as_default.</p>
+<div class="refsect3">
+<a name="go-file-saver-for-id.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>id</p></td>
+<td class="parameter_description"><p>File saver's ID</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-file-saver-for-id.returns"></a><h4>Returns</h4>
+<p><a class="link" href="GOFileSaver.html" title="GOFileSaver"><span class="type">GOFileSaver</span></a> with given id. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>][<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-file-saver-for-mime-type"></a><h3>go_file_saver_for_mime_type ()</h3>
+<pre class="programlisting"><a class="link" href="GOFileSaver.html" title="GOFileSaver"><span class="returnvalue">GOFileSaver</span></a> *
+go_file_saver_for_mime_type (<em class="parameter"><code><span class="type">char</span> const *mime_type</code></em>);</pre>
+<div class="refsect3">
+<a name="go-file-saver-for-mime-type.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>mime_type</p></td>
+<td class="parameter_description"><p>A mime type</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-file-saver-for-mime-type.returns"></a><h4>Returns</h4>
+<p>A <a class="link" href="GOFileSaver.html" title="GOFileSaver"><span class="type">GOFileSaver</span></a> object associated with
+<em class="parameter"><code>mime_type</code></em>
+. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>][<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-file-saver-get-default"></a><h3>go_file_saver_get_default ()</h3>
+<pre class="programlisting"><a class="link" href="GOFileSaver.html" title="GOFileSaver"><span class="returnvalue">GOFileSaver</span></a> *
+go_file_saver_get_default (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+<p>Finds file saver registered as default saver with the highest priority.
+Reference count for the saver is NOT incremented.</p>
+<div class="refsect3">
+<a name="go-file-saver-get-default.returns"></a><h4>Returns</h4>
+<p><a class="link" href="GOFileSaver.html" title="GOFileSaver"><span class="type">GOFileSaver</span></a> for the highest priority
+default saver. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>][<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-file-saver-get-description"></a><h3>go_file_saver_get_description ()</h3>
+<pre class="programlisting"><span class="returnvalue">char</span> const *
+go_file_saver_get_description (<em class="parameter"><code><a class="link" href="GOFileSaver.html" title="GOFileSaver"><span class="type">GOFileSaver</span></a> const *fs</code></em>);</pre>
+<div class="refsect3">
+<a name="go-file-saver-get-description.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>fs</p></td>
+<td class="parameter_description"><p><a class="link" href="GOFileSaver.html" title="GOFileSaver"><span class="type">GOFileSaver</span></a> to query</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-file-saver-get-description.returns"></a><h4>Returns</h4>
+<p>The description of <em class="parameter"><code>fs</code></em>
+. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-file-saver-get-extension"></a><h3>go_file_saver_get_extension ()</h3>
+<pre class="programlisting"><span class="returnvalue">char</span> const *
+go_file_saver_get_extension (<em class="parameter"><code><a class="link" href="GOFileSaver.html" title="GOFileSaver"><span class="type">GOFileSaver</span></a> const *fs</code></em>);</pre>
+<div class="refsect3">
+<a name="go-file-saver-get-extension.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>fs</p></td>
+<td class="parameter_description"><p><a class="link" href="GOFileSaver.html" title="GOFileSaver"><span class="type">GOFileSaver</span></a> to query</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-file-saver-get-extension.returns"></a><h4>Returns</h4>
+<p>The default extensions for files saved
+by <em class="parameter"><code>fs</code></em>
+. </p>
+<p><span class="annotation">[<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>][<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-file-saver-get-format-level"></a><h3>go_file_saver_get_format_level ()</h3>
+<pre class="programlisting"><a class="link" href="goffice-0.10-Files.html#GOFileFormatLevel" title="enum GOFileFormatLevel"><span class="returnvalue">GOFileFormatLevel</span></a>
+go_file_saver_get_format_level (<em class="parameter"><code><a class="link" href="GOFileSaver.html" title="GOFileSaver"><span class="type">GOFileSaver</span></a> const *fs</code></em>);</pre>
+<div class="refsect3">
+<a name="go-file-saver-get-format-level.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>fs</p></td>
+<td class="parameter_description"><p><a class="link" href="GOFileSaver.html" title="GOFileSaver"><span class="type">GOFileSaver</span></a> to query</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-file-saver-get-format-level.returns"></a><h4>Returns</h4>
+<p> The format level of <em class="parameter"><code>fs</code></em>
+.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-file-saver-get-id"></a><h3>go_file_saver_get_id ()</h3>
+<pre class="programlisting"><span class="returnvalue">char</span> const *
+go_file_saver_get_id (<em class="parameter"><code><a class="link" href="GOFileSaver.html" title="GOFileSaver"><span class="type">GOFileSaver</span></a> const *fs</code></em>);</pre>
+<div class="refsect3">
+<a name="go-file-saver-get-id.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>fs</p></td>
+<td class="parameter_description"><p><a class="link" href="GOFileSaver.html" title="GOFileSaver"><span class="type">GOFileSaver</span></a> to query</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-file-saver-get-id.returns"></a><h4>Returns</h4>
+<p>The id of <em class="parameter"><code>fs</code></em>
+. </p>
+<p><span class="annotation">[<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>][<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-file-saver-get-mime-type"></a><h3>go_file_saver_get_mime_type ()</h3>
+<pre class="programlisting"><span class="returnvalue">char</span> const *
+go_file_saver_get_mime_type (<em class="parameter"><code><a class="link" href="GOFileSaver.html" title="GOFileSaver"><span class="type">GOFileSaver</span></a> const *fs</code></em>);</pre>
+<div class="refsect3">
+<a name="go-file-saver-get-mime-type.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>fs</p></td>
+<td class="parameter_description"><p><a class="link" href="GOFileSaver.html" title="GOFileSaver"><span class="type">GOFileSaver</span></a> to query</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-file-saver-get-mime-type.returns"></a><h4>Returns</h4>
+<p>The mime type of the <em class="parameter"><code>fs</code></em>
+. </p>
+<p><span class="annotation">[<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>][<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-file-saver-get-save-scope"></a><h3>go_file_saver_get_save_scope ()</h3>
+<pre class="programlisting"><a class="link" href="goffice-0.10-Files.html#GOFileSaveScope" title="enum GOFileSaveScope"><span class="returnvalue">GOFileSaveScope</span></a>
+go_file_saver_get_save_scope (<em class="parameter"><code><a class="link" href="GOFileSaver.html" title="GOFileSaver"><span class="type">GOFileSaver</span></a> const *fs</code></em>);</pre>
+<div class="refsect3">
+<a name="go-file-saver-get-save-scope.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>fs</p></td>
+<td class="parameter_description"><p><a class="link" href="GOFileSaver.html" title="GOFileSaver"><span class="type">GOFileSaver</span></a> to query</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-file-saver-get-save-scope.returns"></a><h4>Returns</h4>
+<p> The save scope of <em class="parameter"><code>fs</code></em>
+.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-file-saver-new"></a><h3>go_file_saver_new ()</h3>
+<pre class="programlisting"><a class="link" href="GOFileSaver.html" title="GOFileSaver"><span class="returnvalue">GOFileSaver</span></a> *
+go_file_saver_new (<em class="parameter"><code><span class="type">char</span> const *id</code></em>,
+                   <em class="parameter"><code><span class="type">char</span> const *extension</code></em>,
+                   <em class="parameter"><code><span class="type">char</span> const *description</code></em>,
+                   <em class="parameter"><code><a class="link" href="goffice-0.10-Files.html#GOFileFormatLevel" title="enum GOFileFormatLevel"><span class="type">GOFileFormatLevel</span></a> level</code></em>,
+                   <em class="parameter"><code><a class="link" href="GOFileSaver.html#GOFileSaverSaveFunc" title="GOFileSaverSaveFunc ()"><span class="type">GOFileSaverSaveFunc</span></a> save_func</code></em>);</pre>
+<p>Creates new <a class="link" href="GOFileSaver.html" title="GOFileSaver"><span class="type">GOFileSaver</span></a> object. Optional <em class="parameter"><code>id</code></em>
+ will be used
+after registering it with go_file_saver_register or
+go_file_saver_register_as_default function.</p>
+<div class="refsect3">
+<a name="go-file-saver-new.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>id</p></td>
+<td class="parameter_description"><p>ID of the saver. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>extension</p></td>
+<td class="parameter_description"><p>Default extension of saved files. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>description</p></td>
+<td class="parameter_description"><p>Description of supported file format</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>level</p></td>
+<td class="parameter_description"><p>File format level</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>save_func</p></td>
+<td class="parameter_description"><p>Pointer to "save" function. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="The callback is valid until first called."><span class="acronym">scope async</span></acronym>]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-file-saver-new.returns"></a><h4>Returns</h4>
+<p> newly created <a class="link" href="GOFileSaver.html" title="GOFileSaver"><span class="type">GOFileSaver</span></a> object.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-file-saver-register"></a><h3>go_file_saver_register ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_file_saver_register (<em class="parameter"><code><a class="link" href="GOFileSaver.html" title="GOFileSaver"><span class="type">GOFileSaver</span></a> *fs</code></em>);</pre>
+<p>Adds <em class="parameter"><code>fs</code></em>
+ saver to the list of available file savers, making it
+available for the user when selecting file format for save.</p>
+<div class="refsect3">
+<a name="go-file-saver-register.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>fs</p></td>
+<td class="parameter_description"><p><a class="link" href="GOFileSaver.html" title="GOFileSaver"><span class="type">GOFileSaver</span></a> object</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-file-saver-register-as-default"></a><h3>go_file_saver_register_as_default ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_file_saver_register_as_default (<em class="parameter"><code><a class="link" href="GOFileSaver.html" title="GOFileSaver"><span class="type">GOFileSaver</span></a> *fs</code></em>,
+                                   <em class="parameter"><code><span class="type">gint</span> priority</code></em>);</pre>
+<p>Adds <em class="parameter"><code>fs</code></em>
+ saver to the list of available file savers, making it
+available for the user when selecting file format for save.
+The saver is also marked as default saver with given priority.
+When Gnumeric needs default file saver, it chooses the one with the
+highest priority. Recommended range for <em class="parameter"><code>priority</code></em>
+ is [0, 100].</p>
+<div class="refsect3">
+<a name="go-file-saver-register-as-default.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>fs</p></td>
+<td class="parameter_description"><p>GOFileSaver object</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>priority</p></td>
+<td class="parameter_description"><p>Saver's priority</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-file-saver-save"></a><h3>go_file_saver_save ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_file_saver_save (<em class="parameter"><code><a class="link" href="GOFileSaver.html" title="GOFileSaver"><span class="type">GOFileSaver</span></a> const *fs</code></em>,
+                    <em class="parameter"><code><a class="link" href="GOIOContext.html" title="GOIOContext"><span class="type">GOIOContext</span></a> *io_context</code></em>,
+                    <em class="parameter"><code><a class="link" href="GoView.html" title="GoView"><span class="type">GoView</span></a> *view</code></em>,
+                    <em class="parameter"><code><a href="../gsf/gsf-Output-to-unstructured-files.html#GsfOutput-struct"><span class="type">GsfOutput</span></a> *output</code></em>);</pre>
+<p>Saves <em class="parameter"><code>wbv</code></em>
+ and the workbook it is attached to into <em class="parameter"><code>output</code></em>
+ stream.
+Results are reported using <em class="parameter"><code>io_context</code></em>
+ object, use
+go_io_error_occurred to find out if operation was successful.
+It's possible that <em class="parameter"><code>file_name</code></em>
+ is created and contain some data if
+operation fails, you should remove the file in that case.</p>
+<div class="refsect3">
+<a name="go-file-saver-save.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>fs</p></td>
+<td class="parameter_description"><p>GOFileSaver object</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>io_context</p></td>
+<td class="parameter_description"><p>Context for i/o operation</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>view</p></td>
+<td class="parameter_description"><p><a class="link" href="GoView.html" title="GoView"><span class="type">GoView</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>output</p></td>
+<td class="parameter_description"><p>Output stream</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-file-saver-set-export-options"></a><h3>go_file_saver_set_export_options ()</h3>
+<pre class="programlisting"><span class="returnvalue">gboolean</span>
+go_file_saver_set_export_options (<em class="parameter"><code><a class="link" href="GOFileSaver.html" title="GOFileSaver"><span class="type">GOFileSaver</span></a> *fs</code></em>,
+                                  <em class="parameter"><code><a class="link" href="GODoc.html" title="GODoc"><span class="type">GODoc</span></a> *doc</code></em>,
+                                  <em class="parameter"><code>const <span class="type">char</span> *options</code></em>,
+                                  <em class="parameter"><code><span class="type">GError</span> **err</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-file-saver-set-overwrite-files"></a><h3>go_file_saver_set_overwrite_files ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_file_saver_set_overwrite_files (<em class="parameter"><code><a class="link" href="GOFileSaver.html" title="GOFileSaver"><span class="type">GOFileSaver</span></a> *fs</code></em>,
+                                   <em class="parameter"><code><span class="type">gboolean</span> overwrite</code></em>);</pre>
+<p>Changes behaviour of the saver when saving a file. If <em class="parameter"><code>overwrite</code></em>
+ is set
+to TRUE, existing file will be overwritten. Otherwise, the saver will
+report an error without saving anything.</p>
+<div class="refsect3">
+<a name="go-file-saver-set-overwrite-files.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>fs</p></td>
+<td class="parameter_description"><p><a class="link" href="GOFileSaver.html" title="GOFileSaver"><span class="type">GOFileSaver</span></a> object</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>overwrite</p></td>
+<td class="parameter_description"><p>A boolean value saying whether the saver should overwrite
+existing files.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-file-saver-set-save-scope"></a><h3>go_file_saver_set_save_scope ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_file_saver_set_save_scope (<em class="parameter"><code><a class="link" href="GOFileSaver.html" title="GOFileSaver"><span class="type">GOFileSaver</span></a> *fs</code></em>,
+                              <em class="parameter"><code><a class="link" href="goffice-0.10-Files.html#GOFileSaveScope" title="enum GOFileSaveScope"><span class="type">GOFileSaveScope</span></a> scope</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-file-saver-unregister"></a><h3>go_file_saver_unregister ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_file_saver_unregister (<em class="parameter"><code><a class="link" href="GOFileSaver.html" title="GOFileSaver"><span class="type">GOFileSaver</span></a> *fs</code></em>);</pre>
+<p>Removes <em class="parameter"><code>fs</code></em>
+ saver from list of available file savers. Reference count
+for the saver is decremented inside the function.</p>
+<div class="refsect3">
+<a name="go-file-saver-unregister.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>fs</p></td>
+<td class="parameter_description"><p><a class="link" href="GOFileSaver.html" title="GOFileSaver"><span class="type">GOFileSaver</span></a> object previously registered using
+go_file_saver_register or go_file_saver_register_as_default</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="refsect1">
+<a name="GOFileSaver.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="GOFileSaver-struct"></a><h3>GOFileSaver</h3>
+<pre class="programlisting">typedef struct _GOFileSaver GOFileSaver;</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOFileSaverClass"></a><h3>GOFileSaverClass</h3>
+<pre class="programlisting">typedef struct {
+	GObjectClass parent_class;
+
+	/* private */
+	void (*save) (GOFileSaver const *fs,
+	              GOIOContext *io_context,
+	              GoView const *view,
+	              GsfOutput *output);
+
+	gboolean (*set_export_options) (GOFileSaver *fs,
+					const char *options,
+					GError **err);
+} GOFileSaverClass;
+</pre>
+<p>File saver base class.</p>
+<div class="refsect3">
+<a name="GOFileSaverClass.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="struct_members_name">
+<col class="struct_members_description">
+<col width="200px" class="struct_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="struct_member_name"><p><em class="structfield"><code><a name="GOFileSaverClass.save"></a>save</code></em> ()</p></td>
+<td class="struct_member_description"><p>saves the file.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><em class="structfield"><code><a name="GOFileSaverClass.set-export-options"></a>set_export_options</code></em> ()</p></td>
+<td class="struct_member_description"><p>set the options.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="refsect1">
+<a name="GOFileSaver.property-details"></a><h2>Property Details</h2>
+<div class="refsect2">
+<a name="GOFileSaver--description"></a><h3>The <code class="literal">“description”</code> property</h3>
+<pre class="programlisting">  “description”              <span class="type">gchar</span> *</pre>
+<p>The description of the saver.</p>
+<p>Owner: GOFileSaver</p>
+<p>Flags: Read / Write</p>
+<p>Default value: NULL</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOFileSaver--extension"></a><h3>The <code class="literal">“extension”</code> property</h3>
+<pre class="programlisting">  “extension”                <span class="type">gchar</span> *</pre>
+<p>The standard file name extension of the saver.</p>
+<p>Owner: GOFileSaver</p>
+<p>Flags: Read / Write</p>
+<p>Default value: NULL</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOFileSaver--format-level"></a><h3>The <code class="literal">“format-level”</code> property</h3>
+<pre class="programlisting">  “format-level”             <a class="link" href="goffice-0.10-Files.html#GOFileFormatLevel" title="enum GOFileFormatLevel"><span class="type">GOFileFormatLevel</span></a></pre>
+<p>?.</p>
+<p>Owner: GOFileSaver</p>
+<p>Flags: Read / Write</p>
+<p>Default value: GO_FILE_FL_NEW</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOFileSaver--id"></a><h3>The <code class="literal">“id”</code> property</h3>
+<pre class="programlisting">  “id”                       <span class="type">gchar</span> *</pre>
+<p>The identifier of the saver.</p>
+<p>Owner: GOFileSaver</p>
+<p>Flags: Read / Write / Construct Only</p>
+<p>Default value: NULL</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOFileSaver--interactive-only"></a><h3>The <code class="literal">“interactive-only”</code> property</h3>
+<pre class="programlisting">  “interactive-only”         <span class="type">gboolean</span></pre>
+<p>TRUE if this saver requires interaction.</p>
+<p>Owner: GOFileSaver</p>
+<p>Flags: Read / Write</p>
+<p>Default value: FALSE</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOFileSaver--mime-type"></a><h3>The <code class="literal">“mime-type”</code> property</h3>
+<pre class="programlisting">  “mime-type”                <span class="type">gchar</span> *</pre>
+<p>The MIME type of the saver.</p>
+<p>Owner: GOFileSaver</p>
+<p>Flags: Read / Write</p>
+<p>Default value: NULL</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOFileSaver--overwrite"></a><h3>The <code class="literal">“overwrite”</code> property</h3>
+<pre class="programlisting">  “overwrite”                <span class="type">gboolean</span></pre>
+<p>Whether the saver will overwrite files.</p>
+<p>Owner: GOFileSaver</p>
+<p>Flags: Read / Write</p>
+<p>Default value: TRUE</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOFileSaver--scope"></a><h3>The <code class="literal">“scope”</code> property</h3>
+<pre class="programlisting">  “scope”                    <a class="link" href="goffice-0.10-Files.html#GOFileSaveScope" title="enum GOFileSaveScope"><span class="type">GOFileSaveScope</span></a></pre>
+<p>How much of a document is saved.</p>
+<p>Owner: GOFileSaver</p>
+<p>Flags: Read / Write</p>
+<p>Default value: GO_FILE_SAVE_WORKBOOK</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GOFileSaver--sheet-selection"></a><h3>The <code class="literal">“sheet-selection”</code> property</h3>
+<pre class="programlisting">  “sheet-selection”          <span class="type">gboolean</span></pre>
+<p>TRUE if this saver supports saving a subset of all sheet.</p>
+<p>Owner: GOFileSaver</p>
+<p>Flags: Read / Write</p>
+<p>Default value: FALSE</p>
+</div>
+</div>
+<div class="refsect1">
+<a name="GOFileSaver.signal-details"></a><h2>Signal Details</h2>
+<div class="refsect2">
+<a name="GOFileSaver-set-export-options"></a><h3>The <code class="literal">“set-export-options”</code> signal</h3>
+<pre class="programlisting"><span class="returnvalue">gboolean</span>
+user_function (<a class="link" href="GOFileSaver.html" title="GOFileSaver"><span class="type">GOFileSaver</span></a> *gofilesaver,
+               <a class="link" href="GODoc.html" title="GODoc"><span class="type">GODoc</span></a>       *arg1,
+               <span class="type">gchar</span>       *arg2,
+               <span class="type">gpointer</span>     arg3,
+               <span class="type">gpointer</span>     user_data)</pre>
+<p>Flags: Run Last</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.32</div>
+</body>
+</html>

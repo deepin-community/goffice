@@ -1,0 +1,295 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>GOFont: GOffice Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
+<link rel="home" href="index.html" title="GOffice Reference Manual">
+<link rel="up" href="ch09.html" title="Graphic object properties">
+<link rel="prev" href="GOEditor.html" title="GOEditor">
+<link rel="next" href="goffice-0.10-Gradient.html" title="Gradient">
+<meta name="generator" content="GTK-Doc V1.32 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#GOFont.description" class="shortcut">Description</a></span><span id="nav_hierarchy">  <span class="dim">|</span> 
+                  <a href="#GOFont.object-hierarchy" class="shortcut">Object Hierarchy</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="ch09.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="GOEditor.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="goffice-0.10-Gradient.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="GOFont"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="GOFont.top_of_page"></a>GOFont</span></h2>
+<p>GOFont</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="GOFont.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_proto_type">
+<col class="functions_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<span class="returnvalue">char</span> *
+</td>
+<td class="function_name">
+<a class="link" href="GOFont.html#go-font-as-str" title="go_font_as_str ()">go_font_as_str</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOFont.html#go-font-cache-register" title="go_font_cache_register ()">go_font_cache_register</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOFont.html#go-font-cache-unregister" title="go_font_cache_unregister ()">go_font_cache_unregister</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gboolean</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOFont.html#go-font-eq" title="go_font_eq ()">go_font_eq</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOFont.html#go-font-metrics-free" title="go_font_metrics_free ()">go_font_metrics_free</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GOFont.html#GOFontMetrics"><span class="returnvalue">GOFontMetrics</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="GOFont.html#go-font-metrics-new" title="go_font_metrics_new ()">go_font_metrics_new</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GOFont.html" title="GOFont"><span class="returnvalue">GOFont</span></a> const *
+</td>
+<td class="function_name">
+<a class="link" href="GOFont.html#go-font-new-by-desc" title="go_font_new_by_desc ()">go_font_new_by_desc</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GOFont.html" title="GOFont"><span class="returnvalue">GOFont</span></a> const *
+</td>
+<td class="function_name">
+<a class="link" href="GOFont.html#go-font-new-by-index" title="go_font_new_by_index ()">go_font_new_by_index</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GOFont.html" title="GOFont"><span class="returnvalue">GOFont</span></a> const *
+</td>
+<td class="function_name">
+<a class="link" href="GOFont.html#go-font-new-by-name" title="go_font_new_by_name ()">go_font_new_by_name</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GOFont.html" title="GOFont"><span class="returnvalue">GOFont</span></a> const *
+</td>
+<td class="function_name">
+<a class="link" href="GOFont.html#go-font-ref" title="go_font_ref ()">go_font_ref</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GOFont.html#go-font-unref" title="go_font_unref ()">go_font_unref</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">GSList</span> *
+</td>
+<td class="function_name">
+<a class="link" href="GOFont.html#go-fonts-list-families" title="go_fonts_list_families ()">go_fonts_list_families</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">GSList</span> *
+</td>
+<td class="function_name">
+<a class="link" href="GOFont.html#go-fonts-list-sizes" title="go_fonts_list_sizes ()">go_fonts_list_sizes</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<a name="GOFontMetrics"></a><div class="refsect1">
+<a name="GOFont.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="screen">    <a href="/usr/share/gtk-doc/html/gobject/gobject-Boxed-Types.html">GBoxed</a>
+    <span class="lineart">├──</span> GOFont
+    <span class="lineart">╰──</span> GOFontMetrics
+</pre>
+</div>
+<div class="refsect1">
+<a name="GOFont.description"></a><h2>Description</h2>
+</div>
+<div class="refsect1">
+<a name="GOFont.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="go-font-as-str"></a><h3>go_font_as_str ()</h3>
+<pre class="programlisting"><span class="returnvalue">char</span> *
+go_font_as_str (<em class="parameter"><code><a class="link" href="GOFont.html" title="GOFont"><span class="type">GOFont</span></a> const *font</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-font-cache-register"></a><h3>go_font_cache_register ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_font_cache_register (<em class="parameter"><code><span class="type">GClosure</span> *callback</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-font-cache-unregister"></a><h3>go_font_cache_unregister ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_font_cache_unregister (<em class="parameter"><code><span class="type">GClosure</span> *callback</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-font-eq"></a><h3>go_font_eq ()</h3>
+<pre class="programlisting"><span class="returnvalue">gboolean</span>
+go_font_eq (<em class="parameter"><code><a class="link" href="GOFont.html" title="GOFont"><span class="type">GOFont</span></a> const *a</code></em>,
+            <em class="parameter"><code><a class="link" href="GOFont.html" title="GOFont"><span class="type">GOFont</span></a> const *b</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-font-metrics-free"></a><h3>go_font_metrics_free ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_font_metrics_free (<em class="parameter"><code><a class="link" href="GOFont.html#GOFontMetrics"><span class="type">GOFontMetrics</span></a> *metrics</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-font-metrics-new"></a><h3>go_font_metrics_new ()</h3>
+<pre class="programlisting"><a class="link" href="GOFont.html#GOFontMetrics"><span class="returnvalue">GOFontMetrics</span></a> *
+go_font_metrics_new (<em class="parameter"><code><span class="type">PangoContext</span> *context</code></em>,
+                     <em class="parameter"><code><a class="link" href="GOFont.html" title="GOFont"><span class="type">GOFont</span></a> const *font</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-font-new-by-desc"></a><h3>go_font_new_by_desc ()</h3>
+<pre class="programlisting"><a class="link" href="GOFont.html" title="GOFont"><span class="returnvalue">GOFont</span></a> const *
+go_font_new_by_desc (<em class="parameter"><code><span class="type">PangoFontDescription</span> *desc</code></em>);</pre>
+<p>NOTE : Absorbs <em class="parameter"><code>desc</code></em>
+.</p>
+<div class="refsect3">
+<a name="go-font-new-by-desc.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>desc</p></td>
+<td class="parameter_description"><p><span class="type">PangoFontDescription</span>. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Free data after the code is done."><span class="acronym">transfer full</span></acronym>]</span></td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-font-new-by-desc.returns"></a><h4>Returns</h4>
+<p> a ref to a font that matches <em class="parameter"><code>desc</code></em>
+.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-font-new-by-index"></a><h3>go_font_new_by_index ()</h3>
+<pre class="programlisting"><a class="link" href="GOFont.html" title="GOFont"><span class="returnvalue">GOFont</span></a> const *
+go_font_new_by_index (<em class="parameter"><code><span class="type">unsigned </span> i</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-font-new-by-name"></a><h3>go_font_new_by_name ()</h3>
+<pre class="programlisting"><a class="link" href="GOFont.html" title="GOFont"><span class="returnvalue">GOFont</span></a> const *
+go_font_new_by_name (<em class="parameter"><code><span class="type">char</span> const *str</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-font-ref"></a><h3>go_font_ref ()</h3>
+<pre class="programlisting"><a class="link" href="GOFont.html" title="GOFont"><span class="returnvalue">GOFont</span></a> const *
+go_font_ref (<em class="parameter"><code><a class="link" href="GOFont.html" title="GOFont"><span class="type">GOFont</span></a> const *font</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-font-unref"></a><h3>go_font_unref ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+go_font_unref (<em class="parameter"><code><a class="link" href="GOFont.html" title="GOFont"><span class="type">GOFont</span></a> const *font</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-fonts-list-families"></a><h3>go_fonts_list_families ()</h3>
+<pre class="programlisting"><span class="returnvalue">GSList</span> *
+go_fonts_list_families (<em class="parameter"><code><span class="type">PangoContext</span> *context</code></em>);</pre>
+<div class="refsect3">
+<a name="go-fonts-list-families.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>context</p></td>
+<td class="parameter_description"><p><span class="type">PangoContext</span></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="go-fonts-list-families.returns"></a><h4>Returns</h4>
+<p>a sorted list of strings of
+font family names. </p>
+<p><span class="annotation">[<acronym title="Generics and defining elements of containers and arrays."><span class="acronym">element-type</span></acronym> utf8][<acronym title="Free data after the code is done."><span class="acronym">transfer full</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="go-fonts-list-sizes"></a><h3>go_fonts_list_sizes ()</h3>
+<pre class="programlisting"><span class="returnvalue">GSList</span> *
+go_fonts_list_sizes (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+<div class="refsect3">
+<a name="go-fonts-list-sizes.returns"></a><h4>Returns</h4>
+<p>a sorted list of font
+sizes in Pango units.  The list must be freed. </p>
+<p><span class="annotation">[<acronym title="Generics and defining elements of containers and arrays."><span class="acronym">element-type</span></acronym> guint][<acronym title="Free data container after the code is done."><span class="acronym">transfer container</span></acronym>]</span></p>
+</div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.32</div>
+</body>
+</html>

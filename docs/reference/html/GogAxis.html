@@ -1,0 +1,1520 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>GogAxis: GOffice Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
+<link rel="home" href="index.html" title="GOffice Reference Manual">
+<link rel="up" href="ch01.html" title="Objects">
+<link rel="prev" href="GogGrid.html" title="GogGrid">
+<link rel="next" href="GogAxisLine.html" title="GogAxisLine">
+<meta name="generator" content="GTK-Doc V1.32 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#GogAxis.description" class="shortcut">Description</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="GogGrid.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="GogAxisLine.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="GogAxis"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="GogAxis.top_of_page"></a>GogAxis</span></h2>
+<p>GogAxis — An axis.</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="GogAxis.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_proto_type">
+<col class="functions_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GogAxis.html#gog-axis-add-contributor" title="gog_axis_add_contributor ()">gog_axis_add_contributor</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GogAxis.html#gog-axis-bound-changed" title="gog_axis_bound_changed ()">gog_axis_bound_changed</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GogAxis.html#gog-axis-clear-contributors" title="gog_axis_clear_contributors ()">gog_axis_clear_contributors</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">GSList</span> const *
+</td>
+<td class="function_name">
+<a class="link" href="GogAxis.html#gog-axis-contributors" title="gog_axis_contributors ()">gog_axis_contributors</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GogAxis.html#gog-axis-data-get-bounds" title="gog_axis_data_get_bounds ()">gog_axis_data_get_bounds</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GogAxis.html#gog-axis-del-contributor" title="gog_axis_del_contributor ()">gog_axis_del_contributor</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GogAxis.html#GogAxisType" title="enum GogAxisType"><span class="returnvalue">GogAxisType</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="GogAxis.html#gog-axis-get-atype" title="gog_axis_get_atype ()">gog_axis_get_atype</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gboolean</span>
+</td>
+<td class="function_name">
+<a class="link" href="GogAxis.html#gog-axis-get-bounds" title="gog_axis_get_bounds ()">gog_axis_get_bounds</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">double</span>
+</td>
+<td class="function_name">
+<a class="link" href="GogAxis.html#gog-axis-get-circular-rotation" title="gog_axis_get_circular_rotation ()">gog_axis_get_circular_rotation</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GogAxisColorMap.html" title="GogAxisColorMap"><span class="returnvalue">GogAxisColorMap</span></a> const *
+</td>
+<td class="function_name">
+<a class="link" href="GogAxis.html#gog-axis-get-color-map" title="gog_axis_get_color_map ()">gog_axis_get_color_map</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GogColorScale.html" title="GogColorScale"><span class="returnvalue">GogColorScale</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="GogAxis.html#gog-axis-get-color-scale" title="gog_axis_get_color_scale ()">gog_axis_get_color_scale</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">const <a class="link" href="GODateConventions.html" title="GODateConventions"><span class="returnvalue">GODateConventions</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="GogAxis.html#gog-axis-get-date-conv" title="gog_axis_get_date_conv ()">gog_axis_get_date_conv</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GOFormat.html" title="GOFormat"><span class="returnvalue">GOFormat</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="GogAxis.html#gog-axis-get-effective-format" title="gog_axis_get_effective_format ()">gog_axis_get_effective_format</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GogAxis.html#gog-axis-get-effective-span" title="gog_axis_get_effective_span ()">gog_axis_get_effective_span</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">double</span>
+</td>
+<td class="function_name">
+<a class="link" href="GogAxis.html#gog-axis-get-entry" title="gog_axis_get_entry ()">gog_axis_get_entry</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GOFormat.html" title="GOFormat"><span class="returnvalue">GOFormat</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="GogAxis.html#gog-axis-get-format" title="gog_axis_get_format ()">gog_axis_get_format</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GogGridLine.html" title="GogGridLine"><span class="returnvalue">GogGridLine</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="GogAxis.html#gog-axis-get-grid-line" title="gog_axis_get_grid_line ()">gog_axis_get_grid_line</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GOData.html" title="GOData"><span class="returnvalue">GOData</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="GogAxis.html#gog-axis-get-labels" title="gog_axis_get_labels ()">gog_axis_get_labels</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">double</span>
+</td>
+<td class="function_name">
+<a class="link" href="GogAxis.html#gog-axis-get-major-ticks-distance" title="gog_axis_get_major_ticks_distance ()">gog_axis_get_major_ticks_distance</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GogAxis.html#GogAxisMetrics" title="enum GogAxisMetrics"><span class="returnvalue">GogAxisMetrics</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="GogAxis.html#gog-axis-get-metrics" title="gog_axis_get_metrics ()">gog_axis_get_metrics</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">double</span>
+</td>
+<td class="function_name">
+<a class="link" href="GogAxis.html#gog-axis-get-polar-perimeter" title="gog_axis_get_polar_perimeter ()">gog_axis_get_polar_perimeter</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GogAxis.html#GogAxisPolarUnit" title="enum GogAxisPolarUnit"><span class="returnvalue">GogAxisPolarUnit</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="GogAxis.html#gog-axis-get-polar-unit" title="gog_axis_get_polar_unit ()">gog_axis_get_polar_unit</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GogAxis.html" title="GogAxis"><span class="returnvalue">GogAxis</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="GogAxis.html#gog-axis-get-ref-axis" title="gog_axis_get_ref_axis ()">gog_axis_get_ref_axis</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">unsigned</span>
+</td>
+<td class="function_name">
+<a class="link" href="GogAxis.html#gog-axis-get-ticks" title="gog_axis_get_ticks ()">gog_axis_get_ticks</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gboolean</span>
+</td>
+<td class="function_name">
+<a class="link" href="GogAxis.html#gog-axis-is-center-on-ticks" title="gog_axis_is_center_on_ticks ()">gog_axis_is_center_on_ticks</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gboolean</span>
+</td>
+<td class="function_name">
+<a class="link" href="GogAxis.html#gog-axis-is-discrete" title="gog_axis_is_discrete ()">gog_axis_is_discrete</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gboolean</span>
+</td>
+<td class="function_name">
+<a class="link" href="GogAxis.html#gog-axis-is-inverted" title="gog_axis_is_inverted ()">gog_axis_is_inverted</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gboolean</span>
+</td>
+<td class="function_name">
+<a class="link" href="GogAxis.html#gog-axis-is-zero-important" title="gog_axis_is_zero_important ()">gog_axis_is_zero_important</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GogAxis.html#gog-axis-set-bounds" title="gog_axis_set_bounds ()">gog_axis_set_bounds</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GogAxis.html#gog-axis-set-extents" title="gog_axis_set_extents ()">gog_axis_set_extents</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gboolean</span>
+</td>
+<td class="function_name">
+<a class="link" href="GogAxis.html#gog-axis-set-format" title="gog_axis_set_format ()">gog_axis_set_format</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GogAxis.html#GogAxisSet" title="enum GogAxisSet"><span class="returnvalue">GogAxisSet</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="GogAxis.html#gog-axis-set-from-str" title="gog_axis_set_from_str ()">gog_axis_set_from_str</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GogAxis.html#gog-axis-set-polar-unit" title="gog_axis_set_polar_unit ()">gog_axis_set_polar_unit</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="GogAxis.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="other_proto_type">
+<col class="other_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="datatype_keyword">enum</td>
+<td class="function_name"><a class="link" href="GogAxis.html#GogAxisElemType" title="enum GogAxisElemType">GogAxisElemType</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">enum</td>
+<td class="function_name"><a class="link" href="GogAxis.html#GogAxisPolarUnit" title="enum GogAxisPolarUnit">GogAxisPolarUnit</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword"> </td>
+<td class="function_name"><a class="link" href="GogAxis.html#GogAxisTick" title="GogAxisTick">GogAxisTick</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">enum</td>
+<td class="function_name"><a class="link" href="GogAxis.html#GogAxisSet" title="enum GogAxisSet">GogAxisSet</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">enum</td>
+<td class="function_name"><a class="link" href="GogAxis.html#GogAxisMetrics" title="enum GogAxisMetrics">GogAxisMetrics</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">enum</td>
+<td class="function_name"><a class="link" href="GogAxis.html#GogAxisType" title="enum GogAxisType">GogAxisType</a></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="GogAxis.description"></a><h2>Description</h2>
+<p>An axis of a <a class="link" href="GogPlot.html" title="GogPlot"><span class="type">GogPlot</span></a>. The axis handles things like the bounds, ticks, and
+tick value formats.
+When used in plots with X/Y/Z axes, it can optionally have one
+<a class="link" href="GogLabel.html" title="GogLabel"><span class="type">GogLabel</span></a> objects in the role "Label".</p>
+</div>
+<div class="refsect1">
+<a name="GogAxis.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="gog-axis-add-contributor"></a><h3>gog_axis_add_contributor ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+gog_axis_add_contributor (<em class="parameter"><code><a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a> *axis</code></em>,
+                          <em class="parameter"><code><a class="link" href="GogObject.html" title="GogObject"><span class="type">GogObject</span></a> *contrib</code></em>);</pre>
+<p>Register <em class="parameter"><code>contrib</code></em>
+ as taking part in the negotiation of <em class="parameter"><code>axis</code></em>
+'s bounds.</p>
+<div class="refsect3">
+<a name="gog-axis-add-contributor.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>axis</p></td>
+<td class="parameter_description"><p><a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>contrib</p></td>
+<td class="parameter_description"><p><a class="link" href="GogObject.html" title="GogObject"><span class="type">GogObject</span></a> (can we relax this to use an interface ?)</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-axis-bound-changed"></a><h3>gog_axis_bound_changed ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+gog_axis_bound_changed (<em class="parameter"><code><a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a> *axis</code></em>,
+                        <em class="parameter"><code><a class="link" href="GogObject.html" title="GogObject"><span class="type">GogObject</span></a> *contrib</code></em>);</pre>
+<div class="refsect3">
+<a name="gog-axis-bound-changed.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>axis</p></td>
+<td class="parameter_description"><p><a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>contrib</p></td>
+<td class="parameter_description"><p><a class="link" href="GogObject.html" title="GogObject"><span class="type">GogObject</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-axis-clear-contributors"></a><h3>gog_axis_clear_contributors ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+gog_axis_clear_contributors (<em class="parameter"><code><a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a> *axis</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-axis-contributors"></a><h3>gog_axis_contributors ()</h3>
+<pre class="programlisting"><span class="returnvalue">GSList</span> const *
+gog_axis_contributors (<em class="parameter"><code><a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a> *axis</code></em>);</pre>
+<div class="refsect3">
+<a name="gog-axis-contributors.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>axis</p></td>
+<td class="parameter_description"><p><a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="gog-axis-contributors.returns"></a><h4>Returns</h4>
+<p>the list of the axis
+contributors. </p>
+<p><span class="annotation">[<acronym title="Generics and defining elements of containers and arrays."><span class="acronym">element-type</span></acronym> GogObject][<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-axis-data-get-bounds"></a><h3>gog_axis_data_get_bounds ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+gog_axis_data_get_bounds (<em class="parameter"><code><a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a> *axis</code></em>,
+                          <em class="parameter"><code><a class="link" href="GOData.html" title="GOData"><span class="type">GOData</span></a> *data</code></em>,
+                          <em class="parameter"><code><span class="type">double</span> *minimum</code></em>,
+                          <em class="parameter"><code><span class="type">double</span> *maximum</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-axis-del-contributor"></a><h3>gog_axis_del_contributor ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+gog_axis_del_contributor (<em class="parameter"><code><a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a> *axis</code></em>,
+                          <em class="parameter"><code><a class="link" href="GogObject.html" title="GogObject"><span class="type">GogObject</span></a> *contrib</code></em>);</pre>
+<p><em class="parameter"><code>contrib</code></em>
+ no longer takes part in the negotiation of <em class="parameter"><code>axis</code></em>
+'s bounds.</p>
+<div class="refsect3">
+<a name="gog-axis-del-contributor.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>axis</p></td>
+<td class="parameter_description"><p><a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>contrib</p></td>
+<td class="parameter_description"><p><a class="link" href="GogObject.html" title="GogObject"><span class="type">GogObject</span></a> (can we relax this to use an interface ?)</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-axis-get-atype"></a><h3>gog_axis_get_atype ()</h3>
+<pre class="programlisting"><a class="link" href="GogAxis.html#GogAxisType" title="enum GogAxisType"><span class="returnvalue">GogAxisType</span></a>
+gog_axis_get_atype (<em class="parameter"><code><a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a> const *axis</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-axis-get-bounds"></a><h3>gog_axis_get_bounds ()</h3>
+<pre class="programlisting"><span class="returnvalue">gboolean</span>
+gog_axis_get_bounds (<em class="parameter"><code><a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a> const *axis</code></em>,
+                     <em class="parameter"><code><span class="type">double</span> *minima</code></em>,
+                     <em class="parameter"><code><span class="type">double</span> *maxima</code></em>);</pre>
+<div class="refsect3">
+<a name="gog-axis-get-bounds.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>axis</p></td>
+<td class="parameter_description"><p><a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>minima</p></td>
+<td class="parameter_description"><p>non-NULL storage for result</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>maxima</p></td>
+<td class="parameter_description"><p>non-NULL storage for result</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="gog-axis-get-bounds.returns"></a><h4>Returns</h4>
+<p> <code class="literal">TRUE</code> if the bounds stored in <em class="parameter"><code>minima</code></em>
+and <em class="parameter"><code>maxima</code></em>
+are sane</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-axis-get-circular-rotation"></a><h3>gog_axis_get_circular_rotation ()</h3>
+<pre class="programlisting"><span class="returnvalue">double</span>
+gog_axis_get_circular_rotation (<em class="parameter"><code><a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a> *axis</code></em>);</pre>
+<div class="refsect3">
+<a name="gog-axis-get-circular-rotation.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>axis</p></td>
+<td class="parameter_description"><p>a <a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="gog-axis-get-circular-rotation.returns"></a><h4>Returns</h4>
+<p> rotation of a circular <a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a>.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-axis-get-color-map"></a><h3>gog_axis_get_color_map ()</h3>
+<pre class="programlisting"><a class="link" href="GogAxisColorMap.html" title="GogAxisColorMap"><span class="returnvalue">GogAxisColorMap</span></a> const *
+gog_axis_get_color_map (<em class="parameter"><code><a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a> *axis</code></em>);</pre>
+<p>Retrieves the <a class="link" href="GogAxisColorMap.html" title="GogAxisColorMap"><span class="type">GogAxisColorMap</span></a> associated to the axis or <code class="literal">NULL</code>.</p>
+<div class="refsect3">
+<a name="gog-axis-get-color-map.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>axis</p></td>
+<td class="parameter_description"><p>a <a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="gog-axis-get-color-map.returns"></a><h4>Returns</h4>
+<p>the color map used by the axis if any. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-axis-get-color-scale"></a><h3>gog_axis_get_color_scale ()</h3>
+<pre class="programlisting"><a class="link" href="GogColorScale.html" title="GogColorScale"><span class="returnvalue">GogColorScale</span></a> *
+gog_axis_get_color_scale (<em class="parameter"><code><a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a> *axis</code></em>);</pre>
+<p>Retrieves the <a class="link" href="GogColorScale.html" title="GogColorScale"><span class="type">GogColorScale</span></a> associated to the axis or <code class="literal">NULL</code>.</p>
+<div class="refsect3">
+<a name="gog-axis-get-color-scale.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>axis</p></td>
+<td class="parameter_description"><p>a <a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="gog-axis-get-color-scale.returns"></a><h4>Returns</h4>
+<p>the color scale used to display the axis colors
+for color and pseudo-3d axes. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-axis-get-date-conv"></a><h3>gog_axis_get_date_conv ()</h3>
+<pre class="programlisting">const <a class="link" href="GODateConventions.html" title="GODateConventions"><span class="returnvalue">GODateConventions</span></a> *
+gog_axis_get_date_conv (<em class="parameter"><code><a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a> const *axis</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-axis-get-effective-format"></a><h3>gog_axis_get_effective_format ()</h3>
+<pre class="programlisting"><a class="link" href="GOFormat.html" title="GOFormat"><span class="returnvalue">GOFormat</span></a> *
+gog_axis_get_effective_format (<em class="parameter"><code><a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a> const *axis</code></em>);</pre>
+<div class="refsect3">
+<a name="gog-axis-get-effective-format.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>axis</p></td>
+<td class="parameter_description"><p><a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="gog-axis-get-effective-format.returns"></a><h4>Returns</h4>
+<p>the <a class="link" href="GOFormat.html" title="GOFormat"><span class="type">GOFormat</span></a> used for the axis labels. Differs
+from gog_axis_get_format in that it never returns a general format
+(see <a class="link" href="GOFormat.html#go-format-is-general" title="go_format_is_general ()"><span class="type">go_format_is_general</span></a>). </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-axis-get-effective-span"></a><h3>gog_axis_get_effective_span ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+gog_axis_get_effective_span (<em class="parameter"><code><a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a> const *axis</code></em>,
+                             <em class="parameter"><code><span class="type">double</span> *start</code></em>,
+                             <em class="parameter"><code><span class="type">double</span> *end</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-axis-get-entry"></a><h3>gog_axis_get_entry ()</h3>
+<pre class="programlisting"><span class="returnvalue">double</span>
+gog_axis_get_entry (<em class="parameter"><code><a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a> const *axis</code></em>,
+                    <em class="parameter"><code><a class="link" href="GogAxis.html#GogAxisElemType" title="enum GogAxisElemType"><span class="type">GogAxisElemType</span></a> i</code></em>,
+                    <em class="parameter"><code><span class="type">gboolean</span> *user_defined</code></em>);</pre>
+<div class="refsect3">
+<a name="gog-axis-get-entry.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>axis</p></td>
+<td class="parameter_description"><p><a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_defined</p></td>
+<td class="parameter_description"><p>an optionally <code class="literal">NULL</code> pointr to gboolean</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="gog-axis-get-entry.returns"></a><h4>Returns</h4>
+<p> the value of axis element <em class="parameter"><code>i</code></em>
+and sets <em class="parameter"><code>user_defined</code></em>
+or
+NaN on error</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-axis-get-format"></a><h3>gog_axis_get_format ()</h3>
+<pre class="programlisting"><a class="link" href="GOFormat.html" title="GOFormat"><span class="returnvalue">GOFormat</span></a> *
+gog_axis_get_format (<em class="parameter"><code><a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a> const *axis</code></em>);</pre>
+<div class="refsect3">
+<a name="gog-axis-get-format.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>axis</p></td>
+<td class="parameter_description"><p><a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="gog-axis-get-format.returns"></a><h4>Returns</h4>
+<p>the format assigned to <em class="parameter"><code>axis</code></em>
+. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-axis-get-grid-line"></a><h3>gog_axis_get_grid_line ()</h3>
+<pre class="programlisting"><a class="link" href="GogGridLine.html" title="GogGridLine"><span class="returnvalue">GogGridLine</span></a> *
+gog_axis_get_grid_line (<em class="parameter"><code><a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a> *axis</code></em>,
+                        <em class="parameter"><code><span class="type">gboolean</span> major</code></em>);</pre>
+<div class="refsect3">
+<a name="gog-axis-get-grid-line.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>axis</p></td>
+<td class="parameter_description"><p><a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>major</p></td>
+<td class="parameter_description"><p>whether to retrieve major or minor grid line.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="gog-axis-get-grid-line.returns"></a><h4>Returns</h4>
+<p>a pointer to GridLine object associated to given axis, NULL
+if it doesn't exists. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-axis-get-labels"></a><h3>gog_axis_get_labels ()</h3>
+<pre class="programlisting"><a class="link" href="GOData.html" title="GOData"><span class="returnvalue">GOData</span></a> *
+gog_axis_get_labels (<em class="parameter"><code><a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a> const *axis</code></em>,
+                     <em class="parameter"><code><a class="link" href="GogPlot.html" title="GogPlot"><span class="type">GogPlot</span></a> **plot_that_labeled_axis</code></em>);</pre>
+<div class="refsect3">
+<a name="gog-axis-get-labels.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>axis</p></td>
+<td class="parameter_description"><p>a <a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>plot_that_labeled_axis</p></td>
+<td class="parameter_description"><p>a <a class="link" href="GogPlot.html" title="GogPlot"><span class="type">GogPlot</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="gog-axis-get-labels.returns"></a><h4>Returns</h4>
+<p>the possibly NULL <a class="link" href="GOData.html" title="GOData"><span class="type">GOData</span></a> used as a label for this axis
+along with the plot that it was associated with. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-axis-get-major-ticks-distance"></a><h3>gog_axis_get_major_ticks_distance ()</h3>
+<pre class="programlisting"><span class="returnvalue">double</span>
+gog_axis_get_major_ticks_distance (<em class="parameter"><code><a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a> const *axis</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-axis-get-metrics"></a><h3>gog_axis_get_metrics ()</h3>
+<pre class="programlisting"><a class="link" href="GogAxis.html#GogAxisMetrics" title="enum GogAxisMetrics"><span class="returnvalue">GogAxisMetrics</span></a>
+gog_axis_get_metrics (<em class="parameter"><code><a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a> const *axis</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-axis-get-polar-perimeter"></a><h3>gog_axis_get_polar_perimeter ()</h3>
+<pre class="programlisting"><span class="returnvalue">double</span>
+gog_axis_get_polar_perimeter (<em class="parameter"><code><a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a> *axis</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-axis-get-polar-unit"></a><h3>gog_axis_get_polar_unit ()</h3>
+<pre class="programlisting"><a class="link" href="GogAxis.html#GogAxisPolarUnit" title="enum GogAxisPolarUnit"><span class="returnvalue">GogAxisPolarUnit</span></a>
+gog_axis_get_polar_unit (<em class="parameter"><code><a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a> *axis</code></em>);</pre>
+<div class="refsect3">
+<a name="gog-axis-get-polar-unit.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>axis</p></td>
+<td class="parameter_description"><p>a <a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="gog-axis-get-polar-unit.returns"></a><h4>Returns</h4>
+<p> unit of <em class="parameter"><code>axis</code></em>
+if it's a circular axis of a polar
+axis set, -1 otherwise.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-axis-get-ref-axis"></a><h3>gog_axis_get_ref_axis ()</h3>
+<pre class="programlisting"><a class="link" href="GogAxis.html" title="GogAxis"><span class="returnvalue">GogAxis</span></a> *
+gog_axis_get_ref_axis (<em class="parameter"><code><a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a> const *axis</code></em>);</pre>
+<div class="refsect3">
+<a name="gog-axis-get-ref-axis.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>axis</p></td>
+<td class="parameter_description"><p>a <a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="gog-axis-get-ref-axis.returns"></a><h4>Returns</h4>
+<p>the axis used to evaluate the length of <em class="parameter"><code>axis</code></em>
+or
+NULL. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+<p class="since">Since: 0.10.17</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-axis-get-ticks"></a><h3>gog_axis_get_ticks ()</h3>
+<pre class="programlisting"><span class="returnvalue">unsigned</span>
+gog_axis_get_ticks (<em class="parameter"><code><a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a> *axis</code></em>,
+                    <em class="parameter"><code><a class="link" href="GogAxis.html#GogAxisTick" title="GogAxisTick"><span class="type">GogAxisTick</span></a> **ticks</code></em>);</pre>
+<p>An accessor to <em class="parameter"><code>axis-&gt;ticks</code></em>
+.</p>
+<div class="refsect3">
+<a name="gog-axis-get-ticks.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>axis</p></td>
+<td class="parameter_description"><p><a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>ticks</p></td>
+<td class="parameter_description"><p>an array of <a class="link" href="GogAxis.html#GogAxisTick" title="GogAxisTick"><span class="type">GogAxisTick</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="gog-axis-get-ticks.returns"></a><h4>Returns</h4>
+<p> number of ticks</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-axis-is-center-on-ticks"></a><h3>gog_axis_is_center_on_ticks ()</h3>
+<pre class="programlisting"><span class="returnvalue">gboolean</span>
+gog_axis_is_center_on_ticks (<em class="parameter"><code><a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a> const *axis</code></em>);</pre>
+<div class="refsect3">
+<a name="gog-axis-is-center-on-ticks.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>axis</p></td>
+<td class="parameter_description"><p><a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="gog-axis-is-center-on-ticks.returns"></a><h4>Returns</h4>
+<p> TRUE if labels are centered on ticks when <em class="parameter"><code>axis</code></em>
+is discrete</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-axis-is-discrete"></a><h3>gog_axis_is_discrete ()</h3>
+<pre class="programlisting"><span class="returnvalue">gboolean</span>
+gog_axis_is_discrete (<em class="parameter"><code><a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a> const *axis</code></em>);</pre>
+<div class="refsect3">
+<a name="gog-axis-is-discrete.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>axis</p></td>
+<td class="parameter_description"><p><a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="gog-axis-is-discrete.returns"></a><h4>Returns</h4>
+<p> TRUE if <em class="parameter"><code>axis</code></em>
+enumerates a set of discrete items, rather than a
+continuous value</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-axis-is-inverted"></a><h3>gog_axis_is_inverted ()</h3>
+<pre class="programlisting"><span class="returnvalue">gboolean</span>
+gog_axis_is_inverted (<em class="parameter"><code><a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a> const *axis</code></em>);</pre>
+<div class="refsect3">
+<a name="gog-axis-is-inverted.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>axis</p></td>
+<td class="parameter_description"><p><a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="gog-axis-is-inverted.returns"></a><h4>Returns</h4>
+<p> TRUE if <em class="parameter"><code>axis</code></em>
+is inverted.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-axis-is-zero-important"></a><h3>gog_axis_is_zero_important ()</h3>
+<pre class="programlisting"><span class="returnvalue">gboolean</span>
+gog_axis_is_zero_important (<em class="parameter"><code><a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a> *axis</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-axis-set-bounds"></a><h3>gog_axis_set_bounds ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+gog_axis_set_bounds (<em class="parameter"><code><a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a> *axis</code></em>,
+                     <em class="parameter"><code><span class="type">double</span> minimum</code></em>,
+                     <em class="parameter"><code><span class="type">double</span> maximum</code></em>);</pre>
+<p>Sets axis bounds. If minimum or maximum are not finite values, corresponding
+bound remains unchanged.</p>
+<div class="refsect3">
+<a name="gog-axis-set-bounds.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>axis</p></td>
+<td class="parameter_description"><p><a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>minimum</p></td>
+<td class="parameter_description"><p>axis low bound</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>maximum</p></td>
+<td class="parameter_description"><p>axis high bound</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-axis-set-extents"></a><h3>gog_axis_set_extents ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+gog_axis_set_extents (<em class="parameter"><code><a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a> *axis</code></em>,
+                      <em class="parameter"><code><span class="type">double</span> start</code></em>,
+                      <em class="parameter"><code><span class="type">double</span> stop</code></em>);</pre>
+<p>Set axis exents. It's a convenience function that sets axis bounds taking
+into account invert flag.</p>
+<div class="refsect3">
+<a name="gog-axis-set-extents.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>axis</p></td>
+<td class="parameter_description"><p><a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>start</p></td>
+<td class="parameter_description"><p>axis start bound</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>stop</p></td>
+<td class="parameter_description"><p>axis stop bound</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-axis-set-format"></a><h3>gog_axis_set_format ()</h3>
+<pre class="programlisting"><span class="returnvalue">gboolean</span>
+gog_axis_set_format (<em class="parameter"><code><a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a> *axis</code></em>,
+                     <em class="parameter"><code><a class="link" href="GOFormat.html" title="GOFormat"><span class="type">GOFormat</span></a> *fmt</code></em>);</pre>
+<div class="refsect3">
+<a name="gog-axis-set-format.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>axis</p></td>
+<td class="parameter_description"><p><a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>fmt</p></td>
+<td class="parameter_description"><p><a class="link" href="GOFormat.html" title="GOFormat"><span class="type">GOFormat</span></a>. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Free data after the code is done."><span class="acronym">transfer full</span></acronym>][<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="gog-axis-set-format.returns"></a><h4>Returns</h4>
+<p> <code class="literal">TRUE</code> if things changed</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-axis-set-from-str"></a><h3>gog_axis_set_from_str ()</h3>
+<pre class="programlisting"><a class="link" href="GogAxis.html#GogAxisSet" title="enum GogAxisSet"><span class="returnvalue">GogAxisSet</span></a>
+gog_axis_set_from_str (<em class="parameter"><code><span class="type">char</span> const *str</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gog-axis-set-polar-unit"></a><h3>gog_axis_set_polar_unit ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+gog_axis_set_polar_unit (<em class="parameter"><code><a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a> *axis</code></em>,
+                         <em class="parameter"><code><a class="link" href="GogAxis.html#GogAxisPolarUnit" title="enum GogAxisPolarUnit"><span class="type">GogAxisPolarUnit</span></a> unit</code></em>);</pre>
+<p>Sets unit of a circular axis. See <a class="link" href="GogAxis.html#GogAxisPolarUnit" title="enum GogAxisPolarUnit"><span class="type">GogAxisPolarUnit</span></a> for valid
+values.</p>
+<div class="refsect3">
+<a name="gog-axis-set-polar-unit.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>axis</p></td>
+<td class="parameter_description"><p>a <a class="link" href="GogAxis.html" title="GogAxis"><span class="type">GogAxis</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>unit</p></td>
+<td class="parameter_description"><p><a class="link" href="GogAxis.html#GogAxisPolarUnit" title="enum GogAxisPolarUnit"><span class="type">GogAxisPolarUnit</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="refsect1">
+<a name="GogAxis.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="GogAxisElemType"></a><h3>enum GogAxisElemType</h3>
+<p>The indices of the <a class="link" href="GOData.html" title="GOData"><span class="type">GOData</span></a> associated to the axis.</p>
+<div class="refsect3">
+<a name="GogAxisElemType.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="enum_members_name">
+<col class="enum_members_description">
+<col width="200px" class="enum_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-AXIS-ELEM-MIN:CAPS"></a>GOG_AXIS_ELEM_MIN</p></td>
+<td class="enum_member_description">
+<p>minimum value.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-AXIS-ELEM-MAX:CAPS"></a>GOG_AXIS_ELEM_MAX</p></td>
+<td class="enum_member_description">
+<p>maximum value.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-AXIS-ELEM-MAJOR-TICK:CAPS"></a>GOG_AXIS_ELEM_MAJOR_TICK</p></td>
+<td class="enum_member_description">
+<p>distance between two major ticks.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-AXIS-ELEM-MINOR-TICK:CAPS"></a>GOG_AXIS_ELEM_MINOR_TICK</p></td>
+<td class="enum_member_description">
+<p>distance between two minor ticks.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-AXIS-ELEM-CROSS-POINT:CAPS"></a>GOG_AXIS_ELEM_CROSS_POINT</p></td>
+<td class="enum_member_description">
+<p>position of the other axis crossing.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-AXIS-ELEM-MAX-ENTRY:CAPS"></a>GOG_AXIS_ELEM_MAX_ENTRY</p></td>
+<td class="enum_member_description">
+<p>maximum value, should not occur.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GogAxisPolarUnit"></a><h3>enum GogAxisPolarUnit</h3>
+<div class="refsect3">
+<a name="GogAxisPolarUnit.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="enum_members_name">
+<col class="enum_members_description">
+<col width="200px" class="enum_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-AXIS-POLAR-UNIT-DEGREES:CAPS"></a>GOG_AXIS_POLAR_UNIT_DEGREES</p></td>
+<td class="enum_member_description">
+<p>units as degrees.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-AXIS-POLAR-UNIT-RADIANS:CAPS"></a>GOG_AXIS_POLAR_UNIT_RADIANS</p></td>
+<td class="enum_member_description">
+<p>units as radians.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-AXIS-POLAR-UNIT-GRADS:CAPS"></a>GOG_AXIS_POLAR_UNIT_GRADS</p></td>
+<td class="enum_member_description">
+<p>units as grads.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-AXIS-POLAR-UNIT-MAX:CAPS"></a>GOG_AXIS_POLAR_UNIT_MAX</p></td>
+<td class="enum_member_description">
+<p>maximum values, should not occur.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GogAxisTick"></a><h3>GogAxisTick</h3>
+<pre class="programlisting">typedef struct {
+	double		 position;
+	GogAxisTickTypes type;
+	GOString        *str;
+} GogAxisTick;
+</pre>
+<div class="refsect3">
+<a name="GogAxisTick.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="struct_members_name">
+<col class="struct_members_description">
+<col width="200px" class="struct_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="struct_member_name"><p><span class="type">double</span> <em class="structfield"><code><a name="GogAxisTick.position"></a>position</code></em>;</p></td>
+<td class="struct_member_description"><p>position on the axis.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><a class="link" href="GogAxisLine.html#GogAxisTickTypes" title="enum GogAxisTickTypes"><span class="type">GogAxisTickTypes</span></a> <em class="structfield"><code><a name="GogAxisTick.type"></a>type</code></em>;</p></td>
+<td class="struct_member_description"><p><a class="link" href="GogAxisLine.html#GogAxisTickTypes" title="enum GogAxisTickTypes"><span class="type">GogAxisTickTypes</span></a></p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><a class="link" href="GOString.html" title="GOString"><span class="type">GOString</span></a> *<em class="structfield"><code><a name="GogAxisTick.str"></a>str</code></em>;</p></td>
+<td class="struct_member_description"><p>label, might be rich text.</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GogAxisSet"></a><h3>enum GogAxisSet</h3>
+<p>Gives the needed axes for a plot.</p>
+<div class="refsect3">
+<a name="GogAxisSet.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="enum_members_name">
+<col class="enum_members_description">
+<col width="200px" class="enum_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-AXIS-SET-UNKNOWN:CAPS"></a>GOG_AXIS_SET_UNKNOWN</p></td>
+<td class="enum_member_description">
+<p>unkown, should not occur.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-AXIS-SET-NONE:CAPS"></a>GOG_AXIS_SET_NONE</p></td>
+<td class="enum_member_description">
+<p>no axis.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-AXIS-SET-X:CAPS"></a>GOG_AXIS_SET_X</p></td>
+<td class="enum_member_description">
+<p>only an X axis.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-AXIS-SET-XY:CAPS"></a>GOG_AXIS_SET_XY</p></td>
+<td class="enum_member_description">
+<p>both X and Y axes.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-AXIS-SET-XY-pseudo-3d"></a>GOG_AXIS_SET_XY_pseudo_3d</p></td>
+<td class="enum_member_description">
+<p>X, Y, and pseudo-3D axes.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-AXIS-SET-XY-COLOR:CAPS"></a>GOG_AXIS_SET_XY_COLOR</p></td>
+<td class="enum_member_description">
+<p>X, Y, and color axes.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-AXIS-SET-XY-BUBBLE:CAPS"></a>GOG_AXIS_SET_XY_BUBBLE</p></td>
+<td class="enum_member_description">
+<p>X, Y, and bubble axes.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-AXIS-SET-XYZ:CAPS"></a>GOG_AXIS_SET_XYZ</p></td>
+<td class="enum_member_description">
+<p>X, Y, and Z axes.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-AXIS-SET-RADAR:CAPS"></a>GOG_AXIS_SET_RADAR</p></td>
+<td class="enum_member_description">
+<p>circular and radial axes.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-AXIS-SET-FUNDAMENTAL:CAPS"></a>GOG_AXIS_SET_FUNDAMENTAL</p></td>
+<td class="enum_member_description">
+<p>mask for all fundamental axes.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-AXIS-SET-ALL:CAPS"></a>GOG_AXIS_SET_ALL</p></td>
+<td class="enum_member_description">
+<p>mask for all known axis types.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GogAxisMetrics"></a><h3>enum GogAxisMetrics</h3>
+<div class="refsect3">
+<a name="GogAxisMetrics.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="enum_members_name">
+<col class="enum_members_description">
+<col width="200px" class="enum_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-AXIS-METRICS-INVALID:CAPS"></a>GOG_AXIS_METRICS_INVALID</p></td>
+<td class="enum_member_description">
+<p>invalid.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-AXIS-METRICS-DEFAULT:CAPS"></a>GOG_AXIS_METRICS_DEFAULT</p></td>
+<td class="enum_member_description">
+<p>default.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-AXIS-METRICS-ABSOLUTE:CAPS"></a>GOG_AXIS_METRICS_ABSOLUTE</p></td>
+<td class="enum_member_description">
+<p>absolute distance between major ticks.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-AXIS-METRICS-RELATIVE:CAPS"></a>GOG_AXIS_METRICS_RELATIVE</p></td>
+<td class="enum_member_description">
+<p>relative to another axis.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-AXIS-METRICS-RELATIVE-TICKS:CAPS"></a>GOG_AXIS_METRICS_RELATIVE_TICKS</p></td>
+<td class="enum_member_description">
+<p>relative distance between ticks related to
+another axis.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-AXIS-METRICS-MAX:CAPS"></a>GOG_AXIS_METRICS_MAX</p></td>
+<td class="enum_member_description">
+<p>first unused value.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GogAxisType"></a><h3>enum GogAxisType</h3>
+<div class="refsect3">
+<a name="GogAxisType.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="enum_members_name">
+<col class="enum_members_description">
+<col width="200px" class="enum_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-AXIS-UNKNOWN:CAPS"></a>GOG_AXIS_UNKNOWN</p></td>
+<td class="enum_member_description">
+<p>invalid, should not occur.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-AXIS-X:CAPS"></a>GOG_AXIS_X</p></td>
+<td class="enum_member_description">
+<p>X axis.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-AXIS-Y:CAPS"></a>GOG_AXIS_Y</p></td>
+<td class="enum_member_description">
+<p>Y axis.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-AXIS-Z:CAPS"></a>GOG_AXIS_Z</p></td>
+<td class="enum_member_description">
+<p>Z axis.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-AXIS-CIRCULAR:CAPS"></a>GOG_AXIS_CIRCULAR</p></td>
+<td class="enum_member_description">
+<p>circular axis/</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-AXIS-RADIAL:CAPS"></a>GOG_AXIS_RADIAL</p></td>
+<td class="enum_member_description">
+<p>radial axis.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-AXIS-VIRTUAL:CAPS"></a>GOG_AXIS_VIRTUAL</p></td>
+<td class="enum_member_description">
+<p>start of virtual axes.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-AXIS-PSEUDO-3D:CAPS"></a>GOG_AXIS_PSEUDO_3D</p></td>
+<td class="enum_member_description">
+<p>pseudo-3d axis.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-AXIS-COLOR:CAPS"></a>GOG_AXIS_COLOR</p></td>
+<td class="enum_member_description">
+<p>color axis.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-AXIS-BUBBLE:CAPS"></a>GOG_AXIS_BUBBLE</p></td>
+<td class="enum_member_description">
+<p>bubble axis.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GOG-AXIS-TYPES:CAPS"></a>GOG_AXIS_TYPES</p></td>
+<td class="enum_member_description">
+<p>maximum value, should not occur.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.32</div>
+</body>
+</html>

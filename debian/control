@@ -1,0 +1,89 @@
+Source: goffice
+Section: libs
+Priority: optional
+Standards-Version: 4.5.0
+Maintainer: Dmitry Smirnov <onlyjob@debian.org>
+Build-Depends: debhelper-compat (= 12) ,dpkg-dev (>= 1.16.1.1)
+              ,gobject-introspection (>= 1.41.4)
+              ,gtk-doc-tools
+              ,intltool (>= 0.35.0)
+              ,libcairo2-dev (>= 1.10.0)
+              ,libgirepository1.0-dev
+              ,libglib2.0-dev (>= 2.28.0)
+              ,libgsf-1-dev (>= 1.14.25-2)
+              ,libgtk-3-dev
+              ,libpango1.0-dev
+              ,librsvg2-dev
+              ,libxext-dev
+              ,libxml-parser-perl
+              ,libxml2-dev
+              ,libxrender-dev
+              ,libxslt1-dev | libxslt-dev
+Homepage: https://wiki.gnome.org/Attic/GnomeOffice
+Vcs-Browser: https://salsa.debian.org/debian/goffice
+Vcs-Git: https://salsa.debian.org/debian/goffice.git
+Rules-Requires-Root: no
+
+Package: libgoffice-0.10-dev
+Section: libdevel
+Architecture: any
+Depends: ${misc:Depends}
+        ,gir1.2-goffice-0.10 (= ${binary:Version})
+        ,libgoffice-0.10-10 (= ${binary:Version})
+        ,libcairo2-dev
+        ,libglib2.0-dev
+        ,libgtk-3-dev
+        ,libgsf-1-dev (>= 1.14.25-2)
+        ,librsvg2-dev
+        ,libxml2-dev
+        ,libxslt1-dev | libxslt-dev
+Suggests: libgoffice-${apiver}-doc
+Description: Document centric objects library - development files
+ GOffice is a library of document centric objects and utilities building on
+ top of GLib and Gtk+.
+ .
+ These are the files needed when building applications that use GOffice.
+
+Package: libgoffice-0.10-10
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+        ,libgoffice-0.10-10-common (>= ${source:Version})
+Description: Document centric objects library - runtime files
+ GOffice is a library of document centric objects and utilities building on
+ top of GLib and Gtk+.
+ .
+ These are the files needed to run applications that use GOffice.
+
+Package: libgoffice-0.10-10-common
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Description: Document centric objects library - common files
+ GOffice is a library of document centric objects and utilities building on
+ top of GLib and Gtk+.
+ .
+ These are the architecture independent files that are part of GOffice, like
+ images and translations of messages.
+
+Package: gir1.2-goffice-0.10
+Section: introspection
+Architecture: any
+Depends: ${gir:Depends}, ${misc:Depends}
+Description: GObject introspection data for the GOffice library
+ This package contains introspection data for the GOffice library.
+ .
+ It can be used by packages using the GIRepository format to generate
+ dynamic bindings.
+
+Package: libgoffice-0.10-doc
+Section: doc
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Breaks: libgoffice-0.10-dev (<< 0.10.4)
+Replaces: libgoffice-0.10-dev (<< 0.10.4)
+Description: Document centric objects library - documentation
+ GOffice is a library of document centric objects and utilities building on
+ top of GLib and Gtk+.
+ .
+ This package contains HTML documentation for libgoffice-${apiver}.

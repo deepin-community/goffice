@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Part I. Graphs: GOffice Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
+<link rel="home" href="index.html" title="GOffice Reference Manual">
+<link rel="up" href="index.html" title="GOffice Reference Manual">
+<link rel="prev" href="goffice-0.10-Gettings-Started-with-GOffice.html" title="Gettings Started with GOffice">
+<link rel="next" href="ch01.html" title="Objects">
+<meta name="generator" content="GTK-Doc V1.32 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts"></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><img src="up-insensitive.png" width="16" height="16" border="0"></td>
+<td><a accesskey="p" href="goffice-0.10-Gettings-Started-with-GOffice.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="ch01.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="part">
+<div class="titlepage"><div><div><h1 class="title">
+<a name="id-1.3"></a>Part I. Graphs</h1></div></div></div>
+<div class="toc">
+<p><b>Table of Contents</b></p>
+<dl class="toc">
+<dt><span class="chapter"><a href="ch01.html">Objects</a></span></dt>
+<dd><dl>
+<dt>
+<span class="refentrytitle"><a href="GogGraph.html">GogGraph</a></span><span class="refpurpose"> — The graph object.</span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GogChart.html">GogChart</a></span><span class="refpurpose"> — A chart.</span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GogLegend.html">GogLegend</a></span><span class="refpurpose"> — A legend.</span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GogGrid.html">GogGrid</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GogAxis.html">GogAxis</a></span><span class="refpurpose"> — An axis.</span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GogAxisLine.html">GogAxisLine</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GogColorScale.html">GogColorScale</a></span><span class="refpurpose"> — Displays the color scale used by an axis.</span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GogGridLine.html">GogGridLine</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GogErrorBar.html">GogErrorBar</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GogLabel.html">GogLabel</a></span><span class="refpurpose"> — A text label.</span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GogRegEqn.html">GogRegEqn</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GogSeriesLabels.html">GogSeriesLabels</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GogSeriesLines.html">GogSeriesLines</a></span><span class="refpurpose"></span>
+</dt>
+</dl></dd>
+<dt><span class="chapter"><a href="ch02.html">Abstract Base Classes</a></span></dt>
+<dd><dl>
+<dt>
+<span class="refentrytitle"><a href="GogObject.html">GogObject</a></span><span class="refpurpose"> — The base class for graph objects.</span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GogStyledObject.html">GogStyledObject</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GogOutlinedView.html">GogOutlinedView</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GogPlot.html">GogPlot</a></span><span class="refpurpose"> — A plot.</span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GogSeries.html">GogSeries</a></span><span class="refpurpose"> — A single data series.</span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GogTrendLine.html">GogTrendLine</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GogSmoothedCurve.html">GogSmoothedCurve</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GogRegCurve.html">GogRegCurve</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GogView.html">GogView</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GogDataEditor.html">GogDataEditor</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GogDataset.html">GogDataset</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GogText.html">GogText</a></span><span class="refpurpose"></span>
+</dt>
+</dl></dd>
+<dt><span class="chapter"><a href="ch03.html">Utilities</a></span></dt>
+<dd><dl>
+<dt>
+<span class="refentrytitle"><a href="GogRenderer.html">GogRenderer</a></span><span class="refpurpose"> — Rendering</span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="goffice-0.10-Graph-editor-dialog.html">Graph editor dialog</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="goffice-0.10-GogTool.html">GogTool</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="goffice-0.10-Families-and-types.html">Families and types</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="goffice-0.10-Theming.html">Theming</a></span><span class="refpurpose"> — a list of default styles to apply to appropriate graph elements.</span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GogChartMap.html">GogChartMap</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GogAxisMap.html">GogAxisMap</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="GogAxisColorMap.html">GogAxisColorMap</a></span><span class="refpurpose"> — map values to colors.</span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="Gog3DBox.html">Gog3DBox</a></span><span class="refpurpose"></span>
+</dt>
+</dl></dd>
+</dl>
+</div>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.32</div>
+</body>
+</html>
